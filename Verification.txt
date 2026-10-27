@@ -1,0 +1,9 @@
+SteinerGeometry.genericNaturalSteiner_charZero.{u} (K : Type u) [Field K] [CharZero K] (n t r : ℕ) (hn : 1 ≤ n)
+  (ht : 1 ≤ t) (hr : n ≤ r) : SteinerGeometry.GenericNaturalSteinerConclusion K n t r
+Steiner.genericMatrixConclusion_charZero.{u_1} (K : Type u_1) [Field K] [CharZero K] (n t r : ℕ) (hn : 1 ≤ n)
+  (ht : 1 ≤ t) (hr : n ≤ r) : Steiner.GenericMatrixConclusion K n t r
+Steiner.exists_allDegreeMaximalRank_charZero.{u_1} (K : Type u_1) [Field K] [CharZero K] (n t r : ℕ) (hn : 1 ≤ n)
+  (ht : 1 ≤ t) (hr : n ≤ r) : ∃ M, ∀ (d : ℕ), Steiner.LinearMatrixMaximalRank M d
+'SteinerGeometry.genericNaturalSteiner_charZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Steiner.genericMatrixConclusion_charZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Steiner.exists_allDegreeMaximalRank_charZero' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,8 @@
+import NaturalCohomologySteiner
+
+#check SteinerGeometry.genericNaturalSteiner_charZero
+#check Steiner.genericMatrixConclusion_charZero
+#check Steiner.exists_allDegreeMaximalRank_charZero
+#print axioms SteinerGeometry.genericNaturalSteiner_charZero
+#print axioms Steiner.genericMatrixConclusion_charZero
+#print axioms Steiner.exists_allDegreeMaximalRank_charZero

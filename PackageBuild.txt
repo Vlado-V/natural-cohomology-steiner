@@ -1,0 +1,3 @@
+Standalone package entry compiled successfully with the pinned Lean toolchain.
+Command: lake env lean -DautoImplicit=false NaturalCohomologySteiner.lean
+Verified dependency compilation artifacts were reused for this package-entry check.

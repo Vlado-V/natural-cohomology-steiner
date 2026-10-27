@@ -1,0 +1,24 @@
+name = "natural_cohomology_steiner"
+version = "0.1.0"
+defaultTargets = ["NaturalCohomologySteiner"]
+leanOptions = { autoImplicit = false }
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "8accc04827c389e678c3ef83e623b402e7480394"
+
+[[lean_lib]]
+name = "OAI"
+globs = ["OAI.+"]
+
+[[lean_lib]]
+name = "Steiner"
+globs = ["Steiner.+"]
+
+[[lean_lib]]
+name = "SteinerGeometry"
+globs = ["SteinerGeometry.+"]
+
+[[lean_lib]]
+name = "NaturalCohomologySteiner"
