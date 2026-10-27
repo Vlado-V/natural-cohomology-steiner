@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.GlobalHomSections
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.InternalHomRestriction
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.GlobalHomSections
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.InternalHomRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Hom Sections -/
 

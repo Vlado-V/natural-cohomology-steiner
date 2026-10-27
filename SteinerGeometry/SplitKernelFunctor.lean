@@ -1,6 +1,11 @@
-import Mathlib.CategoryTheory.Abelian.Basic
-import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
+module
+
+public import Mathlib.CategoryTheory.Abelian.Basic
+public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Additive functors preserve kernels of split epimorphisms -/
 noncomputable section

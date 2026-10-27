@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Framed.AffineExtension
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Framed.AffineExtension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Numerators -/
 

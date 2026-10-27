@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SubmersivePolynomialSplit
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SubmersivePolynomialSplit
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Submersive Split Differential -/
 

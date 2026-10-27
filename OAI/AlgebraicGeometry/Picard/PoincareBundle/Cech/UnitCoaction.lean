@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ModelUnits
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.CoalgebraMorphisms
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ModelUnits
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.CoalgebraMorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Unit Coaction -/
 

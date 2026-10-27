@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFunctorSectionEvaluation
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleCompositionEvaluation
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFunctorSectionEvaluation
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleCompositionEvaluation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Shifted Map Evaluation -/
 

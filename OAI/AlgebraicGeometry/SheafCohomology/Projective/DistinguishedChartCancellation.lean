@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LocalPowerSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositivePowerChartGenerator
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LocalPowerSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositivePowerChartGenerator
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Distinguished Chart Cancellation -/
 

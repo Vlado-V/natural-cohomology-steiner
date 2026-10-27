@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FinitePresentation
-import Mathlib.AlgebraicGeometry.Sites.Fpqc
-import Mathlib.CategoryTheory.Sites.Over
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FinitePresentation
+public import Mathlib.AlgebraicGeometry.Sites.Fpqc
+public import Mathlib.CategoryTheory.Sites.Over
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient -/
 

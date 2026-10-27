@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GlobalEquation
-import Mathlib.Algebra.Module.Submodule.Union
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticCone
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GlobalEquation
+public import Mathlib.Algebra.Module.Submodule.Union
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticCone
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Separating Linear Coordinates -/
 

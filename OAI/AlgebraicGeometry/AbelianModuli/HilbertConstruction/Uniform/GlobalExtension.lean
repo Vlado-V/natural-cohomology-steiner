@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.SectionExtension
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.SectionExtension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Extension -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheafFunctor
-import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
-import Mathlib.CategoryTheory.Preadditive.FunctorCategory
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheafFunctor
+public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+public import Mathlib.CategoryTheory.Preadditive.FunctorCategory
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presheaf Additive -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ConnectingMap
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ConnectingMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exact Pairs -/
 

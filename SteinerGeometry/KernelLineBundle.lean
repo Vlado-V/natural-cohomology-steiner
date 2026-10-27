@@ -1,7 +1,12 @@
-import SteinerGeometry.KernelSectionRankOne
-import SteinerGeometry.RationalFrameCover
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.RankOneLocalFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RestrictionFrameImage
+module
+
+public import SteinerGeometry.KernelSectionRankOne
+public import SteinerGeometry.RationalFrameCover
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.RankOneLocalFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RestrictionFrameImage
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # The actual line bundle kernel of a rank-one-excess epimorphism -/
 noncomputable section

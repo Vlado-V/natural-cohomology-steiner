@@ -1,6 +1,11 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Cohomology.Injectives
-import OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineDenominators
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Cohomology.Injectives
+public import OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineDenominators
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

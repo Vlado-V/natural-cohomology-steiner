@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Submodule
-import Mathlib.RingTheory.Noetherian.Basic
+module
+
+public import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Submodule
+public import Mathlib.RingTheory.Noetherian.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Generators -/
 

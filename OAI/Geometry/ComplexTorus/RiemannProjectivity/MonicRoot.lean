@@ -1,5 +1,10 @@
-import Mathlib.Analysis.Polynomial.CauchyBound
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import Mathlib.Analysis.Polynomial.CauchyBound
+public import Mathlib.Analysis.Complex.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Monic Root -/
 

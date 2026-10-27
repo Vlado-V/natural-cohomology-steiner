@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BoundedNegativeQuotient
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitHomTopSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BoundedNegativeQuotient
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitHomTopSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twisted Sections Detect Zero -/
 

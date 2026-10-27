@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.SectionAdjunction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.SectionAdjunction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Counit -/
 

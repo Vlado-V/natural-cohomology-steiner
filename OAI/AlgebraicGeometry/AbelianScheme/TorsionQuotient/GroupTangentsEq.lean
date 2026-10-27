@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.TangentOperations
-import Mathlib.AlgebraicGeometry.Group.Abelian
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.TangentOperations
+public import Mathlib.AlgebraicGeometry.Group.Abelian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Group Tangents Eq -/
 

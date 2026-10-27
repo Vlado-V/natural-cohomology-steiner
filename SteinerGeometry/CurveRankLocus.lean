@@ -1,5 +1,10 @@
-import SteinerGeometry.CurveGeneratorFrames
-import OAI.AlgebraicGeometry.Seshadri.Geometry.CurveFinite
+module
+
+public import SteinerGeometry.CurveGeneratorFrames
+public import OAI.AlgebraicGeometry.Seshadri.Geometry.CurveFinite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

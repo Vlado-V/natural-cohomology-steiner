@@ -1,11 +1,16 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: e5202efcdc37c76778cc1dda0f02a2417c6367a10036522657adc0a1ed0c63c1
 The packaged proof source is the local port; see OAI/PROVENANCE.json.
 -/
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Group
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.GroupDescent
-import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Pasting
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Group
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.GroupDescent
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.Pasting
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frobenius Base Change -/
 

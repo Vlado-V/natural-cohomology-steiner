@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SmoothLocal
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SmoothLocal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Criterion -/
 

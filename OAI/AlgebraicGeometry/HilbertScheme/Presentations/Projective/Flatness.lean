@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.LocalizationFlat
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.BaseChange
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.IdealEquivalence
-import Mathlib.AlgebraicGeometry.Morphisms.Flat
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.LocalizationFlat
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.BaseChange
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.IdealEquivalence
+public import Mathlib.AlgebraicGeometry.Morphisms.Flat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flatness -/
 

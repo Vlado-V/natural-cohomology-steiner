@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Presheaf
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Presheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Unit Tensor Equivalence -/
 

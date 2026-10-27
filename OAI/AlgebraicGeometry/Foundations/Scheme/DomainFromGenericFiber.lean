@@ -1,6 +1,12 @@
-import Mathlib.RingTheory.Artinian.Ring
-import Mathlib.RingTheory.LocalRing.Basic
-import Mathlib.Algebra.Ring.Idempotent
+module
+
+public import Mathlib.RingTheory.Artinian.Ring
+public import Mathlib.RingTheory.LocalRing.Basic
+public import Mathlib.Algebra.Ring.Idempotent
+public import Mathlib.Algebra.Ring.Hom.InjSurj
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Domain From Generic Fiber -/
 

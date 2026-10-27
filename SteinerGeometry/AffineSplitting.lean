@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.SectionCounit
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent
-import Mathlib.Algebra.Module.Projective
-import Mathlib.Algebra.Homology.ShortComplex.ShortExact
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.SectionCounit
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent
+public import Mathlib.Algebra.Module.Projective
+public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Actual splittings of affine quasicoherent epimorphisms with projective sections. -/
 noncomputable section

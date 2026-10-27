@@ -1,4 +1,9 @@
-import Mathlib.Algebra.Field.IsField
+module
+
+public import Mathlib.Algebra.Field.IsField
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

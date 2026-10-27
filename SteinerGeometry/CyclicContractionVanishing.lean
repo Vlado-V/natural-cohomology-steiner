@@ -1,9 +1,14 @@
-import SteinerGeometry.SymmetricKernelBaseChange
-import SteinerGeometry.EvaluationKernelPullback
-import SteinerGeometry.CurvePresentation
-import SteinerGeometry.NativeCohomologyAdditive
-import SteinerGeometry.FiniteSumCohomology
-import SteinerGeometry.GeneralCohomologyDescent
+module
+
+public import SteinerGeometry.SymmetricKernelBaseChange
+public import SteinerGeometry.EvaluationKernelPullback
+public import SteinerGeometry.CurvePresentation
+public import SteinerGeometry.NativeCohomologyAdditive
+public import SteinerGeometry.FiniteSumCohomology
+public import SteinerGeometry.GeneralCohomologyDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Cohomology vanishing for the actual cyclic-cover contraction kernel. -/
 noncomputable section

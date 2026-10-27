@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.StructureModuleComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionModules
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ScalarBaseChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.StructureModuleComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionModules
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ScalarBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pushforward Structure Comparison -/
 

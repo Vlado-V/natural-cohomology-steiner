@@ -1,7 +1,12 @@
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Ideal
-import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-import Mathlib.Algebra.Polynomial.Roots
+module
+
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Ideal
+public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+public import Mathlib.Algebra.Polynomial.Roots
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial -/
 

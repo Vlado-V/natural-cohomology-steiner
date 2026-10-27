@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Framed.PowerNumerators
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionTransport
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Framed.PowerNumerators
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Chart Extension -/
 

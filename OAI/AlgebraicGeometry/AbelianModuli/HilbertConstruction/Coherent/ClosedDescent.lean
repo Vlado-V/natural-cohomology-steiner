@@ -1,8 +1,13 @@
-import Mathlib.AlgebraicGeometry.IdealSheaf.Subscheme
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ModuleDescent
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.PullbackFiniteType
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IdealSheafNilpotence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.MorphismQuasicoherentPullback
+module
+
+public import Mathlib.AlgebraicGeometry.IdealSheaf.Subscheme
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ModuleDescent
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.PullbackFiniteType
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IdealSheafNilpotence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.MorphismQuasicoherentPullback
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Closed Descent -/
 

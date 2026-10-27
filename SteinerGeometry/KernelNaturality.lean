@@ -1,8 +1,13 @@
-import Mathlib.CategoryTheory.Sites.SheafCohomology.ExactSequences
-import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.HasExt
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-import Mathlib.LinearAlgebra.Dual.Lemmas
+module
+
+public import Mathlib.CategoryTheory.Sites.SheafCohomology.ExactSequences
+public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.HasExt
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+public import Mathlib.LinearAlgebra.Dual.Lemmas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Natural cohomology from genuine short exact sequences
 The hypotheses concern actual abelian sheaves, the cohomology of their two

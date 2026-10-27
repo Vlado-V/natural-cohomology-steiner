@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleSheaf
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleSheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Compatible Frame Local -/
 

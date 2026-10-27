@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.CycleNormalization
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.HorizontalEdge
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.CycleNormalization
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.HorizontalEdge
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Row -/
 

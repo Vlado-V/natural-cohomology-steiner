@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FiniteFreeRank
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.MvPolynomial
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FiniteFreeRank
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.MvPolynomial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Mv Polynomial Rank -/
 

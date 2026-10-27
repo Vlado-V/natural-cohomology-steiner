@@ -1,15 +1,20 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechCochains.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.Algebra.Category.Grp.Abelian
-import Mathlib.Algebra.Category.Grp.Biproducts
-import Mathlib.Algebra.Category.Grp.Limits
-import Mathlib.CategoryTheory.Sites.SheafCohomology.Cech
-import Mathlib.AlgebraicGeometry.Morphisms.Separated
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.SchemeModuleBaseBasic
+public import Mathlib.Algebra.Category.Grp.Abelian
+public import Mathlib.Algebra.Category.Grp.Biproducts
+public import Mathlib.Algebra.Category.Grp.Limits
+public import Mathlib.CategoryTheory.Sites.SheafCohomology.Cech
+public import Mathlib.AlgebraicGeometry.Morphisms.Separated
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.SchemeModuleBaseBasic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cochains -/
 

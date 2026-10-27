@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModuleGlobalSectionsIsomorphism
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModuleGlobalSectionsIsomorphism
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Adjunction -/
 

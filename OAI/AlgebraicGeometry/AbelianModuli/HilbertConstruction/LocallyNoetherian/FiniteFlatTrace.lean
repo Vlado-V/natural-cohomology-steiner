@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.FlatTraceBasis
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.BasisStructureTrace
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackUnits
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.FlatTraceBasis
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.BasisStructureTrace
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackUnits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Flat Trace -/
 

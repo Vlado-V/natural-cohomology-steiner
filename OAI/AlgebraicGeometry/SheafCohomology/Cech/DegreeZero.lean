@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveComparison
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Degree Zero -/
 

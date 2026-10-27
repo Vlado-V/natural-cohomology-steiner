@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.ElementCoordinates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.ElementCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cycle Coordinates -/
 

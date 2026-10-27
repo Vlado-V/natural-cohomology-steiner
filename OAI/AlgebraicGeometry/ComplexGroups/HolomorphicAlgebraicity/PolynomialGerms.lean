@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HolomorphicGerms
-import Mathlib.Algebra.Polynomial.BigOperators
-import Mathlib.Algebra.Polynomial.Eval.Degree
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HolomorphicGerms
+public import Mathlib.Algebra.Polynomial.BigOperators
+public import Mathlib.Algebra.Polynomial.Eval.Degree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Germs -/
 

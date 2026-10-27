@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorBaseChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Inverse Pairing -/
 

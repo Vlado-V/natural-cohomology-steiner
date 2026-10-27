@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.TupleRestrictions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.TupleRestrictions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restriction Compatibility -/
 

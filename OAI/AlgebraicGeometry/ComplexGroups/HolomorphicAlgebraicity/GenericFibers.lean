@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SquarefreeFamilies
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialFibers
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.MonicRoots
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SquarefreeFamilies
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialFibers
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.MonicRoots
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generic Fibers -/
 

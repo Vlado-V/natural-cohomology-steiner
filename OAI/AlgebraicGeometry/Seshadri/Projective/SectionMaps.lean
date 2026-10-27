@@ -1,6 +1,11 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Projective.PolynomialCharts
-import OAI.AlgebraicGeometry.Seshadri.Sheaves.SectionOpens
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Projective.PolynomialCharts
+public import OAI.AlgebraicGeometry.Seshadri.Sheaves.SectionOpens
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

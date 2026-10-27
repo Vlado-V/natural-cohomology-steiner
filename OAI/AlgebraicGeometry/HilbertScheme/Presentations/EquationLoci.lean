@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Morphisms.Separated
-import Mathlib.CategoryTheory.Subfunctor.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.Morphisms.Separated
+public import Mathlib.CategoryTheory.Subfunctor.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Equation Loci -/
 

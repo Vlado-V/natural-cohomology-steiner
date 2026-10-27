@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleTensorEquivalence
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleTensorEquivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invertible Right Tensor Map -/
 

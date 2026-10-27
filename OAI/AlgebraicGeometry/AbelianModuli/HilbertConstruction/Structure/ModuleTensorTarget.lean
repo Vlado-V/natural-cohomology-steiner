@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PushforwardStructureComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PullbackSectionMap
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackUnits
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PushforwardStructureComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PullbackSectionMap
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackUnits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Tensor Target -/
 

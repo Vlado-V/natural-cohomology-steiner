@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Smooth.DomainReduced
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.AlgebraicGeometry.Geometrically.Reduced
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Smooth.DomainReduced
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.AlgebraicGeometry.Geometrically.Reduced
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Reduced Fibers -/
 

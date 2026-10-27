@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Spec.FiniteGeneratingSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SpecGlobalSectionIdentities
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.IsoImage
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Spec.FiniteGeneratingSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SpecGlobalSectionIdentities
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.IsoImage
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Generating Sections -/
 

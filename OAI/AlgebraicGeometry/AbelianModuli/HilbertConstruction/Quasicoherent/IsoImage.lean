@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.IsoImage
-import Mathlib.AlgebraicGeometry.Modules.Tilde
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.IsoImage
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Iso Image -/
 

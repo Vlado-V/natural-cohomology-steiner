@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CharacterAverageFormula
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.SectionEndomorphisms
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CharacterAverageFormula
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.SectionEndomorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Average Section Values -/
 

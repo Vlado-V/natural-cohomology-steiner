@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.LocalSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.LocalSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # From Open Frames -/
 

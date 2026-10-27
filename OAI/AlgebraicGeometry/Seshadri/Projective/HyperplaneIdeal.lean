@@ -1,7 +1,12 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Projective.PolynomialCharts
-import OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierModule
-import OAI.AlgebraicGeometry.Seshadri.LocalAlgebra.LinearRadical
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Projective.PolynomialCharts
+public import OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierModule
+public import OAI.AlgebraicGeometry.Seshadri.LocalAlgebra.LinearRadical
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoefficientCech
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.LiftedIndices
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CommonCoordinateOpen
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.RestrictionCoordinates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoefficientCech
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.LiftedIndices
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CommonCoordinateOpen
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.RestrictionCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Intersection Coordinates -/
 

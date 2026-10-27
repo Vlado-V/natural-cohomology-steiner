@@ -1,12 +1,17 @@
-import Mathlib.Analysis.Analytic.Constructions
-import Mathlib.Analysis.Analytic.Uniqueness
-import Mathlib.Analysis.Analytic.Linear
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.LinearAlgebra.Multilinear.Basis
-import Mathlib.LinearAlgebra.Pi
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.RingTheory.Polynomial.Basic
-import Mathlib.RingTheory.PrincipalIdealDomain
+module
+
+public import Mathlib.Analysis.Analytic.Constructions
+public import Mathlib.Analysis.Analytic.Uniqueness
+public import Mathlib.Analysis.Analytic.Linear
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.LinearAlgebra.Multilinear.Basis
+public import Mathlib.LinearAlgebra.Pi
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.RingTheory.Polynomial.Basic
+public import Mathlib.RingTheory.PrincipalIdealDomain
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Eq -/
 

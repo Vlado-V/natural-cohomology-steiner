@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PrincipalOpen
-import Mathlib.RingTheory.Spectrum.Prime.Topology
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PrincipalOpen
+public import Mathlib.RingTheory.Spectrum.Prime.Topology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Point Spectrum -/
 

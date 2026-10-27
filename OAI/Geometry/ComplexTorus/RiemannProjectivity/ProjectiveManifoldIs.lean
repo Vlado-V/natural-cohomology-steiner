@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeParametrization
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.Fin
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeParametrization
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.Fin
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Manifold Is -/
 

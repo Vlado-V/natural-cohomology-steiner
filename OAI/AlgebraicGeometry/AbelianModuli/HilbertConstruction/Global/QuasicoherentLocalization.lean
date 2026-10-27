@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BasicOpenRestrictionLocalization
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.SectionLocalization
-import Mathlib.AlgebraicGeometry.Morphisms.Affine
-import Mathlib.AlgebraicGeometry.Morphisms.QuasiCompact
-import Mathlib.AlgebraicGeometry.Morphisms.Separated
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BasicOpenRestrictionLocalization
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.SectionLocalization
+public import Mathlib.AlgebraicGeometry.Morphisms.Affine
+public import Mathlib.AlgebraicGeometry.Morphisms.QuasiCompact
+public import Mathlib.AlgebraicGeometry.Morphisms.Separated
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasicoherent Localization -/
 

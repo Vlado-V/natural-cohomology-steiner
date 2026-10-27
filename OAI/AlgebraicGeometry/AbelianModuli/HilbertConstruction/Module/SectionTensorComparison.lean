@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.PresheafExtendedScalars
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PullbackSectionMap
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleScalarTensorMap
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.PresheafExtendedScalars
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PullbackSectionMap
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleScalarTensorMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Tensor Comparison -/
 

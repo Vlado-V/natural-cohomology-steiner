@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.SchemeModuleBaseBasic
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechFactors
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.SchemeModuleBaseBasic
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechFactors
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Actual maps between framed line sheaves act on every smaller open by
 multiplication by the restriction of a single coefficient. -/

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlatRankOneDescent
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlatRankOneDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Rank One Local Basis -/
 

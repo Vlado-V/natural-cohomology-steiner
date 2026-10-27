@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.IdealRecovery
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.IdealRecovery
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dehomogenization -/
 

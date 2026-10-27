@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ChartOverlaps
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ProjectiveCharts
-import Mathlib.AlgebraicGeometry.Gluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ChartOverlaps
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ProjectiveCharts
+public import Mathlib.AlgebraicGeometry.Gluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sections Projective Morphism -/
 

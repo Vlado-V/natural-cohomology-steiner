@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.DenseFiber
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.CoefficientRoot
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.DenseFiber
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.CoefficientRoot
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Parameter Equations On -/
 

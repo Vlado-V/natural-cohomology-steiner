@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Hilbert.MonomialBasis
-import Mathlib.Data.Finsupp.Multiset
-import Mathlib.Data.Sym.NatCard
-import Mathlib.Combinatorics.Enumerative.InclusionExclusion
-import Mathlib.RingTheory.Polynomial.HilbertPoly
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Hilbert.MonomialBasis
+public import Mathlib.Data.Finsupp.Multiset
+public import Mathlib.Data.Sym.NatCard
+public import Mathlib.Combinatorics.Enumerative.InclusionExclusion
+public import Mathlib.RingTheory.Polynomial.HilbertPoly
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Existence -/
 

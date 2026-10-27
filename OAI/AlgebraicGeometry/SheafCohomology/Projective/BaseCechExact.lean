@@ -1,3 +1,5 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
@@ -6,13 +8,16 @@ Authors: AINTLIB ModularCurves project
 ForMathlib (OURS, not vendored): upstream candidate.
 This file has been modified.
 -/
-import Mathlib.Algebra.Category.ModuleCat.Products
-import Mathlib.Algebra.Homology.HomologicalComplexAbelian
-import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.SchemeModuleBaseBasic
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AffineSectionExact
-import OAI.AlgebraicGeometry.SheafCohomology.Module
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.Cochains
+public import Mathlib.Algebra.Category.ModuleCat.Products
+public import Mathlib.Algebra.Homology.HomologicalComplexAbelian
+public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.SchemeModuleBaseBasic
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AffineSectionExact
+public import OAI.AlgebraicGeometry.SheafCohomology.Module
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.Cochains
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Cech Exact -/
 

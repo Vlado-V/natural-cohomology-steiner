@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.SectionMultiplication
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.SectionMultiplication
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Integral Line Bundle Monomorphisms -/
 

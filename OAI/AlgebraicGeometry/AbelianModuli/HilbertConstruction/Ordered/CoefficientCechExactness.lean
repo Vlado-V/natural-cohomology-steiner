@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CoefficientSectionExactness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechFunctor
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CechIntersections
-import Mathlib.Algebra.Homology.HomologicalComplexAbelian
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CoefficientSectionExactness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechFunctor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CechIntersections
+public import Mathlib.Algebra.Homology.HomologicalComplexAbelian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Cech Exactness -/
 

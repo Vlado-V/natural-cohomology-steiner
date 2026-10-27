@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.IrreducibleStep
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.IrreducibleStep
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Vanishing Grothendieck Vanishing -/
 

@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OpenPullbackFrame
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackFrameComposition
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OpenPullbackFrame
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackFrameComposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Frame Restriction -/
 

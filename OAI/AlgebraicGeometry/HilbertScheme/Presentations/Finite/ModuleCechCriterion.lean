@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.CechComplex
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.CohomologyRepresentatives
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.CechComplex
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.CohomologyRepresentatives
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Cech Criterion -/
 

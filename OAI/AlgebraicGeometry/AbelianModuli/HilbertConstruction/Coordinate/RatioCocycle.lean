@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.HomogeneousRatios
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.HomogeneousRatios
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ratio Cocycle -/
 

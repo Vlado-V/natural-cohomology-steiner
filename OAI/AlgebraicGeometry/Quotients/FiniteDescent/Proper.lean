@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Geometrically.Connected
-import Mathlib.AlgebraicGeometry.Morphisms.Proper
+module
+
+public import Mathlib.AlgebraicGeometry.Geometrically.Connected
+public import Mathlib.AlgebraicGeometry.Morphisms.Proper
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Proper -/
 

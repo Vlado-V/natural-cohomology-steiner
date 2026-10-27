@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeChartCoordinates
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OfLEChartSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductCriterion
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeChartCoordinates
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OfLEChartSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductCriterion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Twist Hom Chart -/
 

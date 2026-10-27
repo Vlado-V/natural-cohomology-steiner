@@ -1,8 +1,13 @@
-import SteinerGeometry.AffineSplitting
-import SteinerGeometry.DualRestriction
-import SteinerGeometry.DualEvaluation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.RestrictionLimits
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Quasicoherence
+module
+
+public import SteinerGeometry.AffineSplitting
+public import SteinerGeometry.DualRestriction
+public import SteinerGeometry.DualEvaluation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.RestrictionLimits
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Quasicoherence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Duals of locally split affine presentations are epimorphic. -/
 noncomputable section

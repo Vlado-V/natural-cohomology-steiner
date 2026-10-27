@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ZariskiExactness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.RestrictionLimits
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.IsoImage
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.QuasicoherenceLocality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ZariskiExactness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.RestrictionLimits
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.IsoImage
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.QuasicoherenceLocality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cokernels -/
 

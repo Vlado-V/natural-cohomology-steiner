@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.TripleGluing
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.TripleGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Third Model -/
 

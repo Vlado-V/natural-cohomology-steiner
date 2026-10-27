@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Square
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.GradedExactness
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Square
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.GradedExactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Maps -/
 

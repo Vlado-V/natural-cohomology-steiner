@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.BaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.GroupMaps
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.BaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.GroupMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Constant Sections On -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjective
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjective
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Bundles -/
 

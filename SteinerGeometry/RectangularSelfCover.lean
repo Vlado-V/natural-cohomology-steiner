@@ -1,8 +1,13 @@
-import SteinerGeometry.RectangularModel
-import SteinerGeometry.RectangularDoublingKernel
-import SteinerGeometry.AnalyticKernelPoints
-import SteinerGeometry.GeometricKernelLabels
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EndomorphismScalars
+module
+
+public import SteinerGeometry.RectangularModel
+public import SteinerGeometry.RectangularDoublingKernel
+public import SteinerGeometry.AnalyticKernelPoints
+public import SteinerGeometry.GeometricKernelLabels
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EndomorphismScalars
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual degree-four self-cover of an algebraic rectangular torus,
 with its four kernel labels retained. -/

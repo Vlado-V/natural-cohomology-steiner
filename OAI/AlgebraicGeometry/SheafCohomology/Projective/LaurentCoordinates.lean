@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Coordinates -/
 

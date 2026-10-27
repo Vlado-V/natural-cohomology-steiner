@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleFrameComparisons
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstructedCompatibleFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenMapGluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleFrameComparisons
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstructedCompatibleFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenMapGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Recognition -/
 

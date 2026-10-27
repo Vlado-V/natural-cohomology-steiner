@@ -1,5 +1,10 @@
-import OAI.ArithmeticGeometry.OrdinaryLocus.Openness.FiniteImageNeighborhood
-import Mathlib.AlgebraicGeometry.Group.Abelian
+module
+
+public import OAI.ArithmeticGeometry.OrdinaryLocus.Openness.FiniteImageNeighborhood
+public import Mathlib.AlgebraicGeometry.Group.Abelian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Rigidity -/
 

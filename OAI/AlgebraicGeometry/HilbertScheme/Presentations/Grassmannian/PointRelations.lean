@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.PointFiniteCharts
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.MatrixOverlap
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.OverlapMatrixClearing
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.SubmoduleGluing
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.QuotientCoordinates
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.PointFiniteCharts
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.MatrixOverlap
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.OverlapMatrixClearing
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.SubmoduleGluing
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.QuotientCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Point Relations -/
 

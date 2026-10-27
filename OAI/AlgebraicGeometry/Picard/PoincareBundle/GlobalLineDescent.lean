@@ -1,10 +1,15 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Invariant
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.IsoDescent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.Descent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Locality
-import Mathlib.AlgebraicGeometry.Morphisms.Flat
-import Mathlib.AlgebraicGeometry.Morphisms.Affine
-import Mathlib.AlgebraicGeometry.Noetherian
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Invariant
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.IsoDescent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.Descent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Locality
+public import Mathlib.AlgebraicGeometry.Morphisms.Flat
+public import Mathlib.AlgebraicGeometry.Morphisms.Affine
+public import Mathlib.AlgebraicGeometry.Noetherian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Line Descent -/
 

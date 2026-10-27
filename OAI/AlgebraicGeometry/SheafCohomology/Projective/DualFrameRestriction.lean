@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.FrameSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.FrameSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dual Frame Restriction -/
 

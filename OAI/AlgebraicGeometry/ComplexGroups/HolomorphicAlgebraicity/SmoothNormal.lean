@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothLocalDomain
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineOpenSmooth
-import Mathlib.RingTheory.LocalProperties.IntegrallyClosed
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothLocalDomain
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineOpenSmooth
+public import Mathlib.RingTheory.LocalProperties.IntegrallyClosed
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Normal -/
 

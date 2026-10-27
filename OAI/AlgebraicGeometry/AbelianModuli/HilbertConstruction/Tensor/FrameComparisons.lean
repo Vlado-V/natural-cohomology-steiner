@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.CoordinatesFromFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReindexedOpenFrameTransitions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.CoordinatesFromFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReindexedOpenFrameTransitions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Comparisons -/
 

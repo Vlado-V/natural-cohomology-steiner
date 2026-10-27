@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Terms
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.ExactSequences
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Terms
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.ExactSequences
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Term Maps -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.Affine
-import Mathlib.Algebra.Category.CommAlgCat.Basic
-import Mathlib.Topology.Category.TopCat.Basic
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.Affine
+public import Mathlib.Algebra.Category.CommAlgCat.Basic
+public import Mathlib.Topology.Category.TopCat.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Point Maps -/
 

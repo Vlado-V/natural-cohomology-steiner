@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ReducedFamiliesOn
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.WeierstrassPreparation
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ReducedFamiliesOn
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.WeierstrassPreparation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Simple -/
 

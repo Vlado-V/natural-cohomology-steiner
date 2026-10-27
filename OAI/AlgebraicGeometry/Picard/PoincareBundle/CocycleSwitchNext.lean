@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentSwitch
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentSwitch
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cocycle Switch Next -/
 

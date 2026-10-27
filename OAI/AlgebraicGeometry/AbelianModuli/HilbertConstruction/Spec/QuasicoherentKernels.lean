@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SchemeModuleQuasicoherent.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Spec.KernelSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.ModuleSquares
-import Mathlib.Algebra.Module.LocalizedModule.Submodule
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Spec.KernelSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.ModuleSquares
+public import Mathlib.Algebra.Module.LocalizedModule.Submodule
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasicoherent Kernels -/
 

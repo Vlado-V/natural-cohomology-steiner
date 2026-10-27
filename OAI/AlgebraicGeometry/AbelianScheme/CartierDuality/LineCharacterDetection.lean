@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineHomDescent
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelCharacterDetection
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.CharacterSpan
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineHomDescent
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelCharacterDetection
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.CharacterSpan
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Character Detection -/
 

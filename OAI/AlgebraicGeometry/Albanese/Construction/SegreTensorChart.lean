@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Albanese.Construction.SegreLocal
-import OAI.AlgebraicGeometry.Albanese.Construction.SegreAffineRing
+module
+
+public import OAI.AlgebraicGeometry.Albanese.Construction.SegreLocal
+public import OAI.AlgebraicGeometry.Albanese.Construction.SegreAffineRing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Segre Tensor Chart -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.ProductCharts
-import Mathlib.AlgebraicGeometry.Morphisms.Affine
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.ProductCharts
+public import Mathlib.AlgebraicGeometry.Morphisms.Affine
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Product Opens -/
 

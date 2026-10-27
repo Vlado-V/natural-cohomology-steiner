@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.Restrict
+module
+
+public import Mathlib.AlgebraicGeometry.Restrict
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Restriction -/
 

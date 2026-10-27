@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.ProjectionCoordinates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.ProjectionCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projection Splitting -/
 

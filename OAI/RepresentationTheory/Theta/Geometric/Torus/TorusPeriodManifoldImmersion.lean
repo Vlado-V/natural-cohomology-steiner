@@ -1,11 +1,16 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: 9fce13b737305199f17c5241c42328934bf34766c2d28b7521c27172535cba52
 The packaged proof source is the local port; see OAI/PROVENANCE.json.
 -/
-import OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ManifoldProjective
-import OAI.RepresentationTheory.Theta.Geometric.Torus.SmoothProjectiveModel
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ManifoldProjective
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.SmoothProjectiveModel
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Period Manifold Immersion -/
 

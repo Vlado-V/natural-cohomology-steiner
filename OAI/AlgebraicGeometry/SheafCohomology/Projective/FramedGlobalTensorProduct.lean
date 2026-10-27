@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.FramedTensorMap
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.FramedTensorMap
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Framed Global Tensor Product -/
 

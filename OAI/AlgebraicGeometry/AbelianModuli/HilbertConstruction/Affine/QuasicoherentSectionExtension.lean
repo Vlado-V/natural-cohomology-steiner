@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentLocalization
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentLocalization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasicoherent Section Extension -/
 

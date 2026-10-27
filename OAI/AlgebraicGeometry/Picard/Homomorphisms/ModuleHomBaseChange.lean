@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.CanonicalDescentFrames
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.CanonicalDescentFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Hom Base Change -/
 

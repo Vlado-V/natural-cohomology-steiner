@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.MaximalRankOf
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteBranchesAt
-import Mathlib.Topology.OpenPartialHomeomorph.IsImage
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.MaximalRankOf
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteBranchesAt
+public import Mathlib.Topology.OpenPartialHomeomorph.IsImage
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dense Fiber -/
 

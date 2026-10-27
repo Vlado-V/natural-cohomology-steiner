@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ClosureChartF
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChartPoint
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ClosureChartF
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChartPoint
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Closure Chart Iff -/
 

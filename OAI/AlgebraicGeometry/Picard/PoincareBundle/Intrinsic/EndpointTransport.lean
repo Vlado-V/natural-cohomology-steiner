@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.IntrinsicComparison
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechCoordinates
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.IntrinsicComparison
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Endpoint Transport -/
 

@@ -1,6 +1,11 @@
-import SteinerGeometry.ProjectiveDualNormalization
-import SteinerGeometry.ProjectiveBidual
-import SteinerGeometry.CokernelCohomology
+module
+
+public import SteinerGeometry.ProjectiveDualNormalization
+public import SteinerGeometry.ProjectiveBidual
+public import SteinerGeometry.CokernelCohomology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual fixed Steiner cokernel is the dual of its actual evaluation kernel. -/
 noncomputable section

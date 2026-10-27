@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Coproducts
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.CoproductSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.TypeFromAffineSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentFiniteTypeSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Coproducts
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.CoproductSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.TypeFromAffineSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentFiniteTypeSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Coproducts -/
 

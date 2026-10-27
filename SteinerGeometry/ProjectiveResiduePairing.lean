@@ -1,8 +1,13 @@
-import Mathlib.LinearAlgebra.Finsupp.LinearCombination
-import Mathlib.LinearAlgebra.Dual.Defs
-import Mathlib.Data.Finsupp.Weight
-import Mathlib.Algebra.BigOperators.Ring.Finset
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
+module
+
+public import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+public import Mathlib.LinearAlgebra.Dual.Defs
+public import Mathlib.Data.Finsupp.Weight
+public import Mathlib.Algebra.BigOperators.Ring.Finset
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # The finite Laurent coefficient pairing
 

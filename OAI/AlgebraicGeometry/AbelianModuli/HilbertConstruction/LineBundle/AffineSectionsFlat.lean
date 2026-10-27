@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.Frames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.QuasicoherentLocalization
-import Mathlib.RingTheory.Flat.Localization
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.Frames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.QuasicoherentLocalization
+public import Mathlib.RingTheory.Flat.Localization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Sections Flat -/
 

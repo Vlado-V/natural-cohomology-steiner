@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SubmersiveSplitGenerators
-import Mathlib.RingTheory.Extension.Presentation.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SubmersiveSplitGenerators
+public import Mathlib.RingTheory.Extension.Presentation.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Submersive Split Presentation -/
 

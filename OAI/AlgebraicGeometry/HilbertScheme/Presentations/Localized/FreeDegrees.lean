@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.FreeCoordinates
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.FreeCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Free Degrees -/
 

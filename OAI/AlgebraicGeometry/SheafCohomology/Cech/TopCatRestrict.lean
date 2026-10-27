@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/TopCatSheafRestrict.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.CategoryTheory.Sites.Pullback
-import Mathlib.Topology.Sheaves.Flasque
+public import Mathlib.CategoryTheory.Sites.Pullback
+public import Mathlib.Topology.Sheaves.Flasque
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Top Cat Restrict -/
 

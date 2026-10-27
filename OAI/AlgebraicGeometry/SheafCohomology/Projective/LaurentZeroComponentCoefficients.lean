@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentCoordinates
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartMap
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.EmptySupportCycleEvaluation
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentCoordinates
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartMap
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.EmptySupportCycleEvaluation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Zero Component Coefficients -/
 

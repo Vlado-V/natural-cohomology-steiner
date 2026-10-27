@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.Schemes
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Smooth.ReducedFibers
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.Schemes
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Smooth.ReducedFibers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Support -/
 

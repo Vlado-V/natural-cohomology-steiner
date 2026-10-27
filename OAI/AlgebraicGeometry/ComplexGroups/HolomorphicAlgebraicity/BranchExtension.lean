@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialGrowth
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HomogeneousExtension
-import Mathlib.Analysis.Analytic.IsolatedZeros
-import Mathlib.Topology.Compactness.Lindelof
-import Mathlib.Analysis.Calculus.Deriv.Polynomial
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialGrowth
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HomogeneousExtension
+public import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Mathlib.Topology.Compactness.Lindelof
+public import Mathlib.Analysis.Calculus.Deriv.Polynomial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Branch Extension -/
 

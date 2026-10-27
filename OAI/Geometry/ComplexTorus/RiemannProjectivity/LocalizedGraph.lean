@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GraphGermsOn
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.SmoothKernelQuotientLocal
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GraphGermsOn
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.SmoothKernelQuotientLocal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Localized Graph -/
 

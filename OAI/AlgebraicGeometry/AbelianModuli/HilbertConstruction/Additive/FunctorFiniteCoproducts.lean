@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.CoproductSections
-import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.CoproductSections
+public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Functor Finite Coproducts -/
 

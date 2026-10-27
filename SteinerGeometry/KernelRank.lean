@@ -1,5 +1,10 @@
-import SteinerGeometry.KernelFiniteProjective
-import Mathlib.RingTheory.Spectrum.Prime.FreeLocus
+module
+
+public import SteinerGeometry.KernelFiniteProjective
+public import Mathlib.RingTheory.Spectrum.Prime.FreeLocus
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Rank of the kernel of an actual split surjection. -/
 noncomputable section

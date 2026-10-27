@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
-import Mathlib.RingTheory.TensorProduct.Basic
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
+public import Mathlib.RingTheory.TensorProduct.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Base Change -/
 

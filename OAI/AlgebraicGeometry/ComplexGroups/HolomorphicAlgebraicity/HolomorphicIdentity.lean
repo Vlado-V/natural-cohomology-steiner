@@ -1,5 +1,10 @@
-import Mathlib.Analysis.Complex.CauchyIntegral
-import Mathlib.Analysis.Analytic.Uniqueness
+module
+
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Analytic.Uniqueness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Holomorphic Identity -/
 

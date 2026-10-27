@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.Trace.Basic
-import Mathlib.LinearAlgebra.TensorProduct.Tower
+module
+
+public import Mathlib.RingTheory.Trace.Basic
+public import Mathlib.LinearAlgebra.TensorProduct.Tower
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scalar Descent -/
 

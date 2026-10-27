@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ChartCoefficientMap
-import Mathlib.AlgebraicGeometry.Pullbacks
-import Mathlib.Algebra.Category.Ring.Constructions
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ChartCoefficientMap
+public import Mathlib.AlgebraicGeometry.Pullbacks
+public import Mathlib.Algebra.Category.Ring.Constructions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Pullback -/
 

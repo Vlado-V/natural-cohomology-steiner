@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.EndRecovery
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.EndTransferRing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.EndRecovery
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.EndTransferRing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # End Ring -/
 

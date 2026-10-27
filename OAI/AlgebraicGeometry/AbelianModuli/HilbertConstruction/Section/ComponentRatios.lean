@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.FrameCocycles
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.FromSectionValue
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.FrameCocycles
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.FromSectionValue
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Component Ratios -/
 

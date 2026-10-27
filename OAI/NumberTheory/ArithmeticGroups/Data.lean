@@ -1,6 +1,11 @@
-import Mathlib
-import OAI.Geometry.ComplexBall.PrescribedSignsB
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCharts
+module
+
+public import Mathlib
+public import OAI.Geometry.ComplexBall.PrescribedSignsB
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCharts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Data -/
 

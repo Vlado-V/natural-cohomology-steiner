@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Sheaves
-import OAI.AlgebraicGeometry.SheafCohomology.SheafRestriction
-import Mathlib.Algebra.Category.ModuleCat.Presheaf.PushforwardZeroMonoidal
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Sheaves
+public import OAI.AlgebraicGeometry.SheafCohomology.SheafRestriction
+public import Mathlib.Algebra.Category.ModuleCat.Presheaf.PushforwardZeroMonoidal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Bundles -/
 

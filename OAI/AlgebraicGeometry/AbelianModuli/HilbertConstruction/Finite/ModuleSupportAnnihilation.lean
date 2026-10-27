@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.LocalizationAnnihilation
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.LocalizationAnnihilation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Support Annihilation -/
 

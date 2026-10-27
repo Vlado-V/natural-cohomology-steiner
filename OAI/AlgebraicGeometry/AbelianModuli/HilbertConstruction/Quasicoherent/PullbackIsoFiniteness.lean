@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.RestrictionFiniteType
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.RestrictionFiniteType
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Iso Finiteness -/
 

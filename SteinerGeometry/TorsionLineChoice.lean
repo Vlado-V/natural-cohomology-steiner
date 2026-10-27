@@ -1,5 +1,10 @@
-import SteinerGeometry.FinitePicardAvoidance
-import SteinerGeometry.CyclicDegree
+module
+
+public import SteinerGeometry.FinitePicardAvoidance
+public import SteinerGeometry.CyclicDegree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Actual fixed-degree line bundles chosen by finite-order twists. -/
 noncomputable section

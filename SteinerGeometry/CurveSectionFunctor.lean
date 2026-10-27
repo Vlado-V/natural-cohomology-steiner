@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

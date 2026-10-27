@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Matrices
-import Mathlib.RingTheory.Grassmannian
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Matrices
+public import Mathlib.RingTheory.Grassmannian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotients -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineBundlePairing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.LineBundles
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineBundlePairing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.LineBundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Bundle Evaluation -/
 

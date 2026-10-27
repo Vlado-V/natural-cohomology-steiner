@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ClosedModuleDescent
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coherent.Annihilator
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.AdjunctionUnit
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ClosedModuleDescent
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coherent.Annihilator
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.AdjunctionUnit
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Descent -/
 

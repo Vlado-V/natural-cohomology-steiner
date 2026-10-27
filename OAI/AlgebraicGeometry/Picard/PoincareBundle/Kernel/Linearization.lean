@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Kernel.Pair
-import Mathlib.CategoryTheory.Sites.Descent.DescentData
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Kernel.Pair
+public import Mathlib.CategoryTheory.Sites.Descent.DescentData
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Linearization -/
 

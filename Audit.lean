@@ -1,8 +1,16 @@
-import NaturalCohomologySteiner
+module
+
+public import NaturalCohomologySteiner
+public import Solution
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 #check SteinerGeometry.genericNaturalSteiner_charZero
 #check Steiner.genericMatrixConclusion_charZero
 #check Steiner.exists_allDegreeMaximalRank_charZero
+#check NaturalCohomologySteinerPaper.main_result
 #print axioms SteinerGeometry.genericNaturalSteiner_charZero
 #print axioms Steiner.genericMatrixConclusion_charZero
 #print axioms Steiner.exists_allDegreeMaximalRank_charZero
+#print axioms NaturalCohomologySteinerPaper.main_result

@@ -1,5 +1,10 @@
-import SteinerGeometry.CohomologySections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.DegreeZero
+module
+
+public import SteinerGeometry.CohomologySections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.DegreeZero
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry

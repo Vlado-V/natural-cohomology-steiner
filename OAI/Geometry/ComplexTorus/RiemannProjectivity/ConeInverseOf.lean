@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeTangentF
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.BranchCoefficientsAt
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeTangentF
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.BranchCoefficientsAt
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Inverse Of -/
 

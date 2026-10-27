@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.OverlapEquations
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.OverlapEquations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Base Change -/
 

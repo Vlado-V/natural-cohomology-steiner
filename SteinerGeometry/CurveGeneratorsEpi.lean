@@ -1,7 +1,12 @@
-import SteinerGeometry.CurveFiberVanishing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.QuotientFiniteType
-import SteinerGeometry.CurvePointEpi
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.LocallyFree
+module
+
+public import SteinerGeometry.CurveFiberVanishing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.QuotientFiniteType
+public import SteinerGeometry.CurvePointEpi
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.LocallyFree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

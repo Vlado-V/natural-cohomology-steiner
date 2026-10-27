@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.BaseChangeEquivariance
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.StructureRepresentation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.SelfPullbackTranslations
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.BaseChangeEquivariance
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.StructureRepresentation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.SelfPullbackTranslations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Structure Base Change -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.PairCompatibility
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.PairCompatibility
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # All Pair Compatibility -/
 

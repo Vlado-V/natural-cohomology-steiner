@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.SplitSelfPullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.TranslationLabels
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.ProductLabels
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.SplitSelfPullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.TranslationLabels
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.ProductLabels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torsor Labels -/
 

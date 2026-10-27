@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductMatrix
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductMatrix
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Additive Coproduct Projected Map -/
 

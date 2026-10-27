@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.CechHomotopy
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.CechHomotopy
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Exactness -/
 

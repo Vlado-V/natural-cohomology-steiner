@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.StandardCech
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartMap
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.StandardCech
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Dehomogeneous polynomial coordinates commute with passage to smaller
 standard intersections which retain the initial chart. -/

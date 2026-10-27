@@ -1,5 +1,10 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Bertini.CriticalLocus
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Bertini.CriticalLocus
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

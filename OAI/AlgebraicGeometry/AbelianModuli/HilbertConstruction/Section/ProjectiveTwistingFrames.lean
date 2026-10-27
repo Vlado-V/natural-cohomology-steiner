@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.TwistingTransitionValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.PullbackIsomorphism
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.TwistingTransitionValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.PullbackIsomorphism
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Twisting Frames -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.AlgebraPullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AlgebraSectionModules
-import Mathlib.Algebra.Category.CommAlgCat.Monoidal
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.AlgebraPullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AlgebraSectionModules
+public import Mathlib.Algebra.Category.CommAlgCat.Monoidal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Comparison -/
 

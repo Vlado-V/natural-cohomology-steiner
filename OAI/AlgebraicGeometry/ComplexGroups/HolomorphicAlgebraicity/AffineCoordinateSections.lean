@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SchemePointSeparation
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveScheme
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SchemePointSeparation
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveScheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Coordinate Sections -/
 

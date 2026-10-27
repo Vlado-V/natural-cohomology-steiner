@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.ExtAdjunction
-import OAI.AlgebraicGeometry.SheafCohomology.ExtLeft
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.ExtAdjunction
+public import OAI.AlgebraicGeometry.SheafCohomology.ExtLeft
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ext Naturality -/
 

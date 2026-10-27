@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.PullbackValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quotient.CoordinatePullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.SectionPullbackComposition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ComponentRatios
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.PullbackValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quotient.CoordinatePullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.SectionPullbackComposition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ComponentRatios
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Coordinate Pullback -/
 

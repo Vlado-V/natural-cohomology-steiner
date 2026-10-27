@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeTangentF
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeProjectionOf
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteBranchesAt
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeTangentF
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeProjectionOf
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteBranchesAt
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Regular Cone Of -/
 

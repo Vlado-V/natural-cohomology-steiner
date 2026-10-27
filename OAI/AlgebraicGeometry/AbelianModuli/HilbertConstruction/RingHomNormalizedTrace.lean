@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Normalized.TracePushout
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Normalized.TracePushout
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ring Hom Normalized Trace -/
 

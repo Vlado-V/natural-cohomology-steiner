@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointCechInvariant
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.KernelLinearization
-import Mathlib.AlgebraicGeometry.Pullbacks
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointCechInvariant
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.KernelLinearization
+public import Mathlib.AlgebraicGeometry.Pullbacks
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Invariant -/
 

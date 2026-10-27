@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ParametricIntegralAt
-import Mathlib.Algebra.Polynomial.Div
-import Mathlib.Algebra.Polynomial.Eval.Degree
-import Mathlib.Analysis.Analytic.Polynomial
-import Mathlib.Topology.Algebra.Polynomial
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ParametricIntegralAt
+public import Mathlib.Algebra.Polynomial.Div
+public import Mathlib.Algebra.Polynomial.Eval.Degree
+public import Mathlib.Analysis.Analytic.Polynomial
+public import Mathlib.Topology.Algebra.Polynomial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Contour Remainder At -/
 

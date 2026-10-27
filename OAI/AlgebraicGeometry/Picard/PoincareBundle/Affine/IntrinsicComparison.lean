@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.DescentEquations
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.GluingPullback
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.DescentEquations
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.GluingPullback
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Intrinsic Comparison -/
 

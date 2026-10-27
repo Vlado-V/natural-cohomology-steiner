@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ZeroCyclesLinearSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NonnegativeLaurentPolynomials
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeights
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ZeroCyclesLinearSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NonnegativeLaurentPolynomials
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeights
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Sections -/
 

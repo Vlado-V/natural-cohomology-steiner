@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Homogeneous.FactorRatios
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Homogeneous.FactorRatios
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ratio Equations -/
 

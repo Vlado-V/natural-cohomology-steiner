@@ -1,7 +1,12 @@
-import SteinerGeometry.SectionTensorKernel
-import SteinerGeometry.TensorFactorRestriction
-import SteinerGeometry.CommonLineFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapCoverEquality
+module
+
+public import SteinerGeometry.SectionTensorKernel
+public import SteinerGeometry.TensorFactorRestriction
+public import SteinerGeometry.CommonLineFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapCoverEquality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The split monomial map lands in the actual contraction kernel sheaf. -/
 noncomputable section

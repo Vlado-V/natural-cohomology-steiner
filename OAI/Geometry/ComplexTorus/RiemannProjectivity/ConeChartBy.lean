@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AffineVanishing
-import OAI.AlgebraicGeometry.Foundations.Scheme.DehomogenizationC
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AffineVanishing
+public import OAI.AlgebraicGeometry.Foundations.Scheme.DehomogenizationC
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Chart By -/
 

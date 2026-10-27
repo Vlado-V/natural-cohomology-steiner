@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.LaurentMonomials
-import Mathlib.LinearAlgebra.Basis.Basic
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.LaurentMonomials
+public import Mathlib.LinearAlgebra.Basis.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Basis -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Coefficients
-import Mathlib.Algebra.Category.Grp.ZModuleEquivalence
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Coefficients
+public import Mathlib.Algebra.Category.Grp.ZModuleEquivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Integer Coefficients -/
 

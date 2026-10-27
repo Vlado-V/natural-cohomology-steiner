@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapBasisExtension
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Powers
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapBasisExtension
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Powers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Map Local Factor -/
 

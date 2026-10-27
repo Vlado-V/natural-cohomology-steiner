@@ -1,8 +1,13 @@
-import SteinerGeometry.CyclicSubgroup
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.FunctionCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Morphisms
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.FunctionsBaseChange
-import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
+module
+
+public import SteinerGeometry.CyclicSubgroup
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.FunctionCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Morphisms
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.FunctionsBaseChange
+public import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry.ConstantKernelCharacters
 

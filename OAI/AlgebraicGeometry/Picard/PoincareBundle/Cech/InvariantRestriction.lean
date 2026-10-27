@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.RestrictionArrows
-import Mathlib.CategoryTheory.Limits.Preserves.Finite
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Equalizers
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.RestrictionArrows
+public import Mathlib.CategoryTheory.Limits.Preserves.Finite
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Equalizers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invariant Restriction -/
 

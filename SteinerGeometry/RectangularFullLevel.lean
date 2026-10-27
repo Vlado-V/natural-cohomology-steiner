@@ -1,5 +1,10 @@
-import SteinerGeometry.RectangularSelfCover
-import SteinerGeometry.GeometricKernelFunctor
+module
+
+public import SteinerGeometry.RectangularSelfCover
+public import SteinerGeometry.GeometricKernelFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! A full level-two structure obtained from the four actual half-periods. -/
 noncomputable section

@@ -1,12 +1,17 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.WeightOne
-import Mathlib.Analysis.Complex.Polynomial.Basic
-import Mathlib.FieldTheory.PrimitiveElement
-import Mathlib.LinearAlgebra.Dual.Basis
-import Mathlib.LinearAlgebra.Dual.Lemmas
-import Mathlib.LinearAlgebra.Eigenspace.Basic
-import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-import Mathlib.LinearAlgebra.TensorProduct.Finiteness
-import Mathlib.RingTheory.TensorProduct.Basic
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.WeightOne
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.FieldTheory.PrimitiveElement
+public import Mathlib.LinearAlgebra.Dual.Basis
+public import Mathlib.LinearAlgebra.Dual.Lemmas
+public import Mathlib.LinearAlgebra.Eigenspace.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+public import Mathlib.LinearAlgebra.TensorProduct.Finiteness
+public import Mathlib.RingTheory.TensorProduct.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Embedding Decomposition -/
 

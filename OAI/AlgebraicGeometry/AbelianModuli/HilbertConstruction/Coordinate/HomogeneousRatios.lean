@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Homogeneous.RatioEquations
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.EventualDegreeFlatness
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Homogeneous.RatioEquations
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.EventualDegreeFlatness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Homogeneous Ratios -/
 

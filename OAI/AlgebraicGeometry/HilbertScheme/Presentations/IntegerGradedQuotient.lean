@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.IntegerPolynomialGrading
-import Mathlib.RingTheory.Ideal.Quotient.Operations
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.IntegerPolynomialGrading
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Integer Graded Quotient -/
 

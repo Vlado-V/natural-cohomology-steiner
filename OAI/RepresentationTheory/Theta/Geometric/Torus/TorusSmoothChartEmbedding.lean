@@ -1,6 +1,11 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartAlgebra
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusAlgebraicPeriodCone
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartAlgebra
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusAlgebraicPeriodCone
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Smooth Chart Embedding -/
 

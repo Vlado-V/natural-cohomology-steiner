@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.HomSectionEquivEvaluation
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.HomSectionEquivEvaluation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Sections Mono -/
 

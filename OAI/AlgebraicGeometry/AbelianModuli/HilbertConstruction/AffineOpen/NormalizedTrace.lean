@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RingHomNormalizedTrace
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.RestrictionRingPushout
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RingHomNormalizedTrace
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.RestrictionRingPushout
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Normalized Trace -/
 

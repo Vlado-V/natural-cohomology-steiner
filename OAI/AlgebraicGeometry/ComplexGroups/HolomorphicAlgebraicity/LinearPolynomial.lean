@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeEq
-import Mathlib.Algebra.Module.Submodule.Union
-import Mathlib.Analysis.Normed.Module.FiniteDimension
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeEq
+public import Mathlib.Algebra.Module.Submodule.Union
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Linear Polynomial -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ImageSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Image
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.TypeFromAffineSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ImageSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Image
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.TypeFromAffineSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Image Type -/
 

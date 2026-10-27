@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.CharacterBasis
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.CharacterBasis
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tame Characters -/
 

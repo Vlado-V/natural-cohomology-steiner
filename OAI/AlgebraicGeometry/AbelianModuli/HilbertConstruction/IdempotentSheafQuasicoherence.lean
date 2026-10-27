@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IdempotentSheafSummands
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Kernels
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IdempotentSheafSummands
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Kernels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Idempotent Sheaf Quasicoherence -/
 

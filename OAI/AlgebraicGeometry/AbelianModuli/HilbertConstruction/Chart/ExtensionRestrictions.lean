@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.ExtensionValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoordinatesOnOpenSubschemes
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NonvanishingMapFunctions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.ExtensionValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoordinatesOnOpenSubschemes
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NonvanishingMapFunctions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Extension Restrictions -/
 

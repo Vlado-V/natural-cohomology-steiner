@@ -1,6 +1,11 @@
-import Mathlib.AlgebraicGeometry.Modules.Tilde
-import Mathlib.CategoryTheory.ObjectProperty.Kernels
-import OAI.AlgebraicGeometry.SheafCohomology.AffineH
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+public import Mathlib.CategoryTheory.ObjectProperty.Kernels
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineH
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Exact -/
 

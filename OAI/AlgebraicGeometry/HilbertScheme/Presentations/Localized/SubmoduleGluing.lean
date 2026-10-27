@@ -1,7 +1,12 @@
-import Mathlib.Algebra.Module.LocalizedModule.Submodule
-import Mathlib.RingTheory.Localization.Module
-import Mathlib.RingTheory.Localization.Away.Basic
-import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+module
+
+public import Mathlib.Algebra.Module.LocalizedModule.Submodule
+public import Mathlib.RingTheory.Localization.Module
+public import Mathlib.RingTheory.Localization.Away.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Submodule Gluing -/
 

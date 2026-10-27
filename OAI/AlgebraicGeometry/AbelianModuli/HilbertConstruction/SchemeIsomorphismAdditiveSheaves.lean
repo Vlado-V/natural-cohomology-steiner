@@ -1,5 +1,10 @@
-import Mathlib.CategoryTheory.Sites.Equivalence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.AdditiveSheafRestriction
+module
+
+public import Mathlib.CategoryTheory.Sites.Equivalence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.AdditiveSheafRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme Isomorphism Additive Sheaves -/
 

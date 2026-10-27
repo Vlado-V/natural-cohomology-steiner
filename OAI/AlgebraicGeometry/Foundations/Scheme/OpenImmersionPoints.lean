@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
-import Mathlib.AlgebraicGeometry.OpenImmersion
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+public import Mathlib.AlgebraicGeometry.OpenImmersion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Immersion Points -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MonoidalTensorComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorInverse
-import Mathlib.CategoryTheory.Equivalence
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MonoidalTensorComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorInverse
+public import Mathlib.CategoryTheory.Equivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Equivalence -/
 

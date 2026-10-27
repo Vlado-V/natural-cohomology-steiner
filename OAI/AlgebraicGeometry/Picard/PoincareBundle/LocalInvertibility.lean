@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.LineDescent
-import Mathlib.RingTheory.LocalProperties.FinitePresentation
-import Mathlib.RingTheory.LocalProperties.Exactness
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.LineDescent
+public import Mathlib.RingTheory.LocalProperties.FinitePresentation
+public import Mathlib.RingTheory.LocalProperties.Exactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Invertibility -/
 

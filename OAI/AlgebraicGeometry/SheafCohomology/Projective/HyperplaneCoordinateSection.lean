@@ -1,3 +1,5 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: e3a03649fe202390f017c9644373e549b091b98a5109d944814d505af3b9d931
@@ -9,9 +11,12 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneFrames
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.IdealOverFrame
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.DualFrameScalar
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneFrames
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.IdealOverFrame
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.DualFrameScalar
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Hyperplane Coordinate Section -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PuncturedFiberPolynomial
-import Mathlib.RingTheory.Polynomial.ScaleRoots
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PuncturedFiberPolynomial
+public import Mathlib.RingTheory.Polynomial.ScaleRoots
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Coefficient Scaling -/
 

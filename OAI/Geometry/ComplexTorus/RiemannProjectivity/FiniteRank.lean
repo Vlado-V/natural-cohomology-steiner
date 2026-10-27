@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicContourF
-import Mathlib.Analysis.Calculus.MeanValue
-import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicContourF
+public import Mathlib.Analysis.Calculus.MeanValue
+public import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Rank -/
 

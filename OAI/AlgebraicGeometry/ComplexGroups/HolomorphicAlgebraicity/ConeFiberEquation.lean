@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeCoefficientScaling
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HomogeneousExtension
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeCoefficientScaling
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HomogeneousExtension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Fiber Equation -/
 

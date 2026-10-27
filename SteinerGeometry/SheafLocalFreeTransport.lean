@@ -1,4 +1,9 @@
-import SteinerGeometry.TildeFiniteProjective
+module
+
+public import SteinerGeometry.TildeFiniteProjective
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry.TildeFiniteProjective

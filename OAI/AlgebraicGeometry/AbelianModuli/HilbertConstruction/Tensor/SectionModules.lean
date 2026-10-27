@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionComparison
-import Mathlib.Topology.Sheaves.Functors
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionComparison
+public import Mathlib.Topology.Sheaves.Functors
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Modules -/
 

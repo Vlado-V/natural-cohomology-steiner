@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TorsionFunctoriality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.Scheme
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.UnramifiedSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TorsionFunctoriality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.Scheme
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.UnramifiedSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torsion Zero Section -/
 

@@ -1,6 +1,11 @@
-import Mathlib.RingTheory.Unramified.Field
-import Mathlib.RingTheory.Flat.Basic
-import Mathlib.RingTheory.Localization.FractionRing
+module
+
+public import Mathlib.RingTheory.Unramified.Field
+public import Mathlib.RingTheory.Flat.Basic
+public import Mathlib.RingTheory.Localization.FractionRing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Etale Domain Reduced -/
 

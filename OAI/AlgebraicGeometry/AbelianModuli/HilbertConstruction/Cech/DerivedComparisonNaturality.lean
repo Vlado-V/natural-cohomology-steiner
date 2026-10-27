@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.EdgeHomologyNaturality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.EdgeHomologyNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Derived Comparison Naturality -/
 

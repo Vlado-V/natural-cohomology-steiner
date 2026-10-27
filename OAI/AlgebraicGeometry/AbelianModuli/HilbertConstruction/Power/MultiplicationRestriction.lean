@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionTransitions
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.SectionRestriction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.RestrictionMaps
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionTransitions
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.SectionRestriction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.RestrictionMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Multiplication Restriction -/
 

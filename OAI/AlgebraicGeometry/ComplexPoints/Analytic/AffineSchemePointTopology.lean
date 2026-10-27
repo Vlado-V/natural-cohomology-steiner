@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineSchemeComplexPoints
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointHomeomorphs
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineSchemeComplexPoints
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointHomeomorphs
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Scheme Point Topology -/
 

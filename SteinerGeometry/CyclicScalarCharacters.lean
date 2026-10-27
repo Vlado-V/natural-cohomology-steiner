@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TameCharacters
-import Mathlib.Analysis.Complex.Polynomial.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TameCharacters
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

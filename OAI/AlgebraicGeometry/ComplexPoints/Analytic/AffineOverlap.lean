@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineOpenLifts
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LocalizationPointTopology
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineOpenLifts
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LocalizationPointTopology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Overlap -/
 

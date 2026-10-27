@@ -1,6 +1,11 @@
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.Basic.Complex.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.Basic.Complex.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Space -/
 

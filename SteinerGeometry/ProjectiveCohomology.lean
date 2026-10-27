@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentDimensions
-import Mathlib.Algebra.Category.ModuleCat.Products
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.BaseCechCoefficientCohomology
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentDimensions
+public import Mathlib.Algebra.Category.ModuleCat.Products
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.BaseCechCoefficientCohomology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Cohomology of the actual coordinate hyperplane twists on projective space. -/
 

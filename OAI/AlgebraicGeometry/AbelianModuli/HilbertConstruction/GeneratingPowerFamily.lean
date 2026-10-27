@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ExtendedChartGenerators
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ChartGenerators
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ExtendedChartGenerators
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ChartGenerators
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generating Power Family -/
 

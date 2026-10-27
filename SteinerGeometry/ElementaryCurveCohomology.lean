@@ -1,7 +1,12 @@
-import SteinerGeometry.CurveCohomologyCore
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.SectionMultiplication
-import SteinerGeometry.CurveTensorFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.MapSheafification
+module
+
+public import SteinerGeometry.CurveCohomologyCore
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.SectionMultiplication
+public import SteinerGeometry.CurveTensorFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.MapSheafification
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 set_option backward.isDefEq.respectTransparency false

@@ -1,4 +1,9 @@
-import Mathlib.LinearAlgebra.TensorProduct.Associator
+module
+
+public import Mathlib.LinearAlgebra.TensorProduct.Associator
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The normalized trace splits scalar extension for every module. -/
 

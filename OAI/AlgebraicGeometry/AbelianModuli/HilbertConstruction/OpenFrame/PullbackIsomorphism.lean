@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.AdjointUniqueness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FromOpenFrames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.AdjointUniqueness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FromOpenFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Isomorphism -/
 

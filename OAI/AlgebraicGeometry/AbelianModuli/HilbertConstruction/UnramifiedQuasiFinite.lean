@@ -1,6 +1,11 @@
-import Mathlib.AlgebraicGeometry.Morphisms.FormallyUnramified
-import Mathlib.AlgebraicGeometry.Morphisms.QuasiFinite
-import Mathlib.RingTheory.Unramified.LocalStructure
+module
+
+public import Mathlib.AlgebraicGeometry.Morphisms.FormallyUnramified
+public import Mathlib.AlgebraicGeometry.Morphisms.QuasiFinite
+public import Mathlib.RingTheory.Unramified.LocalStructure
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Unramified Quasi Finite -/
 

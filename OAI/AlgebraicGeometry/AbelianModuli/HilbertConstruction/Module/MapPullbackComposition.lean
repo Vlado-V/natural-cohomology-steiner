@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.AssociativityFusion
-import Mathlib.CategoryTheory.HomCongr
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.AssociativityFusion
+public import Mathlib.CategoryTheory.HomCongr
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Map Pullback Composition -/
 

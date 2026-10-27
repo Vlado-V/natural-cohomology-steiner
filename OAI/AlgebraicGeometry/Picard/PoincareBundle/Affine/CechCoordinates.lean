@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.TripleGluing
-import Mathlib.AlgebraicGeometry.Scheme
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.TripleGluing
+public import Mathlib.AlgebraicGeometry.Scheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Coordinates -/
 

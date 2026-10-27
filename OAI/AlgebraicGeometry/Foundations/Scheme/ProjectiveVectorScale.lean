@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveVectorPoint
-import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedProjective
-import OAI.AlgebraicGeometry.Foundations.Scheme.HomogeneousEvalMap
-import Mathlib.AlgebraicGeometry.AlgClosed.Basic
-import Mathlib.Analysis.Complex.Polynomial.Basic
-import Mathlib.LinearAlgebra.Projectivization.Basic
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveVectorPoint
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedProjective
+public import OAI.AlgebraicGeometry.Foundations.Scheme.HomogeneousEvalMap
+public import Mathlib.AlgebraicGeometry.AlgClosed.Basic
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.LinearAlgebra.Projectivization.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Vector Scale -/
 

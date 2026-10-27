@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Card
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Card
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Restriction Index Equality -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.GroupMaps
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.GroupMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Group Isomorphisms -/
 

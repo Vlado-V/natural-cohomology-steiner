@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ImageChartsIn
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeCharts
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ImageChartsIn
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeCharts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Image -/
 

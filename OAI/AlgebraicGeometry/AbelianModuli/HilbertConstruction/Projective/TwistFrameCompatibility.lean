@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistCechKernel
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveFrame.ChartValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReindexedOpenFrameTransitions
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.TransitionEquations
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistCechKernel
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveFrame.ChartValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReindexedOpenFrameTransitions
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.TransitionEquations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Frame Compatibility -/
 

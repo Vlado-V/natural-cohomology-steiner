@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Quotient
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Quotient
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelGroup
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Equalizers
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelGroup
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Equalizers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Base Change -/
 

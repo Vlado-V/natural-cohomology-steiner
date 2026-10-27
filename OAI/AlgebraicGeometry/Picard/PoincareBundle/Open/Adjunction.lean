@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.BaseChange
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentRestriction
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.BaseChange
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Adjunction -/
 

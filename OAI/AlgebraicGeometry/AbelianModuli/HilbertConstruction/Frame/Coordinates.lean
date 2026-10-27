@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Frames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Frames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coordinates -/
 

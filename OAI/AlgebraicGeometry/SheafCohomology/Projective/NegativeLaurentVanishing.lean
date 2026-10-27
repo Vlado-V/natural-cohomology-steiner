@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentTop
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentTop
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Laurent Vanishing -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.MatrixPivot.Cokernel
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.ColumnCokernel
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.MatrixPivot.Cokernel
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.ColumnCokernel
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pivot Cokernel -/
 

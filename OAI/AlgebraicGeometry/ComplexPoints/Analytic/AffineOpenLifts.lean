@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.OpenImmersionPoints
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineComplexPoints
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointUnderlying
-import Mathlib.RingTheory.Spectrum.Prime.Topology
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.OpenImmersionPoints
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineComplexPoints
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointUnderlying
+public import Mathlib.RingTheory.Spectrum.Prime.Topology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Open Lifts -/
 

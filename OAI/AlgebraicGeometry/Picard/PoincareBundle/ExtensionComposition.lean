@@ -1,4 +1,9 @@
-import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Extension Composition -/
 

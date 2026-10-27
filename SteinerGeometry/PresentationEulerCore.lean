@@ -1,12 +1,17 @@
-import SteinerGeometry.CurveCohomologyCore
-import SteinerGeometry.DualEvaluation
-import SteinerGeometry.CyclicLinePushforward
-import SteinerGeometry.CyclicComplexBase
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Quasicoherence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PushforwardEuler
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.LineBundleSectionFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.FiniteCoproducts
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.RestrictionFiniteType
+module
+
+public import SteinerGeometry.CurveCohomologyCore
+public import SteinerGeometry.DualEvaluation
+public import SteinerGeometry.CyclicLinePushforward
+public import SteinerGeometry.CyclicComplexBase
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Quasicoherence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PushforwardEuler
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.LineBundleSectionFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.FiniteCoproducts
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.RestrictionFiniteType
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Coherence and arithmetic for an actual finite-free presentation. -/
 noncomputable section

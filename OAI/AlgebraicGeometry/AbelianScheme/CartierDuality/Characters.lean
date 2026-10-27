@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.DualAlgebra
-import Mathlib.AlgebraicGeometry.Group.Affine
-import Mathlib.RingTheory.HopfAlgebra.MonoidAlgebra
-import Mathlib.Data.Int.Cast.Lemmas
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.DualAlgebra
+public import Mathlib.AlgebraicGeometry.Group.Affine
+public import Mathlib.RingTheory.HopfAlgebra.MonoidAlgebra
+public import Mathlib.Data.Int.Cast.Lemmas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Characters -/
 

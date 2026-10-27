@@ -1,6 +1,11 @@
-import SteinerGeometry.LinearTrace
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleScalarTensorMap
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.BasisIsomorphisms
+module
+
+public import SteinerGeometry.LinearTrace
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleScalarTensorMap
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.BasisIsomorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Gluing the local scalar-extension trace. -/
 

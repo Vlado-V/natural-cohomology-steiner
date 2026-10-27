@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.BaseChangeMate
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.BaseChangeMate
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Square -/
 

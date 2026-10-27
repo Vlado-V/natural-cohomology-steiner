@@ -1,9 +1,14 @@
-import SteinerGeometry.RectangularProjective
-import SteinerGeometry.ProjectiveCohomologyFinite
-import SteinerGeometry.RectangularCharacterSplitting
-import SteinerGeometry.CurveSelfCoverTorsion
-import SteinerGeometry.PointEuler
-import SteinerGeometry.FinitePicardAvoidance
+module
+
+public import SteinerGeometry.RectangularProjective
+public import SteinerGeometry.ProjectiveCohomologyFinite
+public import SteinerGeometry.RectangularCharacterSplitting
+public import SteinerGeometry.CurveSelfCoverTorsion
+public import SteinerGeometry.PointEuler
+public import SteinerGeometry.FinitePicardAvoidance
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual rectangular elliptic curve has structure Euler characteristic zero. -/
 noncomputable section

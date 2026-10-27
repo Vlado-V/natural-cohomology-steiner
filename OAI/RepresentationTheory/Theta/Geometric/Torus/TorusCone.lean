@@ -1,5 +1,10 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusImageCharts
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeCharts
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusImageCharts
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeCharts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Cone -/
 

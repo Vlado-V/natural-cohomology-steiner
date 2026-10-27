@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterWeightedOperators
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterWeightedOperators
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Average Idempotents -/
 

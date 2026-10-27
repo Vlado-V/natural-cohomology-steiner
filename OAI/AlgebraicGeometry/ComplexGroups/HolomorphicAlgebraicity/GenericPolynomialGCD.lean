@@ -1,8 +1,13 @@
-import Mathlib.RingTheory.Localization.Integral
-import Mathlib.RingTheory.Localization.Ideal
-import Mathlib.RingTheory.Localization.FractionRing
-import Mathlib.RingTheory.PrincipalIdealDomain
-import Mathlib.Algebra.Polynomial.FieldDivision
+module
+
+public import Mathlib.RingTheory.Localization.Integral
+public import Mathlib.RingTheory.Localization.Ideal
+public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.RingTheory.PrincipalIdealDomain
+public import Mathlib.Algebra.Polynomial.FieldDivision
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generic Polynomial GCD -/
 

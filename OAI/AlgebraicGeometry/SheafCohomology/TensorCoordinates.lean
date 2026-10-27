@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.TensorBundles
-import OAI.AlgebraicGeometry.SheafCohomology.TensorFrames
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.TensorBundles
+public import OAI.AlgebraicGeometry.SheafCohomology.TensorFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Coordinates -/
 

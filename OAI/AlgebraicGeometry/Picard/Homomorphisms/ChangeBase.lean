@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.SmoothChart
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.SmoothChart
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Change Base -/
 

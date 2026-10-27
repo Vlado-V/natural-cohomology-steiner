@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackCompMonoidal
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackUnitMonoidal
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackCompMonoidal
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackUnitMonoidal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Frame Composition -/
 

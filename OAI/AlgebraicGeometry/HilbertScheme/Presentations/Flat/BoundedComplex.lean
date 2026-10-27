@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Flat.ExactKernels
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Flat.ExactKernels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Bounded Complex -/
 

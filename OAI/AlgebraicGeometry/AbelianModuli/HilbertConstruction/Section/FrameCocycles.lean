@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NaturalSheaf
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.LocalLinearFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.FrameRecognition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FromOpenFrames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NaturalSheaf
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.LocalLinearFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.FrameRecognition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FromOpenFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Cocycles -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericSquarefree
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericDegree
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericSquarefree
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericDegree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Squarefree Families -/
 

@@ -1,11 +1,16 @@
-import OAI.AlgebraicGeometry.SheafCohomology.CoefficientFlatness
-import OAI.AlgebraicGeometry.SheafCohomology.Sheaves
-import OAI.AlgebraicGeometry.SheafCohomology.ExtAdjunction
-import Mathlib.Algebra.Category.ModuleCat.AB
-import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Sheaf
-import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.EnoughInjectives
-import Mathlib.CategoryTheory.Sites.Adjunction
-import Mathlib.CategoryTheory.Preadditive.Injective.Preserves
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.CoefficientFlatness
+public import OAI.AlgebraicGeometry.SheafCohomology.Sheaves
+public import OAI.AlgebraicGeometry.SheafCohomology.ExtAdjunction
+public import Mathlib.Algebra.Category.ModuleCat.AB
+public import Mathlib.CategoryTheory.Abelian.GrothendieckAxioms.Sheaf
+public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.EnoughInjectives
+public import Mathlib.CategoryTheory.Sites.Adjunction
+public import Mathlib.CategoryTheory.Preadditive.Injective.Preserves
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficients -/
 

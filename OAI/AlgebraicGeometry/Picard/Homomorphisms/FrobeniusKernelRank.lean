@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FrobeniusDegree
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Kernel
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FrobeniusDegree
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Kernel
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frobenius Kernel Rank -/
 

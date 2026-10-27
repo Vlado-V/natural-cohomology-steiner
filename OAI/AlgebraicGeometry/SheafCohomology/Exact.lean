@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCohomologyExact.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.Algebra.Homology.DerivedCategory.Ext.ExactSequences
-import Mathlib.CategoryTheory.Sites.SheafCohomology.ExactSequences
+public import Mathlib.Algebra.Homology.DerivedCategory.Ext.ExactSequences
+public import Mathlib.CategoryTheory.Sites.SheafCohomology.ExactSequences
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exact -/
 

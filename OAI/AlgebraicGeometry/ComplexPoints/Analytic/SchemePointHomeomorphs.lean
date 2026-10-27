@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffinePointMaps
-import Mathlib.Topology.Order
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffinePointMaps
+public import Mathlib.Topology.Order
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme Point Homeomorphs -/
 

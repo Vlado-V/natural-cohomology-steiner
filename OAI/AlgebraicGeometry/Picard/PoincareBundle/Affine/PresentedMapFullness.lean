@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.PresentedMorphisms
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.PresentedMorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presented Map Fullness -/
 

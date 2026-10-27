@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Coordinate.IntegerQuotient
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.ChartModule
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Flat.ProjectiveCharts
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.EventualDegreeFlatness
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Coordinate.IntegerQuotient
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.ChartModule
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Flat.ProjectiveCharts
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.EventualDegreeFlatness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Coordinate Pieces -/
 

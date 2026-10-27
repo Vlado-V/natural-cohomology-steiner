@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Matrices
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.Chart
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.SectionZeroLocus
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Matrices
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.Chart
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.SectionZeroLocus
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart -/
 

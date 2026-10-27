@@ -1,5 +1,10 @@
-import SteinerGeometry.MonomialDegree
-import SteinerGeometry.MonomialLineDual
+module
+
+public import SteinerGeometry.MonomialDegree
+public import SteinerGeometry.MonomialLineDual
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Euler degree of the native internal-Hom line dual. -/
 noncomputable section

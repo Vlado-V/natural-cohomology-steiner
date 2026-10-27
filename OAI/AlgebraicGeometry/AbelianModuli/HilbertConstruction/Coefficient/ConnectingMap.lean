@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.ConnectingHomomorphism
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.ConnectingHomomorphism
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Connecting Map -/
 

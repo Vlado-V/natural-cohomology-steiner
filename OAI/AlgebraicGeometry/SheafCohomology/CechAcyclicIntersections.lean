@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.Cochains
-import OAI.AlgebraicGeometry.SheafCohomology.ProjectiveAffineVanishing
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.Cochains
+public import OAI.AlgebraicGeometry.SheafCohomology.ProjectiveAffineVanishing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Acyclic Intersections -/
 

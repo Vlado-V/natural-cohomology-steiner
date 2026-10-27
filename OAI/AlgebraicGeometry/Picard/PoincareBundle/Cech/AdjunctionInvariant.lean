@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.AdjunctionChange
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.EqualizerCongr
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.EqualizerTargetChange
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.AdjunctionChange
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.EqualizerCongr
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.EqualizerTargetChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Adjunction Invariant -/
 

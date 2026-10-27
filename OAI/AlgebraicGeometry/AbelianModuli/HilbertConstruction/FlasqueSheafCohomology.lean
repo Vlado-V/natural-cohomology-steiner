@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.InjectiveSheafFlasqueness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CohomologyExact
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.InjectiveSheafFlasqueness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CohomologyExact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flasque Sheaf Cohomology -/
 

@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.Smooth.IntegralClosure
-import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+module
+
+public import Mathlib.RingTheory.Smooth.IntegralClosure
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Integral Closure -/
 

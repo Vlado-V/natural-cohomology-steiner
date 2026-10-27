@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicGraphAt
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveVarietyCompactness
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicGraphAt
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveVarietyCompactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Holomorphic Graph Projective -/
 

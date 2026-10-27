@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.PushforwardFunctor
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Translations
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.PushforwardFunctor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Translations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Structure Representation -/
 

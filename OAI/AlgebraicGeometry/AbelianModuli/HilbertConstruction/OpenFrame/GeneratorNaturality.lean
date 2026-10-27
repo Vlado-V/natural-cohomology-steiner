@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.LocalFreeness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.RestrictionCompatibility
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.LocalFreeness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.RestrictionCompatibility
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generator Naturality -/
 

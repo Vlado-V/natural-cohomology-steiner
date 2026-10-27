@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ReductionLayer
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.RestrictionLimits
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ReductionLayer
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.RestrictionLimits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Reduction Kernel Restriction -/
 

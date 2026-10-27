@@ -1,7 +1,12 @@
-import SteinerGeometry.SplitDualPullback
-import SteinerGeometry.PullbackKernelSplitting
-import SteinerGeometry.LocallySplitPullbackKernel
-import SteinerGeometry.DualEvaluationLocalSplit
+module
+
+public import SteinerGeometry.SplitDualPullback
+public import SteinerGeometry.PullbackKernelSplitting
+public import SteinerGeometry.LocallySplitPullbackKernel
+public import SteinerGeometry.DualEvaluationLocalSplit
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Pullback of a genuine line-to-free presentation and its dual kernel. -/
 noncomputable section

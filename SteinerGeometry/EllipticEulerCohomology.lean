@@ -1,6 +1,11 @@
-import SteinerGeometry.CurveCohomology
-import SteinerGeometry.EulerDegree
-import SteinerGeometry.SectionFunctorCohomology
+module
+
+public import SteinerGeometry.CurveCohomology
+public import SteinerGeometry.EulerDegree
+public import SteinerGeometry.SectionFunctorCohomology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry.EllipticCohomology

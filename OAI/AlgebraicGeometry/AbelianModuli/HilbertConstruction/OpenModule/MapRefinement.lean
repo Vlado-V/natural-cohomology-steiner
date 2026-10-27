@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.RefinementNaturality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapSlicePullback
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.RefinementNaturality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapSlicePullback
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Map Refinement -/
 

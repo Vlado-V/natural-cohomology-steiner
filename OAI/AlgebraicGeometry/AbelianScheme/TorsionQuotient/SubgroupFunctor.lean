@@ -1,11 +1,16 @@
-import Mathlib.AlgebraicGeometry.Group.Abelian
-import Mathlib.AlgebraicGeometry.Limits
-import Mathlib.AlgebraicGeometry.Morphisms.Finite
-import Mathlib.AlgebraicGeometry.Morphisms.Flat
-import Mathlib.AlgebraicGeometry.Morphisms.FinitePresentation
-import Mathlib.CategoryTheory.Limits.Constructions.Over.Basic
-import Mathlib.CategoryTheory.Yoneda
-import Mathlib.Data.ZMod.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.Group.Abelian
+public import Mathlib.AlgebraicGeometry.Limits
+public import Mathlib.AlgebraicGeometry.Morphisms.Finite
+public import Mathlib.AlgebraicGeometry.Morphisms.Flat
+public import Mathlib.AlgebraicGeometry.Morphisms.FinitePresentation
+public import Mathlib.CategoryTheory.Limits.Constructions.Over.Basic
+public import Mathlib.CategoryTheory.Yoneda
+public import Mathlib.Data.ZMod.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Subgroup Functor -/
 

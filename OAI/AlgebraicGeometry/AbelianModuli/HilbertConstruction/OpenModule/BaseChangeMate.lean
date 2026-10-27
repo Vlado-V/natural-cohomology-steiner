@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.CategoryTheory.Adjunction.Mates
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.CategoryTheory.Adjunction.Mates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Change Mate -/
 

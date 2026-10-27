@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Scalar.Nonvanishing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.LineBundles
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Scalar.Nonvanishing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.LineBundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zero Sections -/
 

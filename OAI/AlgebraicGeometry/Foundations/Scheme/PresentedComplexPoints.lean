@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.PresentationComplexPoints
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffinePointMaps
-import Mathlib.RingTheory.Extension.Presentation.Basic
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.PresentationComplexPoints
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffinePointMaps
+public import Mathlib.RingTheory.Extension.Presentation.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presented Complex Points -/
 

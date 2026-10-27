@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.FrameCoefficientCompatibility
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.GlobalSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ModuleSectionIdentity
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.FrameCoefficientCompatibility
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.GlobalSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ModuleSectionIdentity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Section Transpose -/
 

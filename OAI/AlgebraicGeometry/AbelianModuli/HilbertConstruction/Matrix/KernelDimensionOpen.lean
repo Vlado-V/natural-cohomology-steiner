@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Matrix.RankLowerOpen
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Matrix.RankLowerOpen
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Dimension Open -/
 

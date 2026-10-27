@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.HomogeneousChartFractions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.HomogeneousChartFractions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Homogeneous Restrictions -/
 

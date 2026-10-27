@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AnalyticSetOperations
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LinearRankCoordinates
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AnalyticSetOperations
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LinearRankCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Injective Analytic Image -/
 

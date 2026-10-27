@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildeExact
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.BeckDescent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Classification
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildeExact
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.BeckDescent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Classification
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invariant -/
 

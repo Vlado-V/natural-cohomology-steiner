@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterAverageIdempotents
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Regular.TranslationRepresentation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterProjectionRange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterAverageIdempotents
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Regular.TranslationRepresentation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterProjectionRange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Averages -/
 

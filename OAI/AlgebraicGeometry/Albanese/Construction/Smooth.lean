@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.CMAbelianVariety
-import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedProjective
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjectiveDecomposition
-import Mathlib.Analysis.Complex.Polynomial.Basic
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CMAbelianVariety
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedProjective
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjectiveDecomposition
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth -/
 

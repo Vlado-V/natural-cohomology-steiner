@@ -1,25 +1,30 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SchemeModuleQuasicoherent.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
-import Mathlib.AlgebraicGeometry.Morphisms.Affine
-import Mathlib.Algebra.Category.ModuleCat.Products
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.LocallyFree
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
-import Mathlib.Algebra.Module.LocalizedModule.Submodule
-import Mathlib.AlgebraicGeometry.Modules.Tilde
-import Mathlib.AlgebraicGeometry.Noetherian
-import Mathlib.CategoryTheory.ObjectProperty.Kernels
-import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
-import Mathlib.LinearAlgebra.Dimension.Finite
-import Mathlib.RingTheory.Localization.Finiteness
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.SchemeModuleBaseBasic
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleRestrictLimits
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleRestrictPushforward
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.SpecBasicOpen
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+public import Mathlib.AlgebraicGeometry.Morphisms.Affine
+public import Mathlib.Algebra.Category.ModuleCat.Products
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.LocallyFree
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+public import Mathlib.Algebra.Module.LocalizedModule.Submodule
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+public import Mathlib.AlgebraicGeometry.Noetherian
+public import Mathlib.CategoryTheory.ObjectProperty.Kernels
+public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+public import Mathlib.LinearAlgebra.Dimension.Finite
+public import Mathlib.RingTheory.Localization.Finiteness
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.SchemeModuleBaseBasic
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleRestrictLimits
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleRestrictPushforward
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.SpecBasicOpen
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasicoherent -/
 

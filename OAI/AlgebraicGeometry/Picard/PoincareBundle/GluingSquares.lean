@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.NatIso
+module
+
+public import Mathlib.CategoryTheory.NatIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Gluing Squares -/
 

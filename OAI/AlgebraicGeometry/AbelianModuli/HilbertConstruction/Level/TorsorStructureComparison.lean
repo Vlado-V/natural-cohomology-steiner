@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Multiplication.StructureBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.StructureRepresentation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ContravariantIsoIntertwining
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Multiplication.StructureBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.StructureRepresentation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ContravariantIsoIntertwining
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torsor Structure Comparison -/
 

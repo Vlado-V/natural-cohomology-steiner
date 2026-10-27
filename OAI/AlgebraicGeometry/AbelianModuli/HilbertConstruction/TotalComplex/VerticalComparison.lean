@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.HomologyComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.VerticalEdge
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.HomologyComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.VerticalEdge
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Vertical Comparison -/
 

@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.QuotientLocalizationIs
-import Mathlib.RingTheory.Smooth.Locus
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GraphRegular
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.QuotientLocalizationIs
+public import Mathlib.RingTheory.Smooth.Locus
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GraphRegular
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Reference Point -/
 

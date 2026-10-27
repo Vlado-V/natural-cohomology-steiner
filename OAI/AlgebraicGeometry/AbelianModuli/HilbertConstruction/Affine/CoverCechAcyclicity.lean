@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.AcyclicIntersectionColumns
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ZariskiVanishing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CechIntersections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.AcyclicIntersectionColumns
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ZariskiVanishing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CechIntersections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cover Cech Acyclicity -/
 

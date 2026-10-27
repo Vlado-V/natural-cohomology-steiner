@@ -1,5 +1,10 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Cohomology.SheafExactness
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Cohomology.SheafExactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

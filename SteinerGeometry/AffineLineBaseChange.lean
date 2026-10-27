@@ -1,9 +1,14 @@
-import SteinerGeometry.ModuleBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Flat.BundleSectionBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PullbackSectionValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentPullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Image
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ModuleSectionIdentity
+module
+
+public import SteinerGeometry.ModuleBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Flat.BundleSectionBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PullbackSectionValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentPullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Image
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ModuleSectionIdentity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Flat affine base change for actual line-bundle direct images. -/
 

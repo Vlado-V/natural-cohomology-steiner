@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BasisSheafificationMaps
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BasisSheafificationMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Basis Sheafification Inverse -/
 

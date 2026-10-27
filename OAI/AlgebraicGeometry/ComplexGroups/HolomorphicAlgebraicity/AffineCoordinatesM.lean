@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialEvaluation
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothClosedImmersion
-import Mathlib.Analysis.Analytic.Polynomial
-import Mathlib.Analysis.Calculus.ContDiff.Operations
-import Mathlib.Geometry.Manifold.ContMDiff.Constructions
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialEvaluation
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothClosedImmersion
+public import Mathlib.Analysis.Analytic.Polynomial
+public import Mathlib.Analysis.Calculus.ContDiff.Operations
+public import Mathlib.Geometry.Manifold.ContMDiff.Constructions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Coordinates M -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ParametrizedConeEquation
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LinearPolynomial
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ParametrizedConeEquation
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LinearPolynomial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Algebraic Cone -/
 

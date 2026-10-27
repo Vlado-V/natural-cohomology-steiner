@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Albanese.Construction.Smooth
-import OAI.AlgebraicGeometry.Albanese.Construction.AffineCoordinates
+module
+
+public import OAI.AlgebraicGeometry.Albanese.Construction.Smooth
+public import OAI.AlgebraicGeometry.Albanese.Construction.AffineCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Cover -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.EmbeddingDecomposition
-import OAI.AlgebraicGeometry.ComplexMultiplication.SignSwitch
-import Mathlib.LinearAlgebra.Projection
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.EmbeddingDecomposition
+public import OAI.AlgebraicGeometry.ComplexMultiplication.SignSwitch
+public import Mathlib.LinearAlgebra.Projection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Embedding Hodge Type -/
 

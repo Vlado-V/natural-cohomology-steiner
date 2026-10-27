@@ -1,5 +1,10 @@
-import Mathlib.Geometry.Manifold.Immersion
-import Mathlib.Analysis.Normed.Module.FiniteDimension
+module
+
+public import Mathlib.Geometry.Manifold.Immersion
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Immersion Complement Dimension -/
 

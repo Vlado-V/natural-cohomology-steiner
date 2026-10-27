@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import Mathlib.Data.Fin.Tuple.Sort
-import Mathlib.LinearAlgebra.Finsupp.LSum
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechAlternating
+public import Mathlib.Data.Fin.Tuple.Sort
+public import Mathlib.LinearAlgebra.Finsupp.LSum
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechAlternating
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Tuple Alternating Homotopy -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
-import OAI.AlgebraicGeometry.Foundations.Scheme.DehomogenizationC
-import Mathlib.RingTheory.Localization.Away.Basic
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+public import OAI.AlgebraicGeometry.Foundations.Scheme.DehomogenizationC
+public import Mathlib.RingTheory.Localization.Away.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Chart To Polynomial -/
 

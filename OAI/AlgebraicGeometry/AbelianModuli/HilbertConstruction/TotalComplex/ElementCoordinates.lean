@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.BoundaryCoordinates
-import Mathlib.Algebra.Category.Grp.Preadditive
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.BoundaryCoordinates
+public import Mathlib.Algebra.Category.Grp.Preadditive
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Element Coordinates -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.CoordinateCone
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ManifoldImage
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.CoordinateCone
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ManifoldImage
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Parametrization -/
 

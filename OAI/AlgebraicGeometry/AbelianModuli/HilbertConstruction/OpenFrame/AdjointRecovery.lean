@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.AdjointLift
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.PullbackGenerators
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.AdjointLift
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.PullbackGenerators
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Adjoint Recovery -/
 

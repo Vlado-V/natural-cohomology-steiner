@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.TensorIntegralClosure
-import OAI.AlgebraicGeometry.Foundations.Scheme.DomainFromGenericFiber
-import Mathlib.RingTheory.Unramified.Field
-import Mathlib.RingTheory.Flat.Localization
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.TensorIntegralClosure
+public import OAI.AlgebraicGeometry.Foundations.Scheme.DomainFromGenericFiber
+public import Mathlib.RingTheory.Unramified.Field
+public import Mathlib.RingTheory.Flat.Localization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Etale Local Domain -/
 

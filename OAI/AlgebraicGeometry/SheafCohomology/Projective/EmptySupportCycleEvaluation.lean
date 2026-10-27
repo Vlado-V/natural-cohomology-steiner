@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechZeroCycles
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechZeroCycles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Empty Support Cycle Evaluation -/
 

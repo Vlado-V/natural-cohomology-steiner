@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AdjointFrameImages
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleFrameLocal
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.GeneratorChanges
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AdjointFrameImages
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleFrameLocal
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.GeneratorChanges
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Adjoint Frame Compatibility -/
 

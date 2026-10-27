@@ -1,8 +1,13 @@
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quotient.ModuleDescent
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.GeometricSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentPullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Image
+module
+
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quotient.ModuleDescent
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.GeometricSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentPullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Image
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Closed Module Descent -/
 

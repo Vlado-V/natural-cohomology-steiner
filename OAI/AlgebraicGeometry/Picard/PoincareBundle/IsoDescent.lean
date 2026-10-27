@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.InvariantRestriction
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.BeckDescent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Bundles
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.InvariantComparison
-import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.InvariantRestriction
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.BeckDescent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Bundles
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.InvariantComparison
+public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Iso Descent -/
 

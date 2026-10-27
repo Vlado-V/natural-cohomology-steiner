@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Affine
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Group
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Affine
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Group
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Chart -/
 

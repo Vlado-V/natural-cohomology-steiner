@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultilinearRestriction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultilinearRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Restriction -/
 

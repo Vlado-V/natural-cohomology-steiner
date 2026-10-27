@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.Chart
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.Chart
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Incidence -/
 

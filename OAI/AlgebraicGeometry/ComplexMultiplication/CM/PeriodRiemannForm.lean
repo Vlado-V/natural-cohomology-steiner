@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.IntegralPolarization
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.PeriodSpace
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.IntegralPolarization
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.PeriodSpace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Period Riemann Form -/
 

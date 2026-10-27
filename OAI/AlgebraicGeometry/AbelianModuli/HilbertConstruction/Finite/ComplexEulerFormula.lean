@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AlternatingConeSums
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cochain.DimensionBalance
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AlternatingConeSums
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cochain.DimensionBalance
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Complex Euler Formula -/
 

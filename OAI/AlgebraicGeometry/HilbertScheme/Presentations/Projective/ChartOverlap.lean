@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ChartHomogeneousIdeal
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ChartHomogeneousIdeal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Overlap -/
 

@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HolomorphicIdentity
-import Mathlib.Order.Filter.Germ.Basic
-import Mathlib.Algebra.Ring.Subring.Basic
-import Mathlib.Algebra.Ring.Basic
-import Mathlib.Topology.Germ
-import Mathlib.RingTheory.LocalRing.Defs
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HolomorphicIdentity
+public import Mathlib.Order.Filter.Germ.Basic
+public import Mathlib.Algebra.Ring.Subring.Basic
+public import Mathlib.Algebra.Ring.Basic
+public import Mathlib.Topology.Germ
+public import Mathlib.RingTheory.LocalRing.Defs
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Holomorphic Germs -/
 

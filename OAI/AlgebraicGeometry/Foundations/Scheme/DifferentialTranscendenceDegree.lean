@@ -1,11 +1,16 @@
-import Mathlib.RingTheory.Etale.Kaehler
-import Mathlib.RingTheory.Etale.Field
-import Mathlib.RingTheory.Kaehler.Polynomial
-import Mathlib.FieldTheory.SeparablyGenerated
-import Mathlib.LinearAlgebra.TensorProduct.Basis
-import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
-import Mathlib.LinearAlgebra.Dimension.Finite
-import OAI.AlgebraicGeometry.Foundations.Scheme.TranscendenceEtale
+module
+
+public import Mathlib.RingTheory.Etale.Kaehler
+public import Mathlib.RingTheory.Etale.Field
+public import Mathlib.RingTheory.Kaehler.Polynomial
+public import Mathlib.FieldTheory.SeparablyGenerated
+public import Mathlib.LinearAlgebra.TensorProduct.Basis
+public import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+public import Mathlib.LinearAlgebra.Dimension.Finite
+public import OAI.AlgebraicGeometry.Foundations.Scheme.TranscendenceEtale
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Differential Transcendence Degree -/
 

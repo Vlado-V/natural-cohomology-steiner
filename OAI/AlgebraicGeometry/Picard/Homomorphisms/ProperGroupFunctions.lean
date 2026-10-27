@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.GroupRigidity
-import OAI.AlgebraicGeometry.Quotients.FiniteDescent.ProperFunctionsEq
-import Mathlib.AlgebraicGeometry.Morphisms.Flat
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.GroupRigidity
+public import OAI.AlgebraicGeometry.Quotients.FiniteDescent.ProperFunctionsEq
+public import Mathlib.AlgebraicGeometry.Morphisms.Flat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Proper Group Functions -/
 

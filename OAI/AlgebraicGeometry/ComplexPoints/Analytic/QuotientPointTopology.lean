@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.QuotientComplexPoints
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffinePointMaps
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialZeroLocus
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.QuotientComplexPoints
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffinePointMaps
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialZeroLocus
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Point Topology -/
 

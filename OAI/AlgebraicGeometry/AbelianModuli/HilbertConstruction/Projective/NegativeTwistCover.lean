@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeTwistGeneration
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.FiniteCoproducts
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.LineBundleSectionFiniteness
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeTwistGeneration
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.FiniteCoproducts
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.LineBundleSectionFiniteness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Twist Cover -/
 

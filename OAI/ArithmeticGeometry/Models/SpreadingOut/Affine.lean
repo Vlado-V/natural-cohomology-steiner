@@ -1,5 +1,10 @@
-import OAI.ArithmeticGeometry.Models.SpreadingOut.Base
-import Mathlib.AlgebraicGeometry.Pullbacks
+module
+
+public import OAI.ArithmeticGeometry.Models.SpreadingOut.Base
+public import Mathlib.AlgebraicGeometry.Pullbacks
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine -/
 

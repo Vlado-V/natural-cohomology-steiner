@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentFiniteTypeSections
-import Mathlib.AlgebraicGeometry.Noetherian
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentFiniteTypeSections
+public import Mathlib.AlgebraicGeometry.Noetherian
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Type Kernel Sections -/
 

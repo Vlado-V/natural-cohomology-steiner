@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Etale
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.MvPolynomial
-import Mathlib.RingTheory.TensorProduct.MvPolynomial
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Etale
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.MvPolynomial
+public import Mathlib.RingTheory.TensorProduct.MvPolynomial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine -/
 

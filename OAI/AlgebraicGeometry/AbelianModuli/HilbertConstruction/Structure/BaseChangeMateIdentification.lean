@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.SheafBaseChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.SheafBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Change Mate Identification -/
 

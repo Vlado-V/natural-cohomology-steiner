@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.GeneralPolynomialContraction
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.NegativeDegree
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.GeneralPolynomialContraction
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.NegativeDegree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Top Residue -/
 

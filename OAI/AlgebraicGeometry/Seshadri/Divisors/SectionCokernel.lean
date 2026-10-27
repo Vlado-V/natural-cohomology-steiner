@@ -1,7 +1,12 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Geometry.CurveFinite
-import OAI.AlgebraicGeometry.Seshadri.Sheaves.SupportedSheaf
-import OAI.AlgebraicGeometry.Seshadri.Divisors.CartierSection
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Geometry.CurveFinite
+public import OAI.AlgebraicGeometry.Seshadri.Sheaves.SupportedSheaf
+public import OAI.AlgebraicGeometry.Seshadri.Divisors.CartierSection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

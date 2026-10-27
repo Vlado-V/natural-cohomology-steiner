@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Intrinsic.CechCocycle
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Intrinsic.CechCocycle
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Triple Condition -/
 

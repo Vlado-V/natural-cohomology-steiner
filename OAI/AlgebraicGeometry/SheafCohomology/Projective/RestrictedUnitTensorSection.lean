@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerCancellationPairing
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalTensorSectionCoherence
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerCancellationPairing
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalTensorSectionCoherence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restricted Unit Tensor Section -/
 

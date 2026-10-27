@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.FrameRestriction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Units
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.FrameRestriction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Units
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Coordinates -/
 

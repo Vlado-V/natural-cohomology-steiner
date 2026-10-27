@@ -1,9 +1,14 @@
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.AlgebraicGeometry.Limits
-import Mathlib.Algebra.Category.ModuleCat.Products
-import Mathlib.Algebra.Category.Grp.Zero
-import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.AlgebraicGeometry.Limits
+public import Mathlib.Algebra.Category.ModuleCat.Products
+public import Mathlib.Algebra.Category.Grp.Zero
+public import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Direct image over a disjoint open cover is the product of the direct images
 of the component restrictions. This statement concerns actual module sheaves. -/

@@ -1,6 +1,11 @@
-import SteinerGeometry.LaurentCochainMap
-import SteinerGeometry.NegativeLaurentNaturality
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentCount
+module
+
+public import SteinerGeometry.LaurentCochainMap
+public import SteinerGeometry.NegativeLaurentNaturality
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentCount
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Exact residue coordinates on native top Laurent cohomology. -/
 noncomputable section

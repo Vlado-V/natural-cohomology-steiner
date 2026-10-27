@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.RankOneLocalFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RestrictionFrameImage
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.RankOneLocalFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RestrictionFrameImage
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Of Affine Rank One -/
 

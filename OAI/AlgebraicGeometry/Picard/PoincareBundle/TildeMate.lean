@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildePullback
-import Mathlib.CategoryTheory.Adjunction.CompositionIso
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildePullback
+public import Mathlib.CategoryTheory.Adjunction.CompositionIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tilde Mate -/
 

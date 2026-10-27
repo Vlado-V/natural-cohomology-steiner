@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Composition -/
 

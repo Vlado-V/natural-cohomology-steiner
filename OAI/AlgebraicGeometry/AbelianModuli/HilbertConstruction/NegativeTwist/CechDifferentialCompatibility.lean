@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechDifferentialValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.GradedCechDifferential
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ModuleCechTermExt
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechDifferentialValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.GradedCechDifferential
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ModuleCechTermExt
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Differential Compatibility -/
 

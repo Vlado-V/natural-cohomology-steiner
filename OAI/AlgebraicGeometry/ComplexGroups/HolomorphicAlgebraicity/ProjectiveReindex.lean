@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveSubscheme
-import Mathlib.LinearAlgebra.Pi
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveSubscheme
+public import Mathlib.LinearAlgebra.Pi
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Reindex -/
 

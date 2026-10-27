@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.CechComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.CohomologyNaturality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.CechComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.CohomologyNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Naturality -/
 

@@ -1,6 +1,11 @@
-import SteinerGeometry.CurveSelfCoverEuler
-import SteinerGeometry.EulerDegree
-import SteinerGeometry.TorsionLineClasses
+module
+
+public import SteinerGeometry.CurveSelfCoverEuler
+public import SteinerGeometry.EulerDegree
+public import SteinerGeometry.TorsionLineClasses
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry.EllipticCohomology

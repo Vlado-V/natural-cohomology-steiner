@@ -1,14 +1,19 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechInjectiveAugmentation.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveBicomplex
-import OAI.AlgebraicGeometry.SheafCohomology.Exact
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.DerivedGlobalSections
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.TopCatRestrict
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.UpNatVerticalEdge
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveBicomplex
+public import OAI.AlgebraicGeometry.SheafCohomology.Exact
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.DerivedGlobalSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.TopCatRestrict
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.UpNatVerticalEdge
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Injective Augmentation -/
 

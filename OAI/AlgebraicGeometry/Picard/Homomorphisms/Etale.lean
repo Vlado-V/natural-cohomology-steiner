@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Properties
-import Mathlib.AlgebraicGeometry.Morphisms.Etale
-import Mathlib.AlgebraicGeometry.Morphisms.FlatMono
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Properties
+public import Mathlib.AlgebraicGeometry.Morphisms.Etale
+public import Mathlib.AlgebraicGeometry.Morphisms.FlatMono
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Etale -/
 

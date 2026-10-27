@@ -1,9 +1,14 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.PointwiseRegular
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.SeparatingLinearCoordinates
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.RegularCoordinate
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.JacobianRegularity
-import OAI.AlgebraicGeometry.Foundations.Scheme.LocalizationComplexPoints
-import Mathlib.RingTheory.Algebraic.Integral
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.PointwiseRegular
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.SeparatingLinearCoordinates
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.RegularCoordinate
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.JacobianRegularity
+public import OAI.AlgebraicGeometry.Foundations.Scheme.LocalizationComplexPoints
+public import Mathlib.RingTheory.Algebraic.Integral
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Jacobian Localization At -/
 

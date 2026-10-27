@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.Modules.Tilde
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Change -/
 

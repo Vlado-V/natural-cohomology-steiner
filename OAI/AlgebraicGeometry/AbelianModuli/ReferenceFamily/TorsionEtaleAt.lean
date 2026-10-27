@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.GroupSplittingAt
-import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.Frame.Finiteness
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.Etale
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.GroupSplittingAt
+public import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.Frame.Finiteness
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.Etale
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torsion Etale At -/
 

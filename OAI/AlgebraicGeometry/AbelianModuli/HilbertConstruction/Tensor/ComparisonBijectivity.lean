@@ -1,4 +1,9 @@
-import Mathlib.LinearAlgebra.TensorProduct.Map
+module
+
+public import Mathlib.LinearAlgebra.TensorProduct.Map
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Comparison Bijectivity -/
 

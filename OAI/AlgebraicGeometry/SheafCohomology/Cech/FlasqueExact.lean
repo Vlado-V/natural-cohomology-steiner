@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechAcyclicComparison.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.FlasqueResolution
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.GlobalSections
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.DerivedGlobalSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.FlasqueResolution
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.GlobalSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.DerivedGlobalSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flasque Exact -/
 

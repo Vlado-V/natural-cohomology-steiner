@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cartesian.Sections
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Relative.GrassmannianProjectivity
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.GrassmannianRepresentation
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cartesian.Sections
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Relative.GrassmannianProjectivity
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.GrassmannianRepresentation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Parameter Scheme -/
 

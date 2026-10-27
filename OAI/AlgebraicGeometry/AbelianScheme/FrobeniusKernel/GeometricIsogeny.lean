@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianScheme.FrobeniusKernel.OrdinaryIsogeny
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogenies
-import Mathlib.AlgebraicGeometry.AlgClosed.Basic
-import Mathlib.AlgebraicGeometry.Morphisms.QuasiFinite
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.FrobeniusKernel.OrdinaryIsogeny
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogenies
+public import Mathlib.AlgebraicGeometry.AlgClosed.Basic
+public import Mathlib.AlgebraicGeometry.Morphisms.QuasiFinite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Geometric Isogeny -/
 

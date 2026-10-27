@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Square
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Flat.BoundedComplex
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Square
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Flat.BoundedComplex
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Terms -/
 

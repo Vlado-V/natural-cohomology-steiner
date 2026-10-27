@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Maps
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Maps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restriction Maps -/
 

@@ -1,11 +1,16 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: 740b6b9e8116b93333d6f421fdd0910c67bda40148f15f1f27167560fbac76b7
 The packaged proof source is the local port; see OAI/PROVENANCE.json.
 -/
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Bertini.SimultaneousHyperplanes
-import OAI.AlgebraicGeometry.Seshadri.Bertini.LinearFamilies
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Bertini.SimultaneousHyperplanes
+public import OAI.AlgebraicGeometry.Seshadri.Bertini.LinearFamilies
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

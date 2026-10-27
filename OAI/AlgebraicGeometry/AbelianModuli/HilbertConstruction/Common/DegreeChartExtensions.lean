@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Uniform.AffineChartExtension
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NonvanishingRestrictionMap
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.FrameCover
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Uniform.AffineChartExtension
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NonvanishingRestrictionMap
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.FrameCover
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Degree Chart Extensions -/
 

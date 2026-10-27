@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechLinearFactors
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechDifferentialValues
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechLinearFactors
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechDifferentialValues
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Differential Values -/
 

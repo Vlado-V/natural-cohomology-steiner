@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FramedDescentScalars
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelScalar
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FramedDescentScalars
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelScalar
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Kernel Cocycle -/
 

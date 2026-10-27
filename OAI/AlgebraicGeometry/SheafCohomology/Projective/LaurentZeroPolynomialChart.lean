@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroComponentExpansion
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartHomogeneous
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroComponentExpansion
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartHomogeneous
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Zero Polynomial Chart -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatElimination
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatElimination
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Complex Up Nat Normalize -/
 

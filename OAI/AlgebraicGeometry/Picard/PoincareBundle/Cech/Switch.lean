@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ModuleModels
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentSwitch
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ModuleModels
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentSwitch
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Switch -/
 

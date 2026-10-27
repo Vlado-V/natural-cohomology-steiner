@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.Spectrum.Prime.FreeLocus
-import Mathlib.RingTheory.Flat.Basic
+module
+
+public import Mathlib.RingTheory.Spectrum.Prime.FreeLocus
+public import Mathlib.RingTheory.Flat.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flat Algebra Local Basis -/
 

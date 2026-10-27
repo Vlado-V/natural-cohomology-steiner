@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.LineBundleEndTransfer
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.LineBundleEndTransfer
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Bundle End Values -/
 

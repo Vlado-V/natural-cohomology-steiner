@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Descent
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Descent
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Beck Descent -/
 

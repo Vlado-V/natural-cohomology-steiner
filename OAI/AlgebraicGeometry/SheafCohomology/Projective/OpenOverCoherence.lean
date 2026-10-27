@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OpenFrames
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleComposition
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OpenFrames
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleComposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Over Coherence -/
 

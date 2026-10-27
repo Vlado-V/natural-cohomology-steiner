@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
-import Mathlib.Algebra.Category.ModuleCat.Presheaf.Monoidal
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Monoidal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Product Sheaf -/
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PullbackRefinement
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.TensorSectionValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.UnitCompositionValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ScalarBaseChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PullbackRefinement
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.TensorSectionValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.UnitCompositionValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ScalarBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Refinement Values -/
 

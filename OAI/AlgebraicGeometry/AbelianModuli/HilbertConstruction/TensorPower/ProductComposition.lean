@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.FrameNaturality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.FrameNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Product Composition -/
 

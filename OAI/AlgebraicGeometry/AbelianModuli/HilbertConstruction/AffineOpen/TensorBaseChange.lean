@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TrivialModuleTensorComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.TensorComparisonReduction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.ComparisonPullbackCongruence
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TrivialModuleTensorComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.TensorComparisonReduction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.ComparisonPullbackCongruence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Base Change -/
 

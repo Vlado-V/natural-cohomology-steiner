@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.RowElimination
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.RowElimination
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cycle Normalization -/
 

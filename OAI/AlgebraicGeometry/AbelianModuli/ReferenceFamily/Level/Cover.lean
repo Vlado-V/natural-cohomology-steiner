@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.Schemes
-import Mathlib.AlgebraicGeometry.Limits
-import Mathlib.AlgebraicGeometry.Morphisms.Separated
-import Mathlib.Data.ZMod.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.Schemes
+public import Mathlib.AlgebraicGeometry.Limits
+public import Mathlib.AlgebraicGeometry.Morphisms.Separated
+public import Mathlib.Data.ZMod.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cover -/
 

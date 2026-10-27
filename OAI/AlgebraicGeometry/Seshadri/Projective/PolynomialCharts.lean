@@ -1,3 +1,5 @@
+module
+
 /-
 Copyright 2026 The Formal Conjectures Authors.
 
@@ -14,8 +16,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 This file has been modified.
 -/
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Bertini.IntegralSubschemes
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Bertini.IntegralSubschemes
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

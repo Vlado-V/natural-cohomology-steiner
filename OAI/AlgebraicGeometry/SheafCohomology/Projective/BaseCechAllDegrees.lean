@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseFiniteness
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.ZeroSurjective
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseFiniteness
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.ZeroSurjective
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Cech All Degrees -/
 

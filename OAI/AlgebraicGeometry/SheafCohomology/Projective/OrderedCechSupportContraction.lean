@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import Mathlib.RingTheory.Noetherian.Basic
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CechSupportContraction
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCech
+public import Mathlib.RingTheory.Noetherian.Basic
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CechSupportContraction
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCech
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ordered Cech Support Contraction -/
 

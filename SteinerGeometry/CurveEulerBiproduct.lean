@@ -1,8 +1,13 @@
-import SteinerGeometry.CurveCohomologyCore
-import SteinerGeometry.NativeCohomologyAdditive
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Quasicoherence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Additive.FunctorBiproductDimension
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PushforwardCohomologyFiniteness
+module
+
+public import SteinerGeometry.CurveCohomologyCore
+public import SteinerGeometry.NativeCohomologyAdditive
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Quasicoherence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Additive.FunctorBiproductDimension
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PushforwardCohomologyFiniteness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry.EllipticCohomology

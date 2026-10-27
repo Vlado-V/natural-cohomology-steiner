@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeEq
-import Mathlib.Analysis.Analytic.Polynomial
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeEq
+public import Mathlib.Analysis.Analytic.Polynomial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Separation Finite -/
 

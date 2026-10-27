@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.PolynomialHolomorphic
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.EquationAlgebraicityIs
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.PolynomialHolomorphic
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.EquationAlgebraicityIs
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Graph Germs On -/
 

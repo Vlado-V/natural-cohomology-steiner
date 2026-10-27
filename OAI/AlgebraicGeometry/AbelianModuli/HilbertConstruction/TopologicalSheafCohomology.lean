@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/FlasqueCohomology.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlasqueSheafCohomology
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.DerivedGlobalSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlasqueSheafCohomology
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.DerivedGlobalSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Topological Sheaf Cohomology -/
 

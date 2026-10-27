@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.DegenerateDifferential
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.DegenerateDifferential
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ordered Differential -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorModulePullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MonoidalTensorRightNaturality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorEquivalence
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorModulePullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MonoidalTensorRightNaturality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorEquivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Pullback Functor -/
 

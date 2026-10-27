@@ -1,14 +1,19 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.FrameSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Evaluation
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.RestrictionUnit
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.SectionIdentities
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.FrameSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Evaluation
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.RestrictionUnit
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.SectionIdentities
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Frame Sections -/
 

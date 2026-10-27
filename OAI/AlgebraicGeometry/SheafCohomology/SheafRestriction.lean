@@ -1,7 +1,12 @@
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Abelian
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.PushforwardContinuous
-import Mathlib.Algebra.Category.Grp.FilteredColimits
-import Mathlib.CategoryTheory.Sites.CoverLifting
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Abelian
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.PushforwardContinuous
+public import Mathlib.Algebra.Category.Grp.FilteredColimits
+public import Mathlib.CategoryTheory.Sites.CoverLifting
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sheaf Restriction -/
 

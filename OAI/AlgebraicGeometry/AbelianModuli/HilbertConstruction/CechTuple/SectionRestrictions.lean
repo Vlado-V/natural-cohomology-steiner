@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FreeCech.TupleHomotopySupport
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.AlternatingMap
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FreeCech.TupleHomotopySupport
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.AlternatingMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Restrictions -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FramePresentation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReciprocalFrameTensorIsomorphism
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.LineBundles
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FramePresentation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReciprocalFrameTensorIsomorphism
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.LineBundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Inverse -/
 

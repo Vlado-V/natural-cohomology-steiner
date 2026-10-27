@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.DegreeShift
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.DegreeShift
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Degree Power Frames -/
 

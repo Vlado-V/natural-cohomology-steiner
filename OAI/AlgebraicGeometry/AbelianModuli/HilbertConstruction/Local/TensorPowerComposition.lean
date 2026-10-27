@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorPowerComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorPowerComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Power Composition -/
 

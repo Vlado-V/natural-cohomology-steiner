@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictionCoefficientSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PushforwardSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictionCoefficientSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PushforwardSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Basic Open Module Restriction -/
 

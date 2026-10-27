@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermEquivalence
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermEquivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Term Values -/
 

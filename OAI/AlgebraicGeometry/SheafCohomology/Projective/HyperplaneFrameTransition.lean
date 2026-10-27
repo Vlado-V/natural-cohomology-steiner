@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.DualFrameTransition
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneTransitions
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.IntrinsicHyperplaneFrameEquality
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.DualFrameTransition
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneTransitions
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.IntrinsicHyperplaneFrameEquality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Hyperplane Frame Transition -/
 

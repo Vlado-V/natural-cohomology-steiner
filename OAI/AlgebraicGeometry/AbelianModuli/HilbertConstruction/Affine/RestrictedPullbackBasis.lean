@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.GeometricSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.PullbackSquare
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictedSectionBases
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.GeometricSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.PullbackSquare
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictedSectionBases
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restricted Pullback Basis -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AdjointFrameCompatibility
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.ImageGluing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstructedCompatibleFrames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AdjointFrameCompatibility
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.ImageGluing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstructedCompatibleFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Adjoint Lift -/
 

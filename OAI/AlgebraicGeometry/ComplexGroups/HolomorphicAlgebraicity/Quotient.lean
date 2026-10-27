@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.BoundedQuotient
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericDegree
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LocalPreparation
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ParametricIntegralAt
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.BoundedQuotient
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericDegree
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LocalPreparation
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ParametricIntegralAt
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient -/
 

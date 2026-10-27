@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.GroupObjects
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.GroupObjects
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Endomorphism Ring -/
 

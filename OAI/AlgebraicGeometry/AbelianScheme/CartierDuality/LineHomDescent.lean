@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.OpenFrameDescent
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.CommonLineFrames
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.PullbackHomRestriction
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.DescentMatching
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.OpenFrameDescent
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.CommonLineFrames
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.PullbackHomRestriction
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.DescentMatching
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Hom Descent -/
 

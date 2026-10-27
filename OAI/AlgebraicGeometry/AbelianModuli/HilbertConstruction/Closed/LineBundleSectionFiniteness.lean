@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.LineBundleSectionFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveHomogeneousPresentation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RelativeProjective.TwistingSectionsFinite
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.LineBundleSectionFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveHomogeneousPresentation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RelativeProjective.TwistingSectionsFinite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Bundle Section Finiteness -/
 

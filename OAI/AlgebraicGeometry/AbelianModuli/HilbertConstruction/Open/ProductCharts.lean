@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.OpenImmersion
-import Mathlib.AlgebraicGeometry.Pullbacks
+module
+
+public import Mathlib.AlgebraicGeometry.OpenImmersion
+public import Mathlib.AlgebraicGeometry.Pullbacks
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Product Charts -/
 

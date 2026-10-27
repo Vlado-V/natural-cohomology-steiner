@@ -1,7 +1,12 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.PolynomialFiber
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConstantFiber
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticCone
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeSurjectivityEq
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.PolynomialFiber
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConstantFiber
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticCone
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeSurjectivityEq
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Equation -/
 

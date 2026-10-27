@@ -1,5 +1,10 @@
-import SteinerGeometry.MultiplicationCharacterSplitting
-import SteinerGeometry.RectangularFullLevel
+module
+
+public import SteinerGeometry.MultiplicationCharacterSplitting
+public import SteinerGeometry.RectangularFullLevel
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Four actual character lines for the rectangular curve's self-[2] map. -/
 noncomputable section

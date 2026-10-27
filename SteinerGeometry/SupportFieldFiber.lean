@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.LocalRing.Module
-import Mathlib.RingTheory.Flat.FaithfullyFlat.Basic
+module
+
+public import Mathlib.RingTheory.LocalRing.Module
+public import Mathlib.RingTheory.Flat.FaithfullyFlat.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Support of a finite module is detected by its actual fiber over any field. -/
 noncomputable section

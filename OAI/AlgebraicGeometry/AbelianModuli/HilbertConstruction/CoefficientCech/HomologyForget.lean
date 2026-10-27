@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.ForgetNaturality
-import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
-import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.ForgetNaturality
+public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Homology Forget -/
 

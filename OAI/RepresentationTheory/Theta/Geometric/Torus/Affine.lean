@@ -1,6 +1,11 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularConeNeighborhood
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.SmoothReferencePoint
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularConeNeighborhood
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.SmoothReferencePoint
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine -/
 

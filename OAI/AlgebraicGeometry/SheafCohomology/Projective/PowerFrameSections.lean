@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistPowers
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneLocalSection
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitFrameSection
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistPowers
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneLocalSection
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitFrameSection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Frame Sections -/
 

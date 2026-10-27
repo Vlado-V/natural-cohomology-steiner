@@ -1,11 +1,16 @@
-import Mathlib.AlgebraicGeometry.Geometrically.Connected
-import Mathlib.AlgebraicGeometry.Morphisms.Proper
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.AlgebraicGeometry.Pullbacks
-import Mathlib.CategoryTheory.Monoidal.Cartesian.Grp
-import Mathlib.Algebra.Group.Subgroup.Ker
-import Mathlib.Data.ZMod.Basic
-import Mathlib.Topology.LocallyConstant.Algebra
+module
+
+public import Mathlib.AlgebraicGeometry.Geometrically.Connected
+public import Mathlib.AlgebraicGeometry.Morphisms.Proper
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.AlgebraicGeometry.Pullbacks
+public import Mathlib.CategoryTheory.Monoidal.Cartesian.Grp
+public import Mathlib.Algebra.Group.Subgroup.Ker
+public import Mathlib.Data.ZMod.Basic
+public import Mathlib.Topology.LocallyConstant.Algebra
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Schemes -/
 

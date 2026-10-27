@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapLocalFactor
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapLocalFactor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Map Factor Transport -/
 

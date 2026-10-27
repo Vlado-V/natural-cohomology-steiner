@@ -1,13 +1,18 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import Mathlib.Data.Fin.Tuple.Sort
-import Mathlib.GroupTheory.Perm.Fin
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.HomologicalComplexExactRetract
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechComparison
+public import Mathlib.Data.Fin.Tuple.Sort
+public import Mathlib.GroupTheory.Perm.Fin
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.HomologicalComplexExactRetract
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ordered Base Cech Alternating -/
 

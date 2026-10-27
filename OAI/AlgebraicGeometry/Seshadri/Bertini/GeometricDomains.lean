@@ -1,5 +1,10 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Bertini.Derivations
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Bertini.Derivations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.OverlapFunctor
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Relative.UnitOpen
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.OverlapFunctor
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Relative.UnitOpen
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap -/
 

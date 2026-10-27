@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.Preadditive.Biproducts
+module
+
+public import Mathlib.CategoryTheory.Preadditive.Biproducts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coproduct Matrix Components -/
 

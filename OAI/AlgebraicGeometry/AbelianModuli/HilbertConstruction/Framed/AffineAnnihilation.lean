@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.TransitionCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ZeroSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.TransitionCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ZeroSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Annihilation -/
 

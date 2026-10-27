@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialProducts
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.FiberCardinality
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialProducts
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.FiberCardinality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Proper Fiber Polynomial -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Descent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Invariant
-import Mathlib.RingTheory.Flat.Equalizer
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Descent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Invariant
+public import Mathlib.RingTheory.Flat.Equalizer
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Module Descent -/
 

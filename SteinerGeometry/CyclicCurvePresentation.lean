@@ -1,8 +1,13 @@
-import SteinerGeometry.CurvePresentation
-import SteinerGeometry.CyclicLineFrames
-import SteinerGeometry.LinePushforwardFinite
-import SteinerGeometry.LinePushforwardSections
-import SteinerGeometry.CyclicComplexBase
+module
+
+public import SteinerGeometry.CurvePresentation
+public import SteinerGeometry.CyclicLineFrames
+public import SteinerGeometry.LinePushforwardFinite
+public import SteinerGeometry.LinePushforwardSections
+public import SteinerGeometry.CyclicComplexBase
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! A rank-plus-one presentation of the actual cyclic-isogeny direct image. -/
 noncomputable section

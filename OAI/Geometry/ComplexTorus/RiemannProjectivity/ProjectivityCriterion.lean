@@ -1,27 +1,32 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCharts
-import Mathlib.Topology.Algebra.Group.Quotient
-import Mathlib.Analysis.Calculus.FDeriv.Basic
-import Mathlib.Analysis.Calculus.FDeriv.Mul
-import Mathlib.LinearAlgebra.SesquilinearForm.Star
-import Mathlib.Analysis.SpecialFunctions.Complex.Log
-import Mathlib.Analysis.SpecialFunctions.ExpDeriv
-import OAI.AlgebraicGeometry.ComplexMultiplication.LatticeGaussian
-import Mathlib.Analysis.Calculus.SmoothSeries
-import Mathlib.Analysis.Complex.CauchyIntegral
-import Mathlib.Analysis.Analytic.IsolatedZeros
-import Mathlib.Analysis.Normed.Group.Tannery
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveZeroLocus
-import Mathlib.Analysis.Calculus.ContDiff.RCLike
-import Mathlib.Analysis.Calculus.InverseFunctionTheorem.FDeriv
-import Mathlib.MeasureTheory.Integral.DominatedConvergence
-import Mathlib.MeasureTheory.Measure.Haar.Basic
-import Mathlib.MeasureTheory.Group.Integral
-import Mathlib.Analysis.Calculus.ParametricIntervalIntegral
-import Mathlib.Analysis.Calculus.Deriv.Star
-import Mathlib.Analysis.Calculus.FDeriv.Symmetric
-import Mathlib.MeasureTheory.Integral.Prod
-import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
-import Mathlib.Topology.Connected.TotallyDisconnected
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCharts
+public import Mathlib.Topology.Algebra.Group.Quotient
+public import Mathlib.Analysis.Calculus.FDeriv.Basic
+public import Mathlib.Analysis.Calculus.FDeriv.Mul
+public import Mathlib.LinearAlgebra.SesquilinearForm.Star
+public import Mathlib.Analysis.SpecialFunctions.Complex.Log
+public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+public import OAI.AlgebraicGeometry.ComplexMultiplication.LatticeGaussian
+public import Mathlib.Analysis.Calculus.SmoothSeries
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Mathlib.Analysis.Normed.Group.Tannery
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveZeroLocus
+public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.FDeriv
+public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import Mathlib.MeasureTheory.Measure.Haar.Basic
+public import Mathlib.MeasureTheory.Group.Integral
+public import Mathlib.Analysis.Calculus.ParametricIntervalIntegral
+public import Mathlib.Analysis.Calculus.Deriv.Star
+public import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+public import Mathlib.MeasureTheory.Integral.Prod
+public import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+public import Mathlib.Topology.Connected.TotallyDisconnected
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projectivity Criterion -/
 

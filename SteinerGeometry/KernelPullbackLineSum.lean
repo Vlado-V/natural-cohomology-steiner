@@ -1,6 +1,11 @@
-import SteinerGeometry.KernelPullbackFromFrames
-import SteinerGeometry.TildeFiniteProjective
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.Frames
+module
+
+public import SteinerGeometry.KernelPullbackFromFrames
+public import SteinerGeometry.TildeFiniteProjective
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.Frames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback of kernels of epimorphisms onto finite sums of a line bundle -/
 noncomputable section

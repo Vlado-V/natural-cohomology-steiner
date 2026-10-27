@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.Incidence
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.Incidence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Schur Cokernel -/
 

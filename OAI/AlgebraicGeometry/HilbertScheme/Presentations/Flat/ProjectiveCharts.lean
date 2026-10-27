@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Flatness
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Flatness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Charts -/
 

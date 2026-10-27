@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.JacobianLocalizationAt
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothLocalDomain
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.JacobianLocalizationAt
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothLocalDomain
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Local -/
 

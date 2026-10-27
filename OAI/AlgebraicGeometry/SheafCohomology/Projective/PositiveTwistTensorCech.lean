@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositiveTwistCoproduct
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftIso
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositiveTwistEquivalence
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositiveTwistCoproduct
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftIso
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositiveTwistEquivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Positive Twist Tensor Cech -/
 

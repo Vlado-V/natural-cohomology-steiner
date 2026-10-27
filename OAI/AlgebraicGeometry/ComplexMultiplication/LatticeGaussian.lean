@@ -1,6 +1,11 @@
-import Mathlib.Algebra.Module.ZLattice.Summable
-import Mathlib.Analysis.SpecialFunctions.Exp
-import Mathlib.Topology.DiscreteSubset
+module
+
+public import Mathlib.Algebra.Module.ZLattice.Summable
+public import Mathlib.Analysis.SpecialFunctions.Exp
+public import Mathlib.Topology.DiscreteSubset
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Lattice Gaussian -/
 

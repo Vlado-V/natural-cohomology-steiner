@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheaf
-import Mathlib.Algebra.Module.LocalizedModule.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheaf
+public import Mathlib.Algebra.Module.LocalizedModule.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Localization Restrict Scalars -/
 

@@ -1,3 +1,5 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
@@ -6,10 +8,13 @@ Authors: AINTLIB ModularCurves project
 ForMathlib (OURS, not vendored): upstream candidate. Ticket T-A2d (step 4).
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AwayCongr
-import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.RingTheory.Localization.Away.Basic
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AwayCongr
+public import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.RingTheory.Localization.Away.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Space Chart -/
 

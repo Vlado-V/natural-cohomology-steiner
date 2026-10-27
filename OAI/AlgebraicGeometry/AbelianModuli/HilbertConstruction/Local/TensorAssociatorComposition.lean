@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorAssociator
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorAssociator
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Associator Composition -/
 

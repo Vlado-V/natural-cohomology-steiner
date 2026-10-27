@@ -1,7 +1,12 @@
-import SteinerGeometry.CohomologySections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Quasicoherence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PushforwardCohomologyFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.ProjectionFormula
+module
+
+public import SteinerGeometry.CohomologySections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Quasicoherence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PushforwardCohomologyFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.ProjectionFormula
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry.EvaluationCohomology

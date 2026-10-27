@@ -1,6 +1,12 @@
-import Mathlib.Algebra.MvPolynomial.Degrees
-import Mathlib.Data.Finsupp.ToDFinsupp
-import Mathlib.Algebra.BigOperators.Ring.Finset
+module
+
+public import Mathlib.Algebra.MvPolynomial.Degrees
+public import Mathlib.Data.Finsupp.ToDFinsupp
+public import Mathlib.Algebra.BigOperators.Ring.Finset
+public import Mathlib.Tactic.Ring
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Exponents -/
 

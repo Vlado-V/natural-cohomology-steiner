@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.OverlapRings
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.OverlapRings
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap Maps -/
 

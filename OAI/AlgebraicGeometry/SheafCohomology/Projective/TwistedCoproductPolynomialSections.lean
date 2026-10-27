@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductCoordinates
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.WeightedFreeDegreeComponents
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftIso
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositiveTwistEquivalence
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductCoordinates
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.WeightedFreeDegreeComponents
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftIso
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositiveTwistEquivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twisted Coproduct Polynomial Sections -/
 

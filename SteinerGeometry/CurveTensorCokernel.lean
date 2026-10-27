@@ -1,5 +1,10 @@
-import SteinerGeometry.CurveTensorFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.GlobalSectionsFunctor
+module
+
+public import SteinerGeometry.CurveTensorFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.GlobalSectionsFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The finite-support tensor-cokernel comparison uses only local frames and
 finite support, without projective curve cohomology. -/

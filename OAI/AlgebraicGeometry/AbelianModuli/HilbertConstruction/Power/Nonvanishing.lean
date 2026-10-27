@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.RestrictionMaps
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Nonvanishing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.RestrictionMaps
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Nonvanishing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Nonvanishing -/
 

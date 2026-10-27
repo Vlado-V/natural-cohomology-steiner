@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.ChartOverlap
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.ChartOverlap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ideal Equivalence -/
 

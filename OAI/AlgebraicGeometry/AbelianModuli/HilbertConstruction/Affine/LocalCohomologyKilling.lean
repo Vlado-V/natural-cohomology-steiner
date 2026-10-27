@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictionDegreeOneKilling
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictionDegreeOneKilling
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Cohomology Killing -/
 

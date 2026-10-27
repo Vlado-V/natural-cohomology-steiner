@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.FrobeniusKernel.GeometricIsogeny
-import Mathlib.AlgebraicGeometry.ZariskisMainTheorem
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.FrobeniusKernel.GeometricIsogeny
+public import Mathlib.AlgebraicGeometry.ZariskisMainTheorem
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Geometric Points -/
 

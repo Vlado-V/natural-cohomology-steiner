@@ -1,9 +1,14 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusSmoothChartEmbedding
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusProjectiveIrreducibility
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ClosureChartIff
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ClosureChartF
-import OAI.RepresentationTheory.Theta.Geometric.Torus.ProjectiveModel
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusSmoothChartEmbedding
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusProjectiveIrreducibility
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ClosureChartIff
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ClosureChartF
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.ProjectiveModel
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Projective Model -/
 

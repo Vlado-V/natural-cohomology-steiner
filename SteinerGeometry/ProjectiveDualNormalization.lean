@@ -1,5 +1,10 @@
-import SteinerGeometry.ProjectiveSteinerBundle
-import SteinerGeometry.DualModelComparison
+module
+
+public import SteinerGeometry.ProjectiveSteinerBundle
+public import SteinerGeometry.DualModelComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Canonical coordinate normalizations of the reversed dual linear presentation. -/
 noncomputable section

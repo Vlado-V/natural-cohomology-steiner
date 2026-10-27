@@ -1,6 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Iterated.Powers
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.Powers
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.PowerLocus
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Iterated.Powers
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.Powers
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.PowerLocus
+public import Mathlib.Algebra.Order.BigOperators.GroupWithZero.Finset
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Stability -/
 

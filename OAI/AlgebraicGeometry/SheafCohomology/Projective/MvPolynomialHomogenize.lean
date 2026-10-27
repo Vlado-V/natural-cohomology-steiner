@@ -1,3 +1,5 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
@@ -6,8 +8,11 @@ Authors: AINTLIB ModularCurves project
 ForMathlib (OURS, not vendored): upstream candidate.
 This file has been modified.
 -/
-import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Ideal
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Ideal
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Mv Polynomial Homogenize -/
 

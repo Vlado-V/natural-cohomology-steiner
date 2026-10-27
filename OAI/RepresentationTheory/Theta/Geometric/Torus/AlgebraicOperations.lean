@@ -1,8 +1,13 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicAlgebraizationGraph
-import OAI.RepresentationTheory.Theta.Geometric.Torus.IntrinsicPeriodComparison
-import OAI.AlgebraicGeometry.Albanese.Construction.SegreClosed
-import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicAlgebraizationGraph
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.IntrinsicPeriodComparison
+public import OAI.AlgebraicGeometry.Albanese.Construction.SegreClosed
+public import Mathlib.Geometry.Manifold.MFDeriv.SpecificFunctions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Algebraic Operations -/
 

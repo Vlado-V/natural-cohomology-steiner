@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Moments
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SymmetricRootsOn
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Moments
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SymmetricRootsOn
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Weierstrass Preparation -/
 

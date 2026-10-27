@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.FrameSectionTranspose
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.SectionContraction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenMapGluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.FrameSectionTranspose
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.SectionContraction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenMapGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Transpose Detection -/
 

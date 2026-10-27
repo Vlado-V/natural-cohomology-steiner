@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.SignSwitch
-import Mathlib.Algebra.BigOperators.Fin
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.SignSwitch
+public import Mathlib.Algebra.BigOperators.Fin
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Odd Sign Switch -/
 

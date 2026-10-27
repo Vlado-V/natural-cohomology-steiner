@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechForget
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseZeroCycles
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.TopZeroCycles
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechForget
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseZeroCycles
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.TopZeroCycles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Zero Cycles Sections -/
 

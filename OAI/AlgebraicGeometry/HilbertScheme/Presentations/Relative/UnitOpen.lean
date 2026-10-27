@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.OpenUnitLocus
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.OpenUnitLocus
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Unit Open -/
 

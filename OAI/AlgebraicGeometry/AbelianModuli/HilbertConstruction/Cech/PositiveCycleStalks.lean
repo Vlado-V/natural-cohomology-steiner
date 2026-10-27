@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechSheafPositiveExact.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.LocalContraction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.ZeroCycleStalks
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.LocalContraction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.ZeroCycleStalks
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Positive Cycle Stalks -/
 

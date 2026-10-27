@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Category.ModuleCat.Descent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.LineDescent
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.Descent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.LineDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Descent -/
 

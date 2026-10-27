@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.UnitPullbackCoherence
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.IntrinsicModuleDescent
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.UnitPullbackCoherence
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.IntrinsicModuleDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Framed Descent Scalars -/
 

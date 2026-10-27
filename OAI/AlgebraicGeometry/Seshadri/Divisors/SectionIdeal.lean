@@ -1,6 +1,11 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Projective.HyperplanePullback
-import OAI.AlgebraicGeometry.Seshadri.Divisors.SectionNaturality
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Projective.HyperplanePullback
+public import OAI.AlgebraicGeometry.Seshadri.Divisors.SectionNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

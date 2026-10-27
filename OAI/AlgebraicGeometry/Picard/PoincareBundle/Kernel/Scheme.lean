@@ -1,8 +1,13 @@
-import Mathlib.AlgebraicGeometry.Sites.Fpqc
-import Mathlib.AlgebraicGeometry.Morphisms.Finite
-import Mathlib.CategoryTheory.Monoidal.Cartesian.Grp
-import Mathlib.Algebra.Group.Subgroup.Ker
-import Mathlib.CategoryTheory.Subobject.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.Sites.Fpqc
+public import Mathlib.AlgebraicGeometry.Morphisms.Finite
+public import Mathlib.CategoryTheory.Monoidal.Cartesian.Grp
+public import Mathlib.Algebra.Group.Subgroup.Ker
+public import Mathlib.CategoryTheory.Subobject.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme -/
 

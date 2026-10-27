@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechCanonicalCoordinates
-import Mathlib.AlgebraicGeometry.Pullbacks
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechCanonicalCoordinates
+public import Mathlib.AlgebraicGeometry.Pullbacks
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Pullback -/
 

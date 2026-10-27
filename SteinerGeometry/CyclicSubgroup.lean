@@ -1,7 +1,12 @@
-import SteinerGeometry.CyclicLabels
-import OAI.AlgebraicGeometry.AbelianScheme.FrobeniusKernel.EtaleSubgroups
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.GlobalDegree
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogeny.KernelTorsor
+module
+
+public import SteinerGeometry.CyclicLabels
+public import OAI.AlgebraicGeometry.AbelianScheme.FrobeniusKernel.EtaleSubgroups
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.GlobalDegree
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogeny.KernelTorsor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Actual cyclic subgroup schemes and their exact-kernel and torsor comparisons. -/
 

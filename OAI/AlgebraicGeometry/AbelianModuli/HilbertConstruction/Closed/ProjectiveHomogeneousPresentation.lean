@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Homogeneous.ProjectiveFamilies
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveTwisting.TwistingRestriction
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.IdealEquivalence
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Homogeneous.ProjectiveFamilies
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveTwisting.TwistingRestriction
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.IdealEquivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Homogeneous Presentation -/
 

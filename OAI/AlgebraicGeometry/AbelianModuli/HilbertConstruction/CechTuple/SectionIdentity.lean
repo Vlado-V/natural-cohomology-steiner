@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CechTuple.SupportFunctoriality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CechTuple.SupportFunctoriality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Identity -/
 

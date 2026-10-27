@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.IdealEquivalence
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.LocalizationFlat
-import Mathlib.RingTheory.Localization.Away.Basic
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.IdealEquivalence
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.LocalizationFlat
+public import Mathlib.RingTheory.Localization.Away.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Presentation -/
 

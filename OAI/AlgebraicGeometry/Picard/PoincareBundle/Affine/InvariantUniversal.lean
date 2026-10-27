@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.InvariantUniversal
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.NaturalGluingCompatibility
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.InvariantUniversal
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.NaturalGluingCompatibility
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invariant Universal -/
 

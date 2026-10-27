@@ -1,7 +1,12 @@
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
-import Mathlib.AlgebraicGeometry.Morphisms.Immersion
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.RingTheory.FiniteType
+module
+
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+public import Mathlib.AlgebraicGeometry.Morphisms.Immersion
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.RingTheory.FiniteType
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Presentations -/
 

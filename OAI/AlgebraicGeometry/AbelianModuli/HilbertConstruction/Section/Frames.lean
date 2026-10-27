@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Units
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Units
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frames -/
 

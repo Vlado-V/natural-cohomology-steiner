@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Matrices
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Matrices
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Determinants -/
 

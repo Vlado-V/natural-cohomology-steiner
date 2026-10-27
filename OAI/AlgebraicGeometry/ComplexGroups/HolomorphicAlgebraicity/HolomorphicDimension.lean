@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.MaximalRank
-import Mathlib.Topology.MetricSpace.HausdorffDimension
-import Mathlib.LinearAlgebra.Dimension.Free
-import Mathlib.LinearAlgebra.Complex.FiniteDimensional
-import Mathlib.Topology.Compactness.Lindelof
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.MaximalRank
+public import Mathlib.Topology.MetricSpace.HausdorffDimension
+public import Mathlib.LinearAlgebra.Dimension.Free
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+public import Mathlib.Topology.Compactness.Lindelof
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Holomorphic Dimension -/
 

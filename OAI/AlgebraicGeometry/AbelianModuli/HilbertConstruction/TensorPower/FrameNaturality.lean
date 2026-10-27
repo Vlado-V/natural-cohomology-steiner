@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.ProductPullbacks
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.ProductPullbacks
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Naturality -/
 

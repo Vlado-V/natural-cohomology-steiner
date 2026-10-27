@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ZeroLocus
-import Mathlib.Analysis.Normed.Module.FiniteDimension
-import Mathlib.Data.Fin.Tuple.Basic
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ZeroLocus
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.Data.Fin.Tuple.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Analytic Set Operations -/
 

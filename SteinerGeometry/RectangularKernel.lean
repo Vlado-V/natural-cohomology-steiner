@@ -1,4 +1,9 @@
-import SteinerGeometry.RectangularLattice
+module
+
+public import SteinerGeometry.RectangularLattice
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

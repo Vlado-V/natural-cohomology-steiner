@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cartesian.ModuleTensorComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.CoverTensorComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cartesian.ModuleTensorComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.CoverTensorComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Finite Cover -/
 

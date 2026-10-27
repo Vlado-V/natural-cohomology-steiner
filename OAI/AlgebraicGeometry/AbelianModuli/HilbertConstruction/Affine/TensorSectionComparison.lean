@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionModules
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.FunctionsBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RingPushoutTensorComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionModules
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.FunctionsBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RingPushoutTensorComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Section Comparison -/
 

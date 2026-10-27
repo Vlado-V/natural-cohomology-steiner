@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.Signs
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.Signs
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Contraction -/
 

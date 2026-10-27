@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Flat.ProjectiveCoordinatePieces
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Flat.ProjectiveCoordinatePieces
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Homogeneous Chart Fractions -/
 

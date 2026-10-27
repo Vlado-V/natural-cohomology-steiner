@@ -1,5 +1,10 @@
-import SteinerGeometry.FrameMapCoefficient
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistMaps
+module
+
+public import SteinerGeometry.FrameMapCoefficient
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Transport a map of negative powers to the corresponding integer twists. -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.CanonicalDescentFrames
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FramedDescentMorphisms
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.UnitEndDescent
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.CanonicalDescentFrames
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FramedDescentMorphisms
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.UnitEndDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Framed Module Hom Descent -/
 

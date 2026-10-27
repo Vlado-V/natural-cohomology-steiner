@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroPolynomialChart
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroPolynomialChart
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Chart Coordinates -/
 

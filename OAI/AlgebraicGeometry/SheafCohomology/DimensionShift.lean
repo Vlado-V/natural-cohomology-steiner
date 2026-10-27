@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Exact
-import OAI.AlgebraicGeometry.SheafCohomology.Module
-import OAI.AlgebraicGeometry.SheafCohomology.AffineCoverMono
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Exact
+public import OAI.AlgebraicGeometry.SheafCohomology.Module
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineCoverMono
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dimension Shift -/
 

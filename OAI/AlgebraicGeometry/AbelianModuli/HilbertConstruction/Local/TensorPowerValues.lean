@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorPowerComposition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.RefinementNaturality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorPowerComposition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.RefinementNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Power Values -/
 

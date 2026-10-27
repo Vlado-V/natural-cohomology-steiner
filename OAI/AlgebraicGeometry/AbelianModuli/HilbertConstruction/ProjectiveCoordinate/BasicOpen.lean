@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.FractionBasicOpen
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveCoordinate.GlobalSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.FractionBasicOpen
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveCoordinate.GlobalSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Basic Open -/
 

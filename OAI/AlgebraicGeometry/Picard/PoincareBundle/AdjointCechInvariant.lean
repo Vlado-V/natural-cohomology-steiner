@@ -1,5 +1,10 @@
-import Mathlib.CategoryTheory.Adjunction.Unique
-import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
+module
+
+public import Mathlib.CategoryTheory.Adjunction.Unique
+public import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Adjoint Cech Invariant -/
 

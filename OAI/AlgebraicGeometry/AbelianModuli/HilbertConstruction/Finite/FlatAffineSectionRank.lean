@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.Morphisms.FlatRank
+module
+
+public import Mathlib.AlgebraicGeometry.Morphisms.FlatRank
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flat Affine Section Rank -/
 

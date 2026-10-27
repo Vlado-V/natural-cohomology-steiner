@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductCriterion
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductCriterion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Section Product Degree -/
 

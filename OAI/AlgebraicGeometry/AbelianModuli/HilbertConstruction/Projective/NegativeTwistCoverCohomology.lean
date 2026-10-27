@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechHomologyFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CechCoproductFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeTwistCover
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechHomologyFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CechCoproductFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeTwistCover
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Twist Cover Cohomology -/
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PushforwardZariskiComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.BaseCongruence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ZariskiCohomologyFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ImageType
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PushforwardZariskiComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.BaseCongruence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ZariskiCohomologyFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ImageType
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Zariski Finiteness -/
 

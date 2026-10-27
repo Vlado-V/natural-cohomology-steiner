@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleSheaf
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.InverseFrameTransitions
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.ProductSheaf
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleSheaf
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.InverseFrameTransitions
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.ProductSheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Reciprocal Frame Tensor Coordinates -/
 

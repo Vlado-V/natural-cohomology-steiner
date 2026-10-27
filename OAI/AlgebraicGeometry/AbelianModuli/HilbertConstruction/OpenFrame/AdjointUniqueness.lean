@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.AdjointRecovery
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.AdjointRecovery
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Adjoint Uniqueness -/
 

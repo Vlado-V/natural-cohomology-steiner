@@ -1,6 +1,11 @@
-import SteinerGeometry.CurveSectionFunctor
-import SteinerGeometry.CurveFrameNaturality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackUnits
+module
+
+public import SteinerGeometry.CurveSectionFunctor
+public import SteinerGeometry.CurveFrameNaturality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackUnits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

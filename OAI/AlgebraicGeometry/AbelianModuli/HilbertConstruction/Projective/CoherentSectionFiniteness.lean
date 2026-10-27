@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoherentCechFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.SectionFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.GlobalSectionsFunctor
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoherentCechFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.SectionFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.GlobalSectionsFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coherent Section Finiteness -/
 

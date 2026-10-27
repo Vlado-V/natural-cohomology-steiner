@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointCechInvariant
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointCechInvariant
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invariant Congr -/
 

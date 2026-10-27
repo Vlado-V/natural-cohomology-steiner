@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.AffineScheme
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Powers
+module
+
+public import Mathlib.AlgebraicGeometry.AffineScheme
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Powers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Bundles -/
 

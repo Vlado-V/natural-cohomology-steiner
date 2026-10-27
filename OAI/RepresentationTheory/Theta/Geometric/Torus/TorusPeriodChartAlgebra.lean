@@ -1,7 +1,12 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartSmoothness
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.Manifold
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ChartPeriodSmoothness
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartSmoothness
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.Manifold
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ChartPeriodSmoothness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Period Chart Algebra -/
 

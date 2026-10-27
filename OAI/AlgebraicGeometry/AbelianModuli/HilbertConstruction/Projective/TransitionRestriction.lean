@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SectionCover
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SectionCover
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Transition Restriction -/
 

@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Frobenius
-import Mathlib.AlgebraicGeometry.Morphisms.Integral
-import Mathlib.AlgebraicGeometry.Morphisms.UniversallyInjective
-import Mathlib.AlgebraicGeometry.Morphisms.Finite
-import Mathlib.AlgebraicGeometry.Morphisms.FinitePresentation
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Frobenius
+public import Mathlib.AlgebraicGeometry.Morphisms.Integral
+public import Mathlib.AlgebraicGeometry.Morphisms.UniversallyInjective
+public import Mathlib.AlgebraicGeometry.Morphisms.Finite
+public import Mathlib.AlgebraicGeometry.Morphisms.FinitePresentation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Properties -/
 

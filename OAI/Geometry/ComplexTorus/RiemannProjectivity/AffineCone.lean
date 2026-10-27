@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GraphRegular
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.SmoothReferencePoint
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GraphRegular
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.SmoothReferencePoint
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Cone -/
 

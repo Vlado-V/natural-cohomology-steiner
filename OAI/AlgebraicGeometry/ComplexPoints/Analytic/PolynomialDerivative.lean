@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialImplicit
-import Mathlib.Algebra.MvPolynomial.PDeriv
-import Mathlib.Analysis.Calculus.FDeriv.Pi
-import Mathlib.Analysis.Calculus.FDeriv.Mul
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialImplicit
+public import Mathlib.Algebra.MvPolynomial.PDeriv
+public import Mathlib.Analysis.Calculus.FDeriv.Pi
+public import Mathlib.Analysis.Calculus.FDeriv.Mul
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Derivative -/
 

@@ -1,6 +1,11 @@
-import SteinerGeometry.KernelNaturality
-import OAI.AlgebraicGeometry.SheafCohomology.AffineH
-import OAI.AlgebraicGeometry.SheafCohomology.Module
+module
+
+public import SteinerGeometry.KernelNaturality
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineH
+public import OAI.AlgebraicGeometry.SheafCohomology.Module
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Natural cohomology of actual scheme-module presentations
 These wrappers map an actual short exact sequence of scheme modules through

@@ -1,8 +1,13 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusFiniteConeFibers
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeInverse
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeSurjectivity
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusFiniteConeFibers
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeInverse
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeSurjectivity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Pointwise Regular Projection -/
 

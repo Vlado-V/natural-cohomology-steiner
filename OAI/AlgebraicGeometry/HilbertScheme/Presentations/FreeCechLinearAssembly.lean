@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.FreeModuleCechExactness
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.FreeModuleCechExactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Free Cech Linear Assembly -/
 

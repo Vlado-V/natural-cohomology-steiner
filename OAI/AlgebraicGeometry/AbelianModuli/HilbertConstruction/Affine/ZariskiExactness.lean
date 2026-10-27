@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.Cohomology
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentEpimorphisms
-import Mathlib.CategoryTheory.ObjectProperty.Kernels
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.Cohomology
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentEpimorphisms
+public import Mathlib.CategoryTheory.ObjectProperty.Kernels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zariski Exactness -/
 

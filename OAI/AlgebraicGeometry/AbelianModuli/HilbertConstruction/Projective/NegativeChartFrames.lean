@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.NegativePowerFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.PowerFrames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.NegativePowerFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.PowerFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Chart Frames -/
 

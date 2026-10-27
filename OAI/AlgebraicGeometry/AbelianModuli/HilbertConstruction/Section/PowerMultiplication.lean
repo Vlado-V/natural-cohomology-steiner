@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Maps
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Gluing
-import Mathlib.LinearAlgebra.Multilinear.Curry
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Maps
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Gluing
+public import Mathlib.LinearAlgebra.Multilinear.Curry
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Multiplication -/
 

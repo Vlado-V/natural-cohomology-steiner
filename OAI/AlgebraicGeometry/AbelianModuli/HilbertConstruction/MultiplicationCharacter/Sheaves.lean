@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Projectors
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CharacterEigenmaps
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrthogonalSheafDecomposition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheaf
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Projectors
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CharacterEigenmaps
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrthogonalSheafDecomposition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sheaves -/
 

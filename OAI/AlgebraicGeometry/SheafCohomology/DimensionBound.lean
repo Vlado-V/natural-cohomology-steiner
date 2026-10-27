@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.SupportDimensionDrop
-import Mathlib.Topology.KrullDimension
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SupportDimensionDrop
+public import Mathlib.Topology.KrullDimension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dimension Bound -/
 

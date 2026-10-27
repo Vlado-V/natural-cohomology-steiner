@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.FunctionCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.BaseChangeLabels
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.FunctionCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.BaseChangeLabels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Functions -/
 

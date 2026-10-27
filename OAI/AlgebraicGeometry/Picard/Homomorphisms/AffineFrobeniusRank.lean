@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.MvPolynomialRank
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Affine
-import Mathlib.AlgebraicGeometry.Morphisms.FlatRank
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.MvPolynomialRank
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Affine
+public import Mathlib.AlgebraicGeometry.Morphisms.FlatRank
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Frobenius Rank -/
 

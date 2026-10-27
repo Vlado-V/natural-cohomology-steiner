@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentExponentLocalization
-import Mathlib.Algebra.MonoidAlgebra.Module
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentExponentLocalization
+public import Mathlib.Algebra.MonoidAlgebra.Module
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Monomial Basis -/
 
@@ -73,8 +78,7 @@ theorem laurentMonomialRingEquiv_algebraMap_coeff (m : σ →₀ ℕ) (r : R) :
         algebraMap R (AddMonoidAlgebra R (LaurentExponentLocalization.MvPolynomial.laurentExponentSubmonoid m)) r := by
     change AddMonoidAlgebra.mapDomain (LaurentExponentLocalization.MvPolynomial.laurentExponentAwayMap m).toAddMonoidHom
       (AddMonoidAlgebra.single 0 r) = AddMonoidAlgebra.single 0 r
-    rw [AddMonoidAlgebra.mapDomain_single]
-    congr 1
+    rw [AddMonoidAlgebra.mapDomain_single, map_zero]
   rw [hsource]
   exact (laurentMonomialRingEquiv_algebraMap R m (MvPolynomial.C r)).trans htarget
 

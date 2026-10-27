@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Relative.PowerFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapPullbackCongruence
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Relative.PowerFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapPullbackCongruence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Bundle Frame Map Transport -/
 

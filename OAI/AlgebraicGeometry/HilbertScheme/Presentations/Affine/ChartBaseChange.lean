@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.ChartPresentation
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.BaseChange
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.ChartPresentation
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.BaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Base Change -/
 

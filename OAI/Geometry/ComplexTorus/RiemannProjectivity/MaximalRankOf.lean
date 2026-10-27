@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteRank
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteSubmersion
-import Mathlib.Data.Set.Finite.Lemmas
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteRank
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteSubmersion
+public import Mathlib.Data.Set.Finite.Lemmas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Maximal Rank Of -/
 

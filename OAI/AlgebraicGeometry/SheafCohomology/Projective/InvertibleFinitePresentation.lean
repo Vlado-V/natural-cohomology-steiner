@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Invertible
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.LocallyFree
-import Mathlib.CategoryTheory.Sites.Spaces
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Invertible
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.LocallyFree
+public import Mathlib.CategoryTheory.Sites.Spaces
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invertible Finite Presentation -/
 

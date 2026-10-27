@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineKernelCocycle
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.ScalarCharacters
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineKernelCocycle
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.ScalarCharacters
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Kernel Characters -/
 

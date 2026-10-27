@@ -1,4 +1,9 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.SmoothLocal
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.SmoothLocal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Kernel Quotient Local -/
 

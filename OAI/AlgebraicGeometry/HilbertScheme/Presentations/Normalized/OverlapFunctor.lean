@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Chart
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Chart
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap Functor -/
 

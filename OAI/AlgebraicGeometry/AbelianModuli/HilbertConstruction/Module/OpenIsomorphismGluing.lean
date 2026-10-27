@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenMapGluing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenMapGluing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Isomorphism Gluing -/
 

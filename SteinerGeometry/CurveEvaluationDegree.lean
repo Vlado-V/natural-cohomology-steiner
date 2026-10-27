@@ -1,6 +1,11 @@
-import SteinerGeometry.CyclicDegree
-import SteinerGeometry.EvaluationCohomology
-import SteinerGeometry.EllipticEulerCohomology
+module
+
+public import SteinerGeometry.CyclicDegree
+public import SteinerGeometry.EvaluationCohomology
+public import SteinerGeometry.EllipticEulerCohomology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Positive degree after imposing a point condition
 

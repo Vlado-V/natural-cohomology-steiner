@@ -1,6 +1,11 @@
-import Mathlib.Analysis.Complex.LocallyUniformLimit
-import Mathlib.Analysis.Calculus.ContDiff.FiniteDimension
-import Mathlib.Topology.UniformSpace.HeineCantor
+module
+
+public import Mathlib.Analysis.Complex.LocallyUniformLimit
+public import Mathlib.Analysis.Calculus.ContDiff.FiniteDimension
+public import Mathlib.Topology.UniformSpace.HeineCantor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Holomorphic Regularity At -/
 

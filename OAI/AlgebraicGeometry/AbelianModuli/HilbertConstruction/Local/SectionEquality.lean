@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.ImageSectionMaps
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoordinatesOnOpenSubschemes
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.ImageSectionMaps
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoordinatesOnOpenSubschemes
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Equality -/
 

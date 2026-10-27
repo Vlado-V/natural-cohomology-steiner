@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Canonical.CechCocycle
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.UnitCoaction
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Canonical.CechCocycle
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.UnitCoaction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Coaction -/
 

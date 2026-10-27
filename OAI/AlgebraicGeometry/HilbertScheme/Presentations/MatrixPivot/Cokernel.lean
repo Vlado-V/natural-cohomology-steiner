@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.SchurCokernel
-import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.SchurCokernel
+public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cokernel -/
 

@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import Mathlib.Algebra.Homology.Homotopy
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechTupleHomotopy
+public import Mathlib.Algebra.Homology.Homotopy
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechTupleHomotopy
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Cech Homotopy Equiv -/
 

@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechGlobalSections.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.CategoryTheory.Adjunction.Additive
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.Resolution
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.GlobalSectionsFunctor
+public import Mathlib.CategoryTheory.Adjunction.Additive
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.Resolution
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.GlobalSectionsFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Sections -/
 

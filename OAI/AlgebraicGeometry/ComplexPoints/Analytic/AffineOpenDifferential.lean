@@ -1,12 +1,17 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: fbcc4e42e831077bd9e0c96cf8b57aefebebbdf705e731a4525aad03e3a26144
 The packaged proof source is the local port; see OAI/PROVENANCE.json.
 -/
-import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicSmoothSchemeMaps
-import Mathlib.Geometry.Manifold.MFDeriv.Atlas
-import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+public import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicSmoothSchemeMaps
+public import Mathlib.Geometry.Manifold.MFDeriv.Atlas
+public import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Open Differential -/
 

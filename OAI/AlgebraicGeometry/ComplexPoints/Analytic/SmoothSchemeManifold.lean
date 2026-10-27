@@ -1,11 +1,16 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.Affine
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.FiniteTypeAffineTopology
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothAffineCharts
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.OpenImmersion
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothDomainDimension
-import OAI.AlgebraicGeometry.Foundations.Scheme.PresentationDimension
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Geometry.Manifold.IsManifold.Basic
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.Affine
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.FiniteTypeAffineTopology
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothAffineCharts
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.OpenImmersion
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothDomainDimension
+public import OAI.AlgebraicGeometry.Foundations.Scheme.PresentationDimension
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Geometry.Manifold.IsManifold.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Scheme Manifold -/
 

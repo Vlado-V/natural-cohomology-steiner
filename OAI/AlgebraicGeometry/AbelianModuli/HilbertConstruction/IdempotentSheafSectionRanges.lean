@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IdempotentSheafSummands
-import Mathlib.Algebra.Module.Submodule.Equiv
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IdempotentSheafSummands
+public import Mathlib.Algebra.Module.Submodule.Equiv
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Idempotent Sheaf Section Ranges -/
 

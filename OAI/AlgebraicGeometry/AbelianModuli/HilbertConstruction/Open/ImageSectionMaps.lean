@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SectionsOnOpenImages
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.FrameTransport
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SectionsOnOpenImages
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.FrameTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Image Section Maps -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineKernelCharacters
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FramedDescentComparison
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FrobeniusKernelBaseChange
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineKernelCharacters
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FramedDescentComparison
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FrobeniusKernelBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Character Detection -/
 

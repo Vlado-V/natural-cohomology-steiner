@@ -1,8 +1,13 @@
-import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
-import Mathlib.Algebra.Module.Hom
-import Mathlib.RingTheory.Ideal.Maps
-import Mathlib.RingTheory.Ideal.Operations
-import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
+public import Mathlib.Algebra.Module.Hom
+public import Mathlib.RingTheory.Ideal.Maps
+public import Mathlib.RingTheory.Ideal.Operations
+public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Descent -/
 

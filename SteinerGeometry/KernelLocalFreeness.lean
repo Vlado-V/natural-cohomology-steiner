@@ -1,9 +1,14 @@
-import Mathlib.AlgebraicGeometry.Modules.Tilde
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.LocallyFree
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
-import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
-import Mathlib.CategoryTheory.Sites.Spaces
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.LocallyFree
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+public import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
+public import Mathlib.CategoryTheory.Sites.Spaces
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Locally free kernels from actual local split frames
 A map locally conjugate to a projection onto a free direct summand has a

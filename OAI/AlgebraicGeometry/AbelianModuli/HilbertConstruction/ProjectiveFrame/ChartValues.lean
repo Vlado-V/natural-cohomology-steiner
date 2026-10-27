@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveFrame.Transitions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveFrame.Transitions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Values -/
 

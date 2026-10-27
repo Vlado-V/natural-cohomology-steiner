@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.TupleRestrictions
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.PulledBackFrameTransitions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.TupleRestrictions
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.PulledBackFrameTransitions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Tuples -/
 

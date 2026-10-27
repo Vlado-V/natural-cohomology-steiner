@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalLifts
-import Mathlib.Geometry.RingedSpace.SheafedSpace
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalLifts
+public import Mathlib.Geometry.RingedSpace.SheafedSpace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Detection Of -/
 

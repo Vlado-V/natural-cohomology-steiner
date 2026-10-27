@@ -1,5 +1,10 @@
-import SteinerGeometry.EulerDegree
-import SteinerGeometry.TorsionLineClasses
+module
+
+public import SteinerGeometry.EulerDegree
+public import SteinerGeometry.TorsionLineClasses
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! A genuine nontrivial degree-zero reference line for the elliptic argument. -/
 noncomputable section

@@ -1,4 +1,9 @@
-import SteinerGeometry.DualAffinePresentation
+module
+
+public import SteinerGeometry.DualAffinePresentation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Actual local splitting of the dual evaluation from a locally split presentation. -/
 noncomputable section

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineCharacterDetection
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineCharacterDetection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Character Independence -/
 

@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.Adjunction.Unique
+module
+
+public import Mathlib.CategoryTheory.Adjunction.Unique
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Change Of Left Adjoint -/
 

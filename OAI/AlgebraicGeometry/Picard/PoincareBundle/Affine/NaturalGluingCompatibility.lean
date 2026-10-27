@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.GluingMorphismTransfer
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.NaturalGluingCompatibility
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.GluingMorphismTransfer
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.NaturalGluingCompatibility
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Natural Gluing Compatibility -/
 

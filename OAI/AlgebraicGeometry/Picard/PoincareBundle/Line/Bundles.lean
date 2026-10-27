@@ -1,7 +1,12 @@
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.PullbackFree
-import Mathlib.CategoryTheory.Limits.Final
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.PullbackFree
+public import Mathlib.CategoryTheory.Limits.Final
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Terminal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Bundles -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NonnegativeLaurentPolynomials
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentWeight
-import Mathlib.Algebra.MonoidAlgebra.MapDomain
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NonnegativeLaurentPolynomials
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentWeight
+public import Mathlib.Algebra.MonoidAlgebra.MapDomain
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Chart Map -/
 

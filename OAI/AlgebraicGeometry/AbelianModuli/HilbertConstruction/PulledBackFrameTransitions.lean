@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.PulledBackFrameUnits
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.PulledBackFrameUnits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pulled Back Frame Transitions -/
 

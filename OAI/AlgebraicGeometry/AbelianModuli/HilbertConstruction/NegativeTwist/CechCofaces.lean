@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechFactorRestriction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechFactorRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Cofaces -/
 

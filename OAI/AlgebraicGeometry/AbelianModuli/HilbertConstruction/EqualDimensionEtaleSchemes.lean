@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Common.SmoothBaseCharts
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.DimensionEtaleRingMaps
-import Mathlib.AlgebraicGeometry.Morphisms.Etale
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Common.SmoothBaseCharts
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.DimensionEtaleRingMaps
+public import Mathlib.AlgebraicGeometry.Morphisms.Etale
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Equal Dimension Etale Schemes -/
 

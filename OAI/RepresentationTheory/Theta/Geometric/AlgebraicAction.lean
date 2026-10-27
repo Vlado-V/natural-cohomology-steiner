@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveGraph
-import OAI.AlgebraicGeometry.AbelianScheme.TateComparison.BaseChange
-import OAI.AlgebraicGeometry.Albanese.Construction.ClosedPoints
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveGraph
+public import OAI.AlgebraicGeometry.AbelianScheme.TateComparison.BaseChange
+public import OAI.AlgebraicGeometry.Albanese.Construction.ClosedPoints
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Algebraic Action -/
 

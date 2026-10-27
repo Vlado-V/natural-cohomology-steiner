@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Regular.CharacterProjectors
-import Mathlib.Algebra.Algebra.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Regular.CharacterProjectors
+public import Mathlib.Algebra.Algebra.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Translation Representation -/
 

@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.Morphisms.FormallyUnramified
+module
+
+public import Mathlib.AlgebraicGeometry.Morphisms.FormallyUnramified
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Unramified Sections -/
 

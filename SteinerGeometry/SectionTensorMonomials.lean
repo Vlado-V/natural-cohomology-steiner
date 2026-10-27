@@ -1,8 +1,13 @@
-import SteinerGeometry.SectionContractionCategory
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Bifunctor
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackUnits
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.LineBundles
-import Mathlib.Data.Vector.Basic
+module
+
+public import SteinerGeometry.SectionContractionCategory
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Bifunctor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackUnits
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.LineBundles
+public import Mathlib.Data.Vector.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Genuine multilinear monomial morphisms from tensor products of line factors. -/
 noncomputable section

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Maps
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Maps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exact Sequences -/
 

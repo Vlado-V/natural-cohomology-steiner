@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Homology.DerivedCategory.Ext.MapBijective
-import Mathlib.CategoryTheory.Adjunction.Additive
+module
+
+public import Mathlib.Algebra.Homology.DerivedCategory.Ext.MapBijective
+public import Mathlib.CategoryTheory.Adjunction.Additive
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ext Adjunction -/
 

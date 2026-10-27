@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.SheafCohomology.ClosedImmersionCohomology
-import OAI.AlgebraicGeometry.SheafCohomology.ConstantFlasque
-import OAI.AlgebraicGeometry.SheafCohomology.FinitelyGeneratedVanishing
-import OAI.AlgebraicGeometry.SheafCohomology.FlasqueVanishing
-import OAI.AlgebraicGeometry.SheafCohomology.TopologicalKrullDim
-import OAI.AlgebraicGeometry.SheafCohomology.ZeroOutside
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.ClosedImmersionCohomology
+public import OAI.AlgebraicGeometry.SheafCohomology.ConstantFlasque
+public import OAI.AlgebraicGeometry.SheafCohomology.FinitelyGeneratedVanishing
+public import OAI.AlgebraicGeometry.SheafCohomology.FlasqueVanishing
+public import OAI.AlgebraicGeometry.SheafCohomology.TopologicalKrullDim
+public import OAI.AlgebraicGeometry.SheafCohomology.ZeroOutside
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Irreducible Step -/
 

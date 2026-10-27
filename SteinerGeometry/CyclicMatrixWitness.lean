@@ -1,7 +1,12 @@
-import SteinerGeometry.CurveMatrixWitness
-import SteinerGeometry.CyclicContractionVanishing
-import SteinerGeometry.CyclicComplexBase
-import SteinerGeometry.LineEpimorphismCover
+module
+
+public import SteinerGeometry.CurveMatrixWitness
+public import SteinerGeometry.CyclicContractionVanishing
+public import SteinerGeometry.CyclicComplexBase
+public import SteinerGeometry.LineEpimorphismCover
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Actual cyclic-cover line vanishing supplies one maximal-rank Steiner matrix. -/
 noncomputable section

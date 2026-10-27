@@ -1,12 +1,17 @@
-import SteinerGeometry.CyclicMatrixWitness
-import SteinerGeometry.CyclicCurvePresentation
-import SteinerGeometry.CurvePushforwardEvaluation
-import SteinerGeometry.PresentationEuler
-import SteinerGeometry.TorsionReferenceLine
-import SteinerGeometry.TorsionLineChoice
-import SteinerGeometry.EllipticFamilyVanishing
-import SteinerGeometry.CyclicMonomialDegree
-import Steiner.CriticalGap
+module
+
+public import SteinerGeometry.CyclicMatrixWitness
+public import SteinerGeometry.CyclicCurvePresentation
+public import SteinerGeometry.CurvePushforwardEvaluation
+public import SteinerGeometry.PresentationEuler
+public import SteinerGeometry.TorsionReferenceLine
+public import SteinerGeometry.TorsionLineChoice
+public import SteinerGeometry.EllipticFamilyVanishing
+public import SteinerGeometry.CyclicMonomialDegree
+public import Steiner.CriticalGap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Assembly of the elliptic matrix from actual line bundles and the finite
 critical-degree exclusion. The rectangular construction supplies the curve

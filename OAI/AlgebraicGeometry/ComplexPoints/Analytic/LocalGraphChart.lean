@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialImplicit
-import Mathlib.Topology.OpenPartialHomeomorph.Basic
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialImplicit
+public import Mathlib.Topology.OpenPartialHomeomorph.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Graph Chart -/
 

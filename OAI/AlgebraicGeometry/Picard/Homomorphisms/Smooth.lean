@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.ChangeBase
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.RingTheory.RingHom.StandardSmooth
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.ChangeBase
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.RingTheory.RingHom.StandardSmooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth -/
 

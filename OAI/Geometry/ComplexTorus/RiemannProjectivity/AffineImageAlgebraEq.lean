@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ChartPeriodSmoothness
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineSchemeComplexPoints
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineClosedImmersion
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ChartPeriodSmoothness
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineSchemeComplexPoints
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineClosedImmersion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Image Algebra Eq -/
 

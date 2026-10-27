@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.PullbackCarrier
-import Mathlib.CategoryTheory.Comma.Over.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.PullbackCarrier
+public import Mathlib.CategoryTheory.Comma.Over.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sections -/
 

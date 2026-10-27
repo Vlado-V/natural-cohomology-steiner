@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.PowerFrameChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.PowerFrameRestrictions
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.PairCompatibility
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.PowerFrameChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.PowerFrameRestrictions
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.PairCompatibility
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Pair Agreement -/
 

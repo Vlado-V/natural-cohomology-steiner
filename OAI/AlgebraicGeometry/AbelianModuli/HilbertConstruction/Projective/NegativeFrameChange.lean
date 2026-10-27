@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeFrameRestrictions
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.PowerFrameChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeFrameRestrictions
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.PowerFrameChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Frame Change -/
 

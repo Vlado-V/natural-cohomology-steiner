@@ -1,8 +1,13 @@
-import Mathlib.Algebra.Module.ZLattice.Basic
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.LinearAlgebra.Complex.FiniteDimensional
-import Mathlib.Order.Interval.Set.Infinite
-import Mathlib.Tactic
+module
+
+public import Mathlib.Algebra.Module.ZLattice.Basic
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+public import Mathlib.Order.Interval.Set.Infinite
+public import Mathlib.Tactic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

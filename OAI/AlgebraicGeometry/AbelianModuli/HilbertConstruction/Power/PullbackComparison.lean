@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Maps
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultilinearRestriction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Maps
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultilinearRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Comparison -/
 

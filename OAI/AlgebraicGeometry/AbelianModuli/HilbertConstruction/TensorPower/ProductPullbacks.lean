@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.FrameComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionTransitions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.FrameComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionTransitions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Product Pullbacks -/
 

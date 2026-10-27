@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.ChartSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CechIntersectionCoordinates
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Terms
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.ChartSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CechIntersectionCoordinates
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Terms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Term Equivalence -/
 

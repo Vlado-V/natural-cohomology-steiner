@@ -1,5 +1,10 @@
-import SteinerGeometry.PointLineBundle
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.UnitLeftNaturality
+module
+
+public import SteinerGeometry.PointLineBundle
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.UnitLeftNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 

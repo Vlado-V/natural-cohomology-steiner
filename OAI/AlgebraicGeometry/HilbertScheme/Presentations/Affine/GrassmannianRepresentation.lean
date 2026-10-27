@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.PointQuotient
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Quotient.ClassifyingNaturality
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.PointQuotient
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Quotient.ClassifyingNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Grassmannian Representation -/
 

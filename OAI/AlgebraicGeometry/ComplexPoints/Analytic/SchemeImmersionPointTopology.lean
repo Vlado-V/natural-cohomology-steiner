@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.OpenImmersion
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeClosed
-import OAI.AlgebraicGeometry.Foundations.Scheme.ImmersionComplexPoints
-import Mathlib.AlgebraicGeometry.Morphisms.Immersion
-import Mathlib.Topology.LocallyClosed
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.OpenImmersion
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeClosed
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ImmersionComplexPoints
+public import Mathlib.AlgebraicGeometry.Morphisms.Immersion
+public import Mathlib.Topology.LocallyClosed
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme Immersion Point Topology -/
 

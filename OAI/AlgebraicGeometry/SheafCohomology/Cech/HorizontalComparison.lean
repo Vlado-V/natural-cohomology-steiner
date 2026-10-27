@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.FlasqueExact
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveComparison
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatComparison
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.FlasqueExact
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveComparison
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Horizontal Comparison -/
 

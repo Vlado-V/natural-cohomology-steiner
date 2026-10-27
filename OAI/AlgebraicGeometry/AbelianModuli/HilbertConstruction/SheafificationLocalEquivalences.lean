@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import Mathlib.Algebra.Category.ModuleCat.Presheaf.Monoidal
-import Mathlib.Algebra.Category.ModuleCat.Presheaf.Sheafification
-import Mathlib.CategoryTheory.Localization.Monoidal.Basic
+public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Monoidal
+public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Sheafification
+public import Mathlib.CategoryTheory.Localization.Monoidal.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sheafification Local Equivalences -/
 

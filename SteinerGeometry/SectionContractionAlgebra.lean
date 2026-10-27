@@ -1,4 +1,9 @@
-import Steiner.OperatorDuality
+module
+
+public import Steiner.OperatorDuality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Triangular surjectivity of the actual coefficient differential. -/
 

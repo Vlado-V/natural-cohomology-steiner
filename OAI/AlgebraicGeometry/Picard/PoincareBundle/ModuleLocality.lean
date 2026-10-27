@@ -1,6 +1,11 @@
-import Mathlib.AlgebraicGeometry.Modules.Tilde
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
-import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+public import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Locality -/
 

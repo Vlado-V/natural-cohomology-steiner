@@ -1,5 +1,10 @@
-import SteinerGeometry.PolynomialWordExpansion
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
+module
+
+public import SteinerGeometry.PolynomialWordExpansion
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The universal monomial maps are annihilated by contraction on decomposable sections. -/
 noncomputable section

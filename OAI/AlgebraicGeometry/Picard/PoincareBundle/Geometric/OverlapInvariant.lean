@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.OverlapInvariant
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.AdjunctionInvariant
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.InvariantCongr
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.OverlapImage
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.OverlapGluing
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.IsoDescent
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.OverlapInvariant
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.AdjunctionInvariant
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.InvariantCongr
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.OverlapImage
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.OverlapGluing
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.IsoDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap Invariant -/
 

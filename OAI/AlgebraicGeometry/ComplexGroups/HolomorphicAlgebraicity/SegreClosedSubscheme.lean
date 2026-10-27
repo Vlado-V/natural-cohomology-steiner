@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AffineFactoring
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreRegularEquations
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AffineFactoring
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreRegularEquations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Segre Closed Subscheme -/
 

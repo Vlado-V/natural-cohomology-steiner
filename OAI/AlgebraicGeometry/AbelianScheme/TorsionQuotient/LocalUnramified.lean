@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalDetectionOf
-import Mathlib.AlgebraicGeometry.Morphisms.FormallyUnramified
-import Mathlib.RingTheory.Ideal.Quotient.Operations
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalDetectionOf
+public import Mathlib.AlgebraicGeometry.Morphisms.FormallyUnramified
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Unramified -/
 

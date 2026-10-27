@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.InfinitesimalRootsIn
-import Mathlib.RingTheory.LocalRing.RingHom.Basic
-import Mathlib.RingTheory.Nilpotent.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.InfinitesimalRootsIn
+public import Mathlib.RingTheory.LocalRing.RingHom.Basic
+public import Mathlib.RingTheory.Nilpotent.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Square Zero -/
 

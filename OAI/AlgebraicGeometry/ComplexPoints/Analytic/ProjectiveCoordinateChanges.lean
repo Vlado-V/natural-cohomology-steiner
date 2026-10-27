@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCompactness
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveZeroLocus
-import Mathlib.Topology.Algebra.Module.Equiv
-import Mathlib.Topology.ContinuousMap.Basic
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCompactness
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveZeroLocus
+public import Mathlib.Topology.Algebra.Module.Equiv
+public import Mathlib.Topology.ContinuousMap.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Coordinate Changes -/
 

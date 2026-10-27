@@ -1,5 +1,10 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.Hom
-import OAI.RepresentationTheory.Theta.Geometric.CMIsogenies
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.Hom
+public import OAI.RepresentationTheory.Theta.Geometric.CMIsogenies
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Isogeny -/
 

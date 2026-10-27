@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatNormalize
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.UpNatHorizontalEdge
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatNormalize
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.UpNatHorizontalEdge
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Complex Up Nat Row -/
 

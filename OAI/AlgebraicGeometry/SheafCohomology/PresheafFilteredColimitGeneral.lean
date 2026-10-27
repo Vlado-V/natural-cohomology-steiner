@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.API
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.API
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presheaf Filtered Colimit General -/
 

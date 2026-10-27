@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Group.TypeTags.Hom
-import Mathlib.Data.ZMod.Basic
+module
+
+public import Mathlib.Algebra.Group.TypeTags.Hom
+public import Mathlib.Data.ZMod.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

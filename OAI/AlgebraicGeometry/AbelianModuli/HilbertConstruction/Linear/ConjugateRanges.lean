@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Module.Submodule.Equiv
-import Mathlib.Algebra.Module.Equiv.Basic
+module
+
+public import Mathlib.Algebra.Module.Submodule.Equiv
+public import Mathlib.Algebra.Module.Equiv.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Conjugate Ranges -/
 

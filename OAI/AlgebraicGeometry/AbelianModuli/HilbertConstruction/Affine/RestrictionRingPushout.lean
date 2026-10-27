@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.Morphisms.Flat
+module
+
+public import Mathlib.AlgebraicGeometry.Morphisms.Flat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restriction Ring Pushout -/
 

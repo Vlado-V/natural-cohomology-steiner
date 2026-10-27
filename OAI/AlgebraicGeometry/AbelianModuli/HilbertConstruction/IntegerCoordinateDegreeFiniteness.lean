@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Coordinate.IntegerQuotient
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Coordinate.IntegerQuotient
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Integer Coordinate Degree Finiteness -/
 

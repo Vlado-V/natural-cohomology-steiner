@@ -1,4 +1,9 @@
-import SteinerGeometry.RectangularIsogeny
+module
+
+public import SteinerGeometry.RectangularIsogeny
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

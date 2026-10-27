@@ -1,7 +1,12 @@
-import SteinerGeometry.CurveBundleRankLocus
-import SteinerGeometry.CurveRationalPoints
-import SteinerGeometry.CurveSectionEvaluation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.Sections
+module
+
+public import SteinerGeometry.CurveBundleRankLocus
+public import SteinerGeometry.CurveRationalPoints
+public import SteinerGeometry.CurveSectionEvaluation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.Sections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Fixed rank-plus-one generating tuples on integral algebraic curves. -/
 

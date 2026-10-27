@@ -1,15 +1,20 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import Mathlib.Algebra.Homology.HomologySequenceLemmas
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositiveTwistEquivalence
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositiveTwistTensorCech
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ShiftedQuotient
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechExact
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleFinitePresentation
+public import Mathlib.Algebra.Homology.HomologySequenceLemmas
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositiveTwistEquivalence
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositiveTwistTensorCech
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ShiftedQuotient
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechExact
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleFinitePresentation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Serre Vanishing -/
 

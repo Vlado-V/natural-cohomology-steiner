@@ -1,13 +1,18 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoordinateExtensions
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentWeight
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ToSpecZero
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCech
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoordinateExtensions
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentWeight
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ToSpecZero
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCech
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Standard Cech -/
 

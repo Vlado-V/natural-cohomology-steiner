@@ -1,10 +1,15 @@
-import Mathlib.Analysis.Complex.Liouville
-import Mathlib.Analysis.Complex.TaylorSeries
-import Mathlib.Algebra.Polynomial.BigOperators
-import Mathlib.Topology.Algebra.Order.Field
-import Mathlib.LinearAlgebra.Lagrange
-import Mathlib.Algebra.MvPolynomial.Equiv
-import Mathlib.Analysis.Calculus.FDeriv.Prod
+module
+
+public import Mathlib.Analysis.Complex.Liouville
+public import Mathlib.Analysis.Complex.TaylorSeries
+public import Mathlib.Algebra.Polynomial.BigOperators
+public import Mathlib.Topology.Algebra.Order.Field
+public import Mathlib.LinearAlgebra.Lagrange
+public import Mathlib.Algebra.MvPolynomial.Equiv
+public import Mathlib.Analysis.Calculus.FDeriv.Prod
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Growth -/
 

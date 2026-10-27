@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.TupleRestrictions
-import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.TupleRestrictions
+public import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tuple Sheaf -/
 

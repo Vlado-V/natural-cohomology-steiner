@@ -1,5 +1,10 @@
-import SteinerGeometry.SectionTensorKernelGlobal
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Biproducts
+module
+
+public import SteinerGeometry.SectionTensorKernelGlobal
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Biproducts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Explicit restriction compatibility of the monomial construction. -/
 noncomputable section

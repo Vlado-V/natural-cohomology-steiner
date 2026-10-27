@@ -1,6 +1,11 @@
-import SteinerGeometry.OperatorCohomology
-import Steiner.SectionMultiplication
-import Steiner.ScalarExtension
+module
+
+public import SteinerGeometry.OperatorCohomology
+public import Steiner.SectionMultiplication
+public import Steiner.ScalarExtension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The final linear-algebra interface of the elliptic-curve construction.
 The hypotheses concern actual line bundles, their sections, and their

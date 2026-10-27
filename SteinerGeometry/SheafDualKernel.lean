@@ -1,6 +1,11 @@
-import SteinerGeometry.SheafDual
-import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Kernels
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
+module
+
+public import SteinerGeometry.SheafDual
+public import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Kernels
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual sheaf dual takes cokernels to kernels. -/
 

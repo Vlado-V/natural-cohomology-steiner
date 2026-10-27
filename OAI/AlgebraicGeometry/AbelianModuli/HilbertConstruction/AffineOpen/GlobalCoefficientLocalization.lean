@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.QuasicoherentLocalization
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.RingModulePresheaf
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.QuasicoherentLocalization
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.RingModulePresheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Coefficient Localization -/
 

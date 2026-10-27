@@ -1,4 +1,9 @@
-import SteinerGeometry.SheafLocalFreeTransport
+module
+
+public import SteinerGeometry.SheafLocalFreeTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Gluing local freeness across an open cover -/
 noncomputable section

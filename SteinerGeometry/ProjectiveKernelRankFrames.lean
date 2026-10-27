@@ -1,7 +1,12 @@
-import SteinerGeometry.ProjectiveKernelBundle
-import SteinerGeometry.PrescribedRankFrames
-import SteinerGeometry.KernelSectionRank
-import SteinerGeometry.FiniteDualFrames
+module
+
+public import SteinerGeometry.ProjectiveKernelBundle
+public import SteinerGeometry.PrescribedRankFrames
+public import SteinerGeometry.KernelSectionRank
+public import SteinerGeometry.FiniteDualFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Kernels of finite sums of projective twists have the expected finite-rank frames. -/
 noncomputable section

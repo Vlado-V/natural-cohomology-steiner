@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineSectionFiniteType
-import OAI.AlgebraicGeometry.Foundations.Scheme.StrictTranscendenceDrop
-import OAI.AlgebraicGeometry.Foundations.Scheme.SupportDimension
-import OAI.AlgebraicGeometry.Foundations.Scheme.SupportAffineInclusion
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineSectionFiniteType
+public import OAI.AlgebraicGeometry.Foundations.Scheme.StrictTranscendenceDrop
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SupportDimension
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SupportAffineInclusion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Support Dimension Drop -/
 

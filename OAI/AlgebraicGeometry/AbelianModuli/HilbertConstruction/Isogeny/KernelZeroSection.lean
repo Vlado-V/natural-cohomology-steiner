@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogeny.KernelScheme
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.UnramifiedSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogeny.KernelScheme
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.UnramifiedSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Zero Section -/
 

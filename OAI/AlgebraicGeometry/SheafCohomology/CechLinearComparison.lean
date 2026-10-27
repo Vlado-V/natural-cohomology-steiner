@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.CechScalars
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.CechScalars
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Linear Comparison -/
 

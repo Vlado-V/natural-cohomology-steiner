@@ -1,4 +1,9 @@
-import Mathlib.LinearAlgebra.ExteriorPower.Basis
+module
+
+public import Mathlib.LinearAlgebra.ExteriorPower.Basis
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exterior Basis Permutation -/
 

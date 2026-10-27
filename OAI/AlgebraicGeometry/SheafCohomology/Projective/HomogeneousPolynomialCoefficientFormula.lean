@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NonnegativeLaurentPolynomials
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NonnegativeLaurentPolynomials
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Homogeneous Polynomial Coefficient Formula -/
 

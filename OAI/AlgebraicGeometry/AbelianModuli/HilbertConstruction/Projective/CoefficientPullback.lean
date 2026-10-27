@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Polynomial.ProjectiveCoefficients
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Polynomial.ProjectiveCoefficients
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Pullback -/
 

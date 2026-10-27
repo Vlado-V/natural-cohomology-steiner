@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.MapRecovery
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.BasisIsomorphisms
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.MapRecovery
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.BasisIsomorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Map Gluing -/
 

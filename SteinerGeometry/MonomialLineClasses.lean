@@ -1,5 +1,10 @@
-import SteinerGeometry.LineClassArithmetic
-import SteinerGeometry.SectionTensorMonomials
+module
+
+public import SteinerGeometry.LineClassArithmetic
+public import SteinerGeometry.SectionTensorMonomials
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Class arithmetic for the actual monomial lines in the symmetric kernel. -/
 noncomputable section

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.FiniteSubsets
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.FiniteSubsets
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Lifted Indices -/
 

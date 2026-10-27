@@ -1,10 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoordinateExtensions
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoordinateExtensions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coordinate Compatible Extensions -/
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.ZeroInjection
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.FinitenessProperty
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Noetherian.FiniteExact
-import Mathlib.CategoryTheory.ObjectProperty.Extensions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.ZeroInjection
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.FinitenessProperty
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Noetherian.FiniteExact
+public import Mathlib.CategoryTheory.ObjectProperty.Extensions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exact Finiteness -/
 

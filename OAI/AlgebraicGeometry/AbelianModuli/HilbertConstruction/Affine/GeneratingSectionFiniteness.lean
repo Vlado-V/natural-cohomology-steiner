@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.FreeSheafSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentEpimorphisms
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.LocallyFree
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.FreeSheafSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentEpimorphisms
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.LocallyFree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generating Section Finiteness -/
 

@@ -1,7 +1,12 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodManifoldImmersion
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ManifoldProjective
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveCoordinatesM
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodManifoldImmersion
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ManifoldProjective
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveCoordinatesM
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Intrinsic Period Comparison -/
 

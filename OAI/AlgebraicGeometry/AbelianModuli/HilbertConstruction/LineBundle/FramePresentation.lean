@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.IsoValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NaturalSheaf
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.FrameRecognition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FromOpenFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.InverseFrameTransitions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.IsoValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NaturalSheaf
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.FrameRecognition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FromOpenFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.InverseFrameTransitions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Presentation -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogeny.BaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TorsionScheme
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogeny.BaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TorsionScheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Scheme -/
 

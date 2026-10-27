@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SchemeModuleQuasicoherent.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.AlgebraicGeometry.Modules.Tilde
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Sections -/
 

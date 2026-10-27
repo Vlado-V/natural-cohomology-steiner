@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.OddSignSwitch
-import OAI.AlgebraicGeometry.ComplexMultiplication.EmbeddingHodgeType
-import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.OddSignSwitch
+public import OAI.AlgebraicGeometry.ComplexMultiplication.EmbeddingHodgeType
+public import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Type Hodge Structure -/
 

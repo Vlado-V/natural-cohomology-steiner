@@ -1,6 +1,11 @@
-import SteinerGeometry.NativeCohomology
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CohomologyEulerCharacteristic
-import OAI.AlgebraicGeometry.SheafCohomology.VanishingGrothendieckVanishing
+module
+
+public import SteinerGeometry.NativeCohomology
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CohomologyEulerCharacteristic
+public import OAI.AlgebraicGeometry.SheafCohomology.VanishingGrothendieckVanishing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry.EllipticCohomology

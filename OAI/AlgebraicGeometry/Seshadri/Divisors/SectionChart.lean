@@ -1,6 +1,11 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Projective.ClosedEmbedding
-import OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneSection
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Projective.ClosedEmbedding
+public import OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneSection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

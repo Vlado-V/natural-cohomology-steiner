@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.DescentEquations
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.DescentEquations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Cocycle -/
 

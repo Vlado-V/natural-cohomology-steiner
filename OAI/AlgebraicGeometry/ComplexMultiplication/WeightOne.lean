@@ -1,8 +1,13 @@
-import Mathlib.LinearAlgebra.Complex.Module
-import Mathlib.LinearAlgebra.TensorProduct.Tower
-import Mathlib.LinearAlgebra.FiniteDimensional.Defs
-import Mathlib.LinearAlgebra.Dimension.Free
-import Mathlib.NumberTheory.NumberField.CMField
+module
+
+public import Mathlib.LinearAlgebra.Complex.Module
+public import Mathlib.LinearAlgebra.TensorProduct.Tower
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.LinearAlgebra.Dimension.Free
+public import Mathlib.NumberTheory.NumberField.CMField
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Weight One -/
 

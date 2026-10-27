@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.InvariantObjectChange
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechInvariant
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.InvariantObjectChange
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechInvariant
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Object Change -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveZeroLocus
-import Mathlib.Topology.Bases
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCoordinateChanges
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveZeroLocus
+public import Mathlib.Topology.Bases
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCoordinateChanges
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Countability -/
 

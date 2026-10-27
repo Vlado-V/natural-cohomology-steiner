@@ -1,8 +1,13 @@
-import Mathlib.RingTheory.MvPolynomial.Symmetric.NewtonIdentities
-import Mathlib.RingTheory.Polynomial.Vieta
-import Mathlib.Analysis.Calculus.FDeriv.Add
-import Mathlib.Analysis.Calculus.FDeriv.Mul
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import Mathlib.RingTheory.MvPolynomial.Symmetric.NewtonIdentities
+public import Mathlib.RingTheory.Polynomial.Vieta
+public import Mathlib.Analysis.Calculus.FDeriv.Add
+public import Mathlib.Analysis.Calculus.FDeriv.Mul
+public import Mathlib.Analysis.Complex.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Symmetric Roots On -/
 

@@ -1,7 +1,12 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeTangentF
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeProjection
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteBranchesAt
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeTangentF
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeProjection
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteBranchesAt
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Regular Cone -/
 

@@ -1,6 +1,11 @@
-import OAI.ArithmeticGeometry.OrdinaryLocus.Openness.Rigidity
-import OAI.ArithmeticGeometry.OrdinaryLocus.Openness.SmoothReduced
-import OAI.AlgebraicGeometry.Quotients.FiniteDescent.GroupIrreducibleOf
+module
+
+public import OAI.ArithmeticGeometry.OrdinaryLocus.Openness.Rigidity
+public import OAI.ArithmeticGeometry.OrdinaryLocus.Openness.SmoothReduced
+public import OAI.AlgebraicGeometry.Quotients.FiniteDescent.GroupIrreducibleOf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Group Rigidity -/
 

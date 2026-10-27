@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SectionsProjectiveMorphism
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Scalar.Nonvanishing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SectionsProjectiveMorphism
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Scalar.Nonvanishing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Preimages -/
 

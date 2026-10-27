@@ -1,10 +1,15 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: c9c75db264e428ee66c8f1022bb5b40d3f1e8bfbb883821b79ea698783e487a9
 The packaged proof source is the local port; see OAI/PROVENANCE.json.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntrinsicCech.SheafSectionCoordinates
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntrinsicCech.SheafSectionCoordinates
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flasque Cech Sheaf Terms -/
 

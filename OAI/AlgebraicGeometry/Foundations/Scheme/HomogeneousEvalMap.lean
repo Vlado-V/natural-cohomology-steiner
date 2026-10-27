@@ -1,4 +1,9 @@
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
+module
+
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Homogeneous Eval Map -/
 

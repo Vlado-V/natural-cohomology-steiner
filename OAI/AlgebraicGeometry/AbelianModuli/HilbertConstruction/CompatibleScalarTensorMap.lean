@@ -1,6 +1,11 @@
-import Mathlib.LinearAlgebra.TensorProduct.Basic
-import Mathlib.LinearAlgebra.BilinearMap
-import Mathlib.Algebra.Algebra.Basic
+module
+
+public import Mathlib.LinearAlgebra.TensorProduct.Basic
+public import Mathlib.LinearAlgebra.BilinearMap
+public import Mathlib.Algebra.Algebra.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Compatible Scalar Tensor Map -/
 

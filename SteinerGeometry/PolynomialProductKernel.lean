@@ -1,4 +1,9 @@
-import Steiner.SymmetricContraction
+module
+
+public import Steiner.SymmetricContraction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The product of kernel-valued linear forms is killed by symmetric contraction. -/
 noncomputable section

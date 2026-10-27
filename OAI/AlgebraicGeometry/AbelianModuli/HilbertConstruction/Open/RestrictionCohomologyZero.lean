@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.AdditiveSheafRestriction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.AdditiveSheafRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restriction Cohomology Zero -/
 

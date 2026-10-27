@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoproductMatrixComponents
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoproductMatrixComponents
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 open CategoryTheory CategoryTheory.Limits

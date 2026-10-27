@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectZero
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalSectionsMono
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalSectionsSurjective
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectZero
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalSectionsMono
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalSectionsSurjective
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twisted Sections Detect Mono -/
 

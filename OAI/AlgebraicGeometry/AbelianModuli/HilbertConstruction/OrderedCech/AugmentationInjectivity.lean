@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.Augmentation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CechIntersections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.Augmentation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CechIntersections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Augmentation Injectivity -/
 

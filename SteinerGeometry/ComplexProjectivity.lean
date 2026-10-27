@@ -1,6 +1,11 @@
-import SteinerGeometry.ComplexLattice
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectivityCriterion
-import OAI.NumberTheory.ArithmeticGroups.Data
+module
+
+public import SteinerGeometry.ComplexLattice
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectivityCriterion
+public import OAI.NumberTheory.ArithmeticGroups.Data
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

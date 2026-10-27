@@ -1,6 +1,11 @@
-import Mathlib.RingTheory.Smooth.StandardSmooth
-import Mathlib.LinearAlgebra.Matrix.Rank
-import Mathlib.Basic.Complex.Basic
+module
+
+public import Mathlib.RingTheory.Smooth.StandardSmooth
+public import Mathlib.LinearAlgebra.Matrix.Rank
+public import Mathlib.Basic.Complex.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Standard Smooth Jacobian -/
 

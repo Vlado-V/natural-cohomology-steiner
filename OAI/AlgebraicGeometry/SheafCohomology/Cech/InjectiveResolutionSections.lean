@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.AcyclicResolution
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.TopCatRestrict
-import Mathlib.Algebra.Homology.ShortComplex.ExactFunctor
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.AcyclicResolution
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.TopCatRestrict
+public import Mathlib.Algebra.Homology.ShortComplex.ExactFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Injective Resolution Sections -/
 

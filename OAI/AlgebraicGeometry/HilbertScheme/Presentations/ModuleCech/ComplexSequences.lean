@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.ComplexMaps
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.HomologySequences
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.ComplexMaps
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.HomologySequences
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Complex Sequences -/
 

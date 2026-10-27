@@ -1,10 +1,15 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/TotalComplexUpNat.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.Algebra.Homology.TotalComplexSymmetry
+public import Mathlib.Algebra.Homology.TotalComplexSymmetry
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Total Complex Up Nat -/
 

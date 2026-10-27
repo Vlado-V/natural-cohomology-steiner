@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Generators
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Naturality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Generators
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Naturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Evaluation Transport -/
 

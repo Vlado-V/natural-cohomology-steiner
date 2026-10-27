@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.HomogeneousChartFractions
-import Mathlib.RingTheory.Localization.Away.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.HomogeneousChartFractions
+public import Mathlib.RingTheory.Localization.Away.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Factor Ratios -/
 

@@ -1,5 +1,10 @@
-import SteinerGeometry.RankLocalFrames
-import SteinerGeometry.CurveRationalPoints
+module
+
+public import SteinerGeometry.RankLocalFrames
+public import SteinerGeometry.CurveRationalPoints
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Rational-point frame neighborhoods cover a finite-type scheme
 

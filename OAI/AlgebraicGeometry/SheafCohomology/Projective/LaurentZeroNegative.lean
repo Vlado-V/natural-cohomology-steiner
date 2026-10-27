@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechSupport
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechSupport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Zero Negative -/
 

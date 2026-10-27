@@ -1,5 +1,10 @@
-import SteinerGeometry.SheafDual
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Dual
+module
+
+public import SteinerGeometry.SheafDual
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Dual
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Comparison of the two actual sheaf models of the module dual. -/
 noncomputable section

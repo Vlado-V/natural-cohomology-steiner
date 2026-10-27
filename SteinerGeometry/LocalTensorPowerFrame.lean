@@ -1,6 +1,11 @@
-import SteinerGeometry.LocalTensorFrames
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LocalPowerSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitFrameSection
+module
+
+public import SteinerGeometry.LocalTensorFrames
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LocalPowerSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitFrameSection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The recursive negative-power frame evaluates recursive local tensor powers. -/
 noncomputable section

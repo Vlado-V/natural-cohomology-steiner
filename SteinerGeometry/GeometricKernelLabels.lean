@@ -1,4 +1,9 @@
-import SteinerGeometry.CyclicFromPoints
+module
+
+public import SteinerGeometry.CyclicFromPoints
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Labels for the actual finite étale kernel, retaining its group structure. -/
 noncomputable section

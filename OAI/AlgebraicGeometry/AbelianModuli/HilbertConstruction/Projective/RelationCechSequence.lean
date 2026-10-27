@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoefficientCech
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeTwistRelations
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoefficientCech
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeTwistRelations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Relation Cech Sequence -/
 

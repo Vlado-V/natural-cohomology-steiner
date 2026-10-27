@@ -1,6 +1,11 @@
-import SteinerGeometry.LaurentResidueLinear
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentCechData
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeights
+module
+
+public import SteinerGeometry.LaurentResidueLinear
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentCechData
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeights
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Actual coordinate multiplication on homogeneous Laurent Čech cochains -/
 noncomputable section

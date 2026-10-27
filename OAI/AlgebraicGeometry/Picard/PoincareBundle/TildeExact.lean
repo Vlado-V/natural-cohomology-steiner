@@ -1,8 +1,13 @@
-import Mathlib.AlgebraicGeometry.Modules.Tilde
-import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
-import Mathlib.CategoryTheory.Limits.Preserves.Limits
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.QuasiCoherent
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+public import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
+public import Mathlib.CategoryTheory.Limits.Preserves.Limits
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.QuasiCoherent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tilde Exact -/
 

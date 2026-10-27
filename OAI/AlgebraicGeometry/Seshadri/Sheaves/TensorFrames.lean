@@ -1,6 +1,11 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Sheaves.Restriction
-import OAI.AlgebraicGeometry.Seshadri.Sheaves.Frames
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Sheaves.Restriction
+public import OAI.AlgebraicGeometry.Seshadri.Sheaves.Frames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

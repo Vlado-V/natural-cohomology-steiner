@@ -1,6 +1,11 @@
-import SteinerGeometry.FinitePicardAvoidance
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.EffectiveKernelCharacters
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineCharacterIndependence
+module
+
+public import SteinerGeometry.FinitePicardAvoidance
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.EffectiveKernelCharacters
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineCharacterIndependence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Actual natural characters of a finite group cover descend to distinct
 finite-order line classes on its target. -/

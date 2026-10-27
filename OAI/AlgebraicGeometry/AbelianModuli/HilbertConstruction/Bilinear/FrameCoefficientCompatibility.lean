@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.FrameCoefficientTuples
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.TransitionEquations
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.FrameCoefficientTuples
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.TransitionEquations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Coefficient Compatibility -/
 

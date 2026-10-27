@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
-import Mathlib.AlgebraicGeometry.Morphisms.Immersion
-import Mathlib.AlgebraicGeometry.ResidueField
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+public import Mathlib.AlgebraicGeometry.Morphisms.Immersion
+public import Mathlib.AlgebraicGeometry.ResidueField
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Immersion Complex Points -/
 

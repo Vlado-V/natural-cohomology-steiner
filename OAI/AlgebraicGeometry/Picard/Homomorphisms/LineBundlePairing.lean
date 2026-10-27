@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineBundleDual
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineBundleEpi
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineBundleDual
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineBundleEpi
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Bundle Pairing -/
 

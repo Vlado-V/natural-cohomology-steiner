@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.TorsorStructureComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CharacterAverageIntertwining
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CharacterAveragePullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.CharacterPullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.CharacterSheafSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.SummandIntertwining
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.TorsorStructureComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CharacterAverageIntertwining
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CharacterAveragePullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.CharacterPullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.CharacterSheafSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.SummandIntertwining
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Comparison -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.DualOverlapTransition
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.DualOverlapTransition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dual Frame Transition -/
 

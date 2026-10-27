@@ -1,6 +1,11 @@
-import SteinerGeometry.NativeCohomology
-import SteinerGeometry.CanonicalTraceComplex
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PushforwardCohomologyFiniteness
+module
+
+public import SteinerGeometry.NativeCohomology
+public import SteinerGeometry.CanonicalTraceComplex
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PushforwardCohomologyFiniteness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry.EllipticCohomology

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.RatioRestrictions
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.RestrictionCoordinates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.RatioRestrictions
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.RestrictionCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ratio Sections -/
 

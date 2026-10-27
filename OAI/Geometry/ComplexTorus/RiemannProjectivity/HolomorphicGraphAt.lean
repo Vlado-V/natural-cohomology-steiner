@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectiveManifoldFinite
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveCoordinatesM
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreAt
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectiveManifoldFinite
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveCoordinatesM
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreAt
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Holomorphic Graph At -/
 

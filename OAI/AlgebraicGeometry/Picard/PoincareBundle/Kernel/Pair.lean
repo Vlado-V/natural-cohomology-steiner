@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Kernel.Scheme
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Kernel.Scheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pair -/
 

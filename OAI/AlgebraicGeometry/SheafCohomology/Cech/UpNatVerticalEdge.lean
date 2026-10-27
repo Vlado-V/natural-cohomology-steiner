@@ -1,10 +1,15 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/TotalComplexUpNatVerticalEdge.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.NatHorizontalEdgeOne
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.NatHorizontalEdgeOne
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Up Nat Vertical Edge -/
 

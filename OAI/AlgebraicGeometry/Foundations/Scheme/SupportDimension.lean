@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.TranscendenceDimension
-import OAI.AlgebraicGeometry.Foundations.Scheme.SupportAffineQuotient
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.TranscendenceDimension
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SupportAffineQuotient
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Support Dimension -/
 

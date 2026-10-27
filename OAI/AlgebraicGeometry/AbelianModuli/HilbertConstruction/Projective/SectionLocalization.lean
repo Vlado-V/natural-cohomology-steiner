@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.RatioSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.RatioSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Localization -/
 

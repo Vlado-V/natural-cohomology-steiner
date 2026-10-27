@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.PolynomialSimple
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GlobalEquation
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialDerivative
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.PolynomialSimple
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GlobalEquation
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialDerivative
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Regular Coordinate -/
 

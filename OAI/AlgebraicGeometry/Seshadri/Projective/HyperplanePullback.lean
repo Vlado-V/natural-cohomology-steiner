@@ -1,6 +1,11 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneIdeal
-import OAI.AlgebraicGeometry.Seshadri.Divisors.SectionChart
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneIdeal
+public import OAI.AlgebraicGeometry.Seshadri.Divisors.SectionChart
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

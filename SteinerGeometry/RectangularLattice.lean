@@ -1,7 +1,12 @@
-import SteinerGeometry.ComplexProjectivity
-import OAI.RepresentationTheory.Theta.Geometric.Torus.Data
-import Mathlib.LinearAlgebra.Basis.SMul
-import Mathlib.Data.ZMod.QuotientGroup
+module
+
+public import SteinerGeometry.ComplexProjectivity
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.Data
+public import Mathlib.LinearAlgebra.Basis.SMul
+public import Mathlib.Data.ZMod.QuotientGroup
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

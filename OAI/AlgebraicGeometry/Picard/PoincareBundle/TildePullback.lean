@@ -1,6 +1,11 @@
-import Mathlib.AlgebraicGeometry.Modules.Tilde
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Bundles
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Descent
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Bundles
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Descent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tilde Pullback -/
 

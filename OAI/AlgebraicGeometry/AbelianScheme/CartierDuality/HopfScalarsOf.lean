@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.Characters
-import Mathlib.AlgebraicGeometry.Pullbacks
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.Characters
+public import Mathlib.AlgebraicGeometry.Pullbacks
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Hopf Scalars Of -/
 

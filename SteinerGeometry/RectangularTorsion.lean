@@ -1,7 +1,12 @@
-import SteinerGeometry.CharacterTorsion
-import SteinerGeometry.CyclicNaturalCharacters
-import SteinerGeometry.RectangularIsogeny
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.ProperGroupFunctions
+module
+
+public import SteinerGeometry.CharacterTorsion
+public import SteinerGeometry.CyclicNaturalCharacters
+public import SteinerGeometry.RectangularIsogeny
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.ProperGroupFunctions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual cyclic covers of a fixed rectangular elliptic curve yield
 arbitrarily many distinct torsion line bundles on that same curve. -/

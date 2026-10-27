@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.ChartBaseChange
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.ChartBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap Base Change -/
 

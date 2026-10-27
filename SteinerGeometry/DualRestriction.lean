@@ -1,5 +1,10 @@
-import SteinerGeometry.SheafDual
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.EpimorphismCover
+module
+
+public import SteinerGeometry.SheafDual
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.EpimorphismCover
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Restriction of the actual dual map and local splitting. -/
 noncomputable section

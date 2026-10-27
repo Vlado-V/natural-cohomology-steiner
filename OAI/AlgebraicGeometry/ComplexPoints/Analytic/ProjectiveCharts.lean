@@ -1,10 +1,15 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveCoordinatesIn
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCompactness
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Topology.ContinuousOn
-import Mathlib.Topology.Homeomorph.Lemmas
-import Mathlib.Topology.OpenPartialHomeomorph.Constructions
-import Mathlib.Logic.Equiv.Fin.Basic
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveCoordinatesIn
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCompactness
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Topology.ContinuousOn
+public import Mathlib.Topology.Homeomorph.Lemmas
+public import Mathlib.Topology.OpenPartialHomeomorph.Constructions
+public import Mathlib.Logic.Equiv.Fin.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Charts -/
 

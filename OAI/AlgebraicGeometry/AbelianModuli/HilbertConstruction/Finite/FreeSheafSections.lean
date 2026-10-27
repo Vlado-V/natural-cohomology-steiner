@@ -1,13 +1,18 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SchemeModuleQuasicoherent.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
-import Mathlib.Algebra.Category.ModuleCat.Products
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
-import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+public import Mathlib.Algebra.Category.ModuleCat.Products
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Free Sheaf Sections -/
 

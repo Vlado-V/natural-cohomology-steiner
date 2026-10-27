@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TorsionZeroSection
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TorsionZeroSection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Difference -/
 

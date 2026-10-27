@@ -1,6 +1,11 @@
-import Mathlib.Algebra.MvPolynomial.PDeriv
-import Mathlib.Algebra.MvPolynomial.Equiv
-import Mathlib.Logic.Equiv.Set
+module
+
+public import Mathlib.Algebra.MvPolynomial.PDeriv
+public import Mathlib.Algebra.MvPolynomial.Equiv
+public import Mathlib.Logic.Equiv.Set
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Submersive Polynomial Split -/
 

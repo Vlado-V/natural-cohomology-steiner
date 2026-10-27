@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.AlternatingCoordinates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.AlternatingCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Alternating Differential Symmetry -/
 

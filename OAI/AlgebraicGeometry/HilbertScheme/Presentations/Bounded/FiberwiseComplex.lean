@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.FiberwiseExactness
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.FiberwiseExactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Fiberwise Complex -/
 

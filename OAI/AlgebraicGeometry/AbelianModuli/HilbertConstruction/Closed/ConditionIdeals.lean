@@ -1,6 +1,11 @@
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
-import Mathlib.AlgebraicGeometry.IdealSheaf.Functorial
-import Mathlib.CategoryTheory.Subfunctor.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+public import Mathlib.AlgebraicGeometry.IdealSheaf.Functorial
+public import Mathlib.CategoryTheory.Subfunctor.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Condition Ideals -/
 

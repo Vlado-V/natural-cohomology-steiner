@@ -1,7 +1,12 @@
-import SteinerGeometry.CurveGenerators
-import SteinerGeometry.CurveOpenZero
-import SteinerGeometry.CurveAffineFiberVanishing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.RestrictionFiniteType
+module
+
+public import SteinerGeometry.CurveGenerators
+public import SteinerGeometry.CurveOpenZero
+public import SteinerGeometry.CurveAffineFiberVanishing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.RestrictionFiniteType
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

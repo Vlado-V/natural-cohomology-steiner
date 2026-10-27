@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.IdealModule
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.IdealModule
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Canonical Affine Frame -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.ModuleValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapFactorTransport
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.ModuleValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapFactorTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Refinement -/
 

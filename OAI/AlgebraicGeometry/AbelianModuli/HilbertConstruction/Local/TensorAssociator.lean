@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TripleTensorComposition
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TripleTensorComposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Associator -/
 

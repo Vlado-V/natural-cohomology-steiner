@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.RegularConeOf
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeInverseOf
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeSurjectivityEq
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.RegularConeOf
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeInverseOf
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeSurjectivityEq
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pointwise Regular -/
 

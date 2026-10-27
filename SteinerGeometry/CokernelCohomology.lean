@@ -1,5 +1,10 @@
-import SteinerGeometry.ProjectiveCohomology
-import SteinerGeometry.ModuleNaturality
+module
+
+public import SteinerGeometry.ProjectiveCohomology
+public import SteinerGeometry.ModuleNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The sheaf-cohomology deduction for actual Steiner presentations. -/
 

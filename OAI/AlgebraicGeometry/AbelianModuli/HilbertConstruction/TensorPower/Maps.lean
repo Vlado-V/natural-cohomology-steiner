@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Powers
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Powers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Maps -/
 

@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteBranchesAt
-import Mathlib.Data.Fintype.EquivFin
-import Mathlib.Analysis.Calculus.Deriv.Polynomial
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteBranchesAt
+public import Mathlib.Data.Fintype.EquivFin
+public import Mathlib.Analysis.Calculus.Deriv.Polynomial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Branch Coefficients At -/
 

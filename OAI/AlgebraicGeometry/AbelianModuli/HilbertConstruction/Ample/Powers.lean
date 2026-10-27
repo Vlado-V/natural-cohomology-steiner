@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Powers
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Nonvanishing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Powers
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Nonvanishing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Powers -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.AssociativityComponents
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.AssociativityComponents
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Associativity Fusion -/
 

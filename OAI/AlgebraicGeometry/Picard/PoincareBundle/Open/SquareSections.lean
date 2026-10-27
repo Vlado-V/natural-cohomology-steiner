@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.SquareBaseChange
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.SquareBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Square Sections -/
 

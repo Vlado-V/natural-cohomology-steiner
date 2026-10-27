@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TorsionScheme
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TorsionScheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Point Translations -/
 

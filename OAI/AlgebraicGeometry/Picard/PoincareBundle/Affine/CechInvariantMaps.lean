@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechMorphismCoordinates
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechInvariantQuasiCoherent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.QCPresentation
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.InvariantUniversal
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechMorphismCoordinates
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechInvariantQuasiCoherent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.QCPresentation
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.InvariantUniversal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Invariant Maps -/
 

@@ -1,7 +1,12 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicRegularityAt
-import Mathlib.Topology.MetricSpace.HausdorffDimension
-import Mathlib.LinearAlgebra.Dimension.Constructions
-import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicRegularityAt
+public import Mathlib.Topology.MetricSpace.HausdorffDimension
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generic Projection On -/
 

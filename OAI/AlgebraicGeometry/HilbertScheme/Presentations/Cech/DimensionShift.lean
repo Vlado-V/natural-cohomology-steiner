@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.ExactSequences
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.FreeModuleCechExactness
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.ExactSequences
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.FreeModuleCechExactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dimension Shift -/
 

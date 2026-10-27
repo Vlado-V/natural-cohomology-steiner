@@ -1,7 +1,12 @@
-import SteinerGeometry.KernelLocalFreeness
-import SteinerGeometry.KernelFiniteProjective
-import Mathlib.Algebra.Category.ModuleCat.Limits
-import Mathlib.Algebra.Category.ModuleCat.Products
+module
+
+public import SteinerGeometry.KernelLocalFreeness
+public import SteinerGeometry.KernelFiniteProjective
+public import Mathlib.Algebra.Category.ModuleCat.Limits
+public import Mathlib.Algebra.Category.ModuleCat.Products
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Finite projective sections of the genuine sheaf kernel. -/
 noncomputable section

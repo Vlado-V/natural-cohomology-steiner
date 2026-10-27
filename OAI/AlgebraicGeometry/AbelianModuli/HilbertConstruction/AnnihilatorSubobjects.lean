@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coherent.Annihilator
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.QuotientFiniteType
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ImageType
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coherent.Annihilator
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.QuotientFiniteType
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ImageType
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Annihilator Subobjects -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentFiniteTypeSections
-import Mathlib.AlgebraicGeometry.Morphisms.Finite
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentFiniteTypeSections
+public import Mathlib.AlgebraicGeometry.Morphisms.Finite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Image Sections -/
 

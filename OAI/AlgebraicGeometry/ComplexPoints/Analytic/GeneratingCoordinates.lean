@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.Affine
-import Mathlib.Topology.Algebra.MvPolynomial
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.Affine
+public import Mathlib.Topology.Algebra.MvPolynomial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generating Coordinates -/
 

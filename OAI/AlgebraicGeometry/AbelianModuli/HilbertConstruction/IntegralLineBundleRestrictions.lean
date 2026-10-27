@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.FrameEquivalence
-import Mathlib.AlgebraicGeometry.FunctionField
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.FrameEquivalence
+public import Mathlib.AlgebraicGeometry.FunctionField
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Integral Line Bundle Restrictions -/
 

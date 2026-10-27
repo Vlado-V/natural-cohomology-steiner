@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReciprocalFramePairingValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.SectionContraction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReciprocalFramePairingValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.SectionContraction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Reciprocal Pairing Nondegeneracy -/
 

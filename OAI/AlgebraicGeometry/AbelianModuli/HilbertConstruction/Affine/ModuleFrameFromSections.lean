@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModuleGlobalSectionsIsomorphism
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.Sections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Quasicoherence
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModuleGlobalSectionsIsomorphism
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.Sections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Quasicoherence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Frame From Sections -/
 

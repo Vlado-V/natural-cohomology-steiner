@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveFrame.Ratios
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.Transitions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveFrame.Ratios
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.Transitions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Transitions -/
 

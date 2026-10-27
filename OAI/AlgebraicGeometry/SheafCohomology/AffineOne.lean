@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.AffineLocalKilling
-import OAI.AlgebraicGeometry.SheafCohomology.DimensionShift
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineLocalKilling
+public import OAI.AlgebraicGeometry.SheafCohomology.DimensionShift
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine One -/
 

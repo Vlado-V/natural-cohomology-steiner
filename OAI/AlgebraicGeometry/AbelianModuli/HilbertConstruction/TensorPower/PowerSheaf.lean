@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Presheaf
-import Mathlib.Algebra.Category.ModuleCat.Presheaf.Sheafification
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Presheaf
+public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Sheafification
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Sheaf -/
 

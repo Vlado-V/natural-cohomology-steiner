@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.AlgClosed.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.AlgClosed.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

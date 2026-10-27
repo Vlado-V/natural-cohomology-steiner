@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
-import Mathlib.CategoryTheory.Sites.SheafHom
-import Mathlib.CategoryTheory.Sites.Subsheaf
-import Mathlib.Topology.Sheaves.Sheaf
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+public import Mathlib.CategoryTheory.Sites.SheafHom
+public import Mathlib.CategoryTheory.Sites.Subsheaf
+public import Mathlib.Topology.Sheaves.Sheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Hom Sheaf -/
 

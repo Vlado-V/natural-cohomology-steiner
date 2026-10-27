@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheafFunctor
-import Mathlib.Algebra.Category.ModuleCat.ChangeOfRingsExact
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
-import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
-import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheafFunctor
+public import Mathlib.Algebra.Category.ModuleCat.ChangeOfRingsExact
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+public import Mathlib.CategoryTheory.Limits.Constructions.EpiMono
+public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Evaluation -/
 

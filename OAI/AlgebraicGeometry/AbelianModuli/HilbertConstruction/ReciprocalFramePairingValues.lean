@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReciprocalFrameTensorIsomorphism
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.Sheaves
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReciprocalFrameTensorIsomorphism
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.Sheaves
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Reciprocal Frame Pairing Values -/
 

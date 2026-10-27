@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveFrame.Transitions
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Quotient
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveFrame.Transitions
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Quotient
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coordinate Pullback -/
 

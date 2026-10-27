@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheaf
-import Mathlib.RingTheory.Flat.CategoryTheory
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheaf
+public import Mathlib.RingTheory.Flat.CategoryTheory
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Pairwise Limits -/
 

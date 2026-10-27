@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.DifferentialRankLocalization
-import Mathlib.AlgebraicGeometry.FunctionField
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.DifferentialRankLocalization
+public import Mathlib.AlgebraicGeometry.FunctionField
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Dimension -/
 

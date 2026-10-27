@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.IntegerGradedQuotient
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.Quotient
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.IntegerGradedQuotient
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.Quotient
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Integer Quotient -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.Sections
-import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.Sections
+public import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Gluing -/
 

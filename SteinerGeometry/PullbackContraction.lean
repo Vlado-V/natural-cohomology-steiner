@@ -1,5 +1,10 @@
-import SteinerGeometry.TwistedSymmetricKernel
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackLeftUnit
+module
+
+public import SteinerGeometry.TwistedSymmetricKernel
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackLeftUnit
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Concrete base change of the line-bundle symmetric contraction. -/
 noncomputable section

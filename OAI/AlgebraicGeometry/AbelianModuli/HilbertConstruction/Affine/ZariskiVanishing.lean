@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ZariskiDegreeOneVanishing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SchemeIsomorphismCohomology
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.InjectiveSyzygySections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ZariskiDegreeOneVanishing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SchemeIsomorphismCohomology
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.InjectiveSyzygySections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zariski Vanishing -/
 

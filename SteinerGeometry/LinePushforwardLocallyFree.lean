@@ -1,8 +1,13 @@
-import SteinerGeometry.AffineLocalFreeness
-import SteinerGeometry.SheafLocalFreeLocality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.BaseChangeMate
-import SteinerGeometry.LinePushforwardProjective
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent
+module
+
+public import SteinerGeometry.AffineLocalFreeness
+public import SteinerGeometry.SheafLocalFreeLocality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.BaseChangeMate
+public import SteinerGeometry.LinePushforwardProjective
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local freeness of a finite-flat line-bundle direct image on affine bases -/
 noncomputable section

@@ -1,6 +1,11 @@
-import SteinerGeometry.ProjectiveKernelRankFrames
-import SteinerGeometry.DualAffinePresentation
-import SteinerGeometry.SheafDualKernel
+module
+
+public import SteinerGeometry.ProjectiveKernelRankFrames
+public import SteinerGeometry.DualAffinePresentation
+public import SteinerGeometry.SheafDualKernel
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual dual kernel bundle is the cokernel of the dual presentation. -/
 

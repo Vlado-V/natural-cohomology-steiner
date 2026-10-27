@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.FromAffineSectionNeighborhoods
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RestrictionSectionFiniteness
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.FromAffineSectionNeighborhoods
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RestrictionSectionFiniteness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Type From Affine Sections -/
 

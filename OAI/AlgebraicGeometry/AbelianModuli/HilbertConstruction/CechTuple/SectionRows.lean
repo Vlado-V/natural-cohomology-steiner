@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CechTuple.SectionRestrictions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CechTuple.SectionRestrictions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Rows -/
 

@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicRegularityAt
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.Fin
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ImmersionNormalForm
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicRegularityAt
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.Fin
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ImmersionNormalForm
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Image Charts In -/
 

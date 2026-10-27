@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialGrowth
-import Mathlib.Analysis.Normed.Module.FiniteDimension
-import Mathlib.Analysis.Normed.Group.Bounded
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.Algebra.MvPolynomial.Funext
-import OAI.AlgebraicGeometry.Foundations.Scheme.HomogeneousEvalMap
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialGrowth
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.Analysis.Normed.Group.Bounded
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.Algebra.MvPolynomial.Funext
+public import OAI.AlgebraicGeometry.Foundations.Scheme.HomogeneousEvalMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Homogeneous Extension -/
 

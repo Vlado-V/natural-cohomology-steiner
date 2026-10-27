@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CechTuple.SectionHomotopyDegrees
-import Mathlib.Algebra.Homology.Homotopy
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CechTuple.SectionHomotopyDegrees
+public import Mathlib.Algebra.Homology.Homotopy
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Alternating Null Homotopy -/
 

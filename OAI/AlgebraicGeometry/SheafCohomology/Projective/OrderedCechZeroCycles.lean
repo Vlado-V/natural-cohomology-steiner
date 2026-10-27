@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechSupportContraction
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechSupportContraction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ordered Cech Zero Cycles -/
 

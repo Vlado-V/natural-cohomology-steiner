@@ -1,9 +1,14 @@
-import Mathlib.Topology.Sheaves.LocallySurjective
-import Mathlib.Topology.Sheaves.Limits
-import Mathlib.Topology.Sheaves.Functors
-import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
-import Mathlib.AlgebraicGeometry.Morphisms.Affine
-import OAI.AlgebraicGeometry.SheafCohomology.AffineCover
+module
+
+public import Mathlib.Topology.Sheaves.LocallySurjective
+public import Mathlib.Topology.Sheaves.Limits
+public import Mathlib.Topology.Sheaves.Functors
+public import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
+public import Mathlib.AlgebraicGeometry.Morphisms.Affine
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineCover
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Local Killing -/
 

@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Functor
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
+module
+
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Functor
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Reindex -/
 

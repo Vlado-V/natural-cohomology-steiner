@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ChangeOfLeftAdjoint
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.BaseChangeMate
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.BaseChangeMateIdentification
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ChangeOfLeftAdjoint
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.BaseChangeMate
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.BaseChangeMateIdentification
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Canonical Base Change -/
 

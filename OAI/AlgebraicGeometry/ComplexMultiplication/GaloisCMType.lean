@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.Polarization
-import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorSignReduction
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.Polarization
+public import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorSignReduction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Galois CM Type -/
 

@@ -1,5 +1,10 @@
-import Mathlib.LinearAlgebra.Projectivization.Basic
-import Mathlib.Algebra.GroupWithZero.Units.Basic
+module
+
+public import Mathlib.LinearAlgebra.Projectivization.Basic
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Coordinates In -/
 

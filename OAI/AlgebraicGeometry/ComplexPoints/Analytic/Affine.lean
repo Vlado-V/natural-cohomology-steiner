@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineComplexPoints
-import Mathlib.Topology.Constructions
-import Mathlib.Topology.Separation.Hausdorff
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineComplexPoints
+public import Mathlib.Topology.Constructions
+public import Mathlib.Topology.Separation.Hausdorff
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine -/
 

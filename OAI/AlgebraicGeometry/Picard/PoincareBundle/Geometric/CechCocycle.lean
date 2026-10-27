@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.GluingPullback
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.TripleGluing
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.GluingPullback
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.TripleGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Cocycle -/
 

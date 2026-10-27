@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalLifts
-import Mathlib.Algebra.Category.ModuleCat.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalLifts
+public import Mathlib.Algebra.Category.ModuleCat.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pointed Tangent At -/
 

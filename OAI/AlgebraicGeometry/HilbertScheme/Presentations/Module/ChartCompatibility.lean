@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.FreeCoordinates
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ChartFractionRestriction
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.FreeCoordinates
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ChartFractionRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Compatibility -/
 

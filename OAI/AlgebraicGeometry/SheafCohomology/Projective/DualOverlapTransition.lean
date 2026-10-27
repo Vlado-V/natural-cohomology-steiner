@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.DualOpenFrames
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverScalarRestriction
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.GeneralDualFrameScalar
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.DualOpenFrames
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverScalarRestriction
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.GeneralDualFrameScalar
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dual Overlap Transition -/
 

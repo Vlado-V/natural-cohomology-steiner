@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.SplitGroup
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.SplitGroup
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Group Splitting At -/
 

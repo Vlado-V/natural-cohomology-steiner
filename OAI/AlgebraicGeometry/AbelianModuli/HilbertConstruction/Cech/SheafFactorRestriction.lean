@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechSheafDifferential.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntrinsicCech.Differential
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntrinsicCech.SheafSectionCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntrinsicCech.Differential
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntrinsicCech.SheafSectionCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sheaf Factor Restriction -/
 

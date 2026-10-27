@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.FramedGlobalTensorProduct
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.FramedGlobalTensorProduct
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Framed Map Generator Coefficient -/
 

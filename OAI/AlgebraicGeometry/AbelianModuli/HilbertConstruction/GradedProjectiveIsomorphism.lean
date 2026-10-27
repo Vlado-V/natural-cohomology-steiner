@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.MapOverBase
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.MapOverBase
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Graded Projective Isomorphism -/
 

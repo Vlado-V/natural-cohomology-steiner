@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.InvariantRestriction
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.InvariantRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invariant Comparison -/
 

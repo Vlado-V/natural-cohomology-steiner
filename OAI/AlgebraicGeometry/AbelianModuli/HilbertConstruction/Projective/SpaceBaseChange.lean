@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoefficientPullback
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoefficientPullback
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Space Base Change -/
 

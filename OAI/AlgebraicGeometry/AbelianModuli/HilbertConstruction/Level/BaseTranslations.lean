@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Base.PointTranslations
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Base.PointTranslations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Translations -/
 

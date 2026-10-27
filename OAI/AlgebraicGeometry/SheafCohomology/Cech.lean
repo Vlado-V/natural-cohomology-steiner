@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.Comparison
-import OAI.AlgebraicGeometry.SheafCohomology.CechFiniteCover
-import OAI.AlgebraicGeometry.SheafCohomology.LinearComparison
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.Comparison
+public import OAI.AlgebraicGeometry.SheafCohomology.CechFiniteCover
+public import OAI.AlgebraicGeometry.SheafCohomology.LinearComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech -/
 

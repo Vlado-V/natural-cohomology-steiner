@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.Kaehler.Basic
-import Mathlib.LinearAlgebra.Dimension.Finrank
+module
+
+public import Mathlib.RingTheory.Kaehler.Basic
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Differential Base Iso -/
 

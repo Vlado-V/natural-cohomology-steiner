@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.OpenImmersionPoints
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointHomeomorphs
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LocalizationPointTopology
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineOpenLifts
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.OpenImmersionPoints
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointHomeomorphs
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LocalizationPointTopology
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineOpenLifts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Immersion -/
 

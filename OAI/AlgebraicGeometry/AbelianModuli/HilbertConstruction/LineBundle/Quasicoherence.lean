@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.Presentations
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
-import Mathlib.AlgebraicGeometry.Modules.Tilde
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.Presentations
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasicoherence -/
 

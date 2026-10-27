@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveTwisting.Bundle
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistFrameCompatibility
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.CoefficientSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LiftedFrameCompatibility
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveTwisting.Bundle
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistFrameCompatibility
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.CoefficientSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LiftedFrameCompatibility
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Global Tuples -/
 

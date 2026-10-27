@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coherent.ClosedDescent
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AnnihilatorSubobjects
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Noetherian.QuasicoherentKernels
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coherent.ClosedDescent
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AnnihilatorSubobjects
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Noetherian.QuasicoherentKernels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Reduction Layer -/
 

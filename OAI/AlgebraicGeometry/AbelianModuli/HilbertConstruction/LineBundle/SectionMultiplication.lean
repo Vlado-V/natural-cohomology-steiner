@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.GenericBundleMapSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorBaseChange
-import Mathlib.RingTheory.Noetherian.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.GenericBundleMapSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorBaseChange
+public import Mathlib.RingTheory.Noetherian.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Multiplication -/
 

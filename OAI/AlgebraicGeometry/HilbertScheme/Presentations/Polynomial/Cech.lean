@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.LaurentCoordinates
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.Differential
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.LaurentCoordinates
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.Differential
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech -/
 

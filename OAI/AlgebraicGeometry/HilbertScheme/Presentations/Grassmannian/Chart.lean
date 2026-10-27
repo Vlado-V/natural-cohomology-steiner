@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.CoordinateCharts
-import Mathlib.AlgebraicGeometry.AffineSpace
-import Mathlib.LinearAlgebra.Matrix.ToLin
-import Mathlib.CategoryTheory.NatIso
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.CoordinateCharts
+public import Mathlib.AlgebraicGeometry.AffineSpace
+public import Mathlib.LinearAlgebra.Matrix.ToLin
+public import Mathlib.CategoryTheory.NatIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart -/
 

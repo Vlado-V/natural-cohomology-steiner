@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CanonicalGluing
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.DescentRecovery
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CanonicalGluing
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.DescentRecovery
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Canonical Coordinates -/
 

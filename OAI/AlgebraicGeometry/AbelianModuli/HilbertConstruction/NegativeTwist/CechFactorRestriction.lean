@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermEquivalence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.ChartNaturality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.PresheafRestrictionTransport
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermEquivalence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.ChartNaturality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.PresheafRestrictionTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Factor Restriction -/
 

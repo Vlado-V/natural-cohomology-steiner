@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistPairAgreement
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.SingletonCoordinates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistPairAgreement
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.SingletonCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Tuple Coordinates -/
 

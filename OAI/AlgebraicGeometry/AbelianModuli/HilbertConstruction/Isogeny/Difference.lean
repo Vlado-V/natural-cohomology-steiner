@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogeny.KernelZeroSection
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogeny.KernelZeroSection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Difference -/
 

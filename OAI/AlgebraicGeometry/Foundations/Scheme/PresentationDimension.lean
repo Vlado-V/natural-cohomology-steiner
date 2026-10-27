@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.Extension.Presentation.Submersive
-import Mathlib.LinearAlgebra.Dimension.Constructions
+module
+
+public import Mathlib.RingTheory.Extension.Presentation.Submersive
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presentation Dimension -/
 

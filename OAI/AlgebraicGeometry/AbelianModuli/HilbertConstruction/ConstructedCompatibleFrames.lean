@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleSheaf
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.GeneratorChanges
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.ModuleSheaf
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleSheaf
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.GeneratorChanges
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.ModuleSheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Constructed Compatible Frames -/
 

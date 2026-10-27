@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Projective -/
 

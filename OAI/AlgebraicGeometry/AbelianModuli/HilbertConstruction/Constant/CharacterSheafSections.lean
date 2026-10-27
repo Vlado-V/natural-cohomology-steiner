@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.CharacterSectionProjectors
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.CharacterSectionProjectors
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Sheaf Sections -/
 

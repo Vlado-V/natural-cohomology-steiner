@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.FormalProjection
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.FormalProjection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Complex Projection -/
 

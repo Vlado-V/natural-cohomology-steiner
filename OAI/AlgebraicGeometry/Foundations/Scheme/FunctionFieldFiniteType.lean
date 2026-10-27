@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Betti.AffineDimension
-import OAI.AlgebraicGeometry.Foundations.Scheme.FunctionFieldScalar
-import Mathlib.AlgebraicGeometry.Morphisms.FiniteType
-import Mathlib.FieldTheory.FinTrdeg
+module
+
+public import OAI.AlgebraicGeometry.Betti.AffineDimension
+public import OAI.AlgebraicGeometry.Foundations.Scheme.FunctionFieldScalar
+public import Mathlib.AlgebraicGeometry.Morphisms.FiniteType
+public import Mathlib.FieldTheory.FinTrdeg
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Function Field Finite Type -/
 

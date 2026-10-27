@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.RefinementOpenValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PullbackSectionMap
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.RefinementOpenValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PullbackSectionMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Refinement -/
 

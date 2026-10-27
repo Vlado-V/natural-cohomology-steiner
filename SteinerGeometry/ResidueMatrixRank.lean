@@ -1,6 +1,11 @@
-import SteinerGeometry.ProjectiveResiduePairing
-import SteinerGeometry.KernelNaturality
-import Mathlib.LinearAlgebra.Pi
+module
+
+public import SteinerGeometry.ProjectiveResiduePairing
+public import SteinerGeometry.KernelNaturality
+public import Mathlib.LinearAlgebra.Pi
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The matrix residue operation is the exact dual of polynomial matrix multiplication. -/
 noncomputable section

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.BaseChange
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Flatness
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.BaseChange
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Flatness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Map -/
 

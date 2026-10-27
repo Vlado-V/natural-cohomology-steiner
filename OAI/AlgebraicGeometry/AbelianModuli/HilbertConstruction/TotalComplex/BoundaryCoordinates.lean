@@ -1,10 +1,15 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/TotalComplexUpNatDecomposition.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Total.DegreeDecomposition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Total.DegreeDecomposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Boundary Coordinates -/
 

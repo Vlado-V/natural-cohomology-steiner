@@ -1,8 +1,13 @@
-import Mathlib.RingTheory.Unramified.LocalStructure
-import Mathlib.RingTheory.Unramified.Field
-import Mathlib.RingTheory.Smooth.Flat
-import Mathlib.RingTheory.Localization.FractionRing
-import Mathlib.RingTheory.LocalProperties.Reduced
+module
+
+public import Mathlib.RingTheory.Unramified.LocalStructure
+public import Mathlib.RingTheory.Unramified.Field
+public import Mathlib.RingTheory.Smooth.Flat
+public import Mathlib.RingTheory.Localization.FractionRing
+public import Mathlib.RingTheory.LocalProperties.Reduced
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Reduced Algebra -/
 

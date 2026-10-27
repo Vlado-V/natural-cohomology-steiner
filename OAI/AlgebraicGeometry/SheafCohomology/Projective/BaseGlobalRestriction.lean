@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Global Restriction -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.FlatAffineLocalFrame
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.FlatAffineLocalFrame
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flat Trace Basis -/
 

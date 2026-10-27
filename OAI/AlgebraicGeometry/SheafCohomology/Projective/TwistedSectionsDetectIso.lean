@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectMono
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoherentQuotientFiniteType
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectMono
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoherentQuotientFiniteType
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twisted Sections Detect Iso -/
 

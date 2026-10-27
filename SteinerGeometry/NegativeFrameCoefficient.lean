@@ -1,7 +1,12 @@
-import SteinerGeometry.LocalTensorPowerFrame
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeChartCoordinates
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OpenFrames
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitFrameSection
+module
+
+public import SteinerGeometry.LocalTensorPowerFrame
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeChartCoordinates
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OpenFrames
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitFrameSection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The normalized negative-chart functional is the canonical twist-frame coefficient. -/
 noncomputable section

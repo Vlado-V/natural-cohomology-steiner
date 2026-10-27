@@ -1,10 +1,15 @@
-import SteinerGeometry.NegativePowerTensorIso
-import SteinerGeometry.ProjectiveCohomology
-import SteinerGeometry.ProjectiveKernelRankFrames
-import SteinerGeometry.ProjectiveDualKernelExact
-import SteinerGeometry.FiniteFrameProperties
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleTensorExact
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftIso
+module
+
+public import SteinerGeometry.NegativePowerTensorIso
+public import SteinerGeometry.ProjectiveCohomology
+public import SteinerGeometry.ProjectiveKernelRankFrames
+public import SteinerGeometry.ProjectiveDualKernelExact
+public import SteinerGeometry.FiniteFrameProperties
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleTensorExact
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! A single actual Steiner cokernel and the exact presentations of its tensor twists. -/
 noncomputable section

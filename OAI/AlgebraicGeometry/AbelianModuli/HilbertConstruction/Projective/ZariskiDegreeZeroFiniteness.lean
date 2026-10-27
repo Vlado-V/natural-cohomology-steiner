@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.DegreeZero
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveCoherentSectionFiniteness
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.DegreeZero
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveCoherentSectionFiniteness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zariski Degree Zero Finiteness -/
 

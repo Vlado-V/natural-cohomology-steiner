@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechInvariantMaps
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechMorphismDescent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.RecoveryComparison
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechInvariantMaps
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechMorphismDescent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.RecoveryComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Effectivity -/
 

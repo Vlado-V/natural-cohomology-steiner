@@ -1,6 +1,11 @@
-import Mathlib.CategoryTheory.Generator.Sheaf
-import Mathlib.Topology.Sheaves.Flasque
-import OAI.AlgebraicGeometry.SheafCohomology.AffineTwo
+module
+
+public import Mathlib.CategoryTheory.Generator.Sheaf
+public import Mathlib.Topology.Sheaves.Flasque
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineTwo
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Vanishing -/
 

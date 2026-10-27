@@ -1,7 +1,12 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.Root
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticIrreducibilityEq
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectiveClosureIs
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialDerivative
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.Root
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticIrreducibilityEq
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectiveClosureIs
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialDerivative
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Projective Irreducibility -/
 

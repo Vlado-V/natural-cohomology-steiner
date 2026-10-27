@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.LineBundles
-import SteinerGeometry.ConstantCharacterTrivial
-import Mathlib.Basic.Complex.Basic
-import Mathlib.Analysis.Complex.Polynomial.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.LineBundles
+public import SteinerGeometry.ConstantCharacterTrivial
+public import Mathlib.Basic.Complex.Basic
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual finite line decomposition of the multiplication pushforward. -/
 noncomputable section

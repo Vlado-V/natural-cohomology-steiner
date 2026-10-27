@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.PointPrincipalCharts
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.PointPrincipalCharts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Point Finite Charts -/
 

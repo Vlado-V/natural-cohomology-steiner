@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.MatrixPivot.PivotCokernel
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.MatrixPivot.Rank
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Local.MatrixMinors
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.QuotientRetraction
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Flat.ExactKernels
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.MatrixPivot.PivotCokernel
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.MatrixPivot.Rank
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Local.MatrixMinors
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.QuotientRetraction
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Flat.ExactKernels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flat Matrix Pivot Cover -/
 

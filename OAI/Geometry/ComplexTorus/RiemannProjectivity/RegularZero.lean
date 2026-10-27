@@ -1,8 +1,14 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicContourF
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteBranchesAt
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GenericProjectionOn
-import Mathlib.Analysis.Calculus.Implicit
-import Mathlib.LinearAlgebra.Dual.Lemmas
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicContourF
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteBranchesAt
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GenericProjectionOn
+public import Mathlib.Analysis.Calculus.Implicit
+import all Mathlib.Analysis.Calculus.Implicit
+public import Mathlib.LinearAlgebra.Dual.Lemmas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Regular Zero -/
 

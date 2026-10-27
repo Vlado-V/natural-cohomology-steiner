@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TripleTensorPullbacks
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TripleTensorPullbacks
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Triple Tensor Composition -/
 

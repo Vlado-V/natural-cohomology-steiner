@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveCoordinatesIn
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveZeroLocus
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveCoordinatesIn
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveZeroLocus
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dehomogenization C -/
 

@@ -1,5 +1,10 @@
-import SteinerGeometry.CyclicSubgroup
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+module
+
+public import SteinerGeometry.CyclicSubgroup
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

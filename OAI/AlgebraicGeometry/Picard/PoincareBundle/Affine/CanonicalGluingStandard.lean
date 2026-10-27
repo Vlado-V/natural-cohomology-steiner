@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CanonicalGluing
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.PullbackCongrPaths
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.MateNormalization
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CanonicalGluing
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.PullbackCongrPaths
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.MateNormalization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Canonical Gluing Standard -/
 

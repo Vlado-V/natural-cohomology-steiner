@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.OrdinaryGlobalLineDescent
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.KernelScalarRecovery
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineRecoveryUniqueness
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.OrdinaryGlobalLineDescent
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.KernelScalarRecovery
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineRecoveryUniqueness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Effective Kernel Characters -/
 

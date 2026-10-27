@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogenies
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.BaseChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogenies
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.BaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Change -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.CharacterSheafQuasicoherence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FromOpenSectionBases
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TameCharacters
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.CharacterSheafQuasicoherence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FromOpenSectionBases
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TameCharacters
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Line Bundles -/
 

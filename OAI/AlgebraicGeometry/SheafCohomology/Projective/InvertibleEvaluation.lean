@@ -1,3 +1,5 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: 0f725dac7f4f5813e3bd28a8ae1ae9bc1fe5340634f592de06ee47f028987dfe
@@ -9,9 +11,12 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import Mathlib.LinearAlgebra.TensorProduct.Finiteness
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Evaluation
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Invertible
+public import Mathlib.LinearAlgebra.TensorProduct.Finiteness
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Evaluation
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Invertible
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invertible Evaluation -/
 

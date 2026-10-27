@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.Monoidal.Category
+module
+
+public import Mathlib.CategoryTheory.Monoidal.Category
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Comultiplication -/
 

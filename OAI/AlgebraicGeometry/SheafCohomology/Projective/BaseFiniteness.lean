@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechBridge
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechHomotopyEquiv
-import OAI.AlgebraicGeometry.SheafCohomology.CechZeroLinear
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechBridge
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechHomotopyEquiv
+public import OAI.AlgebraicGeometry.SheafCohomology.CechZeroLinear
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Finiteness -/
 

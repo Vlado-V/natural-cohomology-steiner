@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicGraphProjective
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreClosedSubscheme
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.FiniteNormalIso
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicGraphProjective
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreClosedSubscheme
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.FiniteNormalIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Holomorphic Algebraization Graph -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.WeightedFreeModules
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.WeightedFreeModules
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Integer Polynomial Grading -/
 

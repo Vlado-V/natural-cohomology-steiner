@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveVectorPoint
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveCoordinateCover
-import OAI.AlgebraicGeometry.Foundations.Scheme.DehomogenizationC
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChart
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChartPoint
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveVectorPoint
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveCoordinateCover
+public import OAI.AlgebraicGeometry.Foundations.Scheme.DehomogenizationC
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChart
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChartPoint
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Point Surjective -/
 

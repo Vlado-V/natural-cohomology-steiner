@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ModelNaturality
-import Mathlib.CategoryTheory.Monad.Adjunction
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ModelNaturality
+public import Mathlib.CategoryTheory.Monad.Adjunction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coalgebra Map Coordinates -/
 

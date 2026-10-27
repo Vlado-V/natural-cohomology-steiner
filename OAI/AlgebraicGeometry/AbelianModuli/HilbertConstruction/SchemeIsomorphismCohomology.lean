@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Homology.DerivedCategory.Ext.MapBijective
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SchemeIsomorphismAdditiveSheaves
+module
+
+public import Mathlib.Algebra.Homology.DerivedCategory.Ext.MapBijective
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SchemeIsomorphismAdditiveSheaves
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme Isomorphism Cohomology -/
 

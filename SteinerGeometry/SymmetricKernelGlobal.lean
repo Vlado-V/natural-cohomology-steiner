@@ -1,7 +1,12 @@
-import SteinerGeometry.FirstKernelRestriction
-import SteinerGeometry.FirstKernelTargetIso
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Frames
+module
+
+public import SteinerGeometry.FirstKernelRestriction
+public import SteinerGeometry.FirstKernelTargetIso
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Frames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Global splitting of the genuine symmetric contraction kernel into monomial line factors. -/
 noncomputable section

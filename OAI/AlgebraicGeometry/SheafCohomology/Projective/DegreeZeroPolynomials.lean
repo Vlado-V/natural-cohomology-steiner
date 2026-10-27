@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NonnegativeLaurentPolynomials
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CochainZeroKernel
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeights
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NonnegativeLaurentPolynomials
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CochainZeroKernel
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeights
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Degree Zero Polynomials -/
 

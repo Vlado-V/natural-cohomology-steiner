@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ModuleRestriction
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.FractionDegrees
-import Mathlib.RingTheory.Localization.Module
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ModuleRestriction
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.FractionDegrees
+public import Mathlib.RingTheory.Localization.Module
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Free Coordinates -/
 

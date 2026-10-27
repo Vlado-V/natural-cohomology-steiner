@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.TensorProduct.Basic
-import Mathlib.LinearAlgebra.TensorProduct.Associator
+module
+
+public import Mathlib.RingTheory.TensorProduct.Basic
+public import Mathlib.LinearAlgebra.TensorProduct.Associator
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Descent Switch -/
 

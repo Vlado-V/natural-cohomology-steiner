@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Additive.FunctorFiniteBiproducts
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Additive.FunctorFiniteCoproducts
-import Mathlib.LinearAlgebra.Dimension.Constructions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Additive.FunctorFiniteBiproducts
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Additive.FunctorFiniteCoproducts
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Functor Biproduct Dimension -/
 

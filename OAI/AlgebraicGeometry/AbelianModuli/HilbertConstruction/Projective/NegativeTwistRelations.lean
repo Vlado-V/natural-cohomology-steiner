@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeTwistCover
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Noetherian.QuasicoherentKernels
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Properness
-import Mathlib.CategoryTheory.Abelian.Exact
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeTwistCover
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Noetherian.QuasicoherentKernels
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Properness
+public import Mathlib.CategoryTheory.Abelian.Exact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Twist Relations -/
 

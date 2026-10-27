@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Transport
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.FlatCoordinates
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Transport
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.FlatCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Transport Models -/
 

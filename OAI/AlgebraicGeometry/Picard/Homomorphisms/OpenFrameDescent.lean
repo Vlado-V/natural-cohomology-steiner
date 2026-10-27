@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomBaseChange
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FramedModuleHomDescent
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomBaseChange
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FramedModuleHomDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Frame Descent -/
 

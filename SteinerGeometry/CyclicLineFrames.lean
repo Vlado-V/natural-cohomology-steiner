@@ -1,6 +1,11 @@
-import SteinerGeometry.CyclicFiberSplitting
-import SteinerGeometry.RankLocalFrames
-import SteinerGeometry.SectionFunctorComparison
+module
+
+public import SteinerGeometry.CyclicFiberSplitting
+public import SteinerGeometry.RankLocalFrames
+public import SteinerGeometry.SectionFunctorComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Exact rank-n local frames of the actual cyclic-isogeny direct image. -/
 

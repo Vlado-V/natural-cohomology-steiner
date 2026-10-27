@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildePullback
-import Mathlib.CategoryTheory.Adjunction.Restrict
-import Mathlib.CategoryTheory.Limits.Preserves.Finite
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildePullback
+public import Mathlib.CategoryTheory.Adjunction.Restrict
+public import Mathlib.CategoryTheory.Limits.Preserves.Finite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasi Coherent -/
 

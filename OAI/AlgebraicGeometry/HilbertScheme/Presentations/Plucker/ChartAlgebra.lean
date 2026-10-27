@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.ChartPoints
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.ChartPresentation
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.QuotientPoints
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.ChartPoints
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.ChartPresentation
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.QuotientPoints
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Algebra -/
 

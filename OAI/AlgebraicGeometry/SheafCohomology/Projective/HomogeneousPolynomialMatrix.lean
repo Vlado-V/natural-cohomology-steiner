@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.IntegerPolynomialGrading
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.Exactness
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.GradedPolynomialModules
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.IntegerPolynomialGrading
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.Exactness
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.GradedPolynomialModules
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Homogeneous Polynomial Matrix -/
 

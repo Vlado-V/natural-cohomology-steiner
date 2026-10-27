@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveComplexPoints
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveZeroLocus
-import OAI.AlgebraicGeometry.Foundations.Scheme.ImmersionComplexPoints
-import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedProjective
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointHomeomorphs
-import OAI.AlgebraicGeometry.CycleClass.Geometric.ReducedClosed
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveComplexPoints
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveZeroLocus
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ImmersionComplexPoints
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedProjective
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointHomeomorphs
+public import OAI.AlgebraicGeometry.CycleClass.Geometric.ReducedClosed
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Subscheme -/
 

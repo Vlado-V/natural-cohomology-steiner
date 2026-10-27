@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.SectionTensorComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.SectionTensorComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Comparison Pullback Congruence -/
 

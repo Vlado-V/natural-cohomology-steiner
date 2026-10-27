@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IdempotentSheafSummands
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IdempotentSheafSummands
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Summand Functoriality -/
 

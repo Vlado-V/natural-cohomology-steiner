@@ -1,6 +1,11 @@
-import SteinerGeometry.PointTensorUnit
-import SteinerGeometry.PointTensorFunctor
-import SteinerGeometry.AdditiveBiproductIso
+module
+
+public import SteinerGeometry.PointTensorUnit
+public import SteinerGeometry.PointTensorFunctor
+public import SteinerGeometry.AdditiveBiproductIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 set_option backward.isDefEq.respectTransparency false

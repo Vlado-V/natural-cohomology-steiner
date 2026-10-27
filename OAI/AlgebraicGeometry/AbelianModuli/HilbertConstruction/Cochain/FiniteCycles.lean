@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cochain.HeadCohomology
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cochain.ZeroKernel
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Noetherian.FiniteExact
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cochain.HeadCohomology
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cochain.ZeroKernel
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Noetherian.FiniteExact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Cycles -/
 

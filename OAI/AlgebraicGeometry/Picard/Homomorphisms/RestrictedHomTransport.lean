@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.OpenPullbackCoherence
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomTransport
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.OpenPullbackCoherence
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restricted Hom Transport -/
 

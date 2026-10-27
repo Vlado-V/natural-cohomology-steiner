@@ -1,4 +1,9 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.JacobianLocalizationAt
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.JacobianLocalizationAt
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Equation Algebraicity Is -/
 

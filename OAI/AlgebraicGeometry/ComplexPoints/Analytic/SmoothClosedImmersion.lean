@@ -1,11 +1,16 @@
-import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothSchemeManifold
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothAffineMaps
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ClosedImmersionPointTopology
-import Mathlib.Analysis.Calculus.FDeriv.Comp
-import Mathlib.Analysis.Calculus.FDeriv.Congr
-import Mathlib.Analysis.Calculus.FDeriv.RestrictScalars
-import Mathlib.Geometry.Manifold.MFDeriv.Basic
+module
+
+public import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothSchemeManifold
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothAffineMaps
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ClosedImmersionPointTopology
+public import Mathlib.Analysis.Calculus.FDeriv.Comp
+public import Mathlib.Analysis.Calculus.FDeriv.Congr
+public import Mathlib.Analysis.Calculus.FDeriv.RestrictScalars
+public import Mathlib.Geometry.Manifold.MFDeriv.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Closed Immersion -/
 

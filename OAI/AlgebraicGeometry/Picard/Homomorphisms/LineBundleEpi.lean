@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
-import Mathlib.AlgebraicGeometry.Modules.Tilde
-import Mathlib.RingTheory.PicardGroup
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+public import Mathlib.RingTheory.PicardGroup
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Bundle Epi -/
 

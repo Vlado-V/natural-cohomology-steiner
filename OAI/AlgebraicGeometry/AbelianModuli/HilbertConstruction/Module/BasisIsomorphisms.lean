@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapBasisExtension
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapBasisExtension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Basis Isomorphisms -/
 

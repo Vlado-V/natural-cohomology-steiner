@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoefficientCechBounded
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoefficientCechBounded
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Cech Exactness -/
 

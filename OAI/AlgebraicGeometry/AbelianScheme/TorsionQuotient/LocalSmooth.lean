@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SquareZero
-import Mathlib.RingTheory.Smooth.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SquareZero
+public import Mathlib.RingTheory.Smooth.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Smooth -/
 

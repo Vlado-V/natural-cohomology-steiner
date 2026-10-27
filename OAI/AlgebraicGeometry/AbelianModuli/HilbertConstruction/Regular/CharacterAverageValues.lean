@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Regular.CharacterAverages
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Regular.CharacterAverages
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Average Values -/
 

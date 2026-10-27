@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.DistinguishedChartCancellation
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositivePowerSectionAddition
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.RestrictedUnitTensorSection
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorCancellationShiftSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.DistinguishedChartCancellation
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositivePowerSectionAddition
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.RestrictedUnitTensorSection
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorCancellationShiftSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Shift Chart Sections -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.SquareSections
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.RestrictionArrows
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechInvariant
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.SquareSections
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.RestrictionArrows
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechInvariant
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Coherence -/
 

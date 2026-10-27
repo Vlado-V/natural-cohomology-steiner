@@ -1,4 +1,9 @@
-import Mathlib.Algebra.Module.LocalizedModule.Basic
+module
+
+public import Mathlib.Algebra.Module.LocalizedModule.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Squares -/
 

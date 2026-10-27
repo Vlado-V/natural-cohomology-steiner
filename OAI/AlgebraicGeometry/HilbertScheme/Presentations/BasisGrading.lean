@@ -1,5 +1,10 @@
-import Mathlib.LinearAlgebra.Basis.Basic
-import Mathlib.Algebra.DirectSum.Decomposition
+module
+
+public import Mathlib.LinearAlgebra.Basis.Basic
+public import Mathlib.Algebra.DirectSum.Decomposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Basis Grading -/
 

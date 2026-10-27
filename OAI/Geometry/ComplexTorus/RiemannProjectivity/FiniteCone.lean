@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.CompactAnalyticAt
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeImage
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeProjectionOf
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.CompactAnalyticAt
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeImage
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeProjectionOf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Cone -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CechZariskiComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoherentCechFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ZariskiDegreeZeroFiniteness
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CechZariskiComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoherentCechFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ZariskiDegreeZeroFiniteness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zariski Cohomology Finiteness -/
 

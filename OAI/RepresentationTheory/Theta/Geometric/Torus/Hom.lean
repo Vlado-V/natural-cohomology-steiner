@@ -1,6 +1,11 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.AbelianModel
-import OAI.RepresentationTheory.Theta.Geometric.Torus.Manifold
-import OAI.RepresentationTheory.Theta.Geometric.AlgebraicAction
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.AbelianModel
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.Manifold
+public import OAI.RepresentationTheory.Theta.Geometric.AlgebraicAction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Hom -/
 

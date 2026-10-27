@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ModuleGenerators
-import Mathlib.Algebra.Exact.Basic
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ModuleGenerators
+public import Mathlib.Algebra.Exact.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exactness -/
 

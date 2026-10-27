@@ -1,8 +1,13 @@
-import SteinerGeometry.RectangularModel
-import SteinerGeometry.PointLineBundle
-import SteinerGeometry.CurveRationalPoints
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FramePresentation
-import OAI.AlgebraicGeometry.SheafCohomology.DimensionBound
+module
+
+public import SteinerGeometry.RectangularModel
+public import SteinerGeometry.PointLineBundle
+public import SteinerGeometry.CurveRationalPoints
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FramePresentation
+public import OAI.AlgebraicGeometry.SheafCohomology.DimensionBound
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

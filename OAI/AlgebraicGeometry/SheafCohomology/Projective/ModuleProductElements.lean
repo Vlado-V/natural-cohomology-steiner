@@ -1,4 +1,9 @@
-import Mathlib.Algebra.Category.ModuleCat.Products
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.Products
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Product Elements -/
 

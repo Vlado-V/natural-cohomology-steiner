@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.GlobalFunctions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.GlobalFunctions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Function Coordinates -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Coordinate.SubmoduleExtension
-import Mathlib.LinearAlgebra.TensorProduct.RightExactness
-import Mathlib.RingTheory.TensorProduct.Pi
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Coordinate.SubmoduleExtension
+public import Mathlib.LinearAlgebra.TensorProduct.RightExactness
+public import Mathlib.RingTheory.TensorProduct.Pi
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Grassmannian Base Change -/
 

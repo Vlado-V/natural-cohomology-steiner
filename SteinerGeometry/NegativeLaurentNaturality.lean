@@ -1,5 +1,10 @@
-import SteinerGeometry.LaurentTopNaturality
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentTop
+module
+
+public import SteinerGeometry.LaurentTopNaturality
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentTop
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Naturality of the actual full-negative Laurent cohomology coordinates -/
 noncomputable section

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.ClassMonoid
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorInverse
-import Mathlib.Algebra.Group.Units.Defs
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.ClassMonoid
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorInverse
+public import Mathlib.Algebra.Group.Units.Defs
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Class Group -/
 

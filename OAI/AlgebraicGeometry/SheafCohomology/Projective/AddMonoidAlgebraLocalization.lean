@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import Mathlib.Algebra.MonoidAlgebra.Basic
-import Mathlib.GroupTheory.MonoidLocalization.Away
-import Mathlib.RingTheory.Localization.Away.Basic
+public import Mathlib.Algebra.MonoidAlgebra.Basic
+public import Mathlib.GroupTheory.MonoidLocalization.Away
+public import Mathlib.RingTheory.Localization.Away.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Add Monoid Algebra Localization -/
 

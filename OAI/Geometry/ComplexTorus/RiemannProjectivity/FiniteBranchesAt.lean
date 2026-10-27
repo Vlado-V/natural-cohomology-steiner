@@ -1,7 +1,12 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicRegularityAt
-import Mathlib.Topology.Covering.Basic
-import Mathlib.Topology.Maps.Proper.Basic
-import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicRegularityAt
+public import Mathlib.Topology.Covering.Basic
+public import Mathlib.Topology.Maps.Proper.Basic
+public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Branches At -/
 

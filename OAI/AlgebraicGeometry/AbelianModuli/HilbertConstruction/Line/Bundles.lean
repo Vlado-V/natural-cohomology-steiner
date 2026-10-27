@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.PullbackFree
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.PullbackFree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Bundles -/
 

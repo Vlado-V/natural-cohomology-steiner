@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechInjectiveBicomplex.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.Algebra.Homology.HomologicalBicomplex
-import Mathlib.CategoryTheory.Abelian.Injective.Resolution
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlasqueIntrinsicCechExactness
+public import Mathlib.Algebra.Homology.HomologicalBicomplex
+public import Mathlib.CategoryTheory.Abelian.Injective.Resolution
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlasqueIntrinsicCechExactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Injective Bicomplex -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentSwitch
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Descent
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentSwitch
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Descent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Switch Coalgebra -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FormalCoproductForget
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.UnderlyingAdditiveSheafExactness
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FormalCoproductForget
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.UnderlyingAdditiveSheafExactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cosimplicial Forget -/
 

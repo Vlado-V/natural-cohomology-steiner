@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.GaloisCMType
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.PeriodHermitian
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.PeriodTorus
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCharts
-import Mathlib.LinearAlgebra.SesquilinearForm.Star
-import Mathlib.Analysis.Calculus.FDeriv.Mul
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.GaloisCMType
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.PeriodHermitian
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.PeriodTorus
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCharts
+public import Mathlib.LinearAlgebra.SesquilinearForm.Star
+public import Mathlib.Analysis.Calculus.FDeriv.Mul
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Fin -/
 

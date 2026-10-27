@@ -1,6 +1,11 @@
-import Mathlib.AlgebraicGeometry.Properties
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.ClassGroup
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorEquivalence
+module
+
+public import Mathlib.AlgebraicGeometry.Properties
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.ClassGroup
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorEquivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Isomorphism-class arithmetic for actual invertible module sheaves. -/
 noncomputable section

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleSwitchNext
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.SwitchCoalgebra
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleSwitchNext
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.SwitchCoalgebra
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cocycle Coalgebra -/
 

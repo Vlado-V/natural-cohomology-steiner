@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.QuotientCoordinatePullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistPullbackValues
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.QuotientCoordinatePullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistPullbackValues
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twisting Transition Values -/
 

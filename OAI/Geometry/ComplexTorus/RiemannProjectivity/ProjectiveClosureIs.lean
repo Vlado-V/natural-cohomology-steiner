@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveScheme
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeClosed
-import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedProjective
-import Mathlib.AlgebraicGeometry.AlgClosed.Basic
-import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveScheme
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeClosed
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedProjective
+public import Mathlib.AlgebraicGeometry.AlgClosed.Basic
+public import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Closure Is -/
 

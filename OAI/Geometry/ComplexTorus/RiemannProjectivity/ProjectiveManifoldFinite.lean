@@ -1,7 +1,12 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectiveManifoldIs
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeNormalization
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HolomorphicDimension
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AlgebraicCone
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectiveManifoldIs
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeNormalization
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HolomorphicDimension
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AlgebraicCone
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Manifold Finite -/
 

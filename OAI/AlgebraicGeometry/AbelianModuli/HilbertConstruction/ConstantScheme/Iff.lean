@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Limits
-import Mathlib.Topology.LocallyConstant.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.Limits
+public import Mathlib.Topology.LocallyConstant.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Iff -/
 

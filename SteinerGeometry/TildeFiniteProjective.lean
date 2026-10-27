@@ -1,7 +1,12 @@
-import SteinerGeometry.KernelLocalFreeness
-import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.PullbackFree
-import Mathlib.RingTheory.Spectrum.Prime.FreeLocus
+module
+
+public import SteinerGeometry.KernelLocalFreeness
+public import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.PullbackFree
+public import Mathlib.RingTheory.Spectrum.Prime.FreeLocus
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite projective modules give locally free tilde sheaves
 The affine base-change comparison uses the actual tilde adjunction.

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicSmoothSchemeManifold
-import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicSmoothSchemeManifold
+public import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Intrinsic Smooth Scheme Maps -/
 

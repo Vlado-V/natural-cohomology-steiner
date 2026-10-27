@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.DegreeShift
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.AugmentationDegree
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.FlatAugmentation
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.DegreeShift
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.AugmentationDegree
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.FlatAugmentation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Eventual Degree Flatness -/
 

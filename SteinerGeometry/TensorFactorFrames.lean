@@ -1,5 +1,10 @@
-import SteinerGeometry.SectionTensorMonomials
-import Mathlib.Algebra.Category.Grp.EpiMono
+module
+
+public import SteinerGeometry.SectionTensorMonomials
+public import Mathlib.Algebra.Category.Grp.EpiMono
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Actual coordinate frames for ordered tensor products of trivialized line sheaves. -/
 noncomputable section

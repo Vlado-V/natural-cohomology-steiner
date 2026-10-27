@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionRatios
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.EvaluationTransport
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionRatios
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.EvaluationTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Extended Chart Generators -/
 

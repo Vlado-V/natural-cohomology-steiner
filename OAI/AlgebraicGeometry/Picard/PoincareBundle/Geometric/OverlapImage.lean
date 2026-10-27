@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.AdjunctionChange
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.OverlapExtension
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechInvariant
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.AdjunctionChange
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.OverlapExtension
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechInvariant
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap Image -/
 

@@ -1,10 +1,15 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/Picard/UnitPullback.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AffineRankOne
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AffineRankOne
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Unit Scalar -/
 

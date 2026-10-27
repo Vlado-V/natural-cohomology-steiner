@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.ChartCompatibility
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.Cech
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.ChartCompatibility
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.Cech
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Card -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.FramedMapGeneratorCoefficient
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductDegree
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.FramedMapGeneratorCoefficient
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductDegree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Twist Shifted Map -/
 

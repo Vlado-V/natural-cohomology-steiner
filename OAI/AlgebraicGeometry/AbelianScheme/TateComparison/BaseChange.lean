@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TateComparison.End
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TateComparison.End
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Change -/
 

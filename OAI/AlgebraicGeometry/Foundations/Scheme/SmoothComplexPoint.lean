@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.StandardSmoothJacobian
-import OAI.AlgebraicGeometry.Foundations.Scheme.LocalizationComplexPoints
-import Mathlib.RingTheory.Smooth.StandardSmoothOfFree
-import Mathlib.RingTheory.Localization.Away.Basic
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.StandardSmoothJacobian
+public import OAI.AlgebraicGeometry.Foundations.Scheme.LocalizationComplexPoints
+public import Mathlib.RingTheory.Smooth.StandardSmoothOfFree
+public import Mathlib.RingTheory.Localization.Away.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Complex Point -/
 

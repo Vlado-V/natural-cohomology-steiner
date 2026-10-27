@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjective
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjective
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Transport -/
 

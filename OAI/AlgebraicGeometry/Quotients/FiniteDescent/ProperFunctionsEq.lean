@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.Quotients.FiniteDescent.Proper
-import Mathlib.AlgebraicGeometry.IdealSheaf.Subscheme
-import Mathlib.AlgebraicGeometry.Morphisms.Integral
-import Mathlib.AlgebraicGeometry.Morphisms.QuasiFinite
-import Mathlib.Topology.Connected.TotallyDisconnected
+module
+
+public import OAI.AlgebraicGeometry.Quotients.FiniteDescent.Proper
+public import Mathlib.AlgebraicGeometry.IdealSheaf.Subscheme
+public import Mathlib.AlgebraicGeometry.Morphisms.Integral
+public import Mathlib.AlgebraicGeometry.Morphisms.QuasiFinite
+public import Mathlib.Topology.Connected.TotallyDisconnected
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Proper Functions Eq -/
 

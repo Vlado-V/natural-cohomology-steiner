@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.SectionCechIndices
-import Mathlib.Data.Finset.Sort
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.SectionCechIndices
+public import Mathlib.Data.Finset.Sort
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Subsets -/
 

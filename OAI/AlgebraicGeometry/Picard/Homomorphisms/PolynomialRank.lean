@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Polynomial
-import Mathlib.RingTheory.Flat.Rank
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Polynomial
+public import Mathlib.RingTheory.Flat.Rank
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Rank -/
 

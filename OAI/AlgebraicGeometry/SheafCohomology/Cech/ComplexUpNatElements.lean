@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatBoundary
-import Mathlib.Algebra.Category.Grp.Preadditive
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatBoundary
+public import Mathlib.Algebra.Category.Grp.Preadditive
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Complex Up Nat Elements -/
 

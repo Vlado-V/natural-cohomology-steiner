@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ProjectiveCoordinatePullback
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ProjectiveCoordinatePullback
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Coordinate Pullback -/
 

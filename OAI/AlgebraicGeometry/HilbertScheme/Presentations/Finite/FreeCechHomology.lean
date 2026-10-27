@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.FreeCechResidues
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.ModuleCechCriterion
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.FreeCechResidues
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.ModuleCechCriterion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Free Cech Homology -/
 

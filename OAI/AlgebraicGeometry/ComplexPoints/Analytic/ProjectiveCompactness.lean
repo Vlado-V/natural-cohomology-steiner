@@ -1,9 +1,14 @@
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Analysis.Normed.Module.FiniteDimension
-import Mathlib.Analysis.Normed.Module.RCLike.Basic
-import Mathlib.Analysis.RCLike.Lemmas
-import Mathlib.LinearAlgebra.Projectivization.Basic
-import Mathlib.Topology.Constructions
+module
+
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.Analysis.Normed.Module.RCLike.Basic
+public import Mathlib.Analysis.RCLike.Lemmas
+public import Mathlib.LinearAlgebra.Projectivization.Basic
+public import Mathlib.Topology.Constructions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Compactness -/
 

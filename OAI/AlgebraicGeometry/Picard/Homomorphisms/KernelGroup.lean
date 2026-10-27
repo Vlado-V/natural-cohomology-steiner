@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelGeometry
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Kernel.Scheme
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelGeometry
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Kernel.Scheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Group -/
 

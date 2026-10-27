@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.MatrixPivot.PivotCokernel
-import Mathlib.RingTheory.Grassmannian
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.MatrixPivot.PivotCokernel
+public import Mathlib.RingTheory.Grassmannian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Rank -/
 

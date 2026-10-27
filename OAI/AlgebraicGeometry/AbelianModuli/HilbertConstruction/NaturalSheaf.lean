@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleSheaf
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Linear.FrameRatios
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleSheaf
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Linear.FrameRatios
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Natural Sheaf -/
 

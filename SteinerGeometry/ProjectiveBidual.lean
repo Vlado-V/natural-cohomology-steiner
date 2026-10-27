@@ -1,5 +1,10 @@
-import SteinerGeometry.SheafBidual
-import SteinerGeometry.ProjectiveKernelBundle
+module
+
+public import SteinerGeometry.SheafBidual
+public import SteinerGeometry.ProjectiveKernelBundle
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Canonical biduality for finite sums of projective line bundle twists. -/
 

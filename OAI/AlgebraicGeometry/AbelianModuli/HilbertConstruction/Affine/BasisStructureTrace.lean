@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.NormalizedTrace
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RestrictedGlobalUnit
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.BasisIsomorphisms
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.NormalizedTrace
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RestrictedGlobalUnit
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.BasisIsomorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Basis Structure Trace -/
 

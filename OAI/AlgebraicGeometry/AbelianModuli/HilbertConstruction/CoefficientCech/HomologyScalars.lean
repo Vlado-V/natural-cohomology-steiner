@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.HomologyForget
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PresheafScalarAction
-import Mathlib.Algebra.Homology.ShortComplex.Linear
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.HomologyForget
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PresheafScalarAction
+public import Mathlib.Algebra.Homology.ShortComplex.Linear
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Homology Scalars -/
 

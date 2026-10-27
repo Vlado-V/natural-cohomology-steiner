@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LocalizationPointEvaluation
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PrincipalOpen
-import Mathlib.Topology.Homeomorph.Lemmas
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LocalizationPointEvaluation
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PrincipalOpen
+public import Mathlib.Topology.Homeomorph.Lemmas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Localization Point Topology -/
 

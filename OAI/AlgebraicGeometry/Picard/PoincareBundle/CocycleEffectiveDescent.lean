@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleCoalgebra
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleNormalization
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Cocycle
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.AffineDescent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.EffectiveCechDescent
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleCoalgebra
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleNormalization
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Cocycle
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.AffineDescent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.EffectiveCechDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cocycle Effective Descent -/
 

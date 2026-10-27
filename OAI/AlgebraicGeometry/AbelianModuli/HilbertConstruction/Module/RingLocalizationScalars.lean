@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.RingLocalization
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.RingLocalization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ring Localization Scalars -/
 

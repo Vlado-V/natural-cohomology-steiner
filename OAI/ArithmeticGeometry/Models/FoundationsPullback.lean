@@ -1,4 +1,9 @@
-import OAI.ArithmeticGeometry.Models.Scheme
+module
+
+public import OAI.ArithmeticGeometry.Models.Scheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Foundations Pullback -/
 

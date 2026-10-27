@@ -1,4 +1,9 @@
-import SteinerGeometry.LinePushforwardLocallyFree
+module
+
+public import SteinerGeometry.LinePushforwardLocallyFree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Finite projective sections on every affine chart of a finite-flat line direct image. -/
 noncomputable section

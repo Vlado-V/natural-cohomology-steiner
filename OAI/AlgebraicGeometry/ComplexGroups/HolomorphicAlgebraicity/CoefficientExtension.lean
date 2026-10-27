@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Quotient
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.MonicRoots
-import Mathlib.Algebra.Polynomial.OfFn
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Quotient
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.MonicRoots
+public import Mathlib.Algebra.Polynomial.OfFn
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Extension -/
 

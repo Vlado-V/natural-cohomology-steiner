@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroCyclesSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroCyclesSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Zero Cycle Coordinates -/
 

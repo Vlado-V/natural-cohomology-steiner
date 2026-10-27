@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Fraction Basic Open -/
 

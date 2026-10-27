@@ -1,10 +1,15 @@
-import Mathlib.NumberTheory.NumberField.Basic
-import Mathlib.RingTheory.Localization.Integer
-import Mathlib.RingTheory.Localization.AsSubring
-import Mathlib.RingTheory.Ideal.Quotient.HasFiniteQuotients.Basic
-import Mathlib.RingTheory.Ideal.Quotient.HasFiniteQuotients.Norm
-import Mathlib.RingTheory.Spectrum.Prime.Topology
-import Mathlib.RingTheory.Smooth.NoetherianDescent
+module
+
+public import Mathlib.NumberTheory.NumberField.Basic
+public import Mathlib.RingTheory.Localization.Integer
+public import Mathlib.RingTheory.Localization.AsSubring
+public import Mathlib.RingTheory.Ideal.Quotient.HasFiniteQuotients.Basic
+public import Mathlib.RingTheory.Ideal.Quotient.HasFiniteQuotients.Norm
+public import Mathlib.RingTheory.Spectrum.Prime.Topology
+public import Mathlib.RingTheory.Smooth.NoetherianDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Fg -/
 

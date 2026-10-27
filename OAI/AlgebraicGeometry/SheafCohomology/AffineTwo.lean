@@ -1,6 +1,11 @@
-import Mathlib.Algebra.Homology.DerivedCategory.Ext.MapBijective
-import Mathlib.CategoryTheory.Sites.Equivalence
-import OAI.AlgebraicGeometry.SheafCohomology.AffineOne
+module
+
+public import Mathlib.Algebra.Homology.DerivedCategory.Ext.MapBijective
+public import Mathlib.CategoryTheory.Sites.Equivalence
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineOne
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Two -/
 

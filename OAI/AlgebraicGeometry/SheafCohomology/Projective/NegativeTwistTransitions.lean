@@ -1,14 +1,19 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameRestriction
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneTransitions
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistFrameScalar
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.FrameTransitionTransport
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameRestriction
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameRestriction
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneTransitions
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistFrameScalar
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.FrameTransitionTransport
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Twist Transitions -/
 

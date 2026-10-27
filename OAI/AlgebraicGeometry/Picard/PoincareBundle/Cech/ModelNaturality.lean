@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ModuleModels
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ModuleModels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Model Naturality -/
 

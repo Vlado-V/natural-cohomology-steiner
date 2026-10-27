@@ -1,6 +1,11 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Model
-import OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineVanishing
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Model
+public import OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineVanishing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

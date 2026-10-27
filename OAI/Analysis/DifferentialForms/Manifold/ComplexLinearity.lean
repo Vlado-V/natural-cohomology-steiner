@@ -1,5 +1,10 @@
-import Mathlib.Analysis.Calculus.DifferentialForm.Basic
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import Mathlib.Analysis.Calculus.DifferentialForm.Basic
+public import Mathlib.Analysis.Complex.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Complex Linearity -/
 

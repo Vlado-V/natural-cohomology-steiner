@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameScalar
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameScalar
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Frame Scalar -/
 

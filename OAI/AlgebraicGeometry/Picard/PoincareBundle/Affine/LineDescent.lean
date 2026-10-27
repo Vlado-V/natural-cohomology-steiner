@@ -1,6 +1,11 @@
-import Mathlib.RingTheory.PicardGroup
-import Mathlib.RingTheory.Finiteness.Descent
-import Mathlib.LinearAlgebra.Dual.BaseChange
+module
+
+public import Mathlib.RingTheory.PicardGroup
+public import Mathlib.RingTheory.Finiteness.Descent
+public import Mathlib.LinearAlgebra.Dual.BaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Descent -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Field.MatrixLargeMinors
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Scalar.Nonvanishing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RangeCriterion
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Field.MatrixLargeMinors
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Scalar.Nonvanishing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RangeCriterion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Rank Lower Open -/
 

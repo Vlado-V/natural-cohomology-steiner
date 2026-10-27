@@ -1,5 +1,10 @@
-import Mathlib.Analysis.Complex.CauchyIntegral
-import Mathlib.Analysis.Calculus.FDeriv.Prod
+module
+
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Calculus.FDeriv.Prod
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zero Locus -/
 

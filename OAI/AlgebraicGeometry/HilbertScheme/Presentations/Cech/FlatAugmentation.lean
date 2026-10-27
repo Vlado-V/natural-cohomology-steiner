@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Terms
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.CechVanishing
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Terms
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.CechVanishing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flat Augmentation -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.FunctionsBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AlgebraSectionModules
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.FunctionsBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AlgebraSectionModules
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Coefficient Sections -/
 

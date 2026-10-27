@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ComplexEulerFormula
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.DegreeZero
-import Mathlib.Algebra.BigOperators.Finprod
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ComplexEulerFormula
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.DegreeZero
+public import Mathlib.Algebra.BigOperators.Finprod
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cohomology Euler Characteristic -/
 

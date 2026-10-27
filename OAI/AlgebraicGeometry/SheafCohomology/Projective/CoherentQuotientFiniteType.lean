@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AffineSectionExact
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AffineSectionExact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coherent Quotient Finite Type -/
 

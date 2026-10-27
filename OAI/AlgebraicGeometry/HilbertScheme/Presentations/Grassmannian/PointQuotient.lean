@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.PointRelations
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Coordinate.GrassmannianBaseChange
-import Mathlib.RingTheory.LocalProperties.FinitePresentation
-import Mathlib.RingTheory.Flat.Localization
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.PointRelations
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Coordinate.GrassmannianBaseChange
+public import Mathlib.RingTheory.LocalProperties.FinitePresentation
+public import Mathlib.RingTheory.Flat.Localization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Point Quotient -/
 

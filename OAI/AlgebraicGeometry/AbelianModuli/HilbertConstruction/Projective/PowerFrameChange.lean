@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.PowerFrameValues
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.PowerFrameValues
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Frame Change -/
 

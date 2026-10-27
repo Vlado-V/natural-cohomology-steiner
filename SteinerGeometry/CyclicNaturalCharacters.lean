@@ -1,6 +1,11 @@
-import SteinerGeometry.ConstantKernelCharacters
-import SteinerGeometry.CyclicScalarCharacters
-import SteinerGeometry.KernelComparison
+module
+
+public import SteinerGeometry.ConstantKernelCharacters
+public import SteinerGeometry.CyclicScalarCharacters
+public import SteinerGeometry.KernelComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry.CyclicNaturalCharacters
 

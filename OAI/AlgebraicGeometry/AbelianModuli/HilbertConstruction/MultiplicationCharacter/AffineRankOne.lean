@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.RestrictedPullbackBasis
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.PullbackLineBundles
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.Quasicoherence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Surjectivity
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlatRankOneDescent
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.RestrictedPullbackBasis
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.PullbackLineBundles
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.Quasicoherence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Surjectivity
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlatRankOneDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Rank One -/
 

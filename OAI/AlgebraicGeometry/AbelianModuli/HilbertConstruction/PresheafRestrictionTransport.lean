@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Category.ModuleCat.Basic
-import Mathlib.CategoryTheory.Category.Preorder
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.Basic
+public import Mathlib.CategoryTheory.Category.Preorder
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presheaf Restriction Transport -/
 

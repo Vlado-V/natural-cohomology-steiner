@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ModuleGenerators
-import Mathlib.LinearAlgebra.DirectSum.Finsupp
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ModuleGenerators
+public import Mathlib.LinearAlgebra.DirectSum.Finsupp
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Submodule Grading -/
 

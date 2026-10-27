@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.PullHom
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.PullHom
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Descent Equations -/
 

@@ -1,6 +1,11 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusAlgebraicPeriodCone
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ExactProjective
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusProjectiveIrreducibility
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusAlgebraicPeriodCone
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ExactProjective
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusProjectiveIrreducibility
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Model -/
 

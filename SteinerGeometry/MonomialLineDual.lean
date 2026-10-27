@@ -1,5 +1,10 @@
-import SteinerGeometry.MonomialLineClasses
-import SteinerGeometry.LineDualPullback
+module
+
+public import SteinerGeometry.MonomialLineClasses
+public import SteinerGeometry.LineDualPullback
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Native internal-Hom line duals in the actual symmetric-kernel summands. -/
 noncomputable section

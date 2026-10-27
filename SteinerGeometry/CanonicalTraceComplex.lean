@@ -1,5 +1,10 @@
-import SteinerGeometry.CanonicalTrace
-import SteinerGeometry.NativeCohomology
+module
+
+public import SteinerGeometry.CanonicalTrace
+public import SteinerGeometry.NativeCohomology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry.CanonicalTrace

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.SectionPullback
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.SectionPullback
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Pullback Composition -/
 

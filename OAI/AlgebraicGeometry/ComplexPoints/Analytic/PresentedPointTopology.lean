@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.PresentedComplexPoints
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PresentationPointTopology
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.PresentedComplexPoints
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PresentationPointTopology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presented Point Topology -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Kernel.Pair
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Kernel.Pair
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Action Maps -/
 

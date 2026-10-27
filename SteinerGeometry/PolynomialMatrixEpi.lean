@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.WeightedFreeDegreeComponents
-import Steiner.Critical
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.WeightedFreeDegreeComponents
+public import Steiner.Critical
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Surjectivity of the actual sheaf map from eventual homogeneous matrix rank. -/
 noncomputable section

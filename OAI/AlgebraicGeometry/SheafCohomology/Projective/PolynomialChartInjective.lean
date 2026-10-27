@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartHomogeneous
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartHomogeneous
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Chart Injective -/
 

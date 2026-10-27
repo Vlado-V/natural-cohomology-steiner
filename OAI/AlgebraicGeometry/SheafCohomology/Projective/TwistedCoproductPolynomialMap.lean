@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistSectionCoordinates
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductComponents
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductProjectedMap
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistPolynomialMatrix
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistSectionCoordinates
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductComponents
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductProjectedMap
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistPolynomialMatrix
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twisted Coproduct Polynomial Map -/
 

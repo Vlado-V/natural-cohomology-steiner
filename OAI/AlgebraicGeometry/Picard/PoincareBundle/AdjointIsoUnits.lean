@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.Adjunction.Mates
+module
+
+public import Mathlib.CategoryTheory.Adjunction.Mates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Adjoint Iso Units -/
 

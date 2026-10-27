@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.KernelLinearization
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Composition
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.KernelLinearization
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Composition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pull Hom -/
 

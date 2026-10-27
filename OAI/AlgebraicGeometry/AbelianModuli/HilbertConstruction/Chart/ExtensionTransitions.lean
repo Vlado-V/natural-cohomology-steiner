@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Common.DegreeChartExtensions
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionTransitions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Common.DegreeChartExtensions
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionTransitions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Extension Transitions -/
 

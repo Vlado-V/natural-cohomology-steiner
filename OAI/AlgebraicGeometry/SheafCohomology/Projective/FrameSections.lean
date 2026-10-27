@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Dual
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitScalar
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Dual
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitScalar
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Sections -/
 

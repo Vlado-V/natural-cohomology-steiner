@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorAssociatorValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenIsomorphismGluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorAssociatorValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenIsomorphismGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Associator Gluing -/
 

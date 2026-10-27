@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.SeparatingLinearCoordinates
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GlobalEquation
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.PolynomialSeparationFinite
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.SeparatingLinearCoordinates
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GlobalEquation
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.PolynomialSeparationFinite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Algebraic Period -/
 

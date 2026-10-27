@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ZeroLocus
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveCone
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AnalyticFibers
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCharts
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ZeroLocus
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveCone
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AnalyticFibers
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCharts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Charts -/
 

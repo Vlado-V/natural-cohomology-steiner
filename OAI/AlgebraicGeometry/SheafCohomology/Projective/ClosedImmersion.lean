@@ -1,3 +1,5 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
@@ -6,10 +8,13 @@ Authors: AINTLIB ModularCurves project
 ForMathlib (OURS, not vendored): upstream candidate. Ticket T-A2d.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.GradedQuotient
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.SpaceChart
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Functor
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.GradedQuotient
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.SpaceChart
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Functor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Closed Immersion -/
 

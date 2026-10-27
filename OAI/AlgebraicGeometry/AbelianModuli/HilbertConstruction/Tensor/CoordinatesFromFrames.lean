@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleSheaf
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.UnitTensorEquivalence
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleSheaf
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.UnitTensorEquivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coordinates From Frames -/
 

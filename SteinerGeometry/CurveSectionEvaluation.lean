@@ -1,4 +1,9 @@
-import SteinerGeometry.CurveSectionFunctor
+module
+
+public import SteinerGeometry.CurveSectionFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Actual section and fiber spaces for the curve generator theorem. -/
 

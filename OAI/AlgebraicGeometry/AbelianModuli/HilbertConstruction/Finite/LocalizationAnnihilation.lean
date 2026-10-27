@@ -1,6 +1,11 @@
-import Mathlib.RingTheory.Support
-import Mathlib.RingTheory.Finiteness.Ideal
-import Mathlib.RingTheory.Noetherian.Basic
+module
+
+public import Mathlib.RingTheory.Support
+public import Mathlib.RingTheory.Finiteness.Ideal
+public import Mathlib.RingTheory.Noetherian.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Localization Annihilation -/
 

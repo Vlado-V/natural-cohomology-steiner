@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictionCokernelComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictionCokernelComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Injective Cokernel Sequence -/
 

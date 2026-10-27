@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Albanese.Construction.SegreCoordinates
-import OAI.AlgebraicGeometry.Albanese.Construction.ProjectiveCoordinates
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectivePointInjective
+module
+
+public import OAI.AlgebraicGeometry.Albanese.Construction.SegreCoordinates
+public import OAI.AlgebraicGeometry.Albanese.Construction.ProjectiveCoordinates
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectivePointInjective
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Segre Compatibility -/
 

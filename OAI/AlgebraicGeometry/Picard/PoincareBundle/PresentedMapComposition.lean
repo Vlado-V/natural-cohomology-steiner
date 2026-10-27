@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.PresentedMapFullness
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.PresentedMapFullness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presented Map Composition -/
 

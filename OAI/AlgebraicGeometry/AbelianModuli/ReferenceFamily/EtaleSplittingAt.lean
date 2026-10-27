@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ConstantScheme
-import Mathlib.RingTheory.TotallySplit
-import Mathlib.RingTheory.Finiteness.ModuleFinitePresentation
-import Mathlib.AlgebraicGeometry.Morphisms.Flat
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ConstantScheme
+public import Mathlib.RingTheory.TotallySplit
+public import Mathlib.RingTheory.Finiteness.ModuleFinitePresentation
+public import Mathlib.AlgebraicGeometry.Morphisms.Flat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Etale Splitting At -/
 

@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GraphRegular
-import Mathlib.RingTheory.TensorProduct.Quotient
-import Mathlib.RingTheory.Localization.BaseChange
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GraphRegular
+public import Mathlib.RingTheory.TensorProduct.Quotient
+public import Mathlib.RingTheory.Localization.BaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Localization Is -/
 

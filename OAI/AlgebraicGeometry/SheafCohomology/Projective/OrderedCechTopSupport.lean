@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechSupport
-import Mathlib.Data.Fintype.Sort
-import Mathlib.Order.Hom.Set
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechSupport
+public import Mathlib.Data.Fintype.Sort
+public import Mathlib.Order.Hom.Set
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ordered Cech Top Support -/
 

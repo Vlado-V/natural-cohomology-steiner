@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothSchemeManifold
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineOpenTransitions
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeAffineCover
-import OAI.AlgebraicGeometry.Foundations.Scheme.StandardSmoothDimension
-import OAI.AlgebraicGeometry.Betti.SmoothDimension
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothSchemeManifold
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineOpenTransitions
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeAffineCover
+public import OAI.AlgebraicGeometry.Foundations.Scheme.StandardSmoothDimension
+public import OAI.AlgebraicGeometry.Betti.SmoothDimension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Intrinsic Smooth Scheme Manifold -/
 

@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/TotalComplexUpNatHorizontalEdgeHOne.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.Algebra.Homology.ConcreteCategory
-import Mathlib.Algebra.Homology.QuasiIso
+public import Mathlib.Algebra.Homology.ConcreteCategory
+public import Mathlib.Algebra.Homology.QuasiIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Positive Cycle Homology -/
 

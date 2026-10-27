@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntegralLineBundleRestrictions
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.LocalLinearFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.GlobalSectionsFunctor
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntegralLineBundleRestrictions
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.LocalLinearFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.GlobalSectionsFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generic Bundle Map Sections -/
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Cocycle
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Diagonal
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Symmetry
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.SwitchLineDescent
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Cocycle
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Diagonal
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Symmetry
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.SwitchLineDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Effective Cech Descent -/
 

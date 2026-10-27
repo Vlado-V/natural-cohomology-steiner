@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.SectionRestriction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Gluing
-import Mathlib.CategoryTheory.HomCongr
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.SectionRestriction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Gluing
+public import Mathlib.CategoryTheory.HomCongr
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sections On Open Images -/
 

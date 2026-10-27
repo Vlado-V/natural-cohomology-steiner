@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Relative.TensorFrames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Relative.TensorFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Coordinates -/
 

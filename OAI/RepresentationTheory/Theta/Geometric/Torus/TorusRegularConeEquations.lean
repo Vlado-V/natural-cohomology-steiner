@@ -1,8 +1,13 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodAlgebraicCoordinates
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPointwiseRegularProjection
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.SeparatingLinearCoordinates
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.RegularCoordinate
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodAlgebraicCoordinates
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPointwiseRegularProjection
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.SeparatingLinearCoordinates
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.RegularCoordinate
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Regular Cone Equations -/
 

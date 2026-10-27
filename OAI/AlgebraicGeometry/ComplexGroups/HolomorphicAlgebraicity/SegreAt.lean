@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveZeroLocus
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCharts
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Immersion
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveZeroLocus
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCharts
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Immersion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Segre At -/
 

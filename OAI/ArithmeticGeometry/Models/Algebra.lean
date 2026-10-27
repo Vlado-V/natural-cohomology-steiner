@@ -1,7 +1,12 @@
-import Mathlib.NumberTheory.NumberField.Basic
-import Mathlib.RingTheory.Localization.Integer
-import Mathlib.RingTheory.Localization.Away.Basic
-import Mathlib.RingTheory.Extension.Presentation.Core
+module
+
+public import Mathlib.NumberTheory.NumberField.Basic
+public import Mathlib.RingTheory.Localization.Integer
+public import Mathlib.RingTheory.Localization.Away.Basic
+public import Mathlib.RingTheory.Extension.Presentation.Core
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Algebra -/
 

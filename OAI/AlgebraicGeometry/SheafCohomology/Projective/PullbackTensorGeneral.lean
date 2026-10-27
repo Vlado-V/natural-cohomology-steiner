@@ -1,18 +1,23 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import Mathlib.CategoryTheory.Monoidal.Closed.Braided
-import Mathlib.Algebra.Category.ModuleCat.Monoidal.Closed
-import Mathlib.CategoryTheory.Monoidal.FunctorCategory
-import Mathlib.CategoryTheory.Monoidal.Types.Basic
-import Mathlib.Algebra.Category.ModuleCat.Presheaf.Generator
-import Mathlib.CategoryTheory.Localization.Monoidal.Functor
-import Mathlib.LinearAlgebra.Finsupp.Pi
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Monoidal
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackTensorMonoidal
+public import Mathlib.CategoryTheory.Monoidal.Closed.Braided
+public import Mathlib.Algebra.Category.ModuleCat.Monoidal.Closed
+public import Mathlib.CategoryTheory.Monoidal.FunctorCategory
+public import Mathlib.CategoryTheory.Monoidal.Types.Basic
+public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Generator
+public import Mathlib.CategoryTheory.Localization.Monoidal.Functor
+public import Mathlib.LinearAlgebra.Finsupp.Pi
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Monoidal
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackTensorMonoidal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Tensor General -/
 

@@ -1,8 +1,13 @@
-import SteinerGeometry.PointTensorFree
-import SteinerGeometry.PointTensorRestriction
-import SteinerGeometry.FiniteLocalFrames
-import SteinerGeometry.ClosedImmersionUnit
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
+module
+
+public import SteinerGeometry.PointTensorFree
+public import SteinerGeometry.PointTensorRestriction
+public import SteinerGeometry.FiniteLocalFrames
+public import SteinerGeometry.ClosedImmersionUnit
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 set_option backward.isDefEq.respectTransparency false

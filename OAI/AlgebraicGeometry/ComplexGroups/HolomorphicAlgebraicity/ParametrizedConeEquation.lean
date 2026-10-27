@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeCoordinateImage
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.FinitePullback
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeFiberEquation
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.RootContinuity
-import Mathlib.Topology.Algebra.MvPolynomial
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeCoordinateImage
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.FinitePullback
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeFiberEquation
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.RootContinuity
+public import Mathlib.Topology.Algebra.MvPolynomial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Parametrized Cone Equation -/
 

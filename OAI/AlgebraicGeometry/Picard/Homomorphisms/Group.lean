@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Properties
-import Mathlib.CategoryTheory.Monoidal.Cartesian.Grp
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Properties
+public import Mathlib.CategoryTheory.Monoidal.Cartesian.Grp
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Group -/
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.FinitePointProjection
-import Mathlib.AlgebraicGeometry.FunctionField
-import Mathlib.Algebra.CharP.Algebra
-import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.FinitePointProjection
+public import Mathlib.AlgebraicGeometry.FunctionField
+public import Mathlib.Algebra.CharP.Algebra
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Birational -/
 

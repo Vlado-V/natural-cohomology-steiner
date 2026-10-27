@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartMap
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.HomogeneousPolynomialCoefficientFormula
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartMap
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.HomogeneousPolynomialCoefficientFormula
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Chart Homogeneous -/
 

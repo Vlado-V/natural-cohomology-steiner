@@ -1,4 +1,9 @@
-import SteinerGeometry.CyclicFromPoints
+module
+
+public import SteinerGeometry.CyclicFromPoints
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Transfer of an actual analytic group kernel to geometric points of an
 algebraic isogeny. -/

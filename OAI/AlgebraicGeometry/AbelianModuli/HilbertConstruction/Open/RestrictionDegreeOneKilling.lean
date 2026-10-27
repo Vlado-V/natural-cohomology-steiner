@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictionCohomologyBoundary
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictionCohomologyBoundary
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restriction Degree One Killing -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleFinitePresentation
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleFinitePresentation
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Rank One -/
 

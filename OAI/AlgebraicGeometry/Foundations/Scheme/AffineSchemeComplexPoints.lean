@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineComplexPoints
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineComplexPoints
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Scheme Complex Points -/
 

@@ -1,10 +1,15 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SchemeModuleBaseCech.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.CosimplicialForget
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.CosimplicialForget
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Complex Forget -/
 

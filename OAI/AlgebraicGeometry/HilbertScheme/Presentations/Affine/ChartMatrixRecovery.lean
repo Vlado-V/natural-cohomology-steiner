@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.MatrixClassifyingEquations
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.MatrixClassifyingEquations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Matrix Recovery -/
 

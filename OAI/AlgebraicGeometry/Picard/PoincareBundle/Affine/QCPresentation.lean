@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildeExact
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildeExact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # QC Presentation -/
 

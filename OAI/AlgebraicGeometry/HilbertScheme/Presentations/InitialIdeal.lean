@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.SaturatedMonomialIdeals
-import Mathlib.RingTheory.MvPolynomial.Groebner
-import Mathlib.LinearAlgebra.Projection
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.SaturatedMonomialIdeals
+public import Mathlib.RingTheory.MvPolynomial.Groebner
+public import Mathlib.LinearAlgebra.Projection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Initial Ideal -/
 

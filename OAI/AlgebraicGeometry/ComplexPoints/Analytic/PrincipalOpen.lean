@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffinePointMaps
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialZeroLocus
-import Mathlib.Topology.ContinuousOn
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffinePointMaps
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialZeroLocus
+public import Mathlib.Topology.ContinuousOn
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Principal Open -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.StandardCech
-import Mathlib.Order.Preorder.Finite
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.StandardCech
+public import Mathlib.Order.Preorder.Finite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Multiplication by a coordinate on the actual homogeneous Laurent coefficient modules. -/
 noncomputable section

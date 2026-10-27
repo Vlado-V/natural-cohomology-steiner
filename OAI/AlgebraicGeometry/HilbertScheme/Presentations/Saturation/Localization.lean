@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Hilbert.MonomialBasis
-import Mathlib.RingTheory.Localization.Ideal
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Hilbert.MonomialBasis
+public import Mathlib.RingTheory.Localization.Ideal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Localization -/
 

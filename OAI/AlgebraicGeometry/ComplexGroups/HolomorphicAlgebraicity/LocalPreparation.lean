@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.WeierstrassPreparation
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ZeroLocus
-import Mathlib.Analysis.Analytic.IsolatedZeros
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.WeierstrassPreparation
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ZeroLocus
+public import Mathlib.Analysis.Analytic.IsolatedZeros
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Preparation -/
 

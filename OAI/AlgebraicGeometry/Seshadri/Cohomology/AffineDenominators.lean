@@ -1,9 +1,14 @@
+module
+
 /-
 Portions of this file have been adapted from an external source.
 The source copyright header and license information are preserved below.
 -/
 
-import Mathlib
+public import Mathlib
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

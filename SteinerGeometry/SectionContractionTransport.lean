@@ -1,4 +1,9 @@
-import SteinerGeometry.SectionContractionCategory
+module
+
+public import SteinerGeometry.SectionContractionCategory
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Isomorphism transport for the literal symmetric contraction matrix. -/
 noncomputable section

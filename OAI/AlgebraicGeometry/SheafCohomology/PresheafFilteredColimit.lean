@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.PresheafFilteredColimitGeneral
-import OAI.AlgebraicGeometry.SheafCohomology.ClosedImmersionCohomology
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.PresheafFilteredColimitGeneral
+public import OAI.AlgebraicGeometry.SheafCohomology.ClosedImmersionCohomology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presheaf Filtered Colimit -/
 

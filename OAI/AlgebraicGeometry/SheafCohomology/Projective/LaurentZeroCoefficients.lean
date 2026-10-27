@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroCycleWeights
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroCycleWeights
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Zero Coefficients -/
 

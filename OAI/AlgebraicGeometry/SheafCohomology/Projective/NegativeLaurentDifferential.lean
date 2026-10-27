@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechSupport
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentExceptionalWeights
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechSupport
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentExceptionalWeights
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Laurent Differential -/
 

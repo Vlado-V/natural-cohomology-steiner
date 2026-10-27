@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EqualDimensionEtaleSchemes
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Finite
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EqualDimensionEtaleSchemes
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Finite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Etale -/
 

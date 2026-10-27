@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.FrameTransposeDetection
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Negative.ProjectiveTwistingBundle
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstructedCompatibleFrames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.FrameTransposeDetection
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Negative.ProjectiveTwistingBundle
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstructedCompatibleFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Transpose -/
 

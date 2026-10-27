@@ -1,6 +1,11 @@
-import SteinerGeometry.CyclicKernelSplitting
-import SteinerGeometry.FirstKernelCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.LineBundles
+module
+
+public import SteinerGeometry.CyclicKernelSplitting
+public import SteinerGeometry.FirstKernelCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.LineBundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The evaluated component sections and their actual first kernel after pullback. -/
 noncomputable section

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Common.DegreeChartExtensions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Common.DegreeChartExtensions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Extensions -/
 

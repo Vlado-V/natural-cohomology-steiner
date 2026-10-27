@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.QuasicoherentLocalization
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.RankOneBasisTransport
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.QuasicoherentLocalization
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.RankOneBasisTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Principal Rank One Sections -/
 

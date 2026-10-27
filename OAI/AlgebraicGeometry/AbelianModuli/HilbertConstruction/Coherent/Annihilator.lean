@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModuleVanishingSupport
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.AnnihilatorLocalization
-import Mathlib.AlgebraicGeometry.IdealSheaf.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModuleVanishingSupport
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.AnnihilatorLocalization
+public import Mathlib.AlgebraicGeometry.IdealSheaf.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Annihilator -/
 

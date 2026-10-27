@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheaf
-import Mathlib.Algebra.Category.CommAlgCat.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheaf
+public import Mathlib.Algebra.Category.CommAlgCat.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Algebra Presheaf -/
 

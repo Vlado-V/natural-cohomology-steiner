@@ -1,6 +1,11 @@
-import SteinerGeometry.KernelAffineLocalFreeness
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistPowers
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.StandardCech
+module
+
+public import SteinerGeometry.KernelAffineLocalFreeness
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistPowers
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.StandardCech
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Kernels of epimorphisms between sums of genuine projective line bundles. -/
 noncomputable section

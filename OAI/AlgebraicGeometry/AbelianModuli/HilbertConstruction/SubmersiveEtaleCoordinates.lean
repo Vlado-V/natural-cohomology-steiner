@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SubmersiveSplitJacobian
-import Mathlib.RingTheory.Smooth.StandardSmoothCotangent
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SubmersiveSplitJacobian
+public import Mathlib.RingTheory.Smooth.StandardSmoothCotangent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Submersive Etale Coordinates -/
 

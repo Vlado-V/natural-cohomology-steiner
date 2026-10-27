@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.CharacterSeparationEq
-import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.CharacterSeparationEq
+public import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Vanishing -/
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SpaceReindex
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Grassmann.ParameterScheme
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ParameterLoci
-import Mathlib.Data.Fintype.EquivFin
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SpaceReindex
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Grassmann.ParameterScheme
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ParameterLoci
+public import Mathlib.Data.Fintype.EquivFin
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Presentation -/
 

@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Group.Affine
-import Mathlib.AlgebraicGeometry.Morphisms.Finite
+module
+
+public import Mathlib.AlgebraicGeometry.Group.Affine
+public import Mathlib.AlgebraicGeometry.Morphisms.Finite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Hopf Presentation -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.InjectiveDifferential
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.InjectiveDifferential
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Alternating Map -/
 

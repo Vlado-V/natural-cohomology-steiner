@@ -1,10 +1,15 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicSmoothImmersion
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LinearImmersionComplement
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ImmersionChartDerivative
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ImmersionComplementDimension
-import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff
-import Mathlib.Geometry.Manifold.Immersion
-import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicSmoothImmersion
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LinearImmersionComplement
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ImmersionChartDerivative
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ImmersionComplementDimension
+public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff
+public import Mathlib.Geometry.Manifold.Immersion
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Immersion Normal Form -/
 

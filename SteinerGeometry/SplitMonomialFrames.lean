@@ -1,5 +1,10 @@
-import SteinerGeometry.TensorFactorFrames
-import SteinerGeometry.PolynomialWordExpansion
+module
+
+public import SteinerGeometry.TensorFactorFrames
+public import SteinerGeometry.PolynomialWordExpansion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Literal matrix entries of the monomial sheaf map in line-bundle frames. -/
 noncomputable section

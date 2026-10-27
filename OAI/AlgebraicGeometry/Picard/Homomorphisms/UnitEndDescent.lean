@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FunctionDescent
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.UnitPullbackScalars
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FunctionDescent
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.UnitPullbackScalars
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Unit End Descent -/
 

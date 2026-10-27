@@ -1,10 +1,15 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechSheafAugmentation.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.SheafComplex
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.SheafComplex
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Augmentation -/
 

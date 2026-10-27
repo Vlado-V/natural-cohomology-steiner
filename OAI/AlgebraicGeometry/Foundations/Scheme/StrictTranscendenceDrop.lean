@@ -1,6 +1,11 @@
-import Mathlib.RingTheory.AlgebraicIndependent.TranscendenceBasis
-import Mathlib.RingTheory.Ideal.Quotient.Operations
-import OAI.AlgebraicGeometry.Foundations.Scheme.TranscendenceDegreeTransfer
+module
+
+public import Mathlib.RingTheory.AlgebraicIndependent.TranscendenceBasis
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+public import OAI.AlgebraicGeometry.Foundations.Scheme.TranscendenceDegreeTransfer
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Strict Transcendence Drop -/
 

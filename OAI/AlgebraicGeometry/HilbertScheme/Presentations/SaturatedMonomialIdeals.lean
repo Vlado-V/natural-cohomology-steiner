@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Hilbert.Polynomial
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.MonomialFinitenessIs
-import Mathlib.RingTheory.MvPolynomial.Ideal
-import Mathlib.Data.Finsupp.PWO
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Hilbert.Polynomial
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.MonomialFinitenessIs
+public import Mathlib.RingTheory.MvPolynomial.Ideal
+public import Mathlib.Data.Finsupp.PWO
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Saturated Monomial Ideals -/
 

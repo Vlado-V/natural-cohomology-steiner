@@ -1,11 +1,16 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.Data
-import Mathlib.Topology.Covering.Quotient
-import Mathlib.Geometry.Manifold.IsManifold.Basic
-import Mathlib.Geometry.Manifold.ContMDiff.Basic
-import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
-import Mathlib.Geometry.Manifold.Algebra.LieGroup
-import Mathlib.Analysis.Calculus.ContDiff.Operations
-import Mathlib.Analysis.Convex.Topology
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.Data
+public import Mathlib.Topology.Covering.Quotient
+public import Mathlib.Geometry.Manifold.IsManifold.Basic
+public import Mathlib.Geometry.Manifold.ContMDiff.Basic
+public import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+public import Mathlib.Geometry.Manifold.Algebra.LieGroup
+public import Mathlib.Analysis.Calculus.ContDiff.Operations
+public import Mathlib.Analysis.Convex.Topology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Manifold -/
 

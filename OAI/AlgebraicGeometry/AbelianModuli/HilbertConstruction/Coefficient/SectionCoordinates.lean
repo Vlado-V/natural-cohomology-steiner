@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ComponentRatios
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.AlgebraPresheaf
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.GlobalSectionsFunctor
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Gluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ComponentRatios
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.AlgebraPresheaf
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.GlobalSectionsFunctor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Gluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Coordinates -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentDifferential
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechHigher
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CycleHomologyDesc
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentDifferential
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechHigher
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CycleHomologyDesc
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Laurent Homology -/
 

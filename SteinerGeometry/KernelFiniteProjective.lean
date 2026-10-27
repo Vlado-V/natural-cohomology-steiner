@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Module.Projective
-import Mathlib.RingTheory.Finiteness.Basic
+module
+
+public import Mathlib.Algebra.Module.Projective
+public import Mathlib.RingTheory.Finiteness.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Kernels of surjections from finite projective modules onto projective modules. -/
 noncomputable section

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameRestriction
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Frame Overlap -/
 

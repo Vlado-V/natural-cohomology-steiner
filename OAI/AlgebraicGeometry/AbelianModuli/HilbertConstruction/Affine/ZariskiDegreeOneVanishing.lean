@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.FiniteCohomologyKillingCover
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyDimensionShift
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.FiniteCohomologyKillingCover
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyDimensionShift
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zariski Degree One Vanishing -/
 

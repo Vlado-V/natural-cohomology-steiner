@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.CoherentVanishing
-import OAI.AlgebraicGeometry.SheafCohomology.AffineH
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.CoherentVanishing
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineH
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Comparison -/
 

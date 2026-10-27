@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildePullback
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildePullback
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pushforward Sections -/
 

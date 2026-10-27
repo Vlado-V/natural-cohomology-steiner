@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.CanonicalBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.StructureSheafBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.BaseChangeComposition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cartesian.OpenRestriction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.CanonicalBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.StructureSheafBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.BaseChangeComposition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cartesian.OpenRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Change Affine Restriction -/
 

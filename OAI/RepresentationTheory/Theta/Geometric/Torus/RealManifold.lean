@@ -1,5 +1,10 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.Manifold
-import OAI.Analysis.DifferentialForms.Manifold.Derivative
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.Manifold
+public import OAI.Analysis.DifferentialForms.Manifold.Derivative
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Real Manifold -/
 

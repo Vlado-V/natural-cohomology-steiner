@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Degree
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Degree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Degree -/
 

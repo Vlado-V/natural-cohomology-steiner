@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveTransport
-import Mathlib.AlgebraicGeometry.Properties
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveTransport
+public import Mathlib.AlgebraicGeometry.Properties
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Integral Projective -/
 

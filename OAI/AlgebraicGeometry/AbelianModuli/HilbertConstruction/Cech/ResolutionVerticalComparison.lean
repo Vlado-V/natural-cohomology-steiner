@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.InjectiveVerticalEdge
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.AcyclicIntersectionColumns
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.VerticalComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.InjectiveVerticalEdge
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.AcyclicIntersectionColumns
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.VerticalComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Resolution Vertical Comparison -/
 

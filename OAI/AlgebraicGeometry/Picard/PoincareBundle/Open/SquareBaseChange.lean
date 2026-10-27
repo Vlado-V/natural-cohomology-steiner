@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.Adjunction
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.Adjunction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Square Base Change -/
 

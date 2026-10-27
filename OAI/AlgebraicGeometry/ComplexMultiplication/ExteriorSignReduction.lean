@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.OddSignSwitch
-import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorHodgeType
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.OddSignSwitch
+public import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorHodgeType
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exterior Sign Reduction -/
 

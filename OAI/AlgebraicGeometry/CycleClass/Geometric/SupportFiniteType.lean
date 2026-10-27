@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.CycleClass.Geometric.GenericPoint
-import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedProjective
+module
+
+public import OAI.AlgebraicGeometry.CycleClass.Geometric.GenericPoint
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedProjective
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Support Finite Type -/
 

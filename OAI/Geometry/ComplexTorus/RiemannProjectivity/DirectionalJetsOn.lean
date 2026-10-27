@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicContourF
-import Mathlib.Analysis.Analytic.Order
-import Mathlib.LinearAlgebra.Dual.Lemmas
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicContourF
+public import Mathlib.Analysis.Analytic.Order
+public import Mathlib.LinearAlgebra.Dual.Lemmas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Directional Jets On -/
 

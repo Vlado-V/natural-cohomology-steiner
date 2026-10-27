@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.WeightedFreeModules
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ModuleGenerators
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.SubmoduleGrading
-import Mathlib.RingTheory.Polynomial.Basic
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.WeightedFreeModules
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ModuleGenerators
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.SubmoduleGrading
+public import Mathlib.RingTheory.Polynomial.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Free -/
 

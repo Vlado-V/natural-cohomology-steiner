@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointHomeomorphs
-import Mathlib.AlgebraicGeometry.Pullbacks
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointHomeomorphs
+public import Mathlib.AlgebraicGeometry.Pullbacks
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme Point Closed Map -/
 

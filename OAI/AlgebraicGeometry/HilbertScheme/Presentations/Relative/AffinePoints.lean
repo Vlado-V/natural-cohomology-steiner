@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.Group.Affine
+module
+
+public import Mathlib.AlgebraicGeometry.Group.Affine
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Points -/
 

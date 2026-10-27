@@ -1,4 +1,9 @@
-import SteinerGeometry.LinePushforwardLocallyFree
+module
+
+public import SteinerGeometry.LinePushforwardLocallyFree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite geometric frames from finite projective affine sections -/
 noncomputable section

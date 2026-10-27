@@ -1,15 +1,20 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafDerivedGlobalSections.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.Algebra.Homology.Embedding.ExtendHomology
-import Mathlib.CategoryTheory.Abelian.Injective.Ext
-import Mathlib.CategoryTheory.Abelian.RightDerived
-import Mathlib.CategoryTheory.Sites.GlobalSections
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.Compat
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.GlobalSectionsFunctor
+public import Mathlib.Algebra.Homology.Embedding.ExtendHomology
+public import Mathlib.CategoryTheory.Abelian.Injective.Ext
+public import Mathlib.CategoryTheory.Abelian.RightDerived
+public import Mathlib.CategoryTheory.Sites.GlobalSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.Compat
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.GlobalSectionsFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Derived Global Sections -/
 

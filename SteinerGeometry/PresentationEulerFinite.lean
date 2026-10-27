@@ -1,7 +1,12 @@
-import SteinerGeometry.PresentationEulerCurve
-import SteinerGeometry.CurveCohomologyFinite
-import SteinerGeometry.CurvePresentation
-import SteinerGeometry.LinePushforwardFinite
+module
+
+public import SteinerGeometry.PresentationEulerCurve
+public import SteinerGeometry.CurveCohomologyFinite
+public import SteinerGeometry.CurvePresentation
+public import SteinerGeometry.LinePushforwardFinite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Automatic finite-cohomology Euler additivity for genuine curve presentations. -/
 noncomputable section

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
-import Mathlib.CategoryTheory.Preadditive.Biproducts
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+public import Mathlib.CategoryTheory.Preadditive.Biproducts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Idempotent Sheaf Summands -/
 

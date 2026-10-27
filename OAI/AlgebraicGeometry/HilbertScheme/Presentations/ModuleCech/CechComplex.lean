@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Terms
-import Mathlib.Algebra.Homology.HomologicalComplex
-import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Terms
+public import Mathlib.Algebra.Homology.HomologicalComplex
+public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Complex -/
 

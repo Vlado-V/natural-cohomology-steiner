@@ -1,5 +1,10 @@
-import SteinerGeometry.ProjectiveSteinerBundle
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorConjugatedMapSections
+module
+
+public import SteinerGeometry.ProjectiveSteinerBundle
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorConjugatedMapSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual line-twist map in its canonical tensor coordinates. -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.GlobalSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.GlobalSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Sections -/
 

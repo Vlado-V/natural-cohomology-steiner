@@ -1,4 +1,9 @@
-import Mathlib.Algebra.Module.Projective
+module
+
+public import Mathlib.Algebra.Module.Projective
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Retraction -/
 

@@ -1,9 +1,14 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusFiniteConeFibers
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConePolynomialEquations
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeSurjectivity
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusFiniteConeFibers
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConePolynomialEquations
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeSurjectivity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Period Coordinate Equations -/
 

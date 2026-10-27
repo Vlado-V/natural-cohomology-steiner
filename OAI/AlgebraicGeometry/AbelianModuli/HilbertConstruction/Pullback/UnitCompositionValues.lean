@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.TensorCompositionUnits
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.TensorCompositionUnits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Unit Composition Values -/
 

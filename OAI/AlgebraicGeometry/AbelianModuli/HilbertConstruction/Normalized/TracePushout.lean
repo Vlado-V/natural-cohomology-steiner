@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Free.AlgebraTraceBaseChange
-import Mathlib.Algebra.Category.Ring.Constructions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Free.AlgebraTraceBaseChange
+public import Mathlib.Algebra.Category.Ring.Constructions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Trace Pushout -/
 

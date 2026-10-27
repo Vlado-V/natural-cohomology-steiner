@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.ToGrassmannian
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.ToGrassmannian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Preimages -/
 

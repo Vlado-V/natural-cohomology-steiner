@@ -1,7 +1,12 @@
-import Mathlib.Algebra.Homology.HomologySequence
-import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
-import Mathlib.RingTheory.Finiteness.Finsupp
-import Mathlib.RingTheory.Noetherian.Basic
+module
+
+public import Mathlib.Algebra.Homology.HomologySequence
+public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+public import Mathlib.RingTheory.Finiteness.Finsupp
+public import Mathlib.RingTheory.Noetherian.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Homology Sequences -/
 

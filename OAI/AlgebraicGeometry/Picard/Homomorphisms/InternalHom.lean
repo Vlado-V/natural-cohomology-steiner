@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomSections
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Internal Hom -/
 

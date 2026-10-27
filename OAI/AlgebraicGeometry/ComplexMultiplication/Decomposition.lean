@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.WeightOne
-import Mathlib.Algebra.DirectSum.Module
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.WeightOne
+public import Mathlib.Algebra.DirectSum.Module
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Decomposition -/
 

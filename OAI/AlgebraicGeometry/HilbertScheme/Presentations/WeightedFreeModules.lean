@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.BasisGrading
-import Mathlib.LinearAlgebra.Finsupp.VectorSpace
-import Mathlib.RingTheory.MvPolynomial.WeightedHomogeneous
-import Mathlib.Algebra.Module.GradedModule
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.BasisGrading
+public import Mathlib.LinearAlgebra.Finsupp.VectorSpace
+public import Mathlib.RingTheory.MvPolynomial.WeightedHomogeneous
+public import Mathlib.Algebra.Module.GradedModule
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Weighted Free Modules -/
 

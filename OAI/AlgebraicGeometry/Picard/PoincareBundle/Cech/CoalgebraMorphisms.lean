@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.GluingMorphisms
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.CoalgebraMapCoordinates
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.GluingMorphisms
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.CoalgebraMapCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coalgebra Morphisms -/
 

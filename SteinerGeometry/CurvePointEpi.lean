@@ -1,6 +1,11 @@
-import SteinerGeometry.CurveGenerators
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.MorphismQuasicoherentPullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.GlobalSectionsDetectMaps
+module
+
+public import SteinerGeometry.CurveGenerators
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.MorphismQuasicoherentPullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.GlobalSectionsDetectMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

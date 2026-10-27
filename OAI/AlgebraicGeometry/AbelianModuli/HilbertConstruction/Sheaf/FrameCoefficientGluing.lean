@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.FrameCoefficientMaps
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.FrameCoefficientMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Coefficient Gluing -/
 

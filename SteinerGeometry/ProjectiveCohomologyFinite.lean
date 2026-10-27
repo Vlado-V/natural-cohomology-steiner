@@ -1,6 +1,11 @@
-import SteinerGeometry.CurveCohomologyFinite
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveZariskiFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RelativeProjective.TwistingSectionsFinite
+module
+
+public import SteinerGeometry.CurveCohomologyFinite
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveZariskiFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RelativeProjective.TwistingSectionsFinite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Coherent cohomology finiteness from an explicit projective presentation. -/
 noncomputable section

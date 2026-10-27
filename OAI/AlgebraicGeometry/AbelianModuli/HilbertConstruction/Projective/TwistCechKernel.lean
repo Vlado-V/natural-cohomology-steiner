@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistTupleCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.AllPairCompatibility
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistTupleCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.AllPairCompatibility
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Cech Kernel -/
 

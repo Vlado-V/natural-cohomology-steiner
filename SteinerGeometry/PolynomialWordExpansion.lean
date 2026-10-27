@@ -1,6 +1,11 @@
-import SteinerGeometry.SectionTensorMonomials
-import SteinerGeometry.PolynomialProductKernel
-import Mathlib.Algebra.BigOperators.Group.Finset.Pi
+module
+
+public import SteinerGeometry.SectionTensorMonomials
+public import SteinerGeometry.PolynomialProductKernel
+public import Mathlib.Algebra.BigOperators.Group.Finset.Pi
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Ordinary polynomial expansion for the universal tensor monomial morphisms. -/
 noncomputable section

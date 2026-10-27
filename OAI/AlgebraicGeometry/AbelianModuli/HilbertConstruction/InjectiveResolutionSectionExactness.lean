@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AcyclicSheafResolution
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TopologicalSheafRestriction
-import Mathlib.Algebra.Homology.ShortComplex.ExactFunctor
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AcyclicSheafResolution
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TopologicalSheafRestriction
+public import Mathlib.Algebra.Homology.ShortComplex.ExactFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Injective Resolution Section Exactness -/
 

@@ -1,5 +1,10 @@
-import Mathlib.Analysis.Normed.Module.FiniteDimension
-import Mathlib.LinearAlgebra.Projection
+module
+
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.LinearAlgebra.Projection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Linear Immersion Complement -/
 

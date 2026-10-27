@@ -1,5 +1,10 @@
-import SteinerGeometry.PointTensorMap
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.UnitRight
+module
+
+public import SteinerGeometry.PointTensorMap
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.UnitRight
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 set_option backward.isDefEq.respectTransparency false

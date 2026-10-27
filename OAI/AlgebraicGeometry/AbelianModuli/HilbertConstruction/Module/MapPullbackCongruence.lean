@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapPullbackComposition
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapPullbackComposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Map Pullback Congruence -/
 

@@ -1,6 +1,11 @@
-import Mathlib.GroupTheory.FiniteAbelian.Duality
-import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-import Mathlib.RingTheory.RootsOfUnity.AlgebraicallyClosed
+module
+
+public import Mathlib.GroupTheory.FiniteAbelian.Duality
+public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+public import Mathlib.RingTheory.RootsOfUnity.AlgebraicallyClosed
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Basis -/
 

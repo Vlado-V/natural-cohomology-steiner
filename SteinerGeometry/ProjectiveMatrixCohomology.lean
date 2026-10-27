@@ -1,6 +1,11 @@
-import SteinerGeometry.ProjectiveTopNaturality
-import SteinerGeometry.CohomologyMatrix
-import SteinerGeometry.ResidueMatrixRank
+module
+
+public import SteinerGeometry.ProjectiveTopNaturality
+public import SteinerGeometry.CohomologyMatrix
+public import SteinerGeometry.ResidueMatrixRank
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual top cohomology map of a projective matrix, with every
 component identified through the Čech residue calculation. -/

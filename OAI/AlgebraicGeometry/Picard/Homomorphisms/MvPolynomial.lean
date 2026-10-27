@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Polynomial
-import Mathlib.Algebra.MvPolynomial.Expand
-import Mathlib.Algebra.MvPolynomial.Equiv
-import Mathlib.Data.Fintype.Option
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Polynomial
+public import Mathlib.Algebra.MvPolynomial.Expand
+public import Mathlib.Algebra.MvPolynomial.Equiv
+public import Mathlib.Data.Fintype.Option
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Mv Polynomial -/
 

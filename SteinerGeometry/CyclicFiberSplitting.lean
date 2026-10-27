@@ -1,7 +1,12 @@
-import SteinerGeometry.CyclicLinePushforward
-import SteinerGeometry.PointLineRank
-import Mathlib.AlgebraicGeometry.AlgClosed.Basic
-import Mathlib.AlgebraicGeometry.Morphisms.QuasiFinite
+module
+
+public import SteinerGeometry.CyclicLinePushforward
+public import SteinerGeometry.PointLineRank
+public import Mathlib.AlgebraicGeometry.AlgClosed.Basic
+public import Mathlib.AlgebraicGeometry.Morphisms.QuasiFinite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The geometric fibers of the actual direct image have the degree of the
 cyclic isogeny as their vector-space dimension. -/

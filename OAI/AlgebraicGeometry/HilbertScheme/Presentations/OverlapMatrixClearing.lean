@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Matrix.LocalizationClearing
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Matrix.LocalizationClearing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap Matrix Clearing -/
 

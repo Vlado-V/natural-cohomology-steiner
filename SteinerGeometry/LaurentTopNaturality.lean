@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CycleHomologyDesc
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CycleHomologyDesc
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Naturality of cohomology computed by coefficient projections
 

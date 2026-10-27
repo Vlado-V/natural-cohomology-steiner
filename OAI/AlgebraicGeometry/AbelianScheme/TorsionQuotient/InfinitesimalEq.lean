@@ -1,6 +1,11 @@
-import Mathlib.RingTheory.Bialgebra.Convolution
-import Mathlib.RingTheory.Ideal.Operations
-import Mathlib.Tactic.Ring
+module
+
+public import Mathlib.RingTheory.Bialgebra.Convolution
+public import Mathlib.RingTheory.Ideal.Operations
+public import Mathlib.Tactic.Ring
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Infinitesimal Eq -/
 

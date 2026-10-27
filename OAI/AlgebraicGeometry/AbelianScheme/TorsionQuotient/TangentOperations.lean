@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.PointedTangentAt
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.PointedTangentAt
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tangent Operations -/
 

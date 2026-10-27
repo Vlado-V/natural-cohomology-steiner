@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.DecompositionEmbeddingBasis
-import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorTypedBasis
-import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorBalance
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.DecompositionEmbeddingBasis
+public import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorTypedBasis
+public import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorBalance
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exterior Hodge Type -/
 

@@ -1,5 +1,10 @@
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Biproducts
-import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+module
+
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Biproducts
+public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Natural transformations between additive functors respect finite direct sums. -/
 namespace SteinerGeometry

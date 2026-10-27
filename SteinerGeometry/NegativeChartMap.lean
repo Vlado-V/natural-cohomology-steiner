@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomChart
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomChart
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Actual negative-twist maps in the normalized standard-chart frame. -/
 noncomputable section

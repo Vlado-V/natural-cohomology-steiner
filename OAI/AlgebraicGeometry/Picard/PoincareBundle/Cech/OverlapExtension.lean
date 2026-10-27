@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointCechInvariant
-import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointCechInvariant
+public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap Extension -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Etale
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Smooth.Support
-import Mathlib.AlgebraicGeometry.Morphisms.UniversallyOpen
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Etale
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Smooth.Support
+public import Mathlib.AlgebraicGeometry.Morphisms.UniversallyOpen
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Field Surjectivity -/
 

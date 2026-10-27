@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.Sheaves
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.SummandFunctoriality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.Sheaves
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.SummandFunctoriality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Pullback -/
 

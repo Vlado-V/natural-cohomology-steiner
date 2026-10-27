@@ -1,6 +1,11 @@
-import SteinerGeometry.TensorSwapUnitIso
-import SteinerGeometry.LocalTensorLeftUnitor
-import SteinerGeometry.LocalTensorCoherence
+module
+
+public import SteinerGeometry.TensorSwapUnitIso
+public import SteinerGeometry.LocalTensorLeftUnitor
+public import SteinerGeometry.LocalTensorCoherence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Removing a local unit before exchanging the two tensor factors. -/
 noncomputable section

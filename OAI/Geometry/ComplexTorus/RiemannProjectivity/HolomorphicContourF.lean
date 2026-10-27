@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicIntegralF
-import Mathlib.Analysis.Complex.CauchyIntegral
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicIntegralF
+public import Mathlib.Analysis.Complex.CauchyIntegral
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Holomorphic Contour F -/
 

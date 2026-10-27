@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.Schemes
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.Schemes
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Group Objects -/
 

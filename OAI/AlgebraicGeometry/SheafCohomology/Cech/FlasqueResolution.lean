@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.FlasqueProducts
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.Resolution
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.FlasqueProducts
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.Resolution
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flasque Resolution -/
 

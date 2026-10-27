@@ -1,3 +1,5 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: 258abaa2cb1e317c22306e061aa3cc91d07567777b0ec91cddd6692756292abb
@@ -9,7 +11,10 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackTensorGeneral
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackTensorGeneral
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Unit Monoidal -/
 

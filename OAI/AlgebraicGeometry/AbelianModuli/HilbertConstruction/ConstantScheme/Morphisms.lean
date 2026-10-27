@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Iff
-import Mathlib.CategoryTheory.Monoidal.Cartesian.Over
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Iff
+public import Mathlib.CategoryTheory.Monoidal.Cartesian.Over
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Morphisms -/
 

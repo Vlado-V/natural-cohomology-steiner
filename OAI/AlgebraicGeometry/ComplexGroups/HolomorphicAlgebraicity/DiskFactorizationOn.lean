@@ -1,8 +1,13 @@
-import Mathlib.Analysis.Meromorphic.FactorizedRational
-import Mathlib.Analysis.Complex.Polynomial.Basic
-import Mathlib.Algebra.Polynomial.Monic
-import Mathlib.Algebra.BigOperators.Fin
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.RootMomentsNe
+module
+
+public import Mathlib.Analysis.Meromorphic.FactorizedRational
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.Algebra.Polynomial.Monic
+public import Mathlib.Algebra.BigOperators.Fin
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.RootMomentsNe
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Disk Factorization On -/
 

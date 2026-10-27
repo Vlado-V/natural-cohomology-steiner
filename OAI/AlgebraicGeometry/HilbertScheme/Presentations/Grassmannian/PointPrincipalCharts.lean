@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.ChartMatrixRecovery
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.ChartMatrixRecovery
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Point Principal Charts -/
 

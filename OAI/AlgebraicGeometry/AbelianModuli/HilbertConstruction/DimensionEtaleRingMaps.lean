@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EqualDimensionEtaleAlgebras
-import Mathlib.RingTheory.RingHom.Etale
-import Mathlib.RingTheory.RingHom.StandardSmooth
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EqualDimensionEtaleAlgebras
+public import Mathlib.RingTheory.RingHom.Etale
+public import Mathlib.RingTheory.RingHom.StandardSmooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dimension Etale Ring Maps -/
 

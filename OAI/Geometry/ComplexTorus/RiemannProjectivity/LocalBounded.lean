@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.CauchyExtensionOn
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LocalPreparation
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.CauchyExtensionOn
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LocalPreparation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Bounded -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.UnitPullbackCoherence
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.UnitPullbackCoherence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Pullback Coherence -/
 

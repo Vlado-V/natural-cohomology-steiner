@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericHolomorphicPolynomial
-import Mathlib.Data.Finset.Max
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericHolomorphicPolynomial
+public import Mathlib.Data.Finset.Max
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generic Degree -/
 

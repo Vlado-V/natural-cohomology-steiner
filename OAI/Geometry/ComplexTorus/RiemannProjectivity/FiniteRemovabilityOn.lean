@@ -1,4 +1,9 @@
-import Mathlib.Analysis.Complex.RemovableSingularity
+module
+
+public import Mathlib.Analysis.Complex.RemovableSingularity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Removability On -/
 

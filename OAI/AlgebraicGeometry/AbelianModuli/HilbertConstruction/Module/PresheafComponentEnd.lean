@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PresheafScalarAction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PresheafScalarAction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presheaf Component End -/
 

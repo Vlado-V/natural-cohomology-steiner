@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.SheafCoefficientAlgebra
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterAverageIdempotents
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.CharacterAverageSum
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.SheafCoefficientAlgebra
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterAverageIdempotents
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.CharacterAverageSum
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Averages -/
 

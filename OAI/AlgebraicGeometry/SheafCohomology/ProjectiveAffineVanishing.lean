@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.AffineComparison
-import OAI.AlgebraicGeometry.SheafCohomology.AffineVanishing
-import OAI.AlgebraicGeometry.SheafCohomology.FinitePresentation
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineComparison
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineVanishing
+public import OAI.AlgebraicGeometry.SheafCohomology.FinitePresentation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Affine Vanishing -/
 

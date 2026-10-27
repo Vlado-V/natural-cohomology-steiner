@@ -1,7 +1,12 @@
-import OAI.ArithmeticGeometry.Models.SpreadingOut.AlgebraicSpecialization
-import Mathlib.LinearAlgebra.TensorProduct.Basis
-import Mathlib.RingTheory.TensorProduct.DirectLimitFG
-import Mathlib.RingTheory.Flat.Basic
+module
+
+public import OAI.ArithmeticGeometry.Models.SpreadingOut.AlgebraicSpecialization
+public import Mathlib.LinearAlgebra.TensorProduct.Basis
+public import Mathlib.RingTheory.TensorProduct.DirectLimitFG
+public import Mathlib.RingTheory.Flat.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Specialization -/
 

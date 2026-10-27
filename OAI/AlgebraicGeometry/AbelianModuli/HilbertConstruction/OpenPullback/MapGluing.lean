@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.MapRefinement
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.EndRecovery
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.MapRefinement
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.EndRecovery
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Map Gluing -/
 

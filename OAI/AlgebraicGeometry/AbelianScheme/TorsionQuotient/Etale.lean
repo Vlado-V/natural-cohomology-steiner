@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.PowerLocal
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SmoothCriterion
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.FinitePresentationOf
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.Left
-import Mathlib.AlgebraicGeometry.Morphisms.Etale
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.PowerLocal
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SmoothCriterion
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.FinitePresentationOf
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.Left
+public import Mathlib.AlgebraicGeometry.Morphisms.Etale
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Etale -/
 

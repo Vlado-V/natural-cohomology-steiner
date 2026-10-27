@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TransitionRestriction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.InverseFrameTransitions
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveTwisting.Bundle
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TransitionRestriction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.InverseFrameTransitions
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveTwisting.Bundle
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Twisting Bundle -/
 

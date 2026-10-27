@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ZariskiExactness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Image
-import Mathlib.Algebra.Category.ModuleCat.Products
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
-import Mathlib.CategoryTheory.Limits.FullSubcategory
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ZariskiExactness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Image
+public import Mathlib.Algebra.Category.ModuleCat.Products
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+public import Mathlib.CategoryTheory.Limits.FullSubcategory
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cohomology Cover Module -/
 

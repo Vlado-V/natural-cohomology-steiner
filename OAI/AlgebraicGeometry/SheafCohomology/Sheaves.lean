@@ -1,14 +1,19 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.CMAbelianVariety
-import OAI.AlgebraicGeometry.Foundations.Scheme.SupportDimension
-import OAI.AlgebraicGeometry.DivisorClass.Chern.Line.Bundles
-import OAI.AlgebraicGeometry.SheafCohomology.Ext
-import Mathlib.Algebra.Category.ModuleCat.Presheaf.Monoidal
-import Mathlib.Algebra.Category.ModuleCat.FilteredColimits
-import Mathlib.Algebra.Homology.DerivedCategory.Ext.Linear
-import Mathlib.CategoryTheory.Sites.ConstantSheaf
-import Mathlib.CategoryTheory.Sites.Abelian
-import Mathlib.CategoryTheory.Linear.FunctorCategory
-import Mathlib.LinearAlgebra.Dimension.Finrank
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CMAbelianVariety
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SupportDimension
+public import OAI.AlgebraicGeometry.DivisorClass.Chern.Line.Bundles
+public import OAI.AlgebraicGeometry.SheafCohomology.Ext
+public import Mathlib.Algebra.Category.ModuleCat.Presheaf.Monoidal
+public import Mathlib.Algebra.Category.ModuleCat.FilteredColimits
+public import Mathlib.Algebra.Homology.DerivedCategory.Ext.Linear
+public import Mathlib.CategoryTheory.Sites.ConstantSheaf
+public import Mathlib.CategoryTheory.Sites.Abelian
+public import Mathlib.CategoryTheory.Linear.FunctorCategory
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sheaves -/
 

@@ -1,7 +1,12 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GenericProjectionOn
-import Mathlib.Analysis.Normed.Ring.Units
-import Mathlib.Analysis.Normed.Operator.Banach
-import Mathlib.LinearAlgebra.Basis.VectorSpace
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GenericProjectionOn
+public import Mathlib.Analysis.Normed.Ring.Units
+public import Mathlib.Analysis.Normed.Operator.Banach
+public import Mathlib.LinearAlgebra.Basis.VectorSpace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Regular Projection Is -/
 

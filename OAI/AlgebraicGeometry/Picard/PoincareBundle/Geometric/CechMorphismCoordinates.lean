@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechRecovery
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.GluingReflection
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.PresentedMapFullness
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.NaturalGluingCompatibility
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechRecovery
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.GluingReflection
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.PresentedMapFullness
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.NaturalGluingCompatibility
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Morphism Coordinates -/
 

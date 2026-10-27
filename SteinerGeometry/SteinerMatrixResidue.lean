@@ -1,5 +1,10 @@
-import SteinerGeometry.ResidueMatrixRank
-import Steiner.LinearMatrix
+module
+
+public import SteinerGeometry.ResidueMatrixRank
+public import Steiner.LinearMatrix
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Residue rank transfer for the manuscript's literal homogeneous-polynomial matrices. -/
 noncomputable section

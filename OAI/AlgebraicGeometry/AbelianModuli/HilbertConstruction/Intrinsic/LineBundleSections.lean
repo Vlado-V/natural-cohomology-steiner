@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.SectionsSchemeIso
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.PowerBaseChange
-import Mathlib.LinearAlgebra.Dimension.Finrank
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.SectionsSchemeIso
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.PowerBaseChange
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Bundle Sections -/
 

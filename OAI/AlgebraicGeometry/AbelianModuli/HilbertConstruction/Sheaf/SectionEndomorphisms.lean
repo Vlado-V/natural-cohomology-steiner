@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IdempotentSheafSectionRanges
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IdempotentSheafSectionRanges
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Endomorphisms -/
 

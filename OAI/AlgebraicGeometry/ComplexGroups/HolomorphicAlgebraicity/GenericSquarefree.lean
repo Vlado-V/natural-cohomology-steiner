@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericPolynomialGCD
-import Mathlib.RingTheory.Radical.Basic
-import Mathlib.FieldTheory.Perfect
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericPolynomialGCD
+public import Mathlib.RingTheory.Radical.Basic
+public import Mathlib.FieldTheory.Perfect
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generic Squarefree -/
 

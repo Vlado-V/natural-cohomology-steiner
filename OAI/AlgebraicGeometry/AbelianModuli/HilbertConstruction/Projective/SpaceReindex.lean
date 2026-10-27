@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Polynomial.Reindex
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.MapOverBase
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ProjectivePresentations
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Relative.GrassmannianProjectivity
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Polynomial.Reindex
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.MapOverBase
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ProjectivePresentations
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Relative.GrassmannianProjectivity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Space Reindex -/
 

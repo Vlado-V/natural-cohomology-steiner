@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.TorsorLabels
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Translations
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.TorsorLabels
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Translations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Self Pullback Translations -/
 

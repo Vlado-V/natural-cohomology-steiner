@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.SectionTensorNaturality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.TensorSectionComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.SectionTensorNaturality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.TensorSectionComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Tensor Comparison -/
 

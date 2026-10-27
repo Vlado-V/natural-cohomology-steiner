@@ -1,4 +1,9 @@
-import SteinerGeometry.GeometricKernelLabels
+module
+
+public import SteinerGeometry.GeometricKernelLabels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The group-valued, rather than only pointwise, kernel comparison. -/
 noncomputable section

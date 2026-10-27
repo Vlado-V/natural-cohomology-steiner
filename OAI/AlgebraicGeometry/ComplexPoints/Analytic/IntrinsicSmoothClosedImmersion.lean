@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothClosedImmersion
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicSmoothSchemeMaps
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineOpenDifferential
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeClosed
-import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedImmersionDimension
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineOpenSmooth
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothClosedImmersion
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicSmoothSchemeMaps
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineOpenDifferential
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeClosed
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedImmersionDimension
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineOpenSmooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Intrinsic Smooth Closed Immersion -/
 

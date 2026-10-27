@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.Cech
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.Cech
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Homotopy -/
 

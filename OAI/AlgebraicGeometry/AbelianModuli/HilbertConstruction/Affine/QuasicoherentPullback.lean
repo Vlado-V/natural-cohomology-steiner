@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.GeometricSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.GeometricSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasicoherent Pullback -/
 

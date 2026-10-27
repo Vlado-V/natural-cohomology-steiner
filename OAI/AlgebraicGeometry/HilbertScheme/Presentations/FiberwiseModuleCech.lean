@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Bounded.FiberwiseComplex
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.CechKernelQuotients
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.AugmentationDegree
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.DimensionShift
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Bounded.FiberwiseComplex
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.CechKernelQuotients
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.AugmentationDegree
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.DimensionShift
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Fiberwise Module Cech -/
 

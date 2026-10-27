@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.LaurentDegree
-import Mathlib.LinearAlgebra.Finsupp.Supported
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.LaurentDegree
+public import Mathlib.LinearAlgebra.Finsupp.Supported
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Coordinates -/
 

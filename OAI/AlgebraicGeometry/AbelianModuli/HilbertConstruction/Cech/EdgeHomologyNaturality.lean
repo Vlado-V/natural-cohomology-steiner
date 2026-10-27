@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntrinsicCech.SheafCohomologyComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntrinsicCech.SheafCohomologyComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Edge Homology Naturality -/
 

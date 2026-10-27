@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.SmoothFrobeniusRank
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.SmoothFrobeniusRank
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frobenius Degree -/
 

@@ -1,5 +1,10 @@
-import SteinerGeometry.LaurentMultiplication
-import SteinerGeometry.ProjectiveResiduePairing
+module
+
+public import SteinerGeometry.LaurentMultiplication
+public import SteinerGeometry.ProjectiveResiduePairing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coordinate shifts in full-negative Laurent residues
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
-import Mathlib.LinearAlgebra.Multilinear.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+public import Mathlib.LinearAlgebra.Multilinear.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Powers -/
 

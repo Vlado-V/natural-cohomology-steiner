@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.TraceForm
-import Mathlib.Basic.Complex.BigOperators
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.TraceForm
+public import Mathlib.Basic.Complex.BigOperators
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polarization -/
 

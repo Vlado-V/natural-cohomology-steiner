@@ -1,4 +1,9 @@
-import SteinerGeometry.OrderedCechIdentification
+module
+
+public import SteinerGeometry.OrderedCechIdentification
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The original ordered base-linear Čech complex has a natural comparison
 with actual sheaf cohomology in every positive degree. -/

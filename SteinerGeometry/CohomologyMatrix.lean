@@ -1,7 +1,12 @@
-import Mathlib.Algebra.Category.ModuleCat.Products
-import Mathlib.Algebra.Category.ModuleCat.Limits
-import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoproductMatrixComponents
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.Products
+public import Mathlib.Algebra.Category.ModuleCat.Limits
+public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoproductMatrixComponents
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Finite matrix coordinates for the actual additive cohomology functor. -/
 noncomputable section

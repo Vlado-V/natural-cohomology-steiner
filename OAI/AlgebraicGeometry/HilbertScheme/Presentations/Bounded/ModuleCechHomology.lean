@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.CechComplex
-import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
-import Mathlib.RingTheory.Finiteness.Basic
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.CechComplex
+public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
+public import Mathlib.RingTheory.Finiteness.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Cech Homology -/
 

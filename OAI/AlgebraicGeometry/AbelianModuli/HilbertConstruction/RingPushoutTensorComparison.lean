@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Category.Ring.Constructions
-import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+module
+
+public import Mathlib.Algebra.Category.Ring.Constructions
+public import Mathlib.CategoryTheory.ConcreteCategory.EpiMono
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ring Pushout Tensor Comparison -/
 

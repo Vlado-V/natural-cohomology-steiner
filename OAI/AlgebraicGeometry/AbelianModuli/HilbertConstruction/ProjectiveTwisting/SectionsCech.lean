@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistGlobalTuples
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.FiberwiseModuleCech
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistGlobalTuples
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.FiberwiseModuleCech
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sections Cech -/
 

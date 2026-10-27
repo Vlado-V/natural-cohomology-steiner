@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Uniform.GlobalExtension
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.PowerLocus
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Naturality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Uniform.GlobalExtension
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.PowerLocus
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Naturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Ratios -/
 

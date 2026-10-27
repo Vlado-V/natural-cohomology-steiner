@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Normalized.AlgebraTrace
-import Mathlib.RingTheory.TensorProduct.IsBaseChangeFree
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Normalized.AlgebraTrace
+public import Mathlib.RingTheory.TensorProduct.IsBaseChangeFree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Algebra Trace Base Change -/
 

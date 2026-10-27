@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SchemeModuleSheaf.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.CategoryTheory.Adjunction.Reflective
-import Mathlib.Topology.Sheaves.AddCommGrpCat
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.CategoryTheory.Adjunction.Reflective
+public import Mathlib.Topology.Sheaves.AddCommGrpCat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Underlying Additive Sheaf Exactness -/
 

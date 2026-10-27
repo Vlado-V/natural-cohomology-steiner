@@ -1,5 +1,10 @@
-import Mathlib.Algebra.DirectSum.Decomposition
-import Mathlib.LinearAlgebra.TensorProduct.Map
+module
+
+public import Mathlib.Algebra.DirectSum.Decomposition
+public import Mathlib.LinearAlgebra.TensorProduct.Map
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Inclusions -/
 

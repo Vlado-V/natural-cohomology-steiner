@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.Compat
-import OAI.AlgebraicGeometry.SheafCohomology.Exact
-import Mathlib.Algebra.Homology.ShortComplex.Ab
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.Compat
+public import OAI.AlgebraicGeometry.SheafCohomology.Exact
+public import Mathlib.Algebra.Homology.ShortComplex.Ab
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Acyclic Resolution -/
 

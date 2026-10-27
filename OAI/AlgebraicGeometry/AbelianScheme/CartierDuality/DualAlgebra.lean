@@ -1,11 +1,16 @@
-import Mathlib.LinearAlgebra.Contraction
-import Mathlib.LinearAlgebra.Dual.BaseChange
-import Mathlib.RingTheory.HopfAlgebra.Basic
-import Mathlib.RingTheory.Bialgebra.TensorProduct
-import Mathlib.RingTheory.Bialgebra.Equiv
-import Mathlib.RingTheory.HopfAlgebra.GroupLike
-import Mathlib.RingTheory.HopfAlgebra.TensorProduct
-import Mathlib.RingTheory.TensorProduct.Finite
+module
+
+public import Mathlib.LinearAlgebra.Contraction
+public import Mathlib.LinearAlgebra.Dual.BaseChange
+public import Mathlib.RingTheory.HopfAlgebra.Basic
+public import Mathlib.RingTheory.Bialgebra.TensorProduct
+public import Mathlib.RingTheory.Bialgebra.Equiv
+public import Mathlib.RingTheory.HopfAlgebra.GroupLike
+public import Mathlib.RingTheory.HopfAlgebra.TensorProduct
+public import Mathlib.RingTheory.TensorProduct.Finite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dual Algebra -/
 

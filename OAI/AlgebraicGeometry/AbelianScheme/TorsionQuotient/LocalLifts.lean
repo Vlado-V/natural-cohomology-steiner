@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SquareZero
-import Mathlib.AlgebraicGeometry.Stalk
-import Mathlib.RingTheory.Ideal.Quotient.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SquareZero
+public import Mathlib.AlgebraicGeometry.Stalk
+public import Mathlib.RingTheory.Ideal.Quotient.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Lifts -/
 

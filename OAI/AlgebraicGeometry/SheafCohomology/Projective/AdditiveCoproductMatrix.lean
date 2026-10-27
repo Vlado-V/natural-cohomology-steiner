@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoproductTotal
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoproductTotal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Additive Coproduct Matrix -/
 

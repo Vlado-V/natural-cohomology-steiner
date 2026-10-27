@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicContourF
-import Mathlib.Geometry.Manifold.MFDeriv.Atlas
-import Mathlib.Geometry.Manifold.Diffeomorph
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicContourF
+public import Mathlib.Geometry.Manifold.MFDeriv.Atlas
+public import Mathlib.Geometry.Manifold.Diffeomorph
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Holomorphic Manifold -/
 

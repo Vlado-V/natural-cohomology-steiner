@@ -1,9 +1,14 @@
-import SteinerGeometry.CurveCohomologyFinite
-import SteinerGeometry.CurveCohomologyCore
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.LineBundleSectionFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CohomologyDimensionBalance
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntegralLineBundleMonomorphisms
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.QuotientFiniteType
+module
+
+public import SteinerGeometry.CurveCohomologyFinite
+public import SteinerGeometry.CurveCohomologyCore
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.LineBundleSectionFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CohomologyDimensionBalance
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntegralLineBundleMonomorphisms
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.QuotientFiniteType
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Euler additivity on a curve follows from its actual six-term cohomology
 sequence and finite-dimensional coherent cohomology. -/

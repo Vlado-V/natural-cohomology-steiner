@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.HomImageRestriction
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.RestrictedHomTransport
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.PullbackHomGluing
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.HomImageRestriction
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.RestrictedHomTransport
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.PullbackHomGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Hom Restriction -/
 

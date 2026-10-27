@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorComultiplication
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorComultiplication
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Tensor Section Coherence -/
 

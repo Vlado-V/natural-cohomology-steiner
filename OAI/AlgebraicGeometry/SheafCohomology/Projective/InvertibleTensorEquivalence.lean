@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleEvaluation
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorSections
-import Mathlib.CategoryTheory.Equivalence
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleEvaluation
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorSections
+public import Mathlib.CategoryTheory.Equivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invertible Tensor Equivalence -/
 

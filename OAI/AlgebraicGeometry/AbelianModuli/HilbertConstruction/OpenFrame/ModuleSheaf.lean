@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.ModulePresheaf
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.TupleSheaf
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.SectionLocality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.ModulePresheaf
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.TupleSheaf
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.SectionLocality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Sheaf -/
 

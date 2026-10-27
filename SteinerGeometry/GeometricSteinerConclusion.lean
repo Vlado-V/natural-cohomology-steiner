@@ -1,9 +1,14 @@
-import SteinerGeometry.SteinerCohomologyCriterion
-import SteinerGeometry.PolynomialMatrixSurjective
-import SteinerGeometry.LiteralSteinerPolynomial
-import SteinerGeometry.ProjectiveSteinerComponents
-import SteinerGeometry.AllDegreeMaximalRank
-import Steiner.ScalarExtension
+module
+
+public import SteinerGeometry.SteinerCohomologyCriterion
+public import SteinerGeometry.PolynomialMatrixSurjective
+public import SteinerGeometry.LiteralSteinerPolynomial
+public import SteinerGeometry.ProjectiveSteinerComponents
+public import SteinerGeometry.AllDegreeMaximalRank
+public import Steiner.ScalarExtension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The geometric conclusion records one actual cokernel sheaf, its exact
 Steiner sequence, rank, kernel duality, and all of its tensor twists. -/

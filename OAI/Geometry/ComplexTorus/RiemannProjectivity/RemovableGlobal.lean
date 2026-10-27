@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.LocalBounded
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicZero
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LinearImmersionComplement
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.LocalBounded
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicZero
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LinearImmersionComplement
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Removable Global -/
 

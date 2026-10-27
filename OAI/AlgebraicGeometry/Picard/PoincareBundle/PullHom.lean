@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.Sites.Descent.DescentData
+module
+
+public import Mathlib.CategoryTheory.Sites.Descent.DescentData
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pull Hom -/
 

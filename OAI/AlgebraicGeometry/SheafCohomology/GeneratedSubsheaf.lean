@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.ZeroOutside
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.ZeroOutside
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generated Subsheaf -/
 

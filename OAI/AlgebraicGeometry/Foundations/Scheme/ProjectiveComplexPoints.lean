@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectivePointInjective
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectivePointSurjective
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectivePointInjective
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectivePointSurjective
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Complex Points -/
 

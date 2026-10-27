@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Projection
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ZeroLocus
-import Mathlib.Analysis.Analytic.IsolatedZeros
-import Mathlib.Topology.Connected.Clopen
-import Mathlib.Analysis.Complex.CauchyIntegral
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Projection
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ZeroLocus
+public import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Mathlib.Topology.Connected.Clopen
+public import Mathlib.Analysis.Complex.CauchyIntegral
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Analytic Fibers -/
 

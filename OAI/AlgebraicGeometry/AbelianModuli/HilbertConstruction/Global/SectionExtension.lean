@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.NumeratorGluing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.FromSectionValue
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.NumeratorGluing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.FromSectionValue
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Extension -/
 

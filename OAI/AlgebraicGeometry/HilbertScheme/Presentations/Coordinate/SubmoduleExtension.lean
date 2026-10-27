@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.KernelBaseChange
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.KernelBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Submodule Extension -/
 

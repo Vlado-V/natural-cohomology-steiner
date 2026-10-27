@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.Etale.Basic
-import Mathlib.RingTheory.Kaehler.JacobiZariski
+module
+
+public import Mathlib.RingTheory.Etale.Basic
+public import Mathlib.RingTheory.Kaehler.JacobiZariski
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Etale Cotangent Criterion -/
 

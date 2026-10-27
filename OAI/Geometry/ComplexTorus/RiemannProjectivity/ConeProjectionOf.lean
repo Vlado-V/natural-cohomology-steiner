@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GenericProjectionOn
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeImage
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GenericProjectionOn
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeImage
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Projection Of -/
 

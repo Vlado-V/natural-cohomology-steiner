@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothLocalDomain
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineOpenSmooth
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjectiveComponents
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothLocalDomain
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineOpenSmooth
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjectiveComponents
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Projective Decomposition -/
 

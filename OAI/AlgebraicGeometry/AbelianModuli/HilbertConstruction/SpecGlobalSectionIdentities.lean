@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ModuleSectionIdentity
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PushforwardSections
-import Mathlib.AlgebraicGeometry.Modules.Tilde
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ModuleSectionIdentity
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PushforwardSections
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Spec Global Section Identities -/
 

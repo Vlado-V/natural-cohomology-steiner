@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.Sheaves
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Bilinear.Sheaves
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Contraction -/
 

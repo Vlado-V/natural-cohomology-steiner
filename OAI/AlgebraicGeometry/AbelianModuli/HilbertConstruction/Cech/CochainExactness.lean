@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.InjectiveBicomplex
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.InjectiveBicomplex
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cochain Exactness -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.ChartPresentation
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Properness
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.ChartPresentation
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Properness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective -/
 

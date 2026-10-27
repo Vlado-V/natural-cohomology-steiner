@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.OverlapPullback
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.OverlapPullback
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Square Gluing -/
 

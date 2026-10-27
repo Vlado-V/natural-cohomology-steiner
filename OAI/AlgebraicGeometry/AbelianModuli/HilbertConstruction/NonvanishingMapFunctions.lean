@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.ImageFunctions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.ImageFunctions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Nonvanishing Map Functions -/
 

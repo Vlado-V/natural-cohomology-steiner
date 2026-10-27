@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.StructureRepresentation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CharacterAverages
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TameCharacters
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.StructureRepresentation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CharacterAverages
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TameCharacters
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projectors -/
 

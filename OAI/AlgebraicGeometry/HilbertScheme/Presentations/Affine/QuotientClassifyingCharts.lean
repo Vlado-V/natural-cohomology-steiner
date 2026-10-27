@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Principal.QuotientMatrices
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Quotient.ChartClassifyingMap
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Relative.AffinePoints
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Principal.QuotientMatrices
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Quotient.ChartClassifyingMap
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Relative.AffinePoints
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Classifying Charts -/
 

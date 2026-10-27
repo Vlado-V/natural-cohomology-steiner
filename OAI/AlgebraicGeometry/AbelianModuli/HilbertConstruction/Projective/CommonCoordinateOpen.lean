@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveCoordinate.Cover
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveCoordinate.Cover
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Common Coordinate Open -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.SectionTensorNaturality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.PushedScalarNaturality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.SectionTensorNaturality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.PushedScalarNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Sheaf Naturality -/
 

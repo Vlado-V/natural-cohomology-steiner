@@ -1,4 +1,9 @@
-import SteinerGeometry.SectionContractionCategory
+module
+
+public import SteinerGeometry.SectionContractionCategory
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

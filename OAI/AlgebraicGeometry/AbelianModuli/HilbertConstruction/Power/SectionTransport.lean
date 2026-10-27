@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.PowerCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.FrameTransport
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.PowerCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.FrameTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Transport -/
 

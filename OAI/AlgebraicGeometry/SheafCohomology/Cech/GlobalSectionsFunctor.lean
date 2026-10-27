@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafDerivedGlobalSections.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.CategoryTheory.Sites.GlobalSections
-import Mathlib.Topology.Sheaves.Functors
-import Mathlib.Topology.Sheaves.Abelian
+public import Mathlib.CategoryTheory.Sites.GlobalSections
+public import Mathlib.Topology.Sheaves.Functors
+public import Mathlib.Topology.Sheaves.Abelian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Sections Functor -/
 

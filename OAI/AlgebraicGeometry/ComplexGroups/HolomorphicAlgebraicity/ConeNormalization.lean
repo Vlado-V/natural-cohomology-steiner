@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LinearAnalyticImage
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreAt
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LinearFiberCardinality
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LinearAnalyticImage
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreAt
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LinearFiberCardinality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Normalization -/
 

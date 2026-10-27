@@ -1,10 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB Authors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: The AINTLIB Authors
 This file has been modified.
 -/
-import Mathlib.AlgebraicGeometry.AffineScheme
+public import Mathlib.AlgebraicGeometry.AffineScheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Spec Basic Open -/
 

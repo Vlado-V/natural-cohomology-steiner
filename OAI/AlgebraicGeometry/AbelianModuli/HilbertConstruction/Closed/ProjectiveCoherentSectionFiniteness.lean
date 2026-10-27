@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoherentSectionFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.PullbackIsoFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.LineBundleSectionFiniteness
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CoherentSectionFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.PullbackIsoFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.LineBundleSectionFiniteness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Coherent Section Finiteness -/
 

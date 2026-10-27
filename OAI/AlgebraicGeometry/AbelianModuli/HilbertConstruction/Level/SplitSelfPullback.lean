@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.KernelTorsor
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Product
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.KernelTorsor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Product
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Split Self Pullback -/
 

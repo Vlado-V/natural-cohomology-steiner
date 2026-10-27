@@ -1,6 +1,11 @@
-import Mathlib.RingTheory.Etale.Field
-import Mathlib.RingTheory.AlgebraicIndependent.Defs
-import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+module
+
+public import Mathlib.RingTheory.Etale.Field
+public import Mathlib.RingTheory.AlgebraicIndependent.Defs
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Transcendence Etale -/
 

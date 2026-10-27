@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.Decomposition
-import Mathlib.FieldTheory.Normal.Closure
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.Decomposition
+public import Mathlib.FieldTheory.Normal.Closure
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Common CM Field -/
 

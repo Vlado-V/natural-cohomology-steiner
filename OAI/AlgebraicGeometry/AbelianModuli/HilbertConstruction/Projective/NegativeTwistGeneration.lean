@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeTwistMorphisms
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentFiniteTypeSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.EpimorphismCover
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.CoproductSectionSurjection
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeTwistMorphisms
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentFiniteTypeSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.EpimorphismCover
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.CoproductSectionSurjection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Twist Generation -/
 

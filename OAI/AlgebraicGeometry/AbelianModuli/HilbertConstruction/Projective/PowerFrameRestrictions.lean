@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.PowerFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.RestrictionCoordinates
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.PolynomialScalars
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.PowerFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.RestrictionCoordinates
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.PolynomialScalars
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Frame Restrictions -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Bifunctor
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Bifunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Comparison -/
 

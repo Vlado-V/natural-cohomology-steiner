@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ProjectivePresentations
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
-import Mathlib.RingTheory.Localization.Away.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ProjectivePresentations
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
+public import Mathlib.RingTheory.Localization.Away.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Evaluation -/
 

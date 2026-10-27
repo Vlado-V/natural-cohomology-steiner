@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ProjectivePresentation
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ProjectivePresentation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Selected Section Embedding -/
 

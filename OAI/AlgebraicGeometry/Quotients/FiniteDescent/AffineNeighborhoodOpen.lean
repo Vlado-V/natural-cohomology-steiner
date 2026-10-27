@@ -1,6 +1,11 @@
-import Mathlib.RingTheory.Spectrum.Prime.Topology
-import Mathlib.RingTheory.Ideal.Operations
-import Mathlib.AlgebraicGeometry.AffineScheme
+module
+
+public import Mathlib.RingTheory.Spectrum.Prime.Topology
+public import Mathlib.RingTheory.Ideal.Operations
+public import Mathlib.AlgebraicGeometry.AffineScheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Neighborhood Open -/
 

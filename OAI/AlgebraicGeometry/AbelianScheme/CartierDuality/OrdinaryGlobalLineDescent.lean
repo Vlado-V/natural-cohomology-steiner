@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.DescentOverlapCharts
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.IntrinsicDescentRecovery
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.EffectiveLineDescent
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.DescentOverlapCharts
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.IntrinsicDescentRecovery
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.EffectiveLineDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ordinary Global Line Descent -/
 

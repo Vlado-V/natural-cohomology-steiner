@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Category.ModuleCat.Presheaf.EpiMono
-import OAI.AlgebraicGeometry.SheafCohomology.AffineCover
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.Presheaf.EpiMono
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineCover
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Cover Mono -/
 

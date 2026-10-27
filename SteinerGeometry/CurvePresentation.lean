@@ -1,6 +1,11 @@
-import SteinerGeometry.CurveGeneratorsEpi
-import SteinerGeometry.KernelLineBundle
-import SteinerGeometry.DualAffinePresentation
+module
+
+public import SteinerGeometry.CurveGeneratorsEpi
+public import SteinerGeometry.KernelLineBundle
+public import SteinerGeometry.DualAffinePresentation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual rank-one relation and dual evaluation associated to a generated curve bundle. -/
 noncomputable section

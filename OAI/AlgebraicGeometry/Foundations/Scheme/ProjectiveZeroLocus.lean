@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.HomogeneousEvalMap
-import Mathlib.LinearAlgebra.Projectivization.Basic
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.HomogeneousEvalMap
+public import Mathlib.LinearAlgebra.Projectivization.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Zero Locus -/
 

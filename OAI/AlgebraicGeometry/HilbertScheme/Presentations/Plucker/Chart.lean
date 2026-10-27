@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.ChartAlgebra
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Chart
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Relative.AffinePoints
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.ChartAlgebra
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Chart
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Relative.AffinePoints
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart -/
 

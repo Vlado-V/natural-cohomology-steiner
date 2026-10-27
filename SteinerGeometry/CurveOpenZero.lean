@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.IsoImage
-import Mathlib.CategoryTheory.Limits.Shapes.ZeroMorphisms
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.IsoImage
+public import Mathlib.CategoryTheory.Limits.Shapes.ZeroMorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveTwistingSectionsFinite
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Relative.TwistingAffinePullback
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveTwistingSectionsFinite
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Relative.TwistingAffinePullback
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twisting Sections Finite -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatCycles
-import Mathlib.Algebra.Category.Grp.Abelian
-import Mathlib.Algebra.Homology.ShortComplex.Ab
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatCycles
+public import Mathlib.Algebra.Category.Grp.Abelian
+public import Mathlib.Algebra.Homology.ShortComplex.Ab
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Complex Up Nat Elimination -/
 

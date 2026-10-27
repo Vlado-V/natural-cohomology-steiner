@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.IntegralProjective
-import Mathlib.AlgebraicGeometry.AlgClosed.Basic
-import Mathlib.Analysis.Complex.Polynomial.Basic
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.IntegralProjective
+public import Mathlib.AlgebraicGeometry.AlgClosed.Basic
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Complex Point Existence -/
 

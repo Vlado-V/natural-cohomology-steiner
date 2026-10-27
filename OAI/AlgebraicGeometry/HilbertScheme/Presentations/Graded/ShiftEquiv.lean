@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ModuleGenerators
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ModuleGenerators
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Shift Equiv -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ModuleScalars
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ModuleScalars
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scalar Ring Action -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Card
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.FreeDegrees
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.CechExactness
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Card
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.FreeDegrees
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.CechExactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Free Module Cech Exactness -/
 

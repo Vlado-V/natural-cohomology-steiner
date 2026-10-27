@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BasicOpenModuleRestriction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.GlobalCoefficientLocalization
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BasicOpenModuleRestriction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.GlobalCoefficientLocalization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Basic Open Restriction Localization -/
 

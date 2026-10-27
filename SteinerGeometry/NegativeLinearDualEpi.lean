@@ -1,5 +1,10 @@
-import SteinerGeometry.PolynomialPresentation
-import SteinerGeometry.TransposeTargetIso
+module
+
+public import SteinerGeometry.PolynomialPresentation
+public import SteinerGeometry.TransposeTargetIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Dual transposes of epimorphic matrices of homogeneous linear forms. -/
 noncomputable section

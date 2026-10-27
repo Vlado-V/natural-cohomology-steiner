@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.Scheme
+module
+
+public import Mathlib.AlgebraicGeometry.Scheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Range Criterion -/
 

@@ -1,6 +1,11 @@
-import SteinerGeometry.PullbackContraction
-import SteinerGeometry.KernelPullbackLineSum
-import SteinerGeometry.LineEpimorphismCover
+module
+
+public import SteinerGeometry.PullbackContraction
+public import SteinerGeometry.KernelPullbackLineSum
+public import SteinerGeometry.LineEpimorphismCover
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Unconditional geometric base change of the symmetric contraction kernel. -/
 noncomputable section

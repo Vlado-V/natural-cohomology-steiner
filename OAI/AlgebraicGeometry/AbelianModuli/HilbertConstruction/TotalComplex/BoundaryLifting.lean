@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.FilteredNormalization
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.Row
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.FilteredNormalization
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.Row
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Boundary Lifting -/
 

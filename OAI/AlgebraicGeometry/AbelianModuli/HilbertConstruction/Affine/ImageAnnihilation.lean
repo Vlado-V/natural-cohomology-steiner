@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RestrictedPowerAnnihilation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.SectionEquality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RestrictedPowerAnnihilation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.SectionEquality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Image Annihilation -/
 

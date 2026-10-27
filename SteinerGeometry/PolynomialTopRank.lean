@@ -1,7 +1,12 @@
-import SteinerGeometry.CanonicalField
-import SteinerGeometry.ActualNegativeTopMap
-import SteinerGeometry.ProjectiveMatrixCohomology
-import SteinerGeometry.SteinerMatrixResidue
+module
+
+public import SteinerGeometry.CanonicalField
+public import SteinerGeometry.ActualNegativeTopMap
+public import SteinerGeometry.ProjectiveMatrixCohomology
+public import SteinerGeometry.SteinerMatrixResidue
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Literal polynomial entries determine the genuine map on top cohomology. -/
 noncomputable section

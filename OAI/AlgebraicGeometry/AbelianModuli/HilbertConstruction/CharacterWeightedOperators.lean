@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterOrthogonality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterOrthogonality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Weighted Operators -/
 

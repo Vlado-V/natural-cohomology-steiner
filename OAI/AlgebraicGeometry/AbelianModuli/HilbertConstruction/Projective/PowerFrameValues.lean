@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SectionLocalization
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.PowerFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.RingLocalizationScalars
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SectionLocalization
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.PowerFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.RingLocalizationScalars
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Frame Values -/
 

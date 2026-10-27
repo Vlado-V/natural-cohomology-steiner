@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.SheafCohomology.ConstantCoefficients
-import OAI.AlgebraicGeometry.SheafCohomology.ExtLeft
-import OAI.AlgebraicGeometry.SheafCohomology.DimensionBound
-import OAI.AlgebraicGeometry.SheafCohomology.VanishingGrothendieckVanishing
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.ConstantCoefficients
+public import OAI.AlgebraicGeometry.SheafCohomology.ExtLeft
+public import OAI.AlgebraicGeometry.SheafCohomology.DimensionBound
+public import OAI.AlgebraicGeometry.SheafCohomology.VanishingGrothendieckVanishing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coherent Vanishing -/
 

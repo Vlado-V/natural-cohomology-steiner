@@ -1,12 +1,17 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: 298b4ef299a90ad13a74ebfee0bfd3f704a61e8f7cdb7f17121085cb86faa0d4
 The packaged proof source is the local port; see OAI/PROVENANCE.json.
 -/
-import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Immersion
-import Mathlib.Geometry.Manifold.MFDeriv.Atlas
-import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+public import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Immersion
+public import Mathlib.Geometry.Manifold.MFDeriv.Atlas
+public import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Manifold Image -/
 

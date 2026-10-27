@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.FramedLocalHom
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.FramedLocalHom
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Hom Overlap Gluing -/
 

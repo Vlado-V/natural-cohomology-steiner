@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.SheafificationTensorAssociator
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorTripleNaturality
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.SheafificationTensorAssociator
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorTripleNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Tensor Section Coherence -/
 

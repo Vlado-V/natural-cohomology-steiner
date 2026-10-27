@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.ExtendedTransitionUnits
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleEffectiveDescent
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.ExtendedTransitionUnits
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleEffectiveDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Cocycle -/
 

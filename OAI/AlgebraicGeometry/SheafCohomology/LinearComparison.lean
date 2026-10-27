@@ -1,11 +1,16 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: 8b0e4fa3b5f69c5218eecb53d09129daf657c8e2f1b95ecee27538c465403fc3
 The packaged proof source is the local port; see OAI/PROVENANCE.json.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.AffineComparison
-import OAI.AlgebraicGeometry.SheafCohomology.ExtNaturality
-import OAI.AlgebraicGeometry.SheafCohomology.Scalars
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineComparison
+public import OAI.AlgebraicGeometry.SheafCohomology.ExtNaturality
+public import OAI.AlgebraicGeometry.SheafCohomology.Scalars
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Linear Comparison -/
 

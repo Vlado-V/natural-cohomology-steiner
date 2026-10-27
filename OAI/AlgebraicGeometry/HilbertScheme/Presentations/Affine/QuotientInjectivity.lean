@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.QuotientClassifyingMap
-import Mathlib.RingTheory.LocalProperties.Submodule
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.QuotientClassifyingMap
+public import Mathlib.RingTheory.LocalProperties.Submodule
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Injectivity -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomGluing
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Hom Gluing -/
 

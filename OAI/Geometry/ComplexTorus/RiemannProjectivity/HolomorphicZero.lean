@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.DirectionalJetsOn
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.RegularZero
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.IdentityEq
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.DirectionalJetsOn
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.RegularZero
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.IdentityEq
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Holomorphic Zero -/
 

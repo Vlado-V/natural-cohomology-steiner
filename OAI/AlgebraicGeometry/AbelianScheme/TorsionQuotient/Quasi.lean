@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SubgroupFunctor
-import Mathlib.AlgebraicGeometry.Morphisms.Etale
-import Mathlib.AlgebraicGeometry.ZariskisMainTheorem
-import Mathlib.RingTheory.Unramified.LocalStructure
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SubgroupFunctor
+public import Mathlib.AlgebraicGeometry.Morphisms.Etale
+public import Mathlib.AlgebraicGeometry.ZariskisMainTheorem
+public import Mathlib.RingTheory.Unramified.LocalStructure
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasi -/
 

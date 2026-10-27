@@ -1,7 +1,12 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.SmoothLocal
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.IdentityEq
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialDerivative
-import Mathlib.Algebra.MvPolynomial.Funext
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.SmoothLocal
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.IdentityEq
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialDerivative
+public import Mathlib.Algebra.MvPolynomial.Funext
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Holomorphic -/
 

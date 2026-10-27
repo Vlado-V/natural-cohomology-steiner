@@ -1,5 +1,10 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierModule
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierModule
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

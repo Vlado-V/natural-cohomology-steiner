@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.ExtensionTwist
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.ExtensionComposition
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.ExtensionTwist
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.ExtensionComposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Extension Transport Composition -/
 

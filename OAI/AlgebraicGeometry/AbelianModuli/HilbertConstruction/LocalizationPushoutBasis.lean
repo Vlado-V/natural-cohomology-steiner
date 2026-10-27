@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.BasisTransport
-import Mathlib.Algebra.Category.Ring.Constructions
-import Mathlib.RingTheory.Localization.BaseChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.BasisTransport
+public import Mathlib.Algebra.Category.Ring.Constructions
+public import Mathlib.RingTheory.Localization.BaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Localization Pushout Basis -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LocalTensorSectionCoherence
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LocalTensorSectionCoherence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Cancellation Shift Sections -/
 

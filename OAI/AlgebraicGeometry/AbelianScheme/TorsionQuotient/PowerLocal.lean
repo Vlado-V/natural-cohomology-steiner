@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SmoothLocal
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SurjectiveReductionEq
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.Power
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SmoothLocal
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SurjectiveReductionEq
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.Power
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Local -/
 

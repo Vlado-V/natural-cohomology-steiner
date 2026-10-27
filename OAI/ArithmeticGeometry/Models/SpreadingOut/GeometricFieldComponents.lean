@@ -1,10 +1,15 @@
-import OAI.ArithmeticGeometry.Models.SpreadingOut.TensorDomain
-import OAI.ArithmeticGeometry.Models.SpreadingOut.Affine
-import OAI.ArithmeticGeometry.Models.SpreadingOut.OpenOver
-import OAI.ArithmeticGeometry.Models.SpreadingOut.SmoothComponents
-import OAI.ArithmeticGeometry.Models.FoundationsPullback
-import Mathlib.AlgebraicGeometry.Geometrically.Irreducible
-import Mathlib.AlgebraicGeometry.Geometrically.Connected
+module
+
+public import OAI.ArithmeticGeometry.Models.SpreadingOut.TensorDomain
+public import OAI.ArithmeticGeometry.Models.SpreadingOut.Affine
+public import OAI.ArithmeticGeometry.Models.SpreadingOut.OpenOver
+public import OAI.ArithmeticGeometry.Models.SpreadingOut.SmoothComponents
+public import OAI.ArithmeticGeometry.Models.FoundationsPullback
+public import Mathlib.AlgebraicGeometry.Geometrically.Irreducible
+public import Mathlib.AlgebraicGeometry.Geometrically.Connected
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Geometric Field Components -/
 

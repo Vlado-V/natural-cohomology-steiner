@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
-import Mathlib.RingTheory.Ideal.Quotient.Operations
+module
+
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Closed Immersion -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.IntrinsicInvariantDescent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.OpenInvariant
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.IntrinsicInvariantDescent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.OpenInvariant
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Descent Overlap Charts -/
 

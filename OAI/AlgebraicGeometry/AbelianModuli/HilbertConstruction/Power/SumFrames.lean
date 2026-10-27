@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Relative.FrameCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BundleFrameMapTransport
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Relative.FrameCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BundleFrameMapTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sum Frames -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.AlgebraPresheaf
-import Mathlib.RingTheory.Flat.CategoryTheory
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.AlgebraPresheaf
+public import Mathlib.RingTheory.Flat.CategoryTheory
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Algebra Section Modules -/
 

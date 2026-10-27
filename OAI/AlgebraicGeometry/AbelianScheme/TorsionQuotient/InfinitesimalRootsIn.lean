@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.AffineLiftingEq
-import Mathlib.Tactic.LinearCombination
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.AffineLiftingEq
+public import Mathlib.Tactic.LinearCombination
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Infinitesimal Roots In -/
 

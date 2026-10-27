@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.Nonvanishing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Units
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.LineBundles
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.Nonvanishing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Units
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.LineBundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Locus -/
 

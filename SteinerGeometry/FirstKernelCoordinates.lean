@@ -1,7 +1,12 @@
-import SteinerGeometry.SheafMatrixCoordinates
-import SteinerGeometry.KernelFrameCompletion
-import Mathlib.Algebra.Category.ModuleCat.Kernels
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
+module
+
+public import SteinerGeometry.SheafMatrixCoordinates
+public import SteinerGeometry.KernelFrameCompletion
+public import Mathlib.Algebra.Category.ModuleCat.Kernels
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Coordinates on the actual first evaluation kernel, for completing local symmetric frames. -/
 noncomputable section

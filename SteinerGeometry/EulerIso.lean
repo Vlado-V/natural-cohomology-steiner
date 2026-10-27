@@ -1,7 +1,12 @@
-import SteinerGeometry.CurveCohomologyCore
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.Additivity
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Classes
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CohomologyPullbackIso
+module
+
+public import SteinerGeometry.CurveCohomologyCore
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.Additivity
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Classes
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CohomologyPullbackIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Euler invariance requires only functoriality of actual cohomology. -/
 noncomputable section

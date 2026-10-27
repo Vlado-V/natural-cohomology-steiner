@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ProductOpens
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ProductOpens
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Functions Base Change -/
 

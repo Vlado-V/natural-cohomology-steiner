@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.Contraction
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.Contraction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Differential -/
 

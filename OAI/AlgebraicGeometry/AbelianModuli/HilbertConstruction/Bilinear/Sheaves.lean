@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.ProductSheaf
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Powers
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.ProductSheaf
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Powers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sheaves -/
 

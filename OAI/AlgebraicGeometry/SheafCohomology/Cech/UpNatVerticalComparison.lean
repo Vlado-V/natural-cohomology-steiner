@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatComparison
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.UpNatVerticalEdge
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatComparison
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.UpNatVerticalEdge
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Up Nat Vertical Comparison -/
 

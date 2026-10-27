@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.OpenTranslations
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.OpenTranslations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Function Translation Values -/
 

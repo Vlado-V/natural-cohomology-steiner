@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Overlap
-import Mathlib.AlgebraicGeometry.Morphisms.IsIso
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Overlap
+public import Mathlib.AlgebraicGeometry.Morphisms.IsIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Atlas Maps -/
 

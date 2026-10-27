@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OpenFrames
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.DualFrameRestriction
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OpenFrames
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.DualFrameRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dual Open Frames -/
 

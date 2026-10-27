@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Switch
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Switch
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Symmetry -/
 

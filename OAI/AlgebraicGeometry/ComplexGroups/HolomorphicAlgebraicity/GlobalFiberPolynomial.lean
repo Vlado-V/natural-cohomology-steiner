@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProperFiberPolynomial
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.CoefficientExtension
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProperFiberPolynomial
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.CoefficientExtension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Fiber Polynomial -/
 

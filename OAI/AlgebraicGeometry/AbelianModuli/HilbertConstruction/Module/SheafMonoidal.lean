@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.TensorLocalizationAssembly
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.CategoryTheory.Localization.Monoidal.Braided
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.TensorLocalizationAssembly
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.CategoryTheory.Localization.Monoidal.Braided
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sheaf Monoidal -/
 

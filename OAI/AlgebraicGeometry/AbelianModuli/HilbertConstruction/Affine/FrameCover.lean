@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.Frames
-import Mathlib.AlgebraicGeometry.Morphisms.Separated
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.Frames
+public import Mathlib.AlgebraicGeometry.Morphisms.Separated
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Cover -/
 

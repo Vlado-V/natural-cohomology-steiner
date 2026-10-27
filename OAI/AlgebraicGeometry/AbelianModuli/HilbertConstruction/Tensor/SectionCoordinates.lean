@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionNonvanishing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.FrameCoordinates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionNonvanishing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.FrameCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Coordinates -/
 

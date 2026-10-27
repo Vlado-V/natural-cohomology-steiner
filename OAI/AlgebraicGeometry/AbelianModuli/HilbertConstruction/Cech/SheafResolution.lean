@@ -1,10 +1,15 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechSheafResolution.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.PositiveCycleStalks
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.PositiveCycleStalks
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sheaf Resolution -/
 

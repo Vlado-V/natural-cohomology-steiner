@@ -1,12 +1,17 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeSurjectivity
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusFiniteConeFibers
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodAlgebraicCoordinates
-import OAI.RepresentationTheory.Theta.Geometric.Torus.Manifold
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.SeparatingLinearCoordinates
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GlobalEquation
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.PolynomialSeparationFinite
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeSurjectivity
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusFiniteConeFibers
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodAlgebraicCoordinates
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.Manifold
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.SeparatingLinearCoordinates
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GlobalEquation
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.PolynomialSeparationFinite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Algebraic Period Cone -/
 

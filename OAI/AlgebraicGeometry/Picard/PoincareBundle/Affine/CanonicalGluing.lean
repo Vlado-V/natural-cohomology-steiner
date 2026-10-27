@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.ComparisonCongr
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.ComparisonIsos
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.TransitionSquares
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Scalar.ExtensionUnits
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.ComparisonCongr
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.ComparisonIsos
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.TransitionSquares
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Scalar.ExtensionUnits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Canonical Gluing -/
 

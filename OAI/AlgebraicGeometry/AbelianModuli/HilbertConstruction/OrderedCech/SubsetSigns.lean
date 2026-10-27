@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.FiniteSubsets
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.Signs
-import Mathlib.Order.Interval.Finset.Fin
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.FiniteSubsets
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.Signs
+public import Mathlib.Order.Interval.Finset.Fin
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Subset Signs -/
 

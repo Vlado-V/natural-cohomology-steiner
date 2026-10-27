@@ -1,6 +1,11 @@
-import SteinerGeometry.KernelRank
-import SteinerGeometry.KernelSheafSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent
+module
+
+public import SteinerGeometry.KernelRank
+public import SteinerGeometry.KernelSheafSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Rank one for sections of the genuine kernel of an affine epimorphism -/
 noncomputable section

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.QuotientComplexPoints
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialEvaluation
-import Mathlib.RingTheory.Nullstellensatz
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.QuotientComplexPoints
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialEvaluation
+public import Mathlib.RingTheory.Nullstellensatz
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presentation Complex Points -/
 

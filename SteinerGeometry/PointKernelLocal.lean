@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Seshadri.Geometry.EtalePointChart
-import Mathlib.RingTheory.Flat.TorsionFree
+module
+
+public import OAI.AlgebraicGeometry.Seshadri.Geometry.EtalePointChart
+public import Mathlib.RingTheory.Flat.TorsionFree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 noncomputable section

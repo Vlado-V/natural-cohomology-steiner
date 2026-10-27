@@ -1,13 +1,18 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistTransitions
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverFrameScalarTransfer
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleHomOverlapGluing
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoordinateCompatibleExtensions
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistTransitions
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverFrameScalarTransfer
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleHomOverlapGluing
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoordinateCompatibleExtensions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Twist Maps -/
 

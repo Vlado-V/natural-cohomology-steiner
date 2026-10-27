@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineCharacterIndependence
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineCharacterIndependence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scalar Line Gluing -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.GluingNormalization
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechObjectChange
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.GluingNormalization
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechObjectChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Invariant -/
 

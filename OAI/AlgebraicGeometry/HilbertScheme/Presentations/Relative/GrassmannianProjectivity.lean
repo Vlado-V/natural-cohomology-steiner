@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.BaseChange
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.BaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Grassmannian Projectivity -/
 

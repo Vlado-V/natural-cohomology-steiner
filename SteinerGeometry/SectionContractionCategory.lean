@@ -1,8 +1,13 @@
-import Steiner.OperatorDuality
-import SteinerGeometry.SectionContractionAlgebra
-import Mathlib.Algebra.Category.ModuleCat.Limits
-import Mathlib.CategoryTheory.Preadditive.Biproducts
-import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+module
+
+public import Steiner.OperatorDuality
+public import SteinerGeometry.SectionContractionAlgebra
+public import Mathlib.Algebra.Category.ModuleCat.Limits
+public import Mathlib.CategoryTheory.Preadditive.Biproducts
+public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Symmetric contraction is an actual morphism of finite sums. -/
 noncomputable section

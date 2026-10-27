@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComparisonNaturality
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComparisonNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Scalars -/
 

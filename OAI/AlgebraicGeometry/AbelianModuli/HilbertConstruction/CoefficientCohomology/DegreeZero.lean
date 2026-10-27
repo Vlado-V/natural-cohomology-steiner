@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyFunctor
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyDegreeZero
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ModuleSectionIdentity
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyFunctor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyDegreeZero
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ModuleSectionIdentity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Degree Zero -/
 

@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.BranchCoefficientsAt
-import Mathlib.Analysis.Polynomial.MahlerMeasure
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.BranchCoefficientsAt
+public import Mathlib.Analysis.Polynomial.MahlerMeasure
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Root -/
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineBundleDual
-import Mathlib.CategoryTheory.Preadditive.Biproducts
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Abelian
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineBundleDual
+public import Mathlib.CategoryTheory.Preadditive.Biproducts
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Abelian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual sheaf dual, with its finite-direct-sum comparison. -/
 noncomputable section

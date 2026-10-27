@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.Monoidal.Braided.Basic
+module
+
+public import Mathlib.CategoryTheory.Monoidal.Braided.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Power Cancellation -/
 

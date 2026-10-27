@@ -1,5 +1,10 @@
-import OAI.RepresentationTheory.Theta.Geometric.CompactLattice
-import OAI.NumberTheory.ArithmeticGroups.Data
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.CompactLattice
+public import OAI.NumberTheory.ArithmeticGroups.Data
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Data -/
 

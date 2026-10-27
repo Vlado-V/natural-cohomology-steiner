@@ -1,5 +1,10 @@
-import SteinerGeometry.SymmetricKernelChart
-import SteinerGeometry.ContractionTargetIso
+module
+
+public import SteinerGeometry.SymmetricKernelChart
+public import SteinerGeometry.ContractionTargetIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! A frame on the evaluation target transports the actual first-kernel splitting. -/
 noncomputable section

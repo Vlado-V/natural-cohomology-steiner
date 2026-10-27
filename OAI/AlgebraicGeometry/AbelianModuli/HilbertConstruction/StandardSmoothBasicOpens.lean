@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+module
+
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Standard Smooth Basic Opens -/
 

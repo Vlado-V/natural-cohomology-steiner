@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.CycleClass.Geometric.SupportFiniteType
-import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedImmersionDimension
-import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
-import Mathlib.AlgebraicGeometry.FunctionField
+module
+
+public import OAI.AlgebraicGeometry.CycleClass.Geometric.SupportFiniteType
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedImmersionDimension
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
+public import Mathlib.AlgebraicGeometry.FunctionField
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Support Affine Quotient -/
 

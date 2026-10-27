@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechDifferentialCompatibility
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cochain.Head
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.CechComplex
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechDifferentialCompatibility
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cochain.Head
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.CechComplex
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Complex Isomorphism -/
 

@@ -1,7 +1,12 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Geometry.GeneratedEtaleCoordinates
-import OAI.AlgebraicGeometry.Seshadri.Cohomology.SheafExactness
-import OAI.AlgebraicGeometry.Seshadri.Jets.PolynomialJets
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Geometry.GeneratedEtaleCoordinates
+public import OAI.AlgebraicGeometry.Seshadri.Cohomology.SheafExactness
+public import OAI.AlgebraicGeometry.Seshadri.Jets.PolynomialJets
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

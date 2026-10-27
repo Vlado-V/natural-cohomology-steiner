@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Quotients
-import Mathlib.RingTheory.LocalRing.Module
-import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Quotients
+public import Mathlib.RingTheory.LocalRing.Module
+public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Cover -/
 

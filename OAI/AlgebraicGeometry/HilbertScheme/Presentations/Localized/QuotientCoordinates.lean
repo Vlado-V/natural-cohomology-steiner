@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.KernelBaseChange
-import Mathlib.RingTheory.TensorProduct.IsBaseChangePi
-import Mathlib.Algebra.Module.LocalizedModule.Submodule
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.KernelBaseChange
+public import Mathlib.RingTheory.TensorProduct.IsBaseChangePi
+public import Mathlib.Algebra.Module.LocalizedModule.Submodule
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Coordinates -/
 

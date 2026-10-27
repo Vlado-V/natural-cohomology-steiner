@@ -1,6 +1,11 @@
-import SteinerGeometry.CyclicSubgroup
-import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.Geometric.Splitting
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.GroupIsomorphisms
+module
+
+public import SteinerGeometry.CyclicSubgroup
+public import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.Geometric.Splitting
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.GroupIsomorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.UpNatFilteredNormalize
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatRow
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.UpNatFilteredNormalize
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatRow
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Up Nat Boundary Lift -/
 

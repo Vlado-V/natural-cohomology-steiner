@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.SubsetSigns
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Card
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.SubsetSigns
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.Card
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Graded Cech Differential -/
 

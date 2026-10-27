@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.PresheafComponentEnd
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.EndRing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ScalarBaseChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.PresheafComponentEnd
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.EndRing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ScalarBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presheaf Extended Scalars -/
 

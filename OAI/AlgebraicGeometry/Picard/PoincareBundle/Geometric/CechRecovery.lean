@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.RecoveredGluing
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechCanonicalCoordinates
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CanonicalGluingStandard
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CocycleDescent
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.RecoveredGluing
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechCanonicalCoordinates
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CanonicalGluingStandard
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CocycleDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Recovery -/
 

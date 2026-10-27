@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelGroup
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelGroup
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Group Descent -/
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Kernel
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Affine
-import Mathlib.AlgebraicGeometry.Group.Affine
-import Mathlib.RingTheory.HopfAlgebra.MonoidAlgebra
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Kernel
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Affine
+public import Mathlib.AlgebraicGeometry.Group.Affine
+public import Mathlib.RingTheory.HopfAlgebra.MonoidAlgebra
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Diagonalizable -/
 

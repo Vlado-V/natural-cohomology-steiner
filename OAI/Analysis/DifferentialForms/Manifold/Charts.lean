@@ -1,8 +1,13 @@
-import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
-import OAI.Analysis.DifferentialForms.Manifold.Algebra
-import OAI.Analysis.DifferentialForms.Manifold.SquareZero
-import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
-import Mathlib.Geometry.Manifold.ContMDiff.Atlas
+module
+
+public import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
+public import OAI.Analysis.DifferentialForms.Manifold.Algebra
+public import OAI.Analysis.DifferentialForms.Manifold.SquareZero
+public import Mathlib.Geometry.Manifold.MFDeriv.FDeriv
+public import Mathlib.Geometry.Manifold.ContMDiff.Atlas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Charts -/
 

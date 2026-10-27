@@ -1,5 +1,10 @@
-import SteinerGeometry.LocalTensorFrames
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.RestrictedUnitTensorSection
+module
+
+public import SteinerGeometry.LocalTensorFrames
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.RestrictedUnitTensorSection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The left unitor acts on arbitrary local pure tensor sections. -/
 

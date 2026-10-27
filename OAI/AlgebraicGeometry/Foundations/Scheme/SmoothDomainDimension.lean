@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothComplexPoint
-import Mathlib.RingTheory.Etale.Kaehler
-import Mathlib.RingTheory.Spectrum.Prime.FreeLocus
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothComplexPoint
+public import Mathlib.RingTheory.Etale.Kaehler
+public import Mathlib.RingTheory.Spectrum.Prime.FreeLocus
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Domain Dimension -/
 

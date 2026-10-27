@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GenericProjectionOn
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GenericProjectionOn
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Cone Projection -/
 

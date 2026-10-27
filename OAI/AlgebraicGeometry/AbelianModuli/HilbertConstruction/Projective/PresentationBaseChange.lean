@@ -1,6 +1,11 @@
-import OAI.CategoryTheory.Functors.FunctorReturnIsomorphism
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SpaceBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Grassmann.ProjectivePresentation
+module
+
+public import OAI.CategoryTheory.Functors.FunctorReturnIsomorphism
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SpaceBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Grassmann.ProjectivePresentation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presentation Base Change -/
 

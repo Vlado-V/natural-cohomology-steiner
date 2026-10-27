@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.FractionDegrees
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.FractionDegrees
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Fraction Restriction -/
 

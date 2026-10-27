@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.InfinitesimalEq
-import Mathlib.RingTheory.HopfAlgebra.Convolution
-import Mathlib.RingTheory.Ideal.Quotient.Operations
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.InfinitesimalEq
+public import Mathlib.RingTheory.HopfAlgebra.Convolution
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Lifting Eq -/
 

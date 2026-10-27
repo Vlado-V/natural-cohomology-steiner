@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HolomorphicRegularity
-import Mathlib.Analysis.Calculus.ParametricIntervalIntegral
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HolomorphicRegularity
+public import Mathlib.Analysis.Calculus.ParametricIntervalIntegral
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Parametric Integral At -/
 

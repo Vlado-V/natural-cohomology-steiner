@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelBaseChange
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FrobeniusBaseChange
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelBaseChange
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FrobeniusBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frobenius Kernel Base Change -/
 

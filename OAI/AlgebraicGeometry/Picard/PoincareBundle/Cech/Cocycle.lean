@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.TransportModels
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.TransportModels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cocycle -/
 

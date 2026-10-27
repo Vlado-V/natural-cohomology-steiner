@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.Frames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ScalarSectionCover
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Nonvanishing
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Biproducts
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.Frames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ScalarSectionCover
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Nonvanishing
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Biproducts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! A finite epimorphism onto a line bundle has a locally invertible component. -/
 noncomputable section

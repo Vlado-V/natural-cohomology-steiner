@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.CycleSupports
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
-import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.CycleSupports
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+public import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generic Point -/
 

@@ -1,4 +1,9 @@
-import SteinerGeometry.SheafDual
+module
+
+public import SteinerGeometry.SheafDual
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The evaluation map obtained from an actual line subbundle of a free sheaf. -/
 noncomputable section

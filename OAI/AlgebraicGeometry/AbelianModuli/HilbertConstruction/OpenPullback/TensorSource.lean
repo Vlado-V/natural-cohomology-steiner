@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PullbackSectionValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.OpenPullbackValues
-import Mathlib.LinearAlgebra.TensorProduct.Map
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PullbackSectionValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.OpenPullbackValues
+public import Mathlib.LinearAlgebra.TensorProduct.Map
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Source -/
 

@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
-import Mathlib.RingTheory.Flat.EquationalCriterion
+module
+
+public import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
+public import Mathlib.RingTheory.Flat.EquationalCriterion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Localization Flat -/
 

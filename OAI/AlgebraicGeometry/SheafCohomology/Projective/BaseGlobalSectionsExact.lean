@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AffineSectionExact
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AffineSectionExact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Global Sections Exact -/
 

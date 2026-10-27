@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineOpenDifferential
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineOpenSmooth
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineOpenDifferential
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineOpenSmooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Intrinsic Open Differential -/
 

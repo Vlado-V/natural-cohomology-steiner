@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.IntrinsicDescentRecovery
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.FramedRecovery
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.IntrinsicDescentRecovery
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.FramedRecovery
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Recovery Uniqueness -/
 

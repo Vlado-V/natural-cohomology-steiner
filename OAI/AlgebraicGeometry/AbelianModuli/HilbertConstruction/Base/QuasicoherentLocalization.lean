@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.QuasicoherentLocalization
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LocalizationRestrictScalars
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.QuasicoherentLocalization
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LocalizationRestrictScalars
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasicoherent Localization -/
 

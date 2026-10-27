@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Quotients
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.Quotients
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Column Cokernel -/
 

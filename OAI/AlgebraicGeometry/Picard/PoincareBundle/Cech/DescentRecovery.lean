@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Canonical.CechCoaction
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Canonical.CechCoaction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Descent Recovery -/
 

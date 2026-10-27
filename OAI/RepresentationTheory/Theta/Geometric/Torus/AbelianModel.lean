@@ -1,9 +1,14 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.SmoothProjectiveModel
-import OAI.RepresentationTheory.Theta.Geometric.Torus.IntrinsicPeriodComparison
-import OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold
-import OAI.RepresentationTheory.Theta.Geometric.Torus.AlgebraicOperations
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GroupFrom
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicManifold
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.SmoothProjectiveModel
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.IntrinsicPeriodComparison
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.AlgebraicOperations
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GroupFrom
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicManifold
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Abelian Model -/
 

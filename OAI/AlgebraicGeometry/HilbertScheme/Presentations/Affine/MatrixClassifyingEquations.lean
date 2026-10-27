@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.NormalizedMatrixPoints
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.NormalizedMatrixPoints
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Matrix Classifying Equations -/
 

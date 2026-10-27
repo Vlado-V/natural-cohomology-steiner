@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Kernel.Linearization
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Kernel.ActionMaps
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.PullHom
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Kernel.Linearization
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Kernel.ActionMaps
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.PullHom
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Kernel Linearization -/
 

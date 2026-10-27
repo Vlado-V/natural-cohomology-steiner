@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Albanese.Construction.SegreTensorChart
-import OAI.AlgebraicGeometry.Albanese.Construction.SegreLocal
+module
+
+public import OAI.AlgebraicGeometry.Albanese.Construction.SegreTensorChart
+public import OAI.AlgebraicGeometry.Albanese.Construction.SegreLocal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Segre Closed -/
 

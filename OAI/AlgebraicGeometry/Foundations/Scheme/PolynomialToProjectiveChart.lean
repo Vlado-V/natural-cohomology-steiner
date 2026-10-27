@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChartToPolynomial
-import OAI.AlgebraicGeometry.Foundations.Scheme.HomogeneousEvalMap
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChartToPolynomial
+public import OAI.AlgebraicGeometry.Foundations.Scheme.HomogeneousEvalMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial To Projective Chart -/
 

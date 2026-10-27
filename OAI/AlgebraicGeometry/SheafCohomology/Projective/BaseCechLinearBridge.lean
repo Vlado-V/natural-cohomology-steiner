@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechHomology
-import OAI.AlgebraicGeometry.SheafCohomology.CechScalars
-import Mathlib.Algebra.Homology.ShortComplex.Linear
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechHomology
+public import OAI.AlgebraicGeometry.SheafCohomology.CechScalars
+public import Mathlib.Algebra.Homology.ShortComplex.Linear
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Cech Linear Bridge -/
 

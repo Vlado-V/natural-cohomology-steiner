@@ -1,10 +1,15 @@
-import SteinerGeometry.SectionContractionCategory
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.SectionEvaluation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.SectionMultiplication
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.EpimorphismCover
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Frames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.Nonvanishing
-import Mathlib.Algebra.Homology.ShortComplex.ShortExact
+module
+
+public import SteinerGeometry.SectionContractionCategory
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.SectionEvaluation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.SectionMultiplication
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.EpimorphismCover
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Frames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.Nonvanishing
+public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual section contraction on sheaves and its short exact sequence. -/
 

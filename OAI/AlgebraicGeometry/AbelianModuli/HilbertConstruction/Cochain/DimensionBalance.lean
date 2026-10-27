@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ShortComplexDimensionBalance
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cochain.ZeroKernel
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ShortComplexDimensionBalance
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cochain.ZeroKernel
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dimension Balance -/
 

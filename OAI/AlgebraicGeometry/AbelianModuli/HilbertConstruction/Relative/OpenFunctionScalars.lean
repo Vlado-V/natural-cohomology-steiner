@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Relative.OpenFunctionModules
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Relative.OpenFunctionModules
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Function Scalars -/
 

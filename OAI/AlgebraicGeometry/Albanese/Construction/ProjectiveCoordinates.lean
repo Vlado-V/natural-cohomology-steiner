@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Albanese.Construction.ClosedPoints
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveVectorScale
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveCoordinateCover
+module
+
+public import OAI.AlgebraicGeometry.Albanese.Construction.ClosedPoints
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveVectorScale
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveCoordinateCover
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Coordinates -/
 

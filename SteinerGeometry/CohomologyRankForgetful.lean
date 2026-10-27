@@ -1,6 +1,11 @@
-import SteinerGeometry.KernelNaturality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyFunctor
-import OAI.AlgebraicGeometry.SheafCohomology.AffineH
+module
+
+public import SteinerGeometry.KernelNaturality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyFunctor
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineH
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Maximal rank of cohomology maps is independent of the chosen coefficient action. -/
 noncomputable section

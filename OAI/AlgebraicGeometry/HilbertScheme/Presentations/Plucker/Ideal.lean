@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.Determinants
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Maps
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.Determinants
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Maps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ideal -/
 

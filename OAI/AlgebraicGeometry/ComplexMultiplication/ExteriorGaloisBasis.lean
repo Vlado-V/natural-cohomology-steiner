@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorBaseChange
-import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorBasisPermutation
-import OAI.AlgebraicGeometry.ComplexMultiplication.GaloisEmbeddingBasis
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorBaseChange
+public import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorBasisPermutation
+public import OAI.AlgebraicGeometry.ComplexMultiplication.GaloisEmbeddingBasis
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exterior Galois Basis -/
 

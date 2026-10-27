@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ConstantScheme
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.Scheme
-import Mathlib.AlgebraicGeometry.Morphisms.FlatRank
-import Mathlib.LinearAlgebra.Dimension.Constructions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ConstantScheme
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.Scheme
+public import Mathlib.AlgebraicGeometry.Morphisms.FlatRank
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Degree -/
 

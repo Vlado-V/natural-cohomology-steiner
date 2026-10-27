@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.AffineSectionsFlat
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.LineBundleSectionFiniteness
-import Mathlib.AlgebraicGeometry.Morphisms.Finite
-import Mathlib.AlgebraicGeometry.Morphisms.Flat
-import Mathlib.AlgebraicGeometry.Noetherian
-import Mathlib.RingTheory.Flat.EquationalCriterion
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.AffineSectionsFlat
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.LineBundleSectionFiniteness
+public import Mathlib.AlgebraicGeometry.Morphisms.Finite
+public import Mathlib.AlgebraicGeometry.Morphisms.Flat
+public import Mathlib.AlgebraicGeometry.Noetherian
+public import Mathlib.RingTheory.Flat.EquationalCriterion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Finite-flat direct image of a line bundle: the affine section modules are
 finite projective over a locally Noetherian base. -/

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ProjectivePresentations
-import Mathlib.RingTheory.MvPolynomial.Ideal
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ProjectivePresentations
+public import Mathlib.RingTheory.MvPolynomial.Ideal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Standard Projective Charts -/
 

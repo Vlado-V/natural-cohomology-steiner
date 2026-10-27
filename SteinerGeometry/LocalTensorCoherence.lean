@@ -1,5 +1,10 @@
-import SteinerGeometry.LocalTensorFrames
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalTensorSectionCoherence
+module
+
+public import SteinerGeometry.LocalTensorFrames
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalTensorSectionCoherence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Coherent braiding of arbitrary local pure tensor sections. -/
 noncomputable section

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.EtaleSplittingAt
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TorsionScheme
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.EtaleSplittingAt
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TorsionScheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme Splitting -/
 

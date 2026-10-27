@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechAllDegrees
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechAllDegrees
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Zero Sections -/
 

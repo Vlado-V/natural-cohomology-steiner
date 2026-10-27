@@ -1,6 +1,11 @@
-import Mathlib.Algebra.BigOperators.Ring.Finset
-import Mathlib.Data.Finset.Card
-import Mathlib.Tactic
+module
+
+public import Mathlib.Algebra.BigOperators.Ring.Finset
+public import Mathlib.Data.Finset.Card
+public import Mathlib.Tactic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Signs -/
 

@@ -1,3 +1,5 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: 1b8662c10f7c03d93b9ea16730a9955a784263e97456d85e92f637e70aa9da69
@@ -9,10 +11,13 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Invertible
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.PushforwardContinuous
-import Mathlib.CategoryTheory.Sites.SheafHom
-import Mathlib.CategoryTheory.Sites.Subsheaf
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Invertible
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.PushforwardContinuous
+public import Mathlib.CategoryTheory.Sites.SheafHom
+public import Mathlib.CategoryTheory.Sites.Subsheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dual -/
 

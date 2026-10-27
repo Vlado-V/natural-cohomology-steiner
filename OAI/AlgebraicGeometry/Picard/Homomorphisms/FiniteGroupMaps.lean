@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FiniteGeometricPoints
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FrobeniusKernelBaseChange
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FiniteGeometricPoints
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FrobeniusKernelBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Group Maps -/
 

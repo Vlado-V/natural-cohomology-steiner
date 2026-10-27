@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
+module
+
+public import Mathlib.CategoryTheory.Limits.Shapes.Equalizers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Equalizer Congr -/
 

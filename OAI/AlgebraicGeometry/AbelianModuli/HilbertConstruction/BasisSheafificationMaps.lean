@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.PresheafModuleBasisMaps
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.PowerSheaf
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.PresheafModuleBasisMaps
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.PowerSheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Basis Sheafification Maps -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.GroupMaps
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ConstantScheme
-import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.GroupMaps
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ConstantScheme
+public import Mathlib.LinearAlgebra.FiniteDimensional.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Etale Subgroups -/
 

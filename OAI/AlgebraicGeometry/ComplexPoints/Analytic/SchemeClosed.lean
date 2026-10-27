@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineSchemePointTopology
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ClosedImmersionPointTopology
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointClosedMap
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineSchemePointTopology
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ClosedImmersionPointTopology
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointClosedMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme Closed -/
 

@@ -1,8 +1,13 @@
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
-import Mathlib.AlgebraicGeometry.Noetherian
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpaceFiniteType
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjective
+module
+
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+public import Mathlib.AlgebraicGeometry.Noetherian
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpaceFiniteType
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjective
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Closed Projective -/
 

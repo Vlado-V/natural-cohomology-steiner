@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.MapValues
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenModule.MapValues
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Map Recovery -/
 

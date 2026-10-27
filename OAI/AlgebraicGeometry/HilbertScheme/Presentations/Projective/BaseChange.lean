@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.CoefficientMap
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.ChartPullback
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.CoefficientMap
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Affine.ChartPullback
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Change -/
 

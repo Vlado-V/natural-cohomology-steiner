@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
-import Mathlib.Topology.Sheaves.Forget
-import Mathlib.Topology.Sheaves.SheafCondition.PairwiseIntersections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+public import Mathlib.Topology.Sheaves.Forget
+public import Mathlib.Topology.Sheaves.SheafCondition.PairwiseIntersections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ring Module Presheaf -/
 

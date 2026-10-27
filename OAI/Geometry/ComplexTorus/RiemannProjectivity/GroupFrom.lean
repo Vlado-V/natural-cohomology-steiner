@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Albanese.Construction.ClosedPoints
-import OAI.AlgebraicGeometry.Albanese.Construction.Smooth
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.Fin
+module
+
+public import OAI.AlgebraicGeometry.Albanese.Construction.ClosedPoints
+public import OAI.AlgebraicGeometry.Albanese.Construction.Smooth
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.Fin
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Group From -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.AffineFrobeniusRank
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Smooth
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.AffineFrobeniusRank
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Smooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Frobenius Rank -/
 

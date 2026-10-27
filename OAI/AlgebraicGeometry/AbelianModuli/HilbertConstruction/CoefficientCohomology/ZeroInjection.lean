@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.ExactPairs
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.ExactPairs
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zero Injection -/
 

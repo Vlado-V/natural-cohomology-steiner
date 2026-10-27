@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.ModuleSheaf
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.GeneratorNaturality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.SectionMapValues
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.ModuleSheaf
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.GeneratorNaturality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.SectionMapValues
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Sections -/
 

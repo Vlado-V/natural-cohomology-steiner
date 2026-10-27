@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.FiniteHolomorphicRank
-import Mathlib.LinearAlgebra.Projection
-import Mathlib.LinearAlgebra.Basis.VectorSpace
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.FiniteHolomorphicRank
+public import Mathlib.LinearAlgebra.Projection
+public import Mathlib.LinearAlgebra.Basis.VectorSpace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Linear Rank Coordinates -/
 

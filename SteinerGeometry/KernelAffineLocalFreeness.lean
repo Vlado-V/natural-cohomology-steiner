@@ -1,7 +1,12 @@
-import SteinerGeometry.KernelSheafSections
-import SteinerGeometry.AffineLocalFreeness
-import SteinerGeometry.SheafLocalFreeLocality
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent
+module
+
+public import SteinerGeometry.KernelSheafSections
+public import SteinerGeometry.AffineLocalFreeness
+public import SteinerGeometry.SheafLocalFreeLocality
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Locally free kernels of actual epimorphisms on affine schemes. -/
 noncomputable section

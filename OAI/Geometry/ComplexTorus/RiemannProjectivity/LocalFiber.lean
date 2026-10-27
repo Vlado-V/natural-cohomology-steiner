@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.BoundedPolynomial
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.RootContinuityAt
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.SeparableFibersExists
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.BoundedPolynomial
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.RootContinuityAt
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.SeparableFibersExists
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Fiber -/
 

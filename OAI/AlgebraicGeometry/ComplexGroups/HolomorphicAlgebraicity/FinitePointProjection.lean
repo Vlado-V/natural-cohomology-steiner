@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ComplexPointExistence
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointUnderlying
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointClosedMap
-import Mathlib.AlgebraicGeometry.Morphisms.UniversallyInjective
-import Mathlib.AlgebraicGeometry.ZariskisMainTheorem
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ComplexPointExistence
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointUnderlying
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointClosedMap
+public import Mathlib.AlgebraicGeometry.Morphisms.UniversallyInjective
+public import Mathlib.AlgebraicGeometry.ZariskisMainTheorem
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Point Projection -/
 

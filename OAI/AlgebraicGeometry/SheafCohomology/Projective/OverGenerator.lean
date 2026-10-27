@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CanonicalAffineFrame
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Evaluation
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CanonicalAffineFrame
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Evaluation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Over Generator -/
 

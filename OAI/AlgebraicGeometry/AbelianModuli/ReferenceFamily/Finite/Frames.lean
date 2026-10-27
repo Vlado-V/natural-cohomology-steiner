@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.Level.Cover
-import Mathlib.Algebra.Group.TypeTags.Hom
-import Mathlib.Tactic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.Level.Cover
+public import Mathlib.Algebra.Group.TypeTags.Hom
+public import Mathlib.Tactic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frames -/
 

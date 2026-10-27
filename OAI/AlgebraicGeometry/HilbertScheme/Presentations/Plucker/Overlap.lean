@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.Projective
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.OverlapAlgebra
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.Gluing
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.Projective
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.OverlapAlgebra
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.Gluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap -/
 

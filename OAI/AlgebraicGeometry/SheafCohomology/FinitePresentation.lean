@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.LineBundleLocalGenerators
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.LineBundleLocalGenerators
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Presentation -/
 

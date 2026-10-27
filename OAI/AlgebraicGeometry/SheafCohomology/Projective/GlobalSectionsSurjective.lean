@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.SerreVanishing
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechVanishingTransfer
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalSectionsExact
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.SerreVanishing
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechVanishingTransfer
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalSectionsExact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Sections Surjective -/
 

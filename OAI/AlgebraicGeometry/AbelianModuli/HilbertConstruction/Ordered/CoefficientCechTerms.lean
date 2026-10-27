@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.SectionCechIndices
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheaf
-import Mathlib.Algebra.Category.ModuleCat.Products
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.SectionCechIndices
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheaf
+public import Mathlib.Algebra.Category.ModuleCat.Products
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Cech Terms -/
 

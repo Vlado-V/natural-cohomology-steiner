@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialFibers
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ResultantElimination
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialFibers
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ResultantElimination
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Analytic Elimination -/
 

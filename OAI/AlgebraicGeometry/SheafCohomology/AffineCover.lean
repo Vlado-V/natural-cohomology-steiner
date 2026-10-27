@@ -1,8 +1,13 @@
-import Mathlib.Algebra.Category.ModuleCat.Products
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
-import Mathlib.CategoryTheory.Limits.FullSubcategory
-import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
-import OAI.AlgebraicGeometry.SheafCohomology.AffineExact
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.Products
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+public import Mathlib.CategoryTheory.Limits.FullSubcategory
+public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineExact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Cover -/
 

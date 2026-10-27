@@ -1,6 +1,11 @@
-import SteinerGeometry.PointKernelLocal
-import OAI.AlgebraicGeometry.Seshadri.Sheaves.ClosedModuleExact
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+module
+
+public import SteinerGeometry.PointKernelLocal
+public import OAI.AlgebraicGeometry.Seshadri.Sheaves.ClosedModuleExact
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

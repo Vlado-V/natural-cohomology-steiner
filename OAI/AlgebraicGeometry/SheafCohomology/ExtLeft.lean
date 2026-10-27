@@ -1,4 +1,9 @@
-import Mathlib.Algebra.Homology.DerivedCategory.Ext.Basic
+module
+
+public import Mathlib.Algebra.Homology.DerivedCategory.Ext.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ext Left -/
 

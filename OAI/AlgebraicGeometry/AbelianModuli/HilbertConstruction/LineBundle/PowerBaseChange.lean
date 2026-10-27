@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.PullbackComposition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.PullbackUnits
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.PullbackComposition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.PullbackUnits
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Base Change -/
 

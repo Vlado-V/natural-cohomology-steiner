@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Module.Submodule.Union
-import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+module
+
+public import Mathlib.Algebra.Module.Submodule.Union
+public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Linear algebra used to complete a finite-defect section frame on a curve. -/
 

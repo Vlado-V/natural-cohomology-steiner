@@ -1,10 +1,15 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentRestriction
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.BaseChange
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.BeckDescent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Bundles
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.Adjunction
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.InvariantRestriction
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.ModuleLocality
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentRestriction
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.BaseChange
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.BeckDescent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Bundles
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.Adjunction
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.InvariantRestriction
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.ModuleLocality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Descent -/
 

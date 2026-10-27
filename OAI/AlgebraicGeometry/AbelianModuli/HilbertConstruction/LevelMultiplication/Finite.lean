@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Unramified
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.UnramifiedQuasiFinite
-import Mathlib.AlgebraicGeometry.ZariskisMainTheorem
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Unramified
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.UnramifiedQuasiFinite
+public import Mathlib.AlgebraicGeometry.ZariskisMainTheorem
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite -/
 

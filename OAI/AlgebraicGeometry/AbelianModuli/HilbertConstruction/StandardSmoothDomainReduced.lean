@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SubmersiveEtaleCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EtaleDomainReduced
-import Mathlib.RingTheory.Smooth.Flat
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SubmersiveEtaleCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EtaleDomainReduced
+public import Mathlib.RingTheory.Smooth.Flat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Standard Smooth Domain Reduced -/
 

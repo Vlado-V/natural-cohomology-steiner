@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ImageQuasicoherentLocalization
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LocalizationRestrictScalars
-import Mathlib.AlgebraicGeometry.Modules.Tilde
-import Mathlib.AlgebraicGeometry.Morphisms.Proper
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ImageQuasicoherentLocalization
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LocalizationRestrictScalars
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+public import Mathlib.AlgebraicGeometry.Morphisms.Proper
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Target Quasicoherent Image -/
 

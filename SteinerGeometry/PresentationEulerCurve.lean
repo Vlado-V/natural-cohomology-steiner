@@ -1,6 +1,11 @@
-import SteinerGeometry.PresentationEulerCore
-import SteinerGeometry.CurveEulerBiproduct
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CohomologyDimensionBalance
+module
+
+public import SteinerGeometry.PresentationEulerCore
+public import SteinerGeometry.CurveEulerBiproduct
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CohomologyDimensionBalance
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Euler additivity on curves from the actual H0--H1 exact sequence. -/
 noncomputable section

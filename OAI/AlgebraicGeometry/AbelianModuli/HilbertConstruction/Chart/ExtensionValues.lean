@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.ImageSectionMaps
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.CoordinateValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Common.DegreeChartExtensions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.ImageSectionMaps
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.CoordinateValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Common.DegreeChartExtensions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Extension Values -/
 

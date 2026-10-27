@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GlueReduced
-import Mathlib.Analysis.Normed.Module.Connected
-import Mathlib.Topology.Connected.TotallyDisconnected
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GlueReduced
+public import Mathlib.Analysis.Normed.Module.Connected
+public import Mathlib.Topology.Connected.TotallyDisconnected
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Constant Fiber -/
 

@@ -1,6 +1,11 @@
-import SteinerGeometry.SheafDualKernel
-import SteinerGeometry.FiniteLocalFrames
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Invertible
+module
+
+public import SteinerGeometry.SheafDualKernel
+public import SteinerGeometry.FiniteLocalFrames
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Invertible
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Natural bidual evaluation and reflexivity from actual finite local frames. -/
 

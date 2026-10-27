@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ResidueFieldDetection
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Flat.ExactKernels
-import Mathlib.RingTheory.Finiteness.Finsupp
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ResidueFieldDetection
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Flat.ExactKernels
+public import Mathlib.RingTheory.Finiteness.Finsupp
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Fiberwise Exactness -/
 

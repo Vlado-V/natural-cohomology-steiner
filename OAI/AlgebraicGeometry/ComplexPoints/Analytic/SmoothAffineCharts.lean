@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.JacobianRegularity
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LocalGraphChart
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PresentedPointTopology
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LocalizationPointTopology
-import Mathlib.Topology.OpenPartialHomeomorph.Constructions
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.JacobianRegularity
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LocalGraphChart
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PresentedPointTopology
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LocalizationPointTopology
+public import Mathlib.Topology.OpenPartialHomeomorph.Constructions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Affine Charts -/
 

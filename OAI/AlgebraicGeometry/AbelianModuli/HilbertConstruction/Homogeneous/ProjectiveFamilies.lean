@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.EmbeddingBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.EmbeddingKernelIso
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.EmbeddingBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.EmbeddingKernelIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Families -/
 

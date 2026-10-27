@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.Functor.FullyFaithful
+module
+
+public import Mathlib.CategoryTheory.Functor.FullyFaithful
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Recovery Comparison -/
 

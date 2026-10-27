@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.Finiteness.Descent
-import Mathlib.RingTheory.Flat.LocallyFree
+module
+
+public import Mathlib.RingTheory.Finiteness.Descent
+public import Mathlib.RingTheory.Flat.LocallyFree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flat Rank One Descent -/
 

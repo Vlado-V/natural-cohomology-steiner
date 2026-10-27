@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Quotient.CoefficientMap
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ChartCoefficientMap
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Quotient.CoefficientMap
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ChartCoefficientMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Map -/
 

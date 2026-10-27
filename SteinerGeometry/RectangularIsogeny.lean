@@ -1,6 +1,11 @@
-import SteinerGeometry.RectangularModel
-import SteinerGeometry.AnalyticKernelPoints
-import SteinerGeometry.GeometricKernelLabels
+module
+
+public import SteinerGeometry.RectangularModel
+public import SteinerGeometry.AnalyticKernelPoints
+public import SteinerGeometry.GeometricKernelLabels
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

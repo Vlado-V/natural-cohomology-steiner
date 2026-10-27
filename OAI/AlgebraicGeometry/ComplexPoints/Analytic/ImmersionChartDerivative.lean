@@ -1,4 +1,9 @@
-import Mathlib.Geometry.Manifold.ContMDiffMFDeriv
+module
+
+public import Mathlib.Geometry.Manifold.ContMDiffMFDeriv
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Immersion Chart Derivative -/
 

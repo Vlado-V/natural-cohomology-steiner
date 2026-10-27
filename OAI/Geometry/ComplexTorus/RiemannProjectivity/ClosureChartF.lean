@@ -1,8 +1,13 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AffineImageAlgebraEq
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.SmoothChart
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ExactProjective
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChart
-import Mathlib.AlgebraicGeometry.Limits
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AffineImageAlgebraEq
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.SmoothChart
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ExactProjective
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChart
+public import Mathlib.AlgebraicGeometry.Limits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Closure Chart F -/
 

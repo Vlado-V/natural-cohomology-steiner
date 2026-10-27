@@ -1,9 +1,14 @@
-import Steiner.SymmetricContraction
-import Steiner.OperatorDuality
-import Mathlib.LinearAlgebra.DirectSum.Finsupp
-import Mathlib.Data.Finsupp.Multiset
-import Mathlib.Data.Sym.Card
-import Mathlib.LinearAlgebra.FixedSubmodule
+module
+
+public import Steiner.SymmetricContraction
+public import Steiner.OperatorDuality
+public import Mathlib.LinearAlgebra.DirectSum.Finsupp
+public import Mathlib.Data.Finsupp.Multiset
+public import Mathlib.Data.Sym.Card
+public import Mathlib.LinearAlgebra.FixedSubmodule
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Finite homogeneous coordinates for genuine module-valued polynomials.
 Generalizes the earlier three-variable coordinate proof to every number of

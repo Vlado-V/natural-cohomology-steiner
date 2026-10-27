@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.StructureSectionEquivalence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CharacterAverageSectionValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Regular.CharacterAverageValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Linear.ConjugateRanges
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.StructureSectionEquivalence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CharacterAverageSectionValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Regular.CharacterAverageValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Linear.ConjugateRanges
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Section Projectors -/
 

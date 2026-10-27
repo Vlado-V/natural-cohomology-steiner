@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ModelNaturality
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleSwitchMorphisms
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleEffectiveDescent
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ModelNaturality
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleSwitchMorphisms
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleEffectiveDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Gluing Morphisms -/
 

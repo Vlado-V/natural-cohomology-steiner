@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FrobeniusKernelRank
-import Mathlib.AlgebraicGeometry.Geometrically.Connected
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FrobeniusKernelRank
+public import Mathlib.AlgebraicGeometry.Geometrically.Connected
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Geometry -/
 

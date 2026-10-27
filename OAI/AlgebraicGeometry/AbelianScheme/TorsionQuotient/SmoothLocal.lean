@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalSmooth
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalLifts
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalSmooth
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalLifts
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Local -/
 

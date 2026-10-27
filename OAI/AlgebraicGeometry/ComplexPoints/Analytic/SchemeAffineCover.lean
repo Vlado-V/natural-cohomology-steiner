@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.OpenImmersion
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineSchemePointTopology
-import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
-import Mathlib.AlgebraicGeometry.Cover.Open
-import Mathlib.AlgebraicGeometry.AffineScheme
-import Mathlib.Topology.Maps.OpenQuotient
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.OpenImmersion
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineSchemePointTopology
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
+public import Mathlib.AlgebraicGeometry.Cover.Open
+public import Mathlib.AlgebraicGeometry.AffineScheme
+public import Mathlib.Topology.Maps.OpenQuotient
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme Affine Cover -/
 

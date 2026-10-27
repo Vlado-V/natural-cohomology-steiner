@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentRestriction
-import Mathlib.CategoryTheory.Monad.Comonadicity
-import Mathlib.CategoryTheory.Limits.Preserves.Finite
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentRestriction
+public import Mathlib.CategoryTheory.Monad.Comonadicity
+public import Mathlib.CategoryTheory.Limits.Preserves.Finite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invariant Restriction -/
 

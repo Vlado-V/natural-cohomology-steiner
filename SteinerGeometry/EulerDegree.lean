@@ -1,15 +1,20 @@
-import SteinerGeometry.LineClassArithmetic
-import Mathlib.GroupTheory.OrderOfElement
-import Mathlib.Algebra.BigOperators.Group.Finset.Basic
-import SteinerGeometry.ElementaryCurveCohomology
-import SteinerGeometry.CurveEulerAdditivity
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.UnitRight
-import SteinerGeometry.CurveTensorCokernel
-import SteinerGeometry.EulerIso
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ModuleSectionIdentity
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Base.PointTranslations
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.ClassGroup
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorEquivalence
+module
+
+public import SteinerGeometry.LineClassArithmetic
+public import Mathlib.GroupTheory.OrderOfElement
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import SteinerGeometry.ElementaryCurveCohomology
+public import SteinerGeometry.CurveEulerAdditivity
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.UnitRight
+public import SteinerGeometry.CurveTensorCokernel
+public import SteinerGeometry.EulerIso
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ModuleSectionIdentity
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Base.PointTranslations
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.ClassGroup
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorEquivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-!
 # Euler degree on elliptic curves

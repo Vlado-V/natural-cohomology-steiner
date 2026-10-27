@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Addition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ZeroTensorPowers
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.ClassMonoid
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Addition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ZeroTensorPowers
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.ClassMonoid
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Classes -/
 

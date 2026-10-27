@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AffineCoordinatesM
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveSmoothTo
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicSmoothClosedImmersion
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveScheme
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AffineCoordinatesM
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveSmoothTo
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicSmoothClosedImmersion
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveScheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Coordinates M -/
 

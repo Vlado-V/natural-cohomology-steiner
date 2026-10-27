@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.EndScalars
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.EndScalars
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # End Transfer -/
 

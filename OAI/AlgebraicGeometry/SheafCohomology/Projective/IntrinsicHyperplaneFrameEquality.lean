@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneFrames
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Intrinsic Hyperplane Frame Equality -/
 

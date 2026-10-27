@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentHomology
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechTopSupport
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentHomology
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechTopSupport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Laurent Top -/
 

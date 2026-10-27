@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HolomorphicRegularity
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ZeroLocus
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LinearImmersionComplement
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HolomorphicRegularity
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ZeroLocus
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.LinearImmersionComplement
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Immersion -/
 

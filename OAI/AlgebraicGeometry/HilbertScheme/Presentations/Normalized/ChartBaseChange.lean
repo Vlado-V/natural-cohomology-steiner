@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.AtlasMaps
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.AtlasMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Base Change -/
 

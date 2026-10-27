@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.GradedCechDifferential
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.CechRestrictionIndexEquality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechCofaces
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.GradedCechDifferential
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.CechRestrictionIndexEquality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechCofaces
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Graded Cech Differential -/
 

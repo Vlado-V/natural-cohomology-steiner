@@ -1,7 +1,12 @@
-import SteinerGeometry.SymmetricRestriction
-import SteinerGeometry.SectionContractionTransport
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.RestrictionLimits
+module
+
+public import SteinerGeometry.SymmetricRestriction
+public import SteinerGeometry.SectionContractionTransport
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Kernels
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.RestrictionLimits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Restriction of the actual contraction kernel and its canonical monomial map. -/
 noncomputable section

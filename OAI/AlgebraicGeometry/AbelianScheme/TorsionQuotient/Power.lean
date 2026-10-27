@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalPowerIn
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalUnramified
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.Quasi
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalPowerIn
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalUnramified
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.Quasi
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power -/
 

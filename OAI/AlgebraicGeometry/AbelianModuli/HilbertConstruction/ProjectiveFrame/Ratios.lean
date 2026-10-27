@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.RatioSubopens
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CommonCoordinateOpen
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coordinate.RatioSubopens
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CommonCoordinateOpen
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ratios -/
 

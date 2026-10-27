@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroNegative
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentDimension
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentVanishing
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroNegative
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentDimension
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentVanishing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Dimensions -/
 

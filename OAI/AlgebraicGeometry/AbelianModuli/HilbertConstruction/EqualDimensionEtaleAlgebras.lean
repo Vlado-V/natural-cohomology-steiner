@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EtaleCotangentCriterion
-import Mathlib.RingTheory.Smooth.StandardSmoothCotangent
-import Mathlib.LinearAlgebra.Dimension.Constructions
-import Mathlib.LinearAlgebra.Dimension.Free
-import Mathlib.RingTheory.OrzechProperty
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EtaleCotangentCriterion
+public import Mathlib.RingTheory.Smooth.StandardSmoothCotangent
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+public import Mathlib.LinearAlgebra.Dimension.Free
+public import Mathlib.RingTheory.OrzechProperty
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Equal Dimension Etale Algebras -/
 

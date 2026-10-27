@@ -1,4 +1,9 @@
-import Mathlib.RingTheory.LocalRing.Module
+module
+
+public import Mathlib.RingTheory.LocalRing.Module
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Residue Field Detection -/
 

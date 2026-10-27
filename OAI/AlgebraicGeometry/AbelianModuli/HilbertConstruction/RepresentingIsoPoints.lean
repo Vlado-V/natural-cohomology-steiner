@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.Yoneda
+module
+
+public import Mathlib.CategoryTheory.Yoneda
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Representing Iso Points -/
 

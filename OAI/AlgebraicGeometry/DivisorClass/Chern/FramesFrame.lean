@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.DivisorClass.Chern.Line.Bundles
+module
+
+public import OAI.AlgebraicGeometry.DivisorClass.Chern.Line.Bundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frames Frame -/
 

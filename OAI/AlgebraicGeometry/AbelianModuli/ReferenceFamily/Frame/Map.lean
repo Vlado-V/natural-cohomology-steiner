@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.Finite.Frames
-import Mathlib.AlgebraicGeometry.PullbackCarrier
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.Finite.Frames
+public import Mathlib.AlgebraicGeometry.PullbackCarrier
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Map -/
 

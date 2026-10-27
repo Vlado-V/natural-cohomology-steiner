@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PrincipalRankOneSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.RankOneLocalBasis
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModuleFrameFromSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictedSectionBases
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PrincipalRankOneSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.RankOneLocalBasis
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModuleFrameFromSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictedSectionBases
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Rank One Local Frames -/
 

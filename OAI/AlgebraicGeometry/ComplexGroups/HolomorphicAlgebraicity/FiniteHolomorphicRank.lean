@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HolomorphicRegularity
-import Mathlib.Analysis.Calculus.MeanValue
-import Mathlib.Analysis.Calculus.ImplicitFunction.ProdDomain
-import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.HolomorphicRegularity
+public import Mathlib.Analysis.Calculus.MeanValue
+public import Mathlib.Analysis.Calculus.ImplicitFunction.ProdDomain
+public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Holomorphic Rank -/
 

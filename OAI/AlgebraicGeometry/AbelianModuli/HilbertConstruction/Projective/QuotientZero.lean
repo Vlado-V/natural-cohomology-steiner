@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.GradedProjectiveIsomorphism
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SpaceReindex
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.BaseChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.GradedProjectiveIsomorphism
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SpaceReindex
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.BaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Zero -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.SquareMapEquality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.SquareMapEquality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Square Module Maps -/
 

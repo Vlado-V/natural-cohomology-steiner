@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.FrameRecognition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FirstPowerFrameRealization
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveTwisting.Bundle
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Maps
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.FrameRecognition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FirstPowerFrameRealization
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveTwisting.Bundle
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Maps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Powers -/
 

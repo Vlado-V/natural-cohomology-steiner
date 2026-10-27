@@ -1,5 +1,10 @@
-import Mathlib
-import OAI.AlgebraicGeometry.SheafCohomology.API
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.SheafCohomology.API
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zero Outside -/
 

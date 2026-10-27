@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SchemeModuleRestrictLimits.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restriction Limits -/
 

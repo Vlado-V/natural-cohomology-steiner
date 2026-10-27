@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechAlternating
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.CochainZeroCycleMaps
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechAlternating
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.CochainZeroCycleMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ordered Base Zero Cycles -/
 

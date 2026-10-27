@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
-import Mathlib.RingTheory.FiniteType
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+public import Mathlib.RingTheory.FiniteType
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Space Finite Type -/
 

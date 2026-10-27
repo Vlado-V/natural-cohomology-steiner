@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.PresentedMapComposition
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.PresentedMapComposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Factorization -/
 

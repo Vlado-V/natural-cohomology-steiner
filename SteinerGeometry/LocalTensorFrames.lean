@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.FrameSectionComparison
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.FrameSectionComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Compatibility of tensor frames with arbitrary local sections. -/
 noncomputable section

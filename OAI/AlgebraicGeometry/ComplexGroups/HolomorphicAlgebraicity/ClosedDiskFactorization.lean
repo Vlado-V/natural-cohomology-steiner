@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.DiskFactorizationOn
-import Mathlib.Analysis.Analytic.Polynomial
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.DiskFactorizationOn
+public import Mathlib.Analysis.Analytic.Polynomial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Closed Disk Factorization -/
 

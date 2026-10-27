@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.CommonCMField
-import OAI.AlgebraicGeometry.ComplexMultiplication.DecompositionEmbeddingBasis
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CommonCMField
+public import OAI.AlgebraicGeometry.ComplexMultiplication.DecompositionEmbeddingBasis
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Galois Signs -/
 

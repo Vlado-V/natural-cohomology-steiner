@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Smooth
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Smooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Presentation -/
 

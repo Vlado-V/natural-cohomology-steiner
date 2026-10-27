@@ -1,5 +1,10 @@
-import SteinerGeometry.EulerDegree
-import SteinerGeometry.MonomialLineClasses
+module
+
+public import SteinerGeometry.EulerDegree
+public import SteinerGeometry.MonomialLineClasses
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Genuine Euler degrees of the actual symmetric-kernel monomial lines. -/
 noncomputable section

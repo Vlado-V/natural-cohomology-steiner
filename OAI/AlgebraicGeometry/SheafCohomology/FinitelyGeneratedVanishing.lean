@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.VanishingPresheafFilteredG
-import OAI.AlgebraicGeometry.SheafCohomology.ClosedImmersionCohomology
-import OAI.AlgebraicGeometry.SheafCohomology.GeneratedSubsheaf
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.VanishingPresheafFilteredG
+public import OAI.AlgebraicGeometry.SheafCohomology.ClosedImmersionCohomology
+public import OAI.AlgebraicGeometry.SheafCohomology.GeneratedSubsheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finitely Generated Vanishing -/
 

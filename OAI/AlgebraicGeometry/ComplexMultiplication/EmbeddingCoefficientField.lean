@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.EmbeddingDecomposition
-import OAI.AlgebraicGeometry.ComplexMultiplication.ScalarDescent
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.EmbeddingDecomposition
+public import OAI.AlgebraicGeometry.ComplexMultiplication.ScalarDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Embedding Coefficient Field -/
 

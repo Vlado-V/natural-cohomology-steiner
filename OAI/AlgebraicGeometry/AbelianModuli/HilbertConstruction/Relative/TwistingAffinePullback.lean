@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveTwisting.CoefficientChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RelativeProjective.TwistingBundle
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineProjective.Charts
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveTwisting.CoefficientChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RelativeProjective.TwistingBundle
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineProjective.Charts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twisting Affine Pullback -/
 

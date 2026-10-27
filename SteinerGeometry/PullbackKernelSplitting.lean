@@ -1,6 +1,11 @@
-import SteinerGeometry.SheafDualKernel
-import SteinerGeometry.DualEvaluation
-import SteinerGeometry.CyclicLinePushforward
+module
+
+public import SteinerGeometry.SheafDualKernel
+public import SteinerGeometry.DualEvaluation
+public import SteinerGeometry.CyclicLinePushforward
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The dual of a presented quotient and its splitting on the cyclic cover. -/
 noncomputable section

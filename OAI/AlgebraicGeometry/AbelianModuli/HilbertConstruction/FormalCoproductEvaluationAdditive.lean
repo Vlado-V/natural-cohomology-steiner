@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import Mathlib.CategoryTheory.Limits.FormalCoproducts.Basic
-import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+public import Mathlib.CategoryTheory.Limits.FormalCoproducts.Basic
+public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Formal Coproduct Evaluation Additive -/
 

@@ -1,7 +1,12 @@
-import SteinerGeometry.ProjectiveCohomology
-import SteinerGeometry.OrderedCechNaturality
-import SteinerGeometry.LaurentResidueHomology
-import SteinerGeometry.ActualNegativeTopMap
+module
+
+public import SteinerGeometry.ProjectiveCohomology
+public import SteinerGeometry.OrderedCechNaturality
+public import SteinerGeometry.LaurentResidueHomology
+public import SteinerGeometry.ActualNegativeTopMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Residue coordinates natural for the actual maps of projective sheaves. -/
 noncomputable section

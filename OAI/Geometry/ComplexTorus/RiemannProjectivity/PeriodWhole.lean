@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConePolynomial
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticCone
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeSurjectivityEq
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConePolynomial
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticCone
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeSurjectivityEq
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Period Whole -/
 

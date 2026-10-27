@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.DegreeZero
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.DegreeZero
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Top Zero -/
 

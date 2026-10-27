@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Relative.PowerFrames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Relative.PowerFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Frames -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.Fractions
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.Fractions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Degree Pieces -/
 

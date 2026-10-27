@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RingPushoutTensorComparison
-import Mathlib.AlgebraicGeometry.Morphisms.Affine
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RingPushoutTensorComparison
+public import Mathlib.AlgebraicGeometry.Morphisms.Affine
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Cartesian Function Tensor -/
 

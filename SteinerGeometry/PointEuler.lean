@@ -1,13 +1,18 @@
-import SteinerGeometry.EulerDegree
-import SteinerGeometry.PointLineBundle
-import SteinerGeometry.PointEulerCore
-import SteinerGeometry.RightExactPullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PushforwardEuler
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ImageType
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.MorphismStructureBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.MorphismQuasicoherentPullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.PullbackFiniteType
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Degree
+module
+
+public import SteinerGeometry.EulerDegree
+public import SteinerGeometry.PointLineBundle
+public import SteinerGeometry.PointEulerCore
+public import SteinerGeometry.RightExactPullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PushforwardEuler
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.ImageType
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.MorphismStructureBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.MorphismQuasicoherentPullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.PullbackFiniteType
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Degree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The native Euler characteristic of a rational point ideal and its inverse. -/
 

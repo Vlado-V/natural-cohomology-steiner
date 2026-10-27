@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.CycleNormalization
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.CycleNormalization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Filtered Normalization -/
 

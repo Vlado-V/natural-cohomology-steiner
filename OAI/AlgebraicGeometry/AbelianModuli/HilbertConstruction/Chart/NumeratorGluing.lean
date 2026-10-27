@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OverlapStabilization
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.Extensions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OverlapStabilization
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.Extensions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Numerator Gluing -/
 

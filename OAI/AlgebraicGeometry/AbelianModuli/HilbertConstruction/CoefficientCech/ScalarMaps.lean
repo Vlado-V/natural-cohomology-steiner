@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.ComplexForget
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.ComplexForget
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scalar Maps -/
 

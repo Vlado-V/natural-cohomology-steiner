@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechComplex
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FormalCoproductEvaluationAdditive
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PresheafAdditive
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechComplex
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FormalCoproductEvaluationAdditive
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PresheafAdditive
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Cech Functor -/
 

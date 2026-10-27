@@ -1,7 +1,12 @@
-import SteinerGeometry.RectangularRelativeKernel
-import SteinerGeometry.CyclicComplexBase
-import OAI.RepresentationTheory.Theta.Geometric.AbelianScheme
-import OAI.RepresentationTheory.Theta.Geometric.Torus.Isogeny
+module
+
+public import SteinerGeometry.RectangularRelativeKernel
+public import SteinerGeometry.CyclicComplexBase
+public import OAI.RepresentationTheory.Theta.Geometric.AbelianScheme
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.Isogeny
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

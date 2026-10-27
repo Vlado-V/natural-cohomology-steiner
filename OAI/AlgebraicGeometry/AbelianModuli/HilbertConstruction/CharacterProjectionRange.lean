@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Regular.CharacterProjectors
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Regular.CharacterProjectors
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Projection Range -/
 

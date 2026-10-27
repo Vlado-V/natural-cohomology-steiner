@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.PullbackOpen
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.TensorCompositionUnits
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.PullbackOpen
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.TensorCompositionUnits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Composition -/
 

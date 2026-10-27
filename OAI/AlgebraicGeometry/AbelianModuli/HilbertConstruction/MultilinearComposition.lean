@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Maps
-import Mathlib.Logic.Equiv.Fin.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Maps
+public import Mathlib.Logic.Equiv.Fin.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Multilinear Composition -/
 

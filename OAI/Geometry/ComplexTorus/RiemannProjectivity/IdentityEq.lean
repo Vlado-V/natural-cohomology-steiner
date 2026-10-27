@@ -1,6 +1,11 @@
-import Mathlib.Analysis.Complex.CauchyIntegral
-import Mathlib.Analysis.Analytic.IsolatedZeros
-import Mathlib.Topology.Connected.Clopen
+module
+
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Mathlib.Topology.Connected.Clopen
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Identity Eq -/
 

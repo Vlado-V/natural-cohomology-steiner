@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.CoefficientSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FromOpenFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.SectionRestriction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.CoefficientSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.FromOpenFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.SectionRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coordinate Sections -/
 

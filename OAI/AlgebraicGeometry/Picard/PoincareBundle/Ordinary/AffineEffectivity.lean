@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.AffineOverlap
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.OverlapPresentation
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechEffectivity
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.AffineOverlap
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.OverlapPresentation
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechEffectivity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Effectivity -/
 

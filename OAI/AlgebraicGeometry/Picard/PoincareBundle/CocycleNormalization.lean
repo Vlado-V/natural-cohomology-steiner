@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleSwitchNext
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleSwitchNext
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cocycle Normalization -/
 

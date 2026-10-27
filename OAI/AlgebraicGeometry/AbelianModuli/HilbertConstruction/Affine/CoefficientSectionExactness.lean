@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.SectionEvaluation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.QuasicoherentEpimorphisms
-import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.SectionEvaluation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.QuasicoherentEpimorphisms
+public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Section Exactness -/
 

@@ -1,6 +1,11 @@
-import SteinerGeometry.CohomologySections
-import SteinerGeometry.PointTensorExact
-import SteinerGeometry.CurveSectionEvaluation
+module
+
+public import SteinerGeometry.CohomologySections
+public import SteinerGeometry.PointTensorExact
+public import SteinerGeometry.CurveSectionEvaluation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Point-ideal cohomology controls the actual rational evaluation map. -/
 noncomputable section

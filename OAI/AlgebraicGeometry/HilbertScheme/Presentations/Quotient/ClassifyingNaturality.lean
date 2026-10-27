@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Quotient.ClassifyingAffineFormula
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.PointBaseChange
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Coordinate.GrassmannianBaseChange
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Quotient.ClassifyingAffineFormula
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.PointBaseChange
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Coordinate.GrassmannianBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Classifying Naturality -/
 

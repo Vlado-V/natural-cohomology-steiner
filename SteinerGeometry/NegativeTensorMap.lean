@@ -1,10 +1,15 @@
-import SteinerGeometry.NegativeMapCoefficient
-import SteinerGeometry.LocalTensorCoherence
-import SteinerGeometry.LocalTensorLeftUnitor
-import SteinerGeometry.LocalTensorSwapUnit
-import SteinerGeometry.TensorSwapUnitIso
-import SteinerGeometry.NegativePowerTensorIso
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorConjugatedMapSections
+module
+
+public import SteinerGeometry.NegativeMapCoefficient
+public import SteinerGeometry.LocalTensorCoherence
+public import SteinerGeometry.LocalTensorLeftUnitor
+public import SteinerGeometry.LocalTensorSwapUnit
+public import SteinerGeometry.TensorSwapUnitIso
+public import SteinerGeometry.NegativePowerTensorIso
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorConjugatedMapSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Negative tensor twists preserve the chart coefficient of a linear map. -/
 noncomputable section
@@ -145,7 +150,14 @@ def sourceIso_generator (j : σ) (d : ℕ) :=
 
 
 def map_generator (j : σ) (d : ℕ)
-    (f : power (R := R) j 1 ⟶ power (R := R) j 0) := by
+    (f : power (R := R) j 1 ⟶ power (R := R) j 0) :
+    let U := MvPolynomialClosure.MvPolynomial.coordinateOpen (R := R) j
+    let g (n : ℕ) :=
+      DistinguishedChartCancellation.MvPolynomial.coordinateHyperplaneIdealChartPowerSection
+        (R := R) j n
+    let c := NegativeChartCoordinates.MvPolynomial.coordinateHyperplaneNegativeChartCoefficient j 0
+      (f.val.app (op U) (g 1))
+    (map j d f).val.app (op U) (g (d + 1)) = c • g d := by
   let U := MvPolynomialClosure.MvPolynomial.coordinateOpen (R := R) j
   let g (n : ℕ) := DistinguishedChartCancellation.MvPolynomial.coordinateHyperplaneIdealChartPowerSection
     (R := R) j n

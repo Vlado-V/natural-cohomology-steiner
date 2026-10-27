@@ -1,5 +1,10 @@
-import SteinerGeometry.TraceAffineComparison
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+module
+
+public import SteinerGeometry.TraceAffineComparison
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry.ClosedImmersionUnit

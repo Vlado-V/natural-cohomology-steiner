@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.BaseChange
-import Mathlib.CategoryTheory.Monoidal.Cartesian.Over
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.BaseChange
+public import Mathlib.CategoryTheory.Monoidal.Cartesian.Over
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Product -/
 

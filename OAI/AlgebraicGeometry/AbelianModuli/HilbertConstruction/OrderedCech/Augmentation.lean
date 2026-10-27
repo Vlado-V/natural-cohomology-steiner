@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechComplex
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechComplex
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Augmentation -/
 

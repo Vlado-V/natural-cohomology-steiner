@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Group.Affine
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.Group.Affine
+public import Mathlib.Analysis.Complex.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Complex Points -/
 

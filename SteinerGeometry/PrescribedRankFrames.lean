@@ -1,5 +1,10 @@
-import SteinerGeometry.FiniteLocalFrames
-import Mathlib.Data.Fintype.EquivFin
+module
+
+public import SteinerGeometry.FiniteLocalFrames
+public import Mathlib.Data.Fintype.EquivFin
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Finite-projective affine modules of a prescribed stalk rank have frames of that rank. -/
 noncomputable section

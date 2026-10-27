@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.EpiOpenCover
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.EpiOpenCover
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zero Open Cover -/
 

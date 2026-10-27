@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.AffineSpace
-import Mathlib.AlgebraicGeometry.Sites.Fpqc
+module
+
+public import Mathlib.AlgebraicGeometry.AffineSpace
+public import Mathlib.AlgebraicGeometry.Sites.Fpqc
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Function Descent -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Composition
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.QuasiCoherent
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Composition
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.QuasiCoherent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Gluing -/
 

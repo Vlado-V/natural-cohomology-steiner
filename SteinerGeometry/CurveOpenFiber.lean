@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.CategoryTheory.Adjunction.FullyFaithful
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Restricting to an open neighbourhood does not change a module's fiber. -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.ChartSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeFrameChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.ChartSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeFrameChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Naturality -/
 

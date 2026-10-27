@@ -1,3 +1,5 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
@@ -6,14 +8,17 @@ Authors: AINTLIB ModularCurves project
 ForMathlib (OURS, not vendored): upstream candidate.
 This file has been modified.
 -/
-import Mathlib.AlgebraicGeometry.Morphisms.Proper
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
-import Mathlib.RingTheory.MvPolynomial.Ideal
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.GradedQuotient
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.MvPolynomialHomogenize
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ClosedImmersion
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ToSpecZero
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.SpaceChart
+public import Mathlib.AlgebraicGeometry.Morphisms.Proper
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+public import Mathlib.RingTheory.MvPolynomial.Ideal
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.GradedQuotient
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.MvPolynomialHomogenize
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ClosedImmersion
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ToSpecZero
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.SpaceChart
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Mv Polynomial Closure -/
 

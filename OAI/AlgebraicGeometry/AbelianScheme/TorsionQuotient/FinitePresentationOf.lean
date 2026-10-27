@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Morphisms.FinitePresentation
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+module
+
+public import Mathlib.AlgebraicGeometry.Morphisms.FinitePresentation
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Presentation Of -/
 

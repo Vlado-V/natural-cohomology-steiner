@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Category.ModuleCat.Presheaf.EpiMono
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CohomologyCoverModule
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.Presheaf.EpiMono
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CohomologyCoverModule
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cohomology Cover Monomorphism -/
 

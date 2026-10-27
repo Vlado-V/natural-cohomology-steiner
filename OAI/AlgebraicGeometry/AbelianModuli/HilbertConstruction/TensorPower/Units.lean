@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Maps
-import Mathlib.Algebra.Group.Commute.Units
-import Mathlib.CategoryTheory.Endomorphism
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Maps
+public import Mathlib.Algebra.Group.Commute.Units
+public import Mathlib.CategoryTheory.Endomorphism
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Units -/
 

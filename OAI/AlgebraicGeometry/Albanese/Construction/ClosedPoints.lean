@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.CMAbelianVariety
-import Mathlib.Analysis.Complex.Polynomial.Basic
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CMAbelianVariety
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Closed Points -/
 

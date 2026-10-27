@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.Adjunction.CompositionIso
+module
+
+public import Mathlib.CategoryTheory.Adjunction.CompositionIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Adjoint Composition -/
 

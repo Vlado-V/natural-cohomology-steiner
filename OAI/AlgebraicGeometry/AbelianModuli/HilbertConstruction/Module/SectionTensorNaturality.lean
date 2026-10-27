@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.SectionTensorComparison
-import Mathlib.Algebra.Category.ModuleCat.Monoidal.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.SectionTensorComparison
+public import Mathlib.Algebra.Category.ModuleCat.Monoidal.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Tensor Naturality -/
 

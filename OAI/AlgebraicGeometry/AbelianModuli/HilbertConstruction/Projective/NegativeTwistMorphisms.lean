@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Negative.ProjectiveTwistingBundle
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CompatibleSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.FrameCoefficientGluing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.CoefficientPairCompatibility
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstructedCompatibleFrames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Negative.ProjectiveTwistingBundle
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CompatibleSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.FrameCoefficientGluing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.CoefficientPairCompatibility
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstructedCompatibleFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Twist Morphisms -/
 

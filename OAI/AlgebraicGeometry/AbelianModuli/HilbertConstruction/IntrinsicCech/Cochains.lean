@@ -1,13 +1,18 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechCochains.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Additive.GroupProductCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FormalCoproductEvaluationAdditive
-import Mathlib.CategoryTheory.Sites.SheafCohomology.Cech
-import Mathlib.Topology.Sheaves.Abelian
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Additive.GroupProductCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FormalCoproductEvaluationAdditive
+public import Mathlib.CategoryTheory.Sites.SheafCohomology.Cech
+public import Mathlib.Topology.Sheaves.Abelian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cochains -/
 

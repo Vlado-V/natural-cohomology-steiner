@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.FunctionFieldScalar
-import OAI.AlgebraicGeometry.Foundations.Scheme.FunctionFieldFiniteType
-import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
-import OAI.AlgebraicGeometry.Foundations.Scheme.DifferentialTranscendenceDegree
-import OAI.AlgebraicGeometry.Foundations.Scheme.DifferentialBaseIso
-import OAI.AlgebraicGeometry.Foundations.Scheme.TranscendenceDegreeTransfer
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.FunctionFieldScalar
+public import OAI.AlgebraicGeometry.Foundations.Scheme.FunctionFieldFiniteType
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
+public import OAI.AlgebraicGeometry.Foundations.Scheme.DifferentialTranscendenceDegree
+public import OAI.AlgebraicGeometry.Foundations.Scheme.DifferentialBaseIso
+public import OAI.AlgebraicGeometry.Foundations.Scheme.TranscendenceDegreeTransfer
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Transcendence Dimension -/
 

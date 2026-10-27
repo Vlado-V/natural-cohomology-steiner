@@ -1,7 +1,12 @@
-import Mathlib.Data.Fintype.EquivFin
-import Mathlib.GroupTheory.Perm.Sign
-import Mathlib.Logic.Relation
-import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+module
+
+public import Mathlib.Data.Fintype.EquivFin
+public import Mathlib.GroupTheory.Perm.Sign
+public import Mathlib.Logic.Relation
+public import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sign Switch -/
 

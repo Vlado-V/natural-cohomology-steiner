@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.CechHomotopy
-import Mathlib.Data.Int.Interval
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.CechHomotopy
+public import Mathlib.Data.Int.Interval
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Degree -/
 

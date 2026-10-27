@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Dehomogenization
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Dehomogenization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Homogeneous Ideal -/
 

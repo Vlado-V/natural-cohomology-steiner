@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.TripleExtension
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.ExtensionComposition
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.TripleExtension
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.ExtensionComposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Triple Gluing -/
 

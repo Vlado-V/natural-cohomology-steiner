@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.Nonvanishing
-import Mathlib.Topology.Sheaves.Stalks
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.Nonvanishing
+public import Mathlib.Topology.Sheaves.Stalks
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Isomorphisms -/
 

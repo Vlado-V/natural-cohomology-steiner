@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.InternalHomUnit
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.InternalHomUnit
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Internal Hom Maps -/
 

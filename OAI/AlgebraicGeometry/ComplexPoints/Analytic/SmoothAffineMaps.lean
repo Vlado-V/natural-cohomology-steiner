@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothSchemeManifold
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffinePointMaps
-import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothSchemeManifold
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffinePointMaps
+public import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Affine Maps -/
 

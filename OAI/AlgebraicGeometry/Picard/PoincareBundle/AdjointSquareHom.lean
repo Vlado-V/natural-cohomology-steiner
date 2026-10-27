@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentRestriction
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.DescentRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Adjoint Square Hom -/
 

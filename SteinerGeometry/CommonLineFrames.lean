@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Simultaneous local frames for a finite family of actual line bundles. -/
 

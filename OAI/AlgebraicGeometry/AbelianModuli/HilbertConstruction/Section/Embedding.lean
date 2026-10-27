@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.SectionMorphism
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.SectionMorphism
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Embedding -/
 

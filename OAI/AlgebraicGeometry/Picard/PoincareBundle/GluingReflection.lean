@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.GluingMorphismTransfer
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.GluingMorphismTransfer
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Gluing Reflection -/
 

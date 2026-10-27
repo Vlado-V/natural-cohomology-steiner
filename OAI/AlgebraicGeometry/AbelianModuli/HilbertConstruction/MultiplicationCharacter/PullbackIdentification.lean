@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Multiplication.StructureBaseChangeIso
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.Comparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Multiplication.StructureBaseChangeIso
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.Comparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Identification -/
 

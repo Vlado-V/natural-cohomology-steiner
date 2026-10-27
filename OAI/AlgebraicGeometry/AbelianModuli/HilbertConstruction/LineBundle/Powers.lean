@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.PowerSheaf
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.TensorRestriction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.PowerSheaf
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.TensorRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Powers -/
 

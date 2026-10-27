@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ImmersionFactorization
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ImmersionFactorization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Embedding Kernel Iso -/
 

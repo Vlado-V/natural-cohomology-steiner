@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroCycleCoordinates
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalRestriction
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleProductElements
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroCycleCoordinates
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalRestriction
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleProductElements
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zero Cycles Linear Sections -/
 

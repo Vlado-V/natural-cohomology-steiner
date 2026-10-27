@@ -1,5 +1,10 @@
-import SteinerGeometry.TensorFactorFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.ProductBaseChange
+module
+
+public import SteinerGeometry.TensorFactorFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.ProductBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Restriction coordinates for the ordered tensor products used in symmetric monomials. -/
 noncomputable section

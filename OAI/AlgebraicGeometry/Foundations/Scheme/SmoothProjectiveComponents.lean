@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.LocalDomainComponents
-import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedProjective
-import OAI.AlgebraicGeometry.Foundations.Scheme.IntegralProjective
-import Mathlib.AlgebraicGeometry.Limits
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.LocalDomainComponents
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ClosedProjective
+public import OAI.AlgebraicGeometry.Foundations.Scheme.IntegralProjective
+public import Mathlib.AlgebraicGeometry.Limits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Projective Components -/
 

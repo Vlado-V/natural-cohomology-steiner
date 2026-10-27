@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Evaluation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Frames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Evaluation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Frames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Charts -/
 

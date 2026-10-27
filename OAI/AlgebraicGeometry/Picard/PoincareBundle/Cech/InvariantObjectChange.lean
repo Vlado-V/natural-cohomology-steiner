@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.AdjunctionChange
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.AdjunctionChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invariant Object Change -/
 

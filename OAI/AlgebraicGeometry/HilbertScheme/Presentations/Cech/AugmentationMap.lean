@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.EventualIrrelevantTorsion
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.TensorInclusions
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.EventualIrrelevantTorsion
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.TensorInclusions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Augmentation Map -/
 

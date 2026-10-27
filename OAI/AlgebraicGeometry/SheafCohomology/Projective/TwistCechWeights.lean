@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentCechData
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCech
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentCechData
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCech
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Cech Weights -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.Grading
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.Exactness
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.Grading
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.Exactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Graded Exactness -/
 

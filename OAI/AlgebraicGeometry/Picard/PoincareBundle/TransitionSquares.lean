@@ -1,6 +1,11 @@
-import Mathlib.CategoryTheory.Functor.Basic
-import Mathlib.CategoryTheory.Iso
-import Mathlib.CategoryTheory.NatIso
+module
+
+public import Mathlib.CategoryTheory.Functor.Basic
+public import Mathlib.CategoryTheory.Iso
+public import Mathlib.CategoryTheory.NatIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Transition Squares -/
 

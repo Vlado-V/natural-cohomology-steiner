@@ -1,4 +1,9 @@
-import SteinerGeometry.LaurentResidueShift
+module
+
+public import SteinerGeometry.LaurentResidueShift
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Linear forms on Laurent factors and their residue transpose -/
 noncomputable section

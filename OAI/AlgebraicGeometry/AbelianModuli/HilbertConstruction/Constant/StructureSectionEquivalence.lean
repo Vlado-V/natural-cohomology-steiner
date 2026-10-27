@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.StructureCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.OpenCoefficients
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.StructureCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.OpenCoefficients
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Structure Section Equivalence -/
 

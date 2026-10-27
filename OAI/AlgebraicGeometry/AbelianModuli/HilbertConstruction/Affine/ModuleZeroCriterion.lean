@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.VanishingOpen
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.IsoImage
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.VanishingOpen
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.IsoImage
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Zero Criterion -/
 

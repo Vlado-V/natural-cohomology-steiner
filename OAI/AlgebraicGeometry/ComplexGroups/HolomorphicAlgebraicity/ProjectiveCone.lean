@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeEq
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveZeroLocus
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ConeEq
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveZeroLocus
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Cone -/
 

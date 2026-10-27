@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SchemePointSeparation
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SchemePointSeparation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Factoring -/
 

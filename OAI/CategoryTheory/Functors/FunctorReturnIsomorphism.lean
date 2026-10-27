@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.Functor.Category
+module
+
+public import Mathlib.CategoryTheory.Functor.Category
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Functor Return Isomorphism -/
 

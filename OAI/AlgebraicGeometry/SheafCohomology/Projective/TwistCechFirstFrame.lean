@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechFactors
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.IntegerTwistTransitions
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechFactors
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.IntegerTwistTransitions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Cech First Frame -/
 

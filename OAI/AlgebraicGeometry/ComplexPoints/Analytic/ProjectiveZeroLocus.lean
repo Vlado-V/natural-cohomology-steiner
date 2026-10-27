@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveZeroLocus
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialZeroLocus
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCompactness
-import Mathlib.Topology.Algebra.MulAction
-import Mathlib.Topology.Separation.Hausdorff
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveZeroLocus
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialZeroLocus
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCompactness
+public import Mathlib.Topology.Algebra.MulAction
+public import Mathlib.Topology.Separation.Hausdorff
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Zero Locus -/
 

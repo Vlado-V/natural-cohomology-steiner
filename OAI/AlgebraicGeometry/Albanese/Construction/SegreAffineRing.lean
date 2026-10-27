@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Albanese.Construction.SegreCoordinates
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChart
-import Mathlib.RingTheory.TensorProduct.Maps
+module
+
+public import OAI.AlgebraicGeometry.Albanese.Construction.SegreCoordinates
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChart
+public import Mathlib.RingTheory.TensorProduct.Maps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Segre Affine Ring -/
 

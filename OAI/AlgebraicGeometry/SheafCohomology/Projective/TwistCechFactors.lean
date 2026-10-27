@@ -1,3 +1,5 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: 9d092c4e5eca8e4e4491c3a429b2e22a1b6858cf4509b470651aab116b437f4b
@@ -9,12 +11,15 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.StandardCech
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverlapTopUnit
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistPowers
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OpenFrameTransitivity
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverFrameScalarTransfer
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverFrameTransitions
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.StandardCech
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverlapTopUnit
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistPowers
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OpenFrameTransitivity
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverFrameScalarTransfer
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverFrameTransitions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Cech Factors -/
 

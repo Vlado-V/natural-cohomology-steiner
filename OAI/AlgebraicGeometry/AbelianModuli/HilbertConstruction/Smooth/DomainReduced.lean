@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.StandardSmoothDomainReduced
-import Mathlib.RingTheory.Smooth.StandardSmoothOfFree
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.StandardSmoothDomainReduced
+public import Mathlib.RingTheory.Smooth.StandardSmoothOfFree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Domain Reduced -/
 

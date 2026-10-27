@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.OverlapPullback
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.AffineDescent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechPullback
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechInvariant
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.OverlapPullback
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.AffineDescent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechPullback
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechInvariant
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Overlap -/
 

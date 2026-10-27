@@ -1,5 +1,10 @@
-import SteinerGeometry.SheafLocalFreeTransport
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.SectionCounit
+module
+
+public import SteinerGeometry.SheafLocalFreeTransport
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.SectionCounit
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Locally free sheaves from finite projective affine sections -/
 

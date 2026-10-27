@@ -1,6 +1,11 @@
-import SteinerGeometry.DualEvaluation
-import SteinerGeometry.DualRestriction
-import SteinerGeometry.TildeFiniteProjective
+module
+
+public import SteinerGeometry.DualEvaluation
+public import SteinerGeometry.DualRestriction
+public import SteinerGeometry.TildeFiniteProjective
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual internal-Hom dual preserves finite rank on every open frame. -/
 noncomputable section

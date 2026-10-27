@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechMorphismCoordinates
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.MorphismDescent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Factorization
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechMorphismCoordinates
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.MorphismDescent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Factorization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Morphism Descent -/
 

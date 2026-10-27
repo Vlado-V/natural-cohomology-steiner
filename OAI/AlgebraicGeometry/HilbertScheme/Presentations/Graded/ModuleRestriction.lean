@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.ModuleRestriction
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.DegreePieces
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.WeightedFreeModules
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.LaurentRestriction
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.ModuleRestriction
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.DegreePieces
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.WeightedFreeModules
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.LaurentRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Restriction -/
 

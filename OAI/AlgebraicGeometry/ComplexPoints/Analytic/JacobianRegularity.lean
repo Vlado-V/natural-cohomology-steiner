@@ -1,10 +1,15 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.StandardSmoothJacobian
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothComplexPoint
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialDerivative
-import Mathlib.Topology.Algebra.Module.FiniteDimension
-import Mathlib.LinearAlgebra.Matrix.ToLin
-import Mathlib.LinearAlgebra.Determinant
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.StandardSmoothJacobian
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothComplexPoint
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialDerivative
+public import Mathlib.Topology.Algebra.Module.FiniteDimension
+public import Mathlib.LinearAlgebra.Matrix.ToLin
+public import Mathlib.LinearAlgebra.Determinant
+public import Mathlib.Analysis.Complex.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Jacobian Regularity -/
 

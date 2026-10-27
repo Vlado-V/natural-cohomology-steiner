@@ -1,13 +1,18 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorPowerCancellation
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleEvaluation
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistPowers
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleCancellationPairing
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorPowerCancellation
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleEvaluation
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistPowers
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleCancellationPairing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Shift Iso -/
 

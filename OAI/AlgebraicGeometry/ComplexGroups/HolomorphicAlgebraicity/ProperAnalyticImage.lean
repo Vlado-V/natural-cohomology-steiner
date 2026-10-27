@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AnalyticElimination
-import Mathlib.Topology.Maps.Proper.Basic
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AnalyticElimination
+public import Mathlib.Topology.Maps.Proper.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Proper Analytic Image -/
 

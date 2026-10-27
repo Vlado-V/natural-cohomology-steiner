@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProperAnalyticImage
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProperAnalyticImage
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Fiber Cardinality -/
 

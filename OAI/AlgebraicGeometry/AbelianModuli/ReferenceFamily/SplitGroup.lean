@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.ConstantSectionsOn
-import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.SchemeSplitting
-import Mathlib.Algebra.Group.MinimalAxioms
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.ConstantSectionsOn
+public import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.SchemeSplitting
+public import Mathlib.Algebra.Group.MinimalAxioms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Split Group -/
 

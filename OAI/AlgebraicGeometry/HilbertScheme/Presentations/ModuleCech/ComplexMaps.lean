@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.CechComplex
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.TermMaps
-import Mathlib.Algebra.Homology.HomologicalComplexAbelian
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.CechComplex
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.TermMaps
+public import Mathlib.Algebra.Homology.HomologicalComplexAbelian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Complex Maps -/
 

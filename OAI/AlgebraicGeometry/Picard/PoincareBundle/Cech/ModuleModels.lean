@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.ExtensionTwist
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.ModuleBaseChangeFunctor
-import Mathlib.RingTheory.TensorProduct.Maps
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.ExtensionTwist
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.ModuleBaseChangeFunctor
+public import Mathlib.RingTheory.TensorProduct.Maps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Models -/
 

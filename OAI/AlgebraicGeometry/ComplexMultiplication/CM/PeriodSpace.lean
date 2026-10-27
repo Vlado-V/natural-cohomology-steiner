@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.ImaginaryElement
-import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.Basic
-import Mathlib.Topology.Algebra.Group.Quotient
-import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.ImaginaryElement
+public import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.Basic
+public import Mathlib.Topology.Algebra.Group.Quotient
+public import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Period Space -/
 

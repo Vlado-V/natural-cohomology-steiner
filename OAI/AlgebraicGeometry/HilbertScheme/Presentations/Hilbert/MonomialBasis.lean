@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.InitialIdeal
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.InitialIdeal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Monomial Basis -/
 

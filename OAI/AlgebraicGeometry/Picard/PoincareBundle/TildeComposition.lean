@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.PushforwardSections
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildeMate
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.PushforwardSections
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildeMate
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tilde Composition -/
 

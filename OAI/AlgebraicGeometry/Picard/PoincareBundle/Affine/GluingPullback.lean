@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.GluingComparison
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.GluingTransport
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.GluingComparison
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.GluingTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Gluing Pullback -/
 

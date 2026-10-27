@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.FieldSurjectivity
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Multiplication.BaseChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.FieldSurjectivity
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Multiplication.BaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Surjectivity -/
 

@@ -1,3 +1,5 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
@@ -6,11 +8,14 @@ Authors: AINTLIB ModularCurves project
 ForMathlib (OURS, not vendored): upstream candidate. Ticket T-A2a.
 This file has been modified.
 -/
-import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Ideal
-import Mathlib.RingTheory.GradedAlgebra.RingHom
-import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Maps
-import Mathlib.RingTheory.Ideal.Quotient.Operations
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Ideal
+public import Mathlib.RingTheory.GradedAlgebra.RingHom
+public import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Maps
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Graded Quotient -/
 

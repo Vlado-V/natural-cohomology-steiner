@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ScalarRingAction
-import Mathlib.Algebra.Algebra.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ScalarRingAction
+public import Mathlib.Algebra.Algebra.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sheaf Coefficient Algebra -/
 

@@ -1,4 +1,9 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AffineCone
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AffineCone
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Separation Eq -/
 

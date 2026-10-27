@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveResolutionSections
-import OAI.AlgebraicGeometry.SheafCohomology.Module
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveResolutionSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Module
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Section Exact -/
 

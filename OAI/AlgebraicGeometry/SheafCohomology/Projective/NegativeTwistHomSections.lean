@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomPolynomials
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.HomSectionEquivEvaluation
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomPolynomials
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.HomSectionEquivEvaluation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Twist Hom Sections -/
 

@@ -1,6 +1,11 @@
-import Mathlib.Analysis.Complex.CauchyIntegral
-import Mathlib.Analysis.Calculus.LogDeriv
-import Mathlib.Analysis.Calculus.FDeriv.Analytic
+module
+
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Calculus.LogDeriv
+public import Mathlib.Analysis.Calculus.FDeriv.Analytic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Root Moments Ne -/
 

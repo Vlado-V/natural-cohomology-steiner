@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.GlobalTuples
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.TransitionEquations
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.GlobalTuples
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.TransitionEquations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Compatibility -/
 

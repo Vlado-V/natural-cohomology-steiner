@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/TotalComplexUpNatHorizontalEdgeHigher.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.Row
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Positive.PositiveCycleHomology
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.Row
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Positive.PositiveCycleHomology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Homology Surjectivity -/
 

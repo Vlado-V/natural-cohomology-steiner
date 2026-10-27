@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicSmoothClosedImmersion
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeImmersionPointTopology
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicOpenDifferential
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicSmoothClosedImmersion
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeImmersionPointTopology
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.IntrinsicOpenDifferential
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Intrinsic Smooth Immersion -/
 

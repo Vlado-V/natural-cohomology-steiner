@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/TotalComplexUpNatHorizontalEdgeHigher.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatRow
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.PositiveCycleHomology
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.ComplexUpNatRow
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.PositiveCycleHomology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Complex Up Nat Surjective -/
 

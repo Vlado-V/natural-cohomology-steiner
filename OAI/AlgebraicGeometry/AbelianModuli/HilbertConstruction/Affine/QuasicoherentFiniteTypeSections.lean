@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SchemeModuleQuasicoherent.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.OverGeneratorFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.QuasicoherentLocalization
-import Mathlib.RingTheory.Localization.Finiteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.OverGeneratorFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.QuasicoherentLocalization
+public import Mathlib.RingTheory.Localization.Finiteness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasicoherent Finite Type Sections -/
 

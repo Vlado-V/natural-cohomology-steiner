@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechCoordinateChange
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.OverlapInvariant
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechCoordinateChange
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.OverlapInvariant
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap Presentation -/
 

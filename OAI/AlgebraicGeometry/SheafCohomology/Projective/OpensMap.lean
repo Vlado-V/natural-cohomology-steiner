@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import Mathlib.CategoryTheory.Limits.Final
-import Mathlib.Topology.Category.TopCat.Opens
+public import Mathlib.CategoryTheory.Limits.Final
+public import Mathlib.Topology.Category.TopCat.Opens
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Opens Map -/
 

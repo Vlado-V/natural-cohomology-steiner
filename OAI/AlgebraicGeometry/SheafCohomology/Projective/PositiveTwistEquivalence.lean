@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleTensorExact
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleTensorCoherent
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistPowers
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleTensorExact
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleTensorCoherent
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistPowers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Positive Twist Equivalence -/
 

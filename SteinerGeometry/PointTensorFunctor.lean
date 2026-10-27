@@ -1,6 +1,11 @@
-import SteinerGeometry.PointTensorMap
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorEquivalence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MonoidalTensorRightNaturality
+module
+
+public import SteinerGeometry.PointTensorMap
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorEquivalence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MonoidalTensorRightNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 set_option backward.isDefEq.respectTransparency false

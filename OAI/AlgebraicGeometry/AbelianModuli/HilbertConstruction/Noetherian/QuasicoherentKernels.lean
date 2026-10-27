@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Kernels
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.TypeKernelSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.TypeFromAffineSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.Kernels
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.TypeKernelSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.TypeFromAffineSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasicoherent Kernels -/
 

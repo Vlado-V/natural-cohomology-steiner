@@ -1,6 +1,11 @@
-import Mathlib.CategoryTheory.Generator.Sheaf
-import Mathlib.Topology.Sheaves.Flasque
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.Cohomology
+module
+
+public import Mathlib.CategoryTheory.Generator.Sheaf
+public import Mathlib.Topology.Sheaves.Flasque
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.Cohomology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Injective Sheaf Flasqueness -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.GroupSplittingAt
-import Mathlib.AlgebraicGeometry.Sites.EtalePoint
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.GroupSplittingAt
+public import Mathlib.AlgebraicGeometry.Sites.EtalePoint
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Splitting -/
 

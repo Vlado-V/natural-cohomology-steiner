@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.ProjectionCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PushforwardSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CechIntersections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.ProjectionCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PushforwardSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CechIntersections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pushforward Factors -/
 

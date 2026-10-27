@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteRank
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.SubmersionCoordinatesExists
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteRank
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.SubmersionCoordinatesExists
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Submersion -/
 

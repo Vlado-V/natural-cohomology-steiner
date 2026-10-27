@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Scalar.ExtensionUnits
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Scalar.ExtensionUnits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Extended Transition Units -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ModuleRestriction
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.LaurentDegree
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ModuleRestriction
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.LaurentDegree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Fraction Degrees -/
 

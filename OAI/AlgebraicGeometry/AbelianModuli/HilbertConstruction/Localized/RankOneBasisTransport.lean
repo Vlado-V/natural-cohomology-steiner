@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.BasisTransport
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.BasisTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Rank One Basis Transport -/
 

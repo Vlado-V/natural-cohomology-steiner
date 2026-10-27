@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Bundles
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Bundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Locality -/
 

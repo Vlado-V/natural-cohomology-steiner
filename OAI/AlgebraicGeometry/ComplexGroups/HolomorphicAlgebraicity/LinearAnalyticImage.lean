@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProperAnalyticImage
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreProjection
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProperAnalyticImage
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreProjection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Linear Analytic Image -/
 

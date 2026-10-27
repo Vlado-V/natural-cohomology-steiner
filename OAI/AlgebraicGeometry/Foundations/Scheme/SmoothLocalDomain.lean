@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.EtaleLocalDomain
-import Mathlib.RingTheory.Unramified.LocalStructure
-import Mathlib.RingTheory.Localization.LocalizationLocalization
-import Mathlib.RingTheory.Polynomial.UniqueFactorization
-import Mathlib.RingTheory.Polynomial.RationalRoot
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.EtaleLocalDomain
+public import Mathlib.RingTheory.Unramified.LocalStructure
+public import Mathlib.RingTheory.Localization.LocalizationLocalization
+public import Mathlib.RingTheory.Polynomial.UniqueFactorization
+public import Mathlib.RingTheory.Polynomial.RationalRoot
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Local Domain -/
 

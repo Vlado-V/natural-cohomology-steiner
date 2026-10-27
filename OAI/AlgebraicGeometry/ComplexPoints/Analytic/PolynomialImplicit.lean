@@ -1,7 +1,12 @@
-import Mathlib.Analysis.Calculus.ImplicitContDiff
-import Mathlib.Analysis.Calculus.ContDiff.Operations
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Topology.Algebra.MvPolynomial
+module
+
+public import Mathlib.Analysis.Calculus.ImplicitContDiff
+public import Mathlib.Analysis.Calculus.ContDiff.Operations
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Topology.Algebra.MvPolynomial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Implicit -/
 

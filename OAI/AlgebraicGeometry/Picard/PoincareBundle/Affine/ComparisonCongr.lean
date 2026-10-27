@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.GluingComparison
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.GluingComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Comparison Congr -/
 

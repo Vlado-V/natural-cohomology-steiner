@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.HorizontalComparison
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.VerticalComparison
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.HorizontalComparison
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.VerticalComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Comparison -/
 

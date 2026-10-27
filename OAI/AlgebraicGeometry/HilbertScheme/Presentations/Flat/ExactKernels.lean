@@ -1,4 +1,9 @@
-import Mathlib.RingTheory.Flat.Equalizer
+module
+
+public import Mathlib.RingTheory.Flat.Equalizer
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exact Kernels -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
-import Mathlib.RingTheory.Ideal.Maps
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+public import Mathlib.RingTheory.Ideal.Maps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Vector Point -/
 

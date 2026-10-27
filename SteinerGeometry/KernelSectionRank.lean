@@ -1,4 +1,9 @@
-import SteinerGeometry.KernelSectionRankOne
+module
+
+public import SteinerGeometry.KernelSectionRankOne
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Exact rank of sections of a kernel of an affine finite-free epimorphism. -/
 noncomputable section

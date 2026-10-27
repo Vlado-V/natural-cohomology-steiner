@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftChartSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftChartSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Of LE Chart Sections -/
 

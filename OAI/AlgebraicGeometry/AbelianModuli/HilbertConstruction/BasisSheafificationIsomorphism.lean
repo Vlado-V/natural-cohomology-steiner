@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BasisSheafificationInverse
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.BasisIsomorphisms
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BasisSheafificationInverse
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.BasisIsomorphisms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Basis Sheafification Isomorphism -/
 

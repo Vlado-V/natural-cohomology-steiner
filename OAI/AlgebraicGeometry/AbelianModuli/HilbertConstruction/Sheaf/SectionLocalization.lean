@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.KernelSquare
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.SectionDifference
-import Mathlib.RingTheory.TensorProduct.IsBaseChangePi
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.KernelSquare
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.SectionDifference
+public import Mathlib.RingTheory.TensorProduct.IsBaseChangePi
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Localization -/
 

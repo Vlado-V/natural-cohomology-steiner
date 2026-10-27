@@ -1,4 +1,9 @@
-import SteinerGeometry.KernelMonomialCoordinates
+module
+
+public import SteinerGeometry.KernelMonomialCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The local contraction matrix over a characteristic-zero algebra of regular functions. -/
 noncomputable section

@@ -1,5 +1,10 @@
-import Mathlib.Analysis.Meromorphic.NormalForm
-import Mathlib.Analysis.Complex.CauchyIntegral
+module
+
+public import Mathlib.Analysis.Meromorphic.NormalForm
+public import Mathlib.Analysis.Complex.CauchyIntegral
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Bounded Quotient -/
 

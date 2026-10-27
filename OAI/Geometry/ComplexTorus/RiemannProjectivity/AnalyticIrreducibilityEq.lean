@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.IdentityEq
-import Mathlib.Topology.Irreducible
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.IdentityEq
+public import Mathlib.Topology.Irreducible
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Analytic Irreducibility Eq -/
 

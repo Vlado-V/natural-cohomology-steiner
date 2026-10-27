@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Surjectivity
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EndomorphismScalars
-import Mathlib.AlgebraicGeometry.Sites.Fpqc
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Surjectivity
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EndomorphismScalars
+public import Mathlib.AlgebraicGeometry.Sites.Fpqc
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Isogeny -/
 

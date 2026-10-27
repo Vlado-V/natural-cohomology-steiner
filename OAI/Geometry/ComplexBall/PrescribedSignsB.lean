@@ -1,6 +1,11 @@
-import Mathlib
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.TypeHodgeStructure
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.ImaginaryElement
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.TypeHodgeStructure
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.ImaginaryElement
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Prescribed Signs B -/
 

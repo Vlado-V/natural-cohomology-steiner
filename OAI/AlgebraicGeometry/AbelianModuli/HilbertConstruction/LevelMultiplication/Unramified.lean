@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Multiplication.DiagonalPullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Over.DiagonalComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Multiplication.DiagonalPullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Over.DiagonalComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Unramified -/
 

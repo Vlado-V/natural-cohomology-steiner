@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.PolynomialRank
-import Mathlib.RingTheory.AlgebraTower
-import Mathlib.LinearAlgebra.TensorProduct.Basis
-import Mathlib.RingTheory.PolynomialAlgebra
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.PolynomialRank
+public import Mathlib.RingTheory.AlgebraTower
+public import Mathlib.LinearAlgebra.TensorProduct.Basis
+public import Mathlib.RingTheory.PolynomialAlgebra
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Free Rank -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.ProductComposition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.OfPowersComposition
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.ProductComposition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.OfPowersComposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Power Comparison -/
 

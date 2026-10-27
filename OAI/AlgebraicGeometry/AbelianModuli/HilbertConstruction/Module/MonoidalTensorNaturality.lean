@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MonoidalTensorComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.MapSheafification
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MonoidalTensorComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.MapSheafification
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Monoidal Tensor Naturality -/
 

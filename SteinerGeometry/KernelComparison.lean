@@ -1,5 +1,10 @@
-import SteinerGeometry.CyclicFromPoints
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelGroup
+module
+
+public import SteinerGeometry.CyclicFromPoints
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelGroup
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Compatibility of the actual zero-fiber kernel and the Picard equalizer kernel. -/
 noncomputable section

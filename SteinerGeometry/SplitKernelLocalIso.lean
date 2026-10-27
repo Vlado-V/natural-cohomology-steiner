@@ -1,6 +1,11 @@
-import SteinerGeometry.SectionTensorKernelGlobal
-import SteinerGeometry.SheafMatrixCoordinates
-import SteinerGeometry.SectionContraction
+module
+
+public import SteinerGeometry.SectionTensorKernelGlobal
+public import SteinerGeometry.SheafMatrixCoordinates
+public import SteinerGeometry.SectionContraction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Local isomorphism criterion for the genuine split-monomial kernel morphism. -/
 noncomputable section

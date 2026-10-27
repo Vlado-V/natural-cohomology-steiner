@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ImageAnnihilation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.ExtensionRestrictions
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.ExtensionTransitions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ImageAnnihilation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.ExtensionRestrictions
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.ExtensionTransitions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap Stabilization -/
 

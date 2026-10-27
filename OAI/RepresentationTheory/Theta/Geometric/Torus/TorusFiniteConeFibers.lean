@@ -1,7 +1,12 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusImageCharts
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.CompactAnalyticAt
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeProjection
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusImageCharts
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.CompactAnalyticAt
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeProjection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Finite Cone Fibers -/
 

@@ -1,10 +1,15 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: d0d7d7d2ae440025fceb95a73a2d4b8055e8d41ae17ee871231745b780077c49
 The packaged proof source is the local port; see OAI/PROVENANCE.json.
 -/
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomSheaf
-import Mathlib.CategoryTheory.Preadditive.FunctorCategory
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomSheaf
+public import Mathlib.CategoryTheory.Preadditive.FunctorCategory
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Hom Sections -/
 

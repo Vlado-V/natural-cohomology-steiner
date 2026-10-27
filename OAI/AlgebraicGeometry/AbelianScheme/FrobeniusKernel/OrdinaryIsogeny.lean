@@ -1,5 +1,10 @@
-import Mathlib.GroupTheory.Index
-import Mathlib.Algebra.Group.Subgroup.Finite
+module
+
+public import Mathlib.GroupTheory.Index
+public import Mathlib.Algebra.Group.Subgroup.Finite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ordinary Isogeny -/
 

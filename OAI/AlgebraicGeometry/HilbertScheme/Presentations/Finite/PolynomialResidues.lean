@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.TopResidue
-import Mathlib.RingTheory.Finiteness.Basic
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.TopResidue
+public import Mathlib.RingTheory.Finiteness.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Residues -/
 

@@ -1,4 +1,9 @@
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Quasicoherent
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Quasicoherent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presentations -/
 

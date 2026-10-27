@@ -1,5 +1,10 @@
-import SteinerGeometry.FirstKernelCoordinates
-import SteinerGeometry.SplitKernelLocalIso
+module
+
+public import SteinerGeometry.FirstKernelCoordinates
+public import SteinerGeometry.SplitKernelLocalIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The symmetric contraction kernel on an actual split, trivialized chart. -/
 noncomputable section

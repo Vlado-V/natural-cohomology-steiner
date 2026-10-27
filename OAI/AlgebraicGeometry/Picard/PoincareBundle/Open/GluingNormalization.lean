@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.CechInvariant
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.SquareNormalization
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.SquareGluing
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.CechInvariant
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.SquareNormalization
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.SquareGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Gluing Normalization -/
 

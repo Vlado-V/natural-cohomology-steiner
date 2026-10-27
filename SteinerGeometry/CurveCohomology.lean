@@ -1,8 +1,13 @@
-import SteinerGeometry.ElementaryCurveCohomology
-import SteinerGeometry.CurveEulerAdditivity
-import SteinerGeometry.EulerIso
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.ExactPairs
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.UnitRight
+module
+
+public import SteinerGeometry.ElementaryCurveCohomology
+public import SteinerGeometry.CurveEulerAdditivity
+public import SteinerGeometry.EulerIso
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.ExactPairs
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.UnitRight
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry.EllipticCohomology

@@ -1,6 +1,11 @@
-import SteinerGeometry.NativeCohomology
-import SteinerGeometry.CurveSectionFunctor
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.ExactPairs
+module
+
+public import SteinerGeometry.NativeCohomology
+public import SteinerGeometry.CurveSectionFunctor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCohomology.ExactPairs
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.GroupTangentsEq
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.GroupTangentsEq
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Power In -/
 

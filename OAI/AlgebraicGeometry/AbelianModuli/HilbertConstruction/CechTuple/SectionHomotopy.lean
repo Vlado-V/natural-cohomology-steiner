@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CechTuple.SectionZero
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CechTuple.SectionZero
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Homotopy -/
 

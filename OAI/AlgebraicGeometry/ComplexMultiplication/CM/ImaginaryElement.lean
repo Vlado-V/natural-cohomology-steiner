@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.TypeHodgeStructure
-import Mathlib.NumberTheory.NumberField.Completion.InfinitePlace
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.TypeHodgeStructure
+public import Mathlib.NumberTheory.NumberField.Completion.InfinitePlace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Imaginary Element -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Intrinsic.OverlapGluing
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Intrinsic.OverlapGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap Pullback -/
 

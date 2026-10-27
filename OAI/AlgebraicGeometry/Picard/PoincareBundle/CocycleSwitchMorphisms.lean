@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleNormalization
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.CocycleNormalization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cocycle Switch Morphisms -/
 

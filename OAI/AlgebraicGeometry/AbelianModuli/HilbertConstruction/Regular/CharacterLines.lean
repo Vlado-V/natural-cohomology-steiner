@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterAlgebraBasis
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterAlgebraBasis
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Lines -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Flatness
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Flatness
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Properness -/
 

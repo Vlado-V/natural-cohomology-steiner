@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FiniteHopfPresentation
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.Diagonalizable
-import Mathlib.LinearAlgebra.Dimension.Finite
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FiniteHopfPresentation
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.Diagonalizable
+public import Mathlib.LinearAlgebra.Dimension.Finite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Span -/
 

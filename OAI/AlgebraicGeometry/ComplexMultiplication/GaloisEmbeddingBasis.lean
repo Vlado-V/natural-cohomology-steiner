@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.GaloisSigns
-import OAI.AlgebraicGeometry.ComplexMultiplication.EmbeddingCoefficientField
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.GaloisSigns
+public import OAI.AlgebraicGeometry.ComplexMultiplication.EmbeddingCoefficientField
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Galois Embedding Basis -/
 

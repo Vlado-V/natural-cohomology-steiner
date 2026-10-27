@@ -1,9 +1,14 @@
-import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
-import Mathlib.RingTheory.Jacobson.Ring
-import Mathlib.RingTheory.Localization.BaseChange
-import Mathlib.RingTheory.FiniteType
-import Mathlib.RingTheory.FiniteStability
-import Mathlib.RingTheory.Localization.Away.AdjoinRoot
+module
+
+public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+public import Mathlib.RingTheory.Jacobson.Ring
+public import Mathlib.RingTheory.Localization.BaseChange
+public import Mathlib.RingTheory.FiniteType
+public import Mathlib.RingTheory.FiniteStability
+public import Mathlib.RingTheory.Localization.Away.AdjoinRoot
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Algebraic Specialization -/
 

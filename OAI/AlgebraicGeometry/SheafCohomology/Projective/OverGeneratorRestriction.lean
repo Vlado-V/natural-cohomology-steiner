@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleHomGluing
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverGenerator
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleHomGluing
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverGenerator
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Over Generator Restriction -/
 

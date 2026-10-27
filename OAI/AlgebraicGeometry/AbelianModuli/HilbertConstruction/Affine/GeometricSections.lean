@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.SectionCounit
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AdjunctionSectionNormalization
-import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.SectionCounit
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AdjunctionSectionNormalization
+public import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Geometric Sections -/
 

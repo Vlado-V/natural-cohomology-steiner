@@ -1,9 +1,14 @@
-import SteinerGeometry.ModuleBaseChangePasting
-import SteinerGeometry.AffineLineBaseChange
-import Mathlib.AlgebraicGeometry.Morphisms.Flat
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.CanonicalBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cartesian.OpenRestriction
+module
+
+public import SteinerGeometry.ModuleBaseChangePasting
+public import SteinerGeometry.AffineLineBaseChange
+public import Mathlib.AlgebraicGeometry.Morphisms.Flat
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.CanonicalBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.ModuleIsomorphisms
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cartesian.OpenRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Compatibility and localization of canonical base change for module sheaves. -/
 

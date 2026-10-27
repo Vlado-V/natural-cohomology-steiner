@@ -1,5 +1,10 @@
-import SteinerGeometry.ProjectiveKernelBundle
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoproductMatrixComponents
+module
+
+public import SteinerGeometry.ProjectiveKernelBundle
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoproductMatrixComponents
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Componentwise naturality of the canonical finite-sum comparison. -/
 noncomputable section

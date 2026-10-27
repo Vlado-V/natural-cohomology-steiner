@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.IntegerCoefficients
-import Mathlib.LinearAlgebra.TensorProduct.Tower
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.IntegerCoefficients
+public import Mathlib.LinearAlgebra.TensorProduct.Tower
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Constant Coefficients -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.FrameCoefficientMaps
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.InverseFrameTransitions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.FrameCoefficientMaps
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.InverseFrameTransitions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Pair Compatibility -/
 

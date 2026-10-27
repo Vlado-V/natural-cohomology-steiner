@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoordinateExtensions
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OpenFrames
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.RankOneMapCoordinates
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoordinateExtensions
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OpenFrames
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.RankOneMapCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Positive Power Chart Generator -/
 

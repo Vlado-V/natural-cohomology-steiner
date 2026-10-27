@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveVectorScale
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveVectorScale
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Point Injective -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorAssociatorComposition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorPowerValues
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorAssociatorComposition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorPowerValues
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Associator Values -/
 

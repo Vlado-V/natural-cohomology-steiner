@@ -1,6 +1,11 @@
-import Mathlib.AlgebraicGeometry.OpenImmersion
-import Mathlib.AlgebraicGeometry.Restrict
-import Mathlib.CategoryTheory.Subfunctor.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.OpenImmersion
+public import Mathlib.AlgebraicGeometry.Restrict
+public import Mathlib.CategoryTheory.Subfunctor.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Unit Locus -/
 

@@ -1,4 +1,9 @@
-import SteinerGeometry.NativeCohomology
+module
+
+public import SteinerGeometry.NativeCohomology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry.EllipticCohomology
 open AlgebraicGeometry CategoryTheory

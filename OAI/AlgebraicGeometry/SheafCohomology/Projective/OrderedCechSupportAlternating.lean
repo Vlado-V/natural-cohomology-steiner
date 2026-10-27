@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import Mathlib.Data.Fin.Tuple.Sort
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechSupportContraction
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechAlternating
+public import Mathlib.Data.Fin.Tuple.Sort
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechSupportContraction
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechAlternating
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ordered Cech Support Alternating -/
 

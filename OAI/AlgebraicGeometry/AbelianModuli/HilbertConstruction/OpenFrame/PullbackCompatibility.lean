@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.PullbackTuples
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.PullbackOnInverseImages
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.PullbackTuples
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.PullbackOnInverseImages
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Compatibility -/
 

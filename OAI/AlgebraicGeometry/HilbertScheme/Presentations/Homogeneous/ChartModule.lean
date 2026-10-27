@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.RingLocalization
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.DegreePieces
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.LocalizationFlat
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.RingLocalization
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.DegreePieces
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.LocalizationFlat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Module -/
 

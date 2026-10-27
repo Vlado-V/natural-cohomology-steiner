@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import Mathlib.CategoryTheory.Sites.SheafCohomology.Cech
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.CategoryTheory.Sites.SheafCohomology.Cech
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Cech Indices -/
 

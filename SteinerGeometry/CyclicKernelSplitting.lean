@@ -1,5 +1,10 @@
-import SteinerGeometry.PullbackDualKernel
-import SteinerGeometry.LinePushforwardSections
+module
+
+public import SteinerGeometry.PullbackDualKernel
+public import SteinerGeometry.LinePushforwardSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The first-kernel splitting for a genuine cyclic-isogeny presentation. -/
 noncomputable section

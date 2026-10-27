@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModulePresentations
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModulePresentations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Sections Detect Maps -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.StandardSmoothBasicOpens
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.StandardSmoothBasicOpens
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Base Charts -/
 

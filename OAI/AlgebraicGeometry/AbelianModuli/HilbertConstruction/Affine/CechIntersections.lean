@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.SectionCechIndices
-import Mathlib.AlgebraicGeometry.Morphisms.Separated
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.SectionCechIndices
+public import Mathlib.AlgebraicGeometry.Morphisms.Separated
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Intersections -/
 

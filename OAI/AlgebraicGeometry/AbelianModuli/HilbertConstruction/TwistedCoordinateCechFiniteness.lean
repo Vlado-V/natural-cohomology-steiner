@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntegerCoordinateDegreeFiniteness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cochain.FiniteCycles
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.GradedCechHomology
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.AugmentationMap
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntegerCoordinateDegreeFiniteness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cochain.FiniteCycles
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.GradedCechHomology
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.AugmentationMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twisted Coordinate Cech Finiteness -/
 

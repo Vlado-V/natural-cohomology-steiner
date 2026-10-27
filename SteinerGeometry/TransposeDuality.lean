@@ -1,8 +1,13 @@
-import SteinerGeometry.CoproductMatrix
-import SteinerGeometry.DualModelComparison
-import SteinerGeometry.ScalarDualTensor
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
-import Mathlib.CategoryTheory.Functor.EpiMono
+module
+
+public import SteinerGeometry.CoproductMatrix
+public import SteinerGeometry.DualModelComparison
+public import SteinerGeometry.ScalarDualTensor
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
+public import Mathlib.CategoryTheory.Functor.EpiMono
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The dual of a finite matrix is its transpose of dual component maps. -/
 noncomputable section

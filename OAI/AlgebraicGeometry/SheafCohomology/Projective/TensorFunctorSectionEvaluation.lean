@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleRightTensorMap
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleRightTensorMap
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Functor Section Evaluation -/
 

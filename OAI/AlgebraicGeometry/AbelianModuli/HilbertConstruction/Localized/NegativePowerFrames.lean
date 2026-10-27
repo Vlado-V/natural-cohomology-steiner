@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.DegreePowerFrames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.DegreePowerFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Power Frames -/
 

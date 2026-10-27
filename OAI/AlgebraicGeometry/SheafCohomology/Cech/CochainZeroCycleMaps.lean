@@ -1,6 +1,11 @@
-import Mathlib.Algebra.Homology.HomologicalComplex
-import Mathlib.Algebra.Category.Grp.Abelian
-import Mathlib.Algebra.Category.ModuleCat.Abelian
+module
+
+public import Mathlib.Algebra.Homology.HomologicalComplex
+public import Mathlib.Algebra.Category.Grp.Abelian
+public import Mathlib.Algebra.Category.ModuleCat.Abelian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cochain Zero Cycle Maps -/
 

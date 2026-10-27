@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.AffineRankOne
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.OfAffineRankOne
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.AffineRankOne
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.OfAffineRankOne
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Bundles -/
 

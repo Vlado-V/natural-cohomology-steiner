@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.LaurentRestriction
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.LaurentRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Degree -/
 

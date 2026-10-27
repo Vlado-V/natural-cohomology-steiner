@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineKernelCocycle
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineKernelCocycle
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Canonical Descent Frames -/
 

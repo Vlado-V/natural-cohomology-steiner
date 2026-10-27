@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.SectionRestriction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.Comparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.SectionRestriction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.Comparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coordinate Values -/
 

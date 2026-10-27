@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechAcyclicComparison.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlasqueCechSectionExactness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.GlobalAugmentationComplex
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TopologicalSheafCohomology
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlasqueCechSectionExactness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.GlobalAugmentationComplex
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TopologicalSheafCohomology
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flasque Intrinsic Cech Exactness -/
 

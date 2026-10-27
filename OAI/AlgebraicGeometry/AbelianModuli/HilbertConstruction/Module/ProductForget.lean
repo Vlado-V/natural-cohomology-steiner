@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SchemeModuleBaseCech.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.Algebra.Category.ModuleCat.Products
-import Mathlib.Algebra.Category.ModuleCat.Limits
-import Mathlib.Algebra.Homology.Linear
+public import Mathlib.Algebra.Category.ModuleCat.Products
+public import Mathlib.Algebra.Category.ModuleCat.Limits
+public import Mathlib.Algebra.Homology.Linear
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Product Forget -/
 

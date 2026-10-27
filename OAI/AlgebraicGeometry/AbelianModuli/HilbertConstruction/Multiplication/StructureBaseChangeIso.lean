@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.MorphismStructureBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.TorsorStructureComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.MorphismStructureBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.TorsorStructureComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Structure Base Change Iso -/
 

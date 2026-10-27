@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalSectionsExact
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoproductMatrixComponents
-import Mathlib.Algebra.Category.ModuleCat.Products
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalSectionsExact
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.CoproductMatrixComponents
+public import Mathlib.Algebra.Category.ModuleCat.Products
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Additive Coproduct Sections -/
 

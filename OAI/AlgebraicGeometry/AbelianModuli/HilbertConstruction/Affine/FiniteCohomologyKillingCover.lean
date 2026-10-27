@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.LocalCohomologyKilling
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.LocalCohomologyKilling
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Cohomology Killing Cover -/
 

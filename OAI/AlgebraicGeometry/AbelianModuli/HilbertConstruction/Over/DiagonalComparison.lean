@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.Schemes
-import Mathlib.AlgebraicGeometry.Morphisms.FormallyUnramified
-import Mathlib.CategoryTheory.Limits.Constructions.Over.Connected
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.Schemes
+public import Mathlib.AlgebraicGeometry.Morphisms.FormallyUnramified
+public import Mathlib.CategoryTheory.Limits.Constructions.Over.Connected
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Diagonal Comparison -/
 

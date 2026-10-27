@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.FreeCechHomology
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.ComplexSequences
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Bounded.ModuleCechHomology
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.GradedPolynomialModules
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.FreeCechHomology
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.ModuleCech.ComplexSequences
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Bounded.ModuleCechHomology
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.GradedPolynomialModules
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Graded Cech Homology -/
 

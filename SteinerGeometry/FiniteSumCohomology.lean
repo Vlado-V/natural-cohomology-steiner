@@ -1,5 +1,10 @@
-import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
-import Mathlib.CategoryTheory.Preadditive.Biproducts
+module
+
+public import Mathlib.CategoryTheory.Preadditive.AdditiveFunctor
+public import Mathlib.CategoryTheory.Preadditive.Biproducts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Vanishing under an actual finite direct-sum decomposition. -/
 

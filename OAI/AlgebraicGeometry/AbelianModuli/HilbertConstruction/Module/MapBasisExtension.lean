@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
-import Mathlib.Topology.Sheaves.SheafCondition.Sites
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+public import Mathlib.Topology.Sheaves.SheafCondition.Sites
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Map Basis Extension -/
 

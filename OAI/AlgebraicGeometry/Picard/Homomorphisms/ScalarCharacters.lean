@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelScalar
-import Mathlib.AlgebraicGeometry.Group.Affine
-import Mathlib.RingTheory.HopfAlgebra.GroupLike
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelScalar
+public import Mathlib.AlgebraicGeometry.Group.Affine
+public import Mathlib.RingTheory.HopfAlgebra.GroupLike
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scalar Characters -/
 

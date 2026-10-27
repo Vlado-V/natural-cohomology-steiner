@@ -1,5 +1,10 @@
-import Mathlib
-import OAI.AlgebraicGeometry.ComplexMultiplication.CMAbelianVariety
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CMAbelianVariety
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # End -/
 

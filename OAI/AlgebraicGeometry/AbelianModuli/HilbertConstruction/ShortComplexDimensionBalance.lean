@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
-import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+module
+
+public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Short Complex Dimension Balance -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.StructureRepresentation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.OpenFunctionTranslationValues
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.StructureRepresentation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.OpenFunctionTranslationValues
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Structure Coordinates -/
 

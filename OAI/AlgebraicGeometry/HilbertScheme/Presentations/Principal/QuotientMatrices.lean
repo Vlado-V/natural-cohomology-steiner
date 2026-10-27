@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Quotient.PrincipalCharts
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.QuotientCoordinates
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Quotient.PrincipalCharts
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.QuotientCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Matrices -/
 

@@ -1,13 +1,18 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointHomeomorphs
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.OpenImmersion
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCountability
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialEvaluation
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCharts
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChart
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChartPoint
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectivePointInjective
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectivePointSurjective
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveComplexPoints
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointHomeomorphs
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.OpenImmersion
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCountability
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialEvaluation
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveCharts
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChart
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChartPoint
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectivePointInjective
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectivePointSurjective
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveComplexPoints
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Scheme -/
 

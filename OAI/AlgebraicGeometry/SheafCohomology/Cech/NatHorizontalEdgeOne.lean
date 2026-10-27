@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/TotalComplexUpNatHorizontalEdgeHOne.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.UpNatHorizontalEdge
-import Mathlib.Algebra.Homology.ConcreteCategory
-import Mathlib.Algebra.Homology.QuasiIso
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.UpNatHorizontalEdge
+public import Mathlib.Algebra.Homology.ConcreteCategory
+public import Mathlib.Algebra.Homology.QuasiIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Nat Horizontal Edge One -/
 

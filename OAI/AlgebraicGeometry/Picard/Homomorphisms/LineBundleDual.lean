@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.InternalHomRestriction
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.InternalHomRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Bundle Dual -/
 

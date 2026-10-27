@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GlobalFiberPolynomial
-import Mathlib.Analysis.Normed.Module.Connected
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GlobalFiberPolynomial
+public import Mathlib.Analysis.Normed.Module.Connected
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Punctured Fiber Polynomial -/
 

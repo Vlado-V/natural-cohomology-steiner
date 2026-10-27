@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
-import OAI.AlgebraicGeometry.Betti.AffineDimension
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
+public import OAI.AlgebraicGeometry.Betti.AffineDimension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Function Field Scalar -/
 

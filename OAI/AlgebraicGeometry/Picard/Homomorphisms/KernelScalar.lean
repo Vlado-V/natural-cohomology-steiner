@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelGroup
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.ProperGroupFunctions
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelGroup
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.ProperGroupFunctions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Scalar -/
 

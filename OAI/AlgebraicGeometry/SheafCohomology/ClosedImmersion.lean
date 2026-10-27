@@ -1,22 +1,27 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Vanishing
-import Mathlib.Algebra.Category.Grp.AB
-import Mathlib.Algebra.Category.Grp.EpiMono
-import Mathlib.Algebra.Category.Grp.FilteredColimits
-import Mathlib.Algebra.Category.Grp.ForgetCorepresentable
-import Mathlib.Algebra.Category.Grp.Zero
-import Mathlib.Algebra.Homology.ShortComplex.Exact
-import Mathlib.CategoryTheory.Abelian.FunctorCategory
-import Mathlib.CategoryTheory.Adjunction.Additive
-import Mathlib.CategoryTheory.Limits.Shapes.ZeroMorphisms
-import Mathlib.CategoryTheory.Sites.Abelian
-import Mathlib.CategoryTheory.Sites.EpiMono
-import Mathlib.CategoryTheory.Sites.LocallyBijective
-import Mathlib.CategoryTheory.Sites.LocallyInjective
-import Mathlib.CategoryTheory.Preadditive.Injective.Preserves
-import Mathlib.Topology.Sheaves.Functors
-import Mathlib.Topology.Sheaves.LocallySurjective
-import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
-import Mathlib.Topology.Sheaves.Stalks
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Vanishing
+public import Mathlib.Algebra.Category.Grp.AB
+public import Mathlib.Algebra.Category.Grp.EpiMono
+public import Mathlib.Algebra.Category.Grp.FilteredColimits
+public import Mathlib.Algebra.Category.Grp.ForgetCorepresentable
+public import Mathlib.Algebra.Category.Grp.Zero
+public import Mathlib.Algebra.Homology.ShortComplex.Exact
+public import Mathlib.CategoryTheory.Abelian.FunctorCategory
+public import Mathlib.CategoryTheory.Adjunction.Additive
+public import Mathlib.CategoryTheory.Limits.Shapes.ZeroMorphisms
+public import Mathlib.CategoryTheory.Sites.Abelian
+public import Mathlib.CategoryTheory.Sites.EpiMono
+public import Mathlib.CategoryTheory.Sites.LocallyBijective
+public import Mathlib.CategoryTheory.Sites.LocallyInjective
+public import Mathlib.CategoryTheory.Preadditive.Injective.Preserves
+public import Mathlib.Topology.Sheaves.Functors
+public import Mathlib.Topology.Sheaves.LocallySurjective
+public import Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing
+public import Mathlib.Topology.Sheaves.Stalks
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Closed Immersion -/
 

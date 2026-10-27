@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Gluing
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Gluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Gluing Comparison -/
 

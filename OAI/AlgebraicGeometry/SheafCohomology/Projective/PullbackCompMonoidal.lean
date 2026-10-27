@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PresheafPullbackCompMonoidal
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackTensorObj
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackCompositionMate
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PresheafPullbackCompMonoidal
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackTensorObj
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackCompositionMate
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Comp Monoidal -/
 

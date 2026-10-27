@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PairedTwistEquivalence
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitHomTopSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PairedTwistEquivalence
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitHomTopSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Twist Hom Polynomials -/
 

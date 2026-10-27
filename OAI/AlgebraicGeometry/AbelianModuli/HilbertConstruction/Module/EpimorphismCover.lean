@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapCoverEquality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.GlobalSectionsDetectMaps
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapCoverEquality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.GlobalSectionsDetectMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Epimorphism Cover -/
 

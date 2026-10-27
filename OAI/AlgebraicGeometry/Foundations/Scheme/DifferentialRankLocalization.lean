@@ -1,6 +1,11 @@
-import Mathlib.RingTheory.Smooth.StandardSmoothCotangent
-import Mathlib.RingTheory.Etale.Kaehler
-import Mathlib.LinearAlgebra.Dimension.Constructions
+module
+
+public import Mathlib.RingTheory.Smooth.StandardSmoothCotangent
+public import Mathlib.RingTheory.Etale.Kaehler
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Differential Rank Localization -/
 

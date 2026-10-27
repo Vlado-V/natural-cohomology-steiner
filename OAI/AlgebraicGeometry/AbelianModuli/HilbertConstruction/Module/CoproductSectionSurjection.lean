@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Powers
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Colimits
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Powers
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Colimits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coproduct Section Surjection -/
 

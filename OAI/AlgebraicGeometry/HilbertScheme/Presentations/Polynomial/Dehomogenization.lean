@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Dehomogenization
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.ProjectiveQuotient
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Dehomogenization
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.ProjectiveQuotient
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dehomogenization -/
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Iff
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TorsionScheme
-import Mathlib.AlgebraicGeometry.Morphisms.Etale
-import Mathlib.AlgebraicGeometry.ZariskisMainTheorem
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Iff
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TorsionScheme
+public import Mathlib.AlgebraicGeometry.Morphisms.Etale
+public import Mathlib.AlgebraicGeometry.ZariskisMainTheorem
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme -/
 

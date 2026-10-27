@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteCone
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LinearAnalyticImage
-import Mathlib.Analysis.Normed.Module.Complemented
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteCone
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LinearAnalyticImage
+public import Mathlib.Analysis.Normed.Module.Complemented
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Analytic Cone -/
 

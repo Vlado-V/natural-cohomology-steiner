@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ChartPeriodSmoothness
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AlgebraicPeriod
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ChartPeriodSmoothness
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AlgebraicPeriod
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Chart -/
 

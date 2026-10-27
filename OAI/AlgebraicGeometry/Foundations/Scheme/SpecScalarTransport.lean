@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.AffineScheme
-import Mathlib.RingTheory.RingHom.StandardSmooth
+module
+
+public import Mathlib.AlgebraicGeometry.AffineScheme
+public import Mathlib.RingTheory.RingHom.StandardSmooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Spec Scalar Transport -/
 

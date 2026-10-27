@@ -1,6 +1,11 @@
-import OAI.ArithmeticGeometry.OrdinaryLocus.Openness.SmoothReducedAlgebra
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.AlgebraicGeometry.Geometrically.Reduced
+module
+
+public import OAI.ArithmeticGeometry.OrdinaryLocus.Openness.SmoothReducedAlgebra
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.AlgebraicGeometry.Geometrically.Reduced
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Reduced -/
 

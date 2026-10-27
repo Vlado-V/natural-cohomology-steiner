@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.FlatAffineSectionRank
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.FlatAlgebraLocalBasis
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LocalizationPushoutBasis
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.RestrictionRingPushout
-import Mathlib.AlgebraicGeometry.Noetherian
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.FlatAffineSectionRank
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.FlatAlgebraLocalBasis
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LocalizationPushoutBasis
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.RestrictionRingPushout
+public import Mathlib.AlgebraicGeometry.Noetherian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flat Affine Local Frame -/
 

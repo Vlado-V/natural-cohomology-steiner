@@ -1,10 +1,15 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.Quotient
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Hilbert.MonomialBasis
-import Mathlib.RingTheory.TensorProduct.MvPolynomial
-import Mathlib.RingTheory.TensorProduct.Quotient
-import Mathlib.RingTheory.GradedAlgebra.TensorProduct
-import Mathlib.Algebra.Module.Submodule.Equiv
-import Mathlib.RingTheory.Flat.Basic
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.Quotient
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Hilbert.MonomialBasis
+public import Mathlib.RingTheory.TensorProduct.MvPolynomial
+public import Mathlib.RingTheory.TensorProduct.Quotient
+public import Mathlib.RingTheory.GradedAlgebra.TensorProduct
+public import Mathlib.Algebra.Module.Submodule.Equiv
+public import Mathlib.RingTheory.Flat.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Change -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Scalar.BaseChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Scalar.BaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # End Scalars -/
 

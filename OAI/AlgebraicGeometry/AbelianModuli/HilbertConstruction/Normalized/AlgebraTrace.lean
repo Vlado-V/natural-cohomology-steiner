@@ -1,4 +1,9 @@
-import Mathlib.RingTheory.Trace.Defs
+module
+
+public import Mathlib.RingTheory.Trace.Defs
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Algebra Trace -/
 

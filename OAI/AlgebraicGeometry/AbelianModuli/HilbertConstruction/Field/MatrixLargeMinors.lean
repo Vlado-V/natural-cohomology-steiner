@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Local.FlatMatrixPivotCover
-import Mathlib.LinearAlgebra.Matrix.Rank
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Local.FlatMatrixPivotCover
+public import Mathlib.LinearAlgebra.Matrix.Rank
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Matrix Large Minors -/
 

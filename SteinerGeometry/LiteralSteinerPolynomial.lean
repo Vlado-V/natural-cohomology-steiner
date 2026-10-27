@@ -1,5 +1,10 @@
-import SteinerGeometry.PolynomialMatrixSurjective
-import SteinerGeometry.PolynomialTopRank
+module
+
+public import SteinerGeometry.PolynomialMatrixSurjective
+public import SteinerGeometry.PolynomialTopRank
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The literal sheaf presentation has the supplied polynomial entries. -/
 noncomputable section

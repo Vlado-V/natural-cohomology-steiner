@@ -1,6 +1,11 @@
-import SteinerGeometry.FiniteLocalFrames
-import SteinerGeometry.CurveBundleRankLocus
-import Mathlib.Data.Fintype.EquivFin
+module
+
+public import SteinerGeometry.FiniteLocalFrames
+public import SteinerGeometry.CurveBundleRankLocus
+public import Mathlib.Data.Fintype.EquivFin
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Prescribed finite rank on rational-point neighborhoods -/
 noncomputable section

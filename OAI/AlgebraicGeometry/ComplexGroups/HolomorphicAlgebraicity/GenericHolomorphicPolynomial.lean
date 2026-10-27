@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialGerms
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericPolynomialGCD
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialGerms
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericPolynomialGCD
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Generic Holomorphic Polynomial -/
 

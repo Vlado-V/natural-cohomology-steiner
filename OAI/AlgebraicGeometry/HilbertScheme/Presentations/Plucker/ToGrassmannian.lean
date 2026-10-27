@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.Overlap
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.Overlap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # To Grassmannian -/
 

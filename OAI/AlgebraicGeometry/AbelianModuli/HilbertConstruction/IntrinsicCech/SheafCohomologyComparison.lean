@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.ResolutionHorizontalComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.ResolutionVerticalComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.ResolutionHorizontalComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.ResolutionVerticalComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sheaf Cohomology Comparison -/
 

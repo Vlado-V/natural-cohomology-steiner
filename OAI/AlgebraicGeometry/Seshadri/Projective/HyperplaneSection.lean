@@ -1,6 +1,11 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Projective.SectionMaps
-import OAI.AlgebraicGeometry.Seshadri.Divisors.LinearSections
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Projective.SectionMaps
+public import OAI.AlgebraicGeometry.Seshadri.Divisors.LinearSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

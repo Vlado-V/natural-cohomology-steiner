@@ -1,6 +1,11 @@
-import SteinerGeometry.SymmetricKernelChart
-import SteinerGeometry.ContractionRestriction
-import SteinerGeometry.ContractionTargetIso
+module
+
+public import SteinerGeometry.SymmetricKernelChart
+public import SteinerGeometry.ContractionRestriction
+public import SteinerGeometry.ContractionTargetIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Restriction of the first evaluation-kernel data and its canonical columns. -/
 noncomputable section

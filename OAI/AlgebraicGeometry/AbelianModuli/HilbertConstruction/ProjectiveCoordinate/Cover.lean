@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.SectionCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.SingletonCoordinates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.SectionCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.SingletonCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cover -/
 

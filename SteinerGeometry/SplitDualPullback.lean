@@ -1,5 +1,10 @@
-import SteinerGeometry.LineDualPullback
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Biproducts
+module
+
+public import SteinerGeometry.LineDualPullback
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Biproducts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Dual base change on finite sums of line bundles and maps from a line. -/
 noncomputable section

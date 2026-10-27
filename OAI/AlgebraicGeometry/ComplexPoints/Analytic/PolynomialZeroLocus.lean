@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.Affine
-import Mathlib.Topology.Algebra.MvPolynomial
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.RingTheory.Nullstellensatz
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.Affine
+public import Mathlib.Topology.Algebra.MvPolynomial
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.RingTheory.Nullstellensatz
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Zero Locus -/
 

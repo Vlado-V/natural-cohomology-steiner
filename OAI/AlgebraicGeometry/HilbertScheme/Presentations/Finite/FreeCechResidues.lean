@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.FreeCechLinearAssembly
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.PolynomialCechClasses
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.FreeCechLinearAssembly
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.PolynomialCechClasses
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Free Cech Residues -/
 

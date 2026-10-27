@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothSchemeManifold
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineOverlap
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SmoothSchemeManifold
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.AffineOverlap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Open Transitions -/
 

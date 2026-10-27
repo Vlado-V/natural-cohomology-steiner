@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechTerms
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PresheafAdditive
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FormalCoproductEvaluationAdditive
-import Mathlib.CategoryTheory.Sites.SheafCohomology.Cech
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechTerms
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PresheafAdditive
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FormalCoproductEvaluationAdditive
+public import Mathlib.CategoryTheory.Sites.SheafCohomology.Cech
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Cech Complex -/
 

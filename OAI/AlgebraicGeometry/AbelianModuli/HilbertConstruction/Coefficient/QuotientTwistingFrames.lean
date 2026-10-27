@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.QuotientCoordinatePullbacks
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleQuotientTwistingFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistPullbackValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.PullbackIsomorphism
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.FrameRecognition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstructedCompatibleFrames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.QuotientCoordinatePullbacks
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleQuotientTwistingFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistPullbackValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.PullbackIsomorphism
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.FrameRecognition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstructedCompatibleFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Twisting Frames -/
 

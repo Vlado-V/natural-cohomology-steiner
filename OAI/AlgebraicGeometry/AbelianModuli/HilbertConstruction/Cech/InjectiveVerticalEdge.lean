@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechInjectiveAugmentation.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.InjectiveAugmentation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.VerticalEdge
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.InjectiveAugmentation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.VerticalEdge
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Injective Vertical Edge -/
 

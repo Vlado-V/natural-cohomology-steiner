@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.OverlapBaseChange
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.Gluing
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.OverlapBaseChange
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.Gluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Map -/
 

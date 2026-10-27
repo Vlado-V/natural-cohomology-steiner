@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReciprocalFrameTensorCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BasisSheafificationIsomorphism
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenMapGluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReciprocalFrameTensorCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BasisSheafificationIsomorphism
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenMapGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Reciprocal Frame Tensor Isomorphism -/
 

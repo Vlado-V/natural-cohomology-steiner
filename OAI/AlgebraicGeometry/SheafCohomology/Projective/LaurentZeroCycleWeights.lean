@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeightAssembly
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechZeroCycles
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeightAssembly
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechZeroCycles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Zero Cycle Weights -/
 

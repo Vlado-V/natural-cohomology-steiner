@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.Quotients.FiniteDescent.GroupAffine
-import Mathlib.AlgebraicGeometry.Geometrically.Connected
-import Mathlib.AlgebraicGeometry.Morphisms.Proper
-import Mathlib.AlgebraicGeometry.Noetherian
-import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
-import Mathlib.Topology.Connected.Clopen
+module
+
+public import OAI.AlgebraicGeometry.Quotients.FiniteDescent.GroupAffine
+public import Mathlib.AlgebraicGeometry.Geometrically.Connected
+public import Mathlib.AlgebraicGeometry.Morphisms.Proper
+public import Mathlib.AlgebraicGeometry.Noetherian
+public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+public import Mathlib.Topology.Connected.Clopen
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Group Irreducible Of -/
 

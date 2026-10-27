@@ -1,7 +1,12 @@
-import SteinerGeometry.CohomologySections
-import SteinerGeometry.SectionContraction
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
-import Mathlib.CategoryTheory.Adjunction.Limits
+module
+
+public import SteinerGeometry.CohomologySections
+public import SteinerGeometry.SectionContraction
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Limits
+public import Mathlib.CategoryTheory.Adjunction.Limits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry

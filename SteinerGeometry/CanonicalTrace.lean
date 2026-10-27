@@ -1,5 +1,10 @@
-import SteinerGeometry.TraceAffineComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LocallyNoetherian.FiniteFlatTrace
+module
+
+public import SteinerGeometry.TraceAffineComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LocallyNoetherian.FiniteFlatTrace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! A normalized finite-flat trace splits pullback for every quasicoherent sheaf. -/
 

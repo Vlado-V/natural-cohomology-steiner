@@ -1,5 +1,10 @@
-import SteinerGeometry.HomogeneousTensorCoordinates
-import SteinerGeometry.PolynomialWordExpansion
+module
+
+public import SteinerGeometry.HomogeneousTensorCoordinates
+public import SteinerGeometry.PolynomialWordExpansion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The local symmetric-kernel isomorphism sends monomials to products of kernel columns. -/
 noncomputable section

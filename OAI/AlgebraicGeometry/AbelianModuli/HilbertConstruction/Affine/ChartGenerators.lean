@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ProjectivePresentation
-import Mathlib.AlgebraicGeometry.Morphisms.FiniteType
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.ProjectivePresentation
+public import Mathlib.AlgebraicGeometry.Morphisms.FiniteType
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Generators -/
 

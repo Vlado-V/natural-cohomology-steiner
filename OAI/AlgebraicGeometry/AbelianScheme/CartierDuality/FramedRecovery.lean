@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.IntrinsicInvariantDescent
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.KernelCharacterGluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.IntrinsicInvariantDescent
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.KernelCharacterGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Framed Recovery -/
 

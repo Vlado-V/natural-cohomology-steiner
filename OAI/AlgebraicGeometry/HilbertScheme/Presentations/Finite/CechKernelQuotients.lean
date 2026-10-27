@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.GradedCechHomology
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.FiberwiseExactness
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.GradedCechHomology
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.FiberwiseExactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Kernel Quotients -/
 

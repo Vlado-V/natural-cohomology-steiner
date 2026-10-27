@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Relative.GrassmannianProjectivity
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Coordinate.SubmoduleExtension
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Relative.GrassmannianProjectivity
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Coordinate.SubmoduleExtension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Classifying Map -/
 

@@ -1,4 +1,9 @@
-import Mathlib.Topology.Sheaves.Functors
+module
+
+public import Mathlib.Topology.Sheaves.Functors
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Vanishing -/
 

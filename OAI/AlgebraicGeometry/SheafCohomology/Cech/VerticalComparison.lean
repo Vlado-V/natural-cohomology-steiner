@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveResolutionSections
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.CochainExact
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveAugmentation
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.UpNatVerticalComparison
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveResolutionSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.CochainExact
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveAugmentation
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.UpNatVerticalComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Vertical Comparison -/
 

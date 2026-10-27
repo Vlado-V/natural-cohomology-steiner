@@ -1,4 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.DegreePieces
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.DegreePieces
+public import Mathlib.Algebra.Order.BigOperators.Group.Finset
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Grading -/
 

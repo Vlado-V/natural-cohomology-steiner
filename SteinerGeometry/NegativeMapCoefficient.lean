@@ -1,7 +1,12 @@
-import SteinerGeometry.FrameMapCoefficient
-import SteinerGeometry.NegativeFrameCoefficient
-import SteinerGeometry.NegativeChartMap
-import SteinerGeometry.PolynomialChartRestriction
+module
+
+public import SteinerGeometry.FrameMapCoefficient
+public import SteinerGeometry.NegativeFrameCoefficient
+public import SteinerGeometry.NegativeChartMap
+public import SteinerGeometry.PolynomialChartRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Actual negative-twist map coefficients in the canonical chart frames. -/
 noncomputable section

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.Ideal
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.Ideal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Relations -/
 

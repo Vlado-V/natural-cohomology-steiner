@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildeComposition
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointComposition
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildeComposition
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointComposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Composition -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Units -/
 

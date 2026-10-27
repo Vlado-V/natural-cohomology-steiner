@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.CechCoherence
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.InvariantRestriction
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.ModuleLocality
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.CechCoherence
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.InvariantRestriction
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.ModuleLocality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Invariant -/
 

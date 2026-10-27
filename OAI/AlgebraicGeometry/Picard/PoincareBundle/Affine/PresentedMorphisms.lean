@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Gluing
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.PresentedMapNaturality
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.GluingSquares
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Gluing
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.PresentedMapNaturality
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.GluingSquares
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presented Morphisms -/
 

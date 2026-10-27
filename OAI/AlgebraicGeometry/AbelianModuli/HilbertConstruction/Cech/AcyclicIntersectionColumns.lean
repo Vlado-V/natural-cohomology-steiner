@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.InjectiveResolutionSectionExactness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.CochainExactness
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.InjectiveResolutionSectionExactness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.CochainExactness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Acyclic Intersection Columns -/
 

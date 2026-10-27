@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.OverlapExtension
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.EqualizerTargetChange
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.EqualizerCongr
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.OverlapExtension
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.EqualizerTargetChange
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.EqualizerCongr
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap Invariant -/
 

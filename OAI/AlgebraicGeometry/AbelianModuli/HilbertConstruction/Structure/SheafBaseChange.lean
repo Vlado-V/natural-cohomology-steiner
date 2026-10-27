@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.PushforwardMorphism
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SchemeModule
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.PushforwardMorphism
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SchemeModule
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sheaf Base Change -/
 

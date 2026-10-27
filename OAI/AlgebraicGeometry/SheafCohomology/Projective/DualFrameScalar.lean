@@ -1,3 +1,5 @@
+module
+
 /- Porting notice for the NaturalCohomologySteiner source package.
 This file was modified from the upstream OpenAI math-main/lean source.
 Original SHA-256: 465b6547f68f4f0f0f1966833b40156bb5b631aff4d79d8a40926df16b7ccf45
@@ -9,7 +11,10 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Dual
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Dual
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Dual Frame Scalar -/
 

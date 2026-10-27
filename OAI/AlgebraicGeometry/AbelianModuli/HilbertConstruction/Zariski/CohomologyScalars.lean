@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.Cohomology
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ScalarRingAction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.Cohomology
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ScalarRingAction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cohomology Scalars -/
 

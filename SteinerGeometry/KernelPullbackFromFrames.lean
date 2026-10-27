@@ -1,5 +1,10 @@
-import SteinerGeometry.LocallySplitPullbackKernel
-import SteinerGeometry.AffineFreeSplit
+module
+
+public import SteinerGeometry.LocallySplitPullbackKernel
+public import SteinerGeometry.AffineFreeSplit
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Canonical kernel base change from actual affine local frames. -/
 noncomputable section

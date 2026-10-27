@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.TensorBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.TensorFiniteCover
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.Frames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.TensorBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.TensorFiniteCover
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.Frames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Bundle Section Base Change -/
 

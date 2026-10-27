@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.ChartRatios
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.LocalizationFlat
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.ChartRatios
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.LocalizationFlat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Maps -/
 

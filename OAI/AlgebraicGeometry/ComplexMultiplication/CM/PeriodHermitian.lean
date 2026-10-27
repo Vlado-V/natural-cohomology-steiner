@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.PeriodRiemannForm
-import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.PeriodRiemannForm
+public import Mathlib.Geometry.Manifold.ContMDiff.NormedSpace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Period Hermitian -/
 

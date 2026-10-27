@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.Algebra.Homology.ShortComplex.ShortExact
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Short exact pullback sequences when injectivity of the first map is known. -/
 noncomputable section

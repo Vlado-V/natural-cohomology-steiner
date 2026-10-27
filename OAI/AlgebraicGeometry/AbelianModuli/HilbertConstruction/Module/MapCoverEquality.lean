@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenMapGluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenMapGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Map Cover Equality -/
 

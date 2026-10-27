@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartFrameCoefficient
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartInjective
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartFrameCoefficient
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartInjective
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Section Product Criterion -/
 

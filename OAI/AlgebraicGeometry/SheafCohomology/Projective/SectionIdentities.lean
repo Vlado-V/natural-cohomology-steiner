@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/Picard/DualPullback/UnitComp.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Evaluation
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.RestrictionUnit
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AffineRankOne
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Evaluation
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.RestrictionUnit
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AffineRankOne
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Identities -/
 

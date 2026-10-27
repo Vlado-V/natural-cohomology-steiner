@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GlueReduced
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ReducedFamiliesOn
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.PolynomialExtensionOf
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GlueReduced
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ReducedFamiliesOn
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.PolynomialExtensionOf
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Fiber -/
 

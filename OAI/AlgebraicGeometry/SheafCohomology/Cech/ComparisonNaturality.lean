@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.Comparison
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.Comparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Comparison Naturality -/
 

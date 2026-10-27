@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
-import Mathlib.AlgebraicGeometry.Morphisms.FiniteType
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
+public import Mathlib.AlgebraicGeometry.Morphisms.FiniteType
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Section Finite Type -/
 

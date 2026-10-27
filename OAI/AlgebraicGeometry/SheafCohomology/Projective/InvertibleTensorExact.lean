@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleTensorEquivalence
-import Mathlib.Algebra.Homology.ShortComplex.ShortExact
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Zero
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleTensorEquivalence
+public import Mathlib.Algebra.Homology.ShortComplex.ShortExact
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Zero
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invertible Tensor Exact -/
 

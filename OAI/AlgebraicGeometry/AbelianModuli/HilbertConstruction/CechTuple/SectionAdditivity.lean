@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CechTuple.SectionIdentity
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CechTuple.SectionIdentity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Additivity -/
 

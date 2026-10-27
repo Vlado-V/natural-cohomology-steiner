@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.CharacterBasis
-import Mathlib.LinearAlgebra.TensorProduct.Basis
-import Mathlib.LinearAlgebra.TensorProduct.Pi
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.CharacterBasis
+public import Mathlib.LinearAlgebra.TensorProduct.Basis
+public import Mathlib.LinearAlgebra.TensorProduct.Pi
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Algebra Basis -/
 

@@ -1,5 +1,10 @@
-import SteinerGeometry.CyclicContractionVanishing
-import SteinerGeometry.LineDualDegree
+module
+
+public import SteinerGeometry.CyclicContractionVanishing
+public import SteinerGeometry.LineDualDegree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Degrees and nontriviality of the actual cyclic-cover monomial lines. -/
 noncomputable section

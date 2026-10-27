@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicRegularityAt
-import OAI.RepresentationTheory.Theta.Geometric.Torus.Root
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ImmersionNormalForm
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicRegularityAt
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.Root
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ImmersionNormalForm
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Image Charts -/
 

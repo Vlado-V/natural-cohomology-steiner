@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.StructureBaseChangeValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.AffineCartesianFunctionTensor
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentPullback
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModuleGlobalSectionsIsomorphism
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.StructureBaseChangeValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.AffineCartesianFunctionTensor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentPullback
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModuleGlobalSectionsIsomorphism
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Structure Sheaf Base Change -/
 

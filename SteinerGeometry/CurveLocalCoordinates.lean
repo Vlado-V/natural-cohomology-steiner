@@ -1,5 +1,10 @@
-import SteinerGeometry.CurveFiberCoordinates
-import SteinerGeometry.CurveOpenFiber
+module
+
+public import SteinerGeometry.CurveFiberCoordinates
+public import SteinerGeometry.CurveOpenFiber
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

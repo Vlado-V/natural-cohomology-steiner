@@ -1,5 +1,10 @@
-import SteinerGeometry.KernelMonomialCoordinates
-import Mathlib.LinearAlgebra.Pi
+module
+
+public import SteinerGeometry.KernelMonomialCoordinates
+public import Mathlib.LinearAlgebra.Pi
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Completing a frame of an actual functional kernel by one unit-valued vector. -/
 noncomputable section

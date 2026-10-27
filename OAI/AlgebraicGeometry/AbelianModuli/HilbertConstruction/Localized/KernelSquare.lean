@@ -1,4 +1,9 @@
-import Mathlib.Algebra.Module.LocalizedModule.Submodule
+module
+
+public import Mathlib.Algebra.Module.LocalizedModule.Submodule
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Square -/
 

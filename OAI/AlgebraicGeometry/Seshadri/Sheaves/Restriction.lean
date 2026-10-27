@@ -1,5 +1,10 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Model
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Model
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

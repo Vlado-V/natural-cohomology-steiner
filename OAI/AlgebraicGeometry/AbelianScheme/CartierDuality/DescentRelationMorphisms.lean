@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.AffineIntrinsicLineDescent
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomBaseChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.AffineIntrinsicLineDescent
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Descent Relation Morphisms -/
 

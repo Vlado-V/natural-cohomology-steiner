@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverGeneratorRestriction
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.FrameSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OverGeneratorRestriction
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.FrameSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Framed Local Hom -/
 

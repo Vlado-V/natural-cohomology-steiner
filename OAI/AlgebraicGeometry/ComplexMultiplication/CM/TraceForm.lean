@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.ImaginaryElement
-import Mathlib.LinearAlgebra.BilinearForm.Hom
-import Mathlib.LinearAlgebra.BilinearForm.TensorProduct
-import Mathlib.RingTheory.Trace.Basic
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.ImaginaryElement
+public import Mathlib.LinearAlgebra.BilinearForm.Hom
+public import Mathlib.LinearAlgebra.BilinearForm.TensorProduct
+public import Mathlib.RingTheory.Trace.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Trace Form -/
 
@@ -93,7 +98,7 @@ theorem TraceForm.cmTracePairing_complex (ξ : E) (u v : WeightOne.CM.Complexifi
     | add v w hv hw =>
       simp only [map_add, Pi.add_apply, hv, hw, mul_add, Finset.sum_add_distrib]
     | tmul b y =>
-      rw [LinearMap.BilinForm.baseChange_tmul, TraceForm.cmTracePairing_apply]
+      rw [LinearMap.BilinForm.baseChange_tmul, TraceForm.cmTracePairing_apply, Algebra.smul_def]
       change algebraMap ℚ ℂ (Algebra.trace ℚ E (ξ * TraceForm.cmFieldConjugation E x * y)) * (a * b) = _
       rw [trace_eq_sum_embeddings ℂ]
       simp only [map_mul, TraceForm.cmFieldConjugation_embedding, EmbeddingDecomposition.CM.fieldComplexificationEquiv_tmul,

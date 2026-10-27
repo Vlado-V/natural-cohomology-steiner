@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coherent.Annihilator
-import Mathlib.AlgebraicGeometry.Noetherian
-import Mathlib.AlgebraicGeometry.Morphisms.QuasiCompact
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coherent.Annihilator
+public import Mathlib.AlgebraicGeometry.Noetherian
+public import Mathlib.AlgebraicGeometry.Morphisms.QuasiCompact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ideal Sheaf Nilpotence -/
 

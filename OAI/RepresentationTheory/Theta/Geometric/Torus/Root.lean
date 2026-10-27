@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.Fin
-import OAI.RepresentationTheory.Theta.Geometric.Torus.Manifold
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.Fin
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.Manifold
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Root -/
 

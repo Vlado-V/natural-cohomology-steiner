@@ -1,6 +1,11 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.GraphRegular
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularConeEquations
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.GraphRegular
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularConeEquations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Regular Cone Neighborhood -/
 

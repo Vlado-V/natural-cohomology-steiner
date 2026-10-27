@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeAffineCover
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeAffineCover
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Open Smooth -/
 

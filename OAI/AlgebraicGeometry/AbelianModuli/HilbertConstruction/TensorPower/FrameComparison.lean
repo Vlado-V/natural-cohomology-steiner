@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionCoordinates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Comparison -/
 

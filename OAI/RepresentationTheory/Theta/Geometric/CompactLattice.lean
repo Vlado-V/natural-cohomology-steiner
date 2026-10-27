@@ -1,4 +1,9 @@
-import Mathlib
+module
+
+public import Mathlib
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Compact Lattice -/
 

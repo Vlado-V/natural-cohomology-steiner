@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ThirdModel
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.ModuleBaseChangeCoordinates
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ThirdModel
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.ModuleBaseChangeCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flat Coordinates -/
 

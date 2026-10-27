@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Translations
-import Mathlib.AlgebraicGeometry.GammaSpecAdjunction
-import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Products
-import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
-import Mathlib.Algebra.Category.Ring.Constructions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Translations
+public import Mathlib.AlgebraicGeometry.GammaSpecAdjunction
+public import Mathlib.CategoryTheory.Limits.Shapes.Opposites.Products
+public import Mathlib.CategoryTheory.Limits.Preserves.Shapes.Products
+public import Mathlib.Algebra.Category.Ring.Constructions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Functions -/
 

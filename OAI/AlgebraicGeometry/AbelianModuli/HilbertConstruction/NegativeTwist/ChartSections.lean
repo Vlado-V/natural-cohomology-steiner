@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Negative.ProjectiveTwistingBundle
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeChartFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.SectionCoordinates
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveFrame.ChartValues
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Negative.ProjectiveTwistingBundle
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeChartFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.SectionCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveFrame.ChartValues
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Sections -/
 

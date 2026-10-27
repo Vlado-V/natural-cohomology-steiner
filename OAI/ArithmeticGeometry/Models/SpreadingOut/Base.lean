@@ -1,8 +1,13 @@
-import OAI.ArithmeticGeometry.Models.SpreadingOut.Fg
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.AlgebraicGeometry.Morphisms.Proper
-import Mathlib.AlgebraicGeometry.Geometrically.Connected
-import Mathlib.AlgebraicGeometry.Group.Abelian
+module
+
+public import OAI.ArithmeticGeometry.Models.SpreadingOut.Fg
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.AlgebraicGeometry.Morphisms.Proper
+public import Mathlib.AlgebraicGeometry.Geometrically.Connected
+public import Mathlib.AlgebraicGeometry.Group.Abelian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base -/
 

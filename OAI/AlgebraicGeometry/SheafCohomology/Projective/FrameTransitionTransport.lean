@@ -1,4 +1,9 @@
-import Mathlib.CategoryTheory.Iso
+module
+
+public import Mathlib.CategoryTheory.Iso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Transition Transport -/
 

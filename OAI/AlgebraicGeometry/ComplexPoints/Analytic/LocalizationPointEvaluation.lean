@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.Affine
-import OAI.AlgebraicGeometry.Foundations.Scheme.LocalizationComplexPoints
-import Mathlib.Topology.Algebra.GroupWithZero
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.Affine
+public import OAI.AlgebraicGeometry.Foundations.Scheme.LocalizationComplexPoints
+public import Mathlib.Topology.Algebra.GroupWithZero
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Localization Point Evaluation -/
 

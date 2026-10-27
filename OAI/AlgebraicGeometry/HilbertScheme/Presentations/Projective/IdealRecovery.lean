@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Quotient
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Saturation.Localization
-import Mathlib.AlgebraicGeometry.IdealSheaf.Basic
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Quotient
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Saturation.Localization
+public import Mathlib.AlgebraicGeometry.IdealSheaf.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ideal Recovery -/
 

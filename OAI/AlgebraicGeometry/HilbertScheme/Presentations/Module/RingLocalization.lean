@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.Fractions
-import Mathlib.Algebra.Module.LocalizedModule.IsLocalization
-import Mathlib.RingTheory.Localization.Away.Basic
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.Fractions
+public import Mathlib.Algebra.Module.LocalizedModule.IsLocalization
+public import Mathlib.RingTheory.Localization.Away.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Ring Localization -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftIso
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalTensorSectionCoherence
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftIso
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalTensorSectionCoherence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Positive Power Section Addition -/
 

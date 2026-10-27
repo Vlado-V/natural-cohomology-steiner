@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CanonicalGluing
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.GluingMorphismTransfer
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CanonicalGluing
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.GluingMorphismTransfer
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Recovered Gluing -/
 

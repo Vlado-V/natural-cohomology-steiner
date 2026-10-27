@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.RingModulePresheaf
-import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.RingModulePresheaf
+public import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Presheaf -/
 

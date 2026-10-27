@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.OverlapMaps
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.Coordinates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Chart.OverlapMaps
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.Coordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Maps -/
 

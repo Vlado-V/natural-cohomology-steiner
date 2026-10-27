@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogeny.KernelTorsor
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Isogeny
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Over.DiagonalComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Isogeny.KernelTorsor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LevelMultiplication.Isogeny
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Over.DiagonalComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Torsor -/
 

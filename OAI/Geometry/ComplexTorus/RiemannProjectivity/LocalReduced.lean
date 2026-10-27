@@ -1,7 +1,12 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.BoundedPolynomial
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.RootContinuityAt
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.MonicRoot
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SquarefreeFamilies
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.BoundedPolynomial
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.RootContinuityAt
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.MonicRoot
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SquarefreeFamilies
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Reduced -/
 

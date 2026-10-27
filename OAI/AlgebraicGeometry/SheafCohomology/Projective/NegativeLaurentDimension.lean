@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentCount
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentTop
-import Mathlib.LinearAlgebra.Dimension.Constructions
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentCount
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeLaurentTop
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Laurent Dimension -/
 

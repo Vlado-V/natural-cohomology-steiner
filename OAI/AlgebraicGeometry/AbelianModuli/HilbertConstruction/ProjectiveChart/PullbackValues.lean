@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Preimages
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CanonicalChartSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Preimages
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CanonicalChartSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Values -/
 

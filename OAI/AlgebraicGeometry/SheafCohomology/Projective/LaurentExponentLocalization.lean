@@ -1,12 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AddMonoidAlgebraLocalization
-import Mathlib.Data.Finsupp.Order
-import Mathlib.Tactic
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AddMonoidAlgebraLocalization
+public import Mathlib.Data.Finsupp.Order
+public import Mathlib.Tactic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Exponent Localization -/
 

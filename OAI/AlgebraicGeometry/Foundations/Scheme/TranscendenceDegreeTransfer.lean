@@ -1,7 +1,12 @@
-import Mathlib.RingTheory.AlgebraicIndependent.TranscendenceBasis
-import Mathlib.RingTheory.Algebraic.Integral
-import Mathlib.RingTheory.Ideal.Over
-import Mathlib.RingTheory.Localization.FractionRing
+module
+
+public import Mathlib.RingTheory.AlgebraicIndependent.TranscendenceBasis
+public import Mathlib.RingTheory.Algebraic.Integral
+public import Mathlib.RingTheory.Ideal.Over
+public import Mathlib.RingTheory.Localization.FractionRing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Transcendence Degree Transfer -/
 

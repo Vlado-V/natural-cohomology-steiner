@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.IntrinsicInvariantDescent
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.IntrinsicInvariantDescent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Intrinsic Descent Recovery -/
 

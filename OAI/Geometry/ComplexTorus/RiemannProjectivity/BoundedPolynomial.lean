@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.CoefficientRoot
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.RemovableGlobal
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericDegree
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.CoefficientRoot
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.RemovableGlobal
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericDegree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Bounded Polynomial -/
 

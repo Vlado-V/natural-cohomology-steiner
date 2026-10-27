@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.AlternatingNullHomotopy
-import Mathlib.Algebra.Homology.Homotopy
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.AlternatingNullHomotopy
+public import Mathlib.Algebra.Homology.Homotopy
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Cech Homotopy Equivalence -/
 

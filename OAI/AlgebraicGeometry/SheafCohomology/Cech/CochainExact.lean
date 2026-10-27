@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveBicomplex
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveBicomplex
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cochain Exact -/
 

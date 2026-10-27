@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.TensorSource
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.TensorCompositionValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.TensorRefinementValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.ComparisonBijectivity
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.TensorSource
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.TensorCompositionValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.TensorRefinementValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.ComparisonBijectivity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Comparison Reduction -/
 

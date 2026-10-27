@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.ZeroOpenCover
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.RestrictionLimits
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.ZeroOpenCover
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.RestrictionLimits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Vanishing Open -/
 

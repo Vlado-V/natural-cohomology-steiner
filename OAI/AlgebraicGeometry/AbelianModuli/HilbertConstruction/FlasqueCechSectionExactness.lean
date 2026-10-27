@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.SheafCycleSequences
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlasqueCechSheafTerms
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.SheafCycleSequences
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlasqueCechSheafTerms
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Flasque Cech Section Exactness -/
 

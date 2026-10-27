@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.DerivedComparisonNaturality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.DerivedComparisonNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cohomology Naturality -/
 

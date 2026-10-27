@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Flat.TensorPairwiseLimits
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Flat.TensorPairwiseLimits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cover Tensor Comparison -/
 

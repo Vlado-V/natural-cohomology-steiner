@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.AssociatorFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackComposition
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionTransitions
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.AssociatorFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackComposition
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionTransitions
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Triple Tensor Pullbacks -/
 

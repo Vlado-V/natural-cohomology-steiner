@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.HopfScalarsOf
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.ScalarLineGluing
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelCharacterDetection
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.HopfScalarsOf
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.ScalarLineGluing
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.KernelCharacterDetection
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Character Gluing -/
 

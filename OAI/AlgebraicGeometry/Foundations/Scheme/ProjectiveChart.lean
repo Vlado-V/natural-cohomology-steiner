@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.PolynomialToProjectiveChart
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveCoordinateCover
-import Mathlib.AlgebraicGeometry.AffineSpace
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.PolynomialToProjectiveChart
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveCoordinateCover
+public import Mathlib.AlgebraicGeometry.AffineSpace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Chart -/
 

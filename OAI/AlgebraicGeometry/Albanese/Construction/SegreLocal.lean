@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Albanese.Construction.ProjectiveCover
-import OAI.AlgebraicGeometry.Albanese.Construction.SegreCompatibility
+module
+
+public import OAI.AlgebraicGeometry.Albanese.Construction.ProjectiveCover
+public import OAI.AlgebraicGeometry.Albanese.Construction.SegreCompatibility
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Segre Local -/
 

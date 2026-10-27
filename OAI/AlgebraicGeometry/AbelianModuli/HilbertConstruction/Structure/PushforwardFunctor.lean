@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.PushforwardMorphism
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.PushforwardMorphism
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pushforward Functor -/
 

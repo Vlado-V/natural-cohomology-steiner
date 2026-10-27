@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.FiniteBirational
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SmoothNormal
-import Mathlib.AlgebraicGeometry.Morphisms.Affine
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.FiniteBirational
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SmoothNormal
+public import Mathlib.AlgebraicGeometry.Morphisms.Affine
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Normal Iso -/
 

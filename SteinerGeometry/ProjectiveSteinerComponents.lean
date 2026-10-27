@@ -1,8 +1,13 @@
-import SteinerGeometry.FiniteSumMapNaturality
-import SteinerGeometry.ProjectiveNegativeTensorComparison
-import SteinerGeometry.NegativeTensorMap
-import SteinerGeometry.SteinerCohomologyCriterion
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleRightTensorMap
+module
+
+public import SteinerGeometry.FiniteSumMapNaturality
+public import SteinerGeometry.ProjectiveNegativeTensorComparison
+public import SteinerGeometry.NegativeTensorMap
+public import SteinerGeometry.SteinerCohomologyCriterion
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleRightTensorMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Scalar components of the actual tensor-twisted Steiner presentations. -/
 

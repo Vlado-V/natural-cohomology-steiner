@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.ModuleValues
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.ModuleValues
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Equivalence -/
 

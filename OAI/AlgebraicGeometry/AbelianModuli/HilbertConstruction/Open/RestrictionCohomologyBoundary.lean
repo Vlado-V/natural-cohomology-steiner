@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.InjectiveCokernelSequence
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.InjectiveCokernelSequence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restriction Cohomology Boundary -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ModelLinearity
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.ModelLinearity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Triple Extension -/
 

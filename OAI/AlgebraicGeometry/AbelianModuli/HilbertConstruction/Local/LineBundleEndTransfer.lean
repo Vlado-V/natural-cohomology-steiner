@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.EndTransfer
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorPowerValues
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.EndTransfer
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.TensorPowerValues
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Line Bundle End Transfer -/
 

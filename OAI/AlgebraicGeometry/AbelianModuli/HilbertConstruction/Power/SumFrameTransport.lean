@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SumFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.MapGluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SumFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.MapGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sum Frame Transport -/
 

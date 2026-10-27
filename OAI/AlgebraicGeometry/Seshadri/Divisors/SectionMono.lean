@@ -1,5 +1,10 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Sheaves.Sections
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Sheaves.Sections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

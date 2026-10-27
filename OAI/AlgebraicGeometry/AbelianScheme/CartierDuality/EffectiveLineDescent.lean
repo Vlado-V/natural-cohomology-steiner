@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineModuleDescent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.GlobalLineDescent
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineModuleDescent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.GlobalLineDescent
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Effective Line Descent -/
 

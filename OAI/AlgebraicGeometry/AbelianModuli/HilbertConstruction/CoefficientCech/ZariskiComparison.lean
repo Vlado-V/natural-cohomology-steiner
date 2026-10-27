@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.HomologyNaturality
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.CechNaturality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CoefficientCech.HomologyNaturality
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.CechNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zariski Comparison -/
 

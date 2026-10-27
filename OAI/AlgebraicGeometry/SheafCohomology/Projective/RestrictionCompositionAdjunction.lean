@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackCompositionMate
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleComposition
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackCompositionMate
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.ModuleComposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restriction Composition Adjunction -/
 

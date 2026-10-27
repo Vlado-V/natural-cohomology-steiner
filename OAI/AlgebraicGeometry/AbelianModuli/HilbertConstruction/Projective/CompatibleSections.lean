@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleCoordinateSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SectionCover
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CompatibleCoordinateSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SectionCover
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Compatible Sections -/
 

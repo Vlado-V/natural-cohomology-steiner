@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
-import Mathlib.CategoryTheory.Adjunction.Mates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+public import Mathlib.CategoryTheory.Adjunction.Mates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme Module -/
 

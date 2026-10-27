@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.CoefficientRoot
-import Mathlib.Analysis.Normed.Field.Approximation
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.CoefficientRoot
+public import Mathlib.Analysis.Normed.Field.Approximation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Root Continuity At -/
 

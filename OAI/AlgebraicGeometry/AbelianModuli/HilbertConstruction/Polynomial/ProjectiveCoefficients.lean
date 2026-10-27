@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.QuotientZero
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.QuotientZero
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Coefficients -/
 

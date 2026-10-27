@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Cech.TopZero
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Cech.TopZero
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zero Surjective -/
 

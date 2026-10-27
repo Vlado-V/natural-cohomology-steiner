@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.Grassmannian
-import Mathlib.LinearAlgebra.Prod
+module
+
+public import Mathlib.RingTheory.Grassmannian
+public import Mathlib.LinearAlgebra.Prod
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coordinate Charts -/
 

@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/TotalComplexUpNatHorizontalEdgeHOne.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.BoundaryLifting
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.HomologySurjectivity
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.BoundaryLifting
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.HomologySurjectivity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Homology Comparison -/
 

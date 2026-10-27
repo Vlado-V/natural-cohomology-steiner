@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.ProjectivePresentation
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.ProjectivePresentation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Embeddings -/
 

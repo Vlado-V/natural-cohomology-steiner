@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterWeightedOperators
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Dual.CharacterSums
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.CharacterWeightedOperators
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Dual.CharacterSums
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Character Average Sum -/
 

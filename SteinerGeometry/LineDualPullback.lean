@@ -1,7 +1,12 @@
-import SteinerGeometry.SheafDual
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineBundleEvaluation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.InversePairing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.PairingRetraction
+module
+
+public import SteinerGeometry.SheafDual
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.LineBundleEvaluation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.InversePairing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.PairingRetraction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 set_option backward.defeqAttrib.useBackward true

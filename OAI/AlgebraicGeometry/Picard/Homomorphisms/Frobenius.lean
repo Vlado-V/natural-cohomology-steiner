@@ -1,6 +1,11 @@
-import Mathlib.AlgebraicGeometry.Pullbacks
-import Mathlib.Algebra.CharP.Frobenius
-import Mathlib.Tactic
+module
+
+public import Mathlib.AlgebraicGeometry.Pullbacks
+public import Mathlib.Algebra.CharP.Frobenius
+public import Mathlib.Tactic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frobenius -/
 

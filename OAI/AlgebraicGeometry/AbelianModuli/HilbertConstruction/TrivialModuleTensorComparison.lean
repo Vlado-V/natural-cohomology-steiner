@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.StructureModuleTensorComparison
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.TensorSheafNaturality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.StructureModuleTensorComparison
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.TensorSheafNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Trivial Module Tensor Comparison -/
 

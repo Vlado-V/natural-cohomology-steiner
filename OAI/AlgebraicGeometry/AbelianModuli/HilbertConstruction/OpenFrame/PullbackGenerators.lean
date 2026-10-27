@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.PullbackCompatibility
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.SectionGenerators
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.PullbackCompatibility
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenFrame.SectionGenerators
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Generators -/
 

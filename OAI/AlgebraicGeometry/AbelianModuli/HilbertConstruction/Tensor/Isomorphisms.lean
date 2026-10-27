@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.LineBundles
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.LineBundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Isomorphisms -/
 

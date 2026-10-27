@@ -1,7 +1,12 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeTangentF
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusFiniteConeFibers
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.DenseFiber
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeTangentF
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusFiniteConeFibers
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.DenseFiber
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Cone Dense Preimage -/
 

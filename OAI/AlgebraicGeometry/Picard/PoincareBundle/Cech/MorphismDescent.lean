@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.CoalgebraFullness
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Canonical.CechCoaction
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.FullyFaithfulLift
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.CoalgebraFullness
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Canonical.CechCoaction
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.FullyFaithfulLift
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Morphism Descent -/
 

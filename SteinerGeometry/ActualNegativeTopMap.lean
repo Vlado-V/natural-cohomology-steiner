@@ -1,13 +1,19 @@
-import SteinerGeometry.NegativeMapCoefficient
-import SteinerGeometry.NegativeTwistCast
-import SteinerGeometry.FrameMapCoefficient
-import SteinerGeometry.LaurentChartMultiplication
-import SteinerGeometry.LaurentCochainMap
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechFunctor
+module
+
+public import SteinerGeometry.NegativeMapCoefficient
+public import SteinerGeometry.NegativeTwistCast
+public import SteinerGeometry.FrameMapCoefficient
+public import SteinerGeometry.LaurentChartMultiplication
+public import SteinerGeometry.LaurentCochainMap
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Normalization of actual line-sheaf maps on the top ordered Čech factor. -/
 noncomputable section
 set_option maxHeartbeats 800000
+set_option maxRecDepth 4096
 set_option backward.isDefEq.respectTransparency false
 set_option backward.isDefEq.respectTransparency.types false
 namespace SteinerGeometry.ActualNegativeTopMap

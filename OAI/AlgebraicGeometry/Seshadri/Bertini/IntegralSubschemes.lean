@@ -1,5 +1,10 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Bertini.GenericSmoothness
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Bertini.GenericSmoothness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.BaseMap
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.Projectivity
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.BaseMap
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Grassmannian.Projectivity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Change -/
 

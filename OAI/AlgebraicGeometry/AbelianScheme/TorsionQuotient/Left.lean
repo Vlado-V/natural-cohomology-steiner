@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SubgroupFunctor
-import Mathlib.CategoryTheory.Limits.Shapes.Pullback.IsPullback.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.SubgroupFunctor
+public import Mathlib.CategoryTheory.Limits.Shapes.Pullback.IsPullback.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Left -/
 

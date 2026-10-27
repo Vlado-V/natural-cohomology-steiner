@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Scalar.Nonvanishing
-import Mathlib.AlgebraicGeometry.AffineScheme
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Scalar.Nonvanishing
+public import Mathlib.AlgebraicGeometry.AffineScheme
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Localization -/
 

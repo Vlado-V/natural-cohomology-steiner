@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierTensor
-import OAI.AlgebraicGeometry.Seshadri.Divisors.SectionCokernel
+module
+
+public import OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierTensor
+public import OAI.AlgebraicGeometry.Seshadri.Divisors.SectionCokernel
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Local tensor frames and finite-support cokernel vanishing on curves.
 These proofs use only the local frames and topology; no curve projection or

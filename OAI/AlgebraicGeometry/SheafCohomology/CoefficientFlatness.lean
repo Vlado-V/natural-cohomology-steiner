@@ -1,6 +1,11 @@
-import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
-import Mathlib.Basic.Complex.Basic
-import Mathlib.RingTheory.Flat.TorsionFree
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.ChangeOfRings
+public import Mathlib.Basic.Complex.Basic
+public import Mathlib.RingTheory.Flat.TorsionFree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coefficient Flatness -/
 

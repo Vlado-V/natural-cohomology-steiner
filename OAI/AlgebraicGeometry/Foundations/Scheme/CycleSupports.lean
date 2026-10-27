@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.Properties
+module
+
+public import Mathlib.AlgebraicGeometry.Properties
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cycle Supports -/
 

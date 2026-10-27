@@ -1,5 +1,10 @@
-import Mathlib
-import OAI.AlgebraicGeometry.SheafCohomology.ClosedImmersion
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.SheafCohomology.ClosedImmersion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # API -/
 
@@ -485,7 +490,9 @@ noncomputable def sheafH1_cokernel_iso_of_subsingleton_middle {X : TopCat.{u}}
         rw [map_sub, hab, sub_self] : ConcreteCategory.hom πH (a - b) = 0)
     obtain ⟨y, hy⟩ := Ext.covariant_sequence_exact₃ _ hS
       ((sheafH0EquivSections S.X₃).symm s) rfl hzero
-    have hy_sec :=
+    have hy_sec :
+        ConcreteCategory.hom (S.g.hom.app (op ⊤))
+          (sheafH0EquivSections S.X₂ y) = s :=
       (sheafH0EquivSections_natural (f := S.g) (x := y)).symm.trans <|
         by simpa using (congrArg (sheafH0EquivSections S.X₃) hy)
     simpa using

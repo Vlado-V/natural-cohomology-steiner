@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveVectorScale
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChart
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveVectorScale
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChart
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Chart Point -/
 

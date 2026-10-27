@@ -1,5 +1,10 @@
-import SteinerGeometry.SplitMonomialFrames
-import SteinerGeometry.DirectionalCoordinates
+module
+
+public import SteinerGeometry.SplitMonomialFrames
+public import SteinerGeometry.DirectionalCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Local-ring matrices of actual finite sums of the structure sheaf. -/
 noncomputable section

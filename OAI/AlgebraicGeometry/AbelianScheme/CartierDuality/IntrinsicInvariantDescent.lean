@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.DescentRelationMorphisms
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.AffineEffectivity
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.InvariantUniversal
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.DescentRelationMorphisms
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Ordinary.AffineEffectivity
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.InvariantUniversal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Intrinsic Invariant Descent -/
 

@@ -1,5 +1,10 @@
-import SteinerGeometry.CurveRankLocus
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Field.MatrixRankScalarExtension
+module
+
+public import SteinerGeometry.CurveRankLocus
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Field.MatrixRankScalarExtension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

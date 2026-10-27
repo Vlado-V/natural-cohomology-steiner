@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TopologicalSheafCohomology
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CohomologyExact
-import Mathlib.Algebra.Homology.ShortComplex.Ab
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TopologicalSheafCohomology
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CohomologyExact
+public import Mathlib.Algebra.Homology.ShortComplex.Ab
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Acyclic Sheaf Resolution -/
 

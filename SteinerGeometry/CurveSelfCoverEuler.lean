@@ -1,6 +1,11 @@
-import SteinerGeometry.CurveEulerBiproduct
-import SteinerGeometry.CurveCohomologyFinite
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.LineBundleSectionFiniteness
+module
+
+public import SteinerGeometry.CurveEulerBiproduct
+public import SteinerGeometry.CurveCohomologyFinite
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.LineBundleSectionFiniteness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 noncomputable section
 namespace SteinerGeometry.EllipticCohomology

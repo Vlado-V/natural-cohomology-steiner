@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.GlobalKernelLinearization
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Bundles
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.CategoryTheory.Bicategory.Functor.LocallyDiscrete
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.GlobalKernelLinearization
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Bundles
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.CategoryTheory.Bicategory.Functor.LocallyDiscrete
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Kernel Linearization -/
 

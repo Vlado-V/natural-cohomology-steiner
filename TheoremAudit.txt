@@ -1,38 +1,11 @@
-SteinerGeometry.literalPresentation_naturalSteiner.{u} {R : Type u} [CommRing R] [IsNoetherianRing R]
-  (hfield : IsField ↑((AlgebraicGeometry.Spec ↧R).presheaf.obj (Opposite.op ⊤))) {n t r : ℕ} (hn : 1 ≤ n) (ht : 1 ≤ t)
-  (hr : 1 ≤ r)
-  (M :
-    Fin t →
-      Fin (t + r) →
-        ↥(MvPolynomial.homogeneousSubmodule (Fin (n + 1)) (↑((AlgebraicGeometry.Spec ↧R).presheaf.obj (Opposite.op ⊤)))
-            1))
-  (hM : ∀ (d : ℕ), Steiner.LinearMatrixMaximalRank M d) :
-  SteinerGeometry.NaturalSteinerPresentation (SteinerGeometry.PolynomialMatrixSurjective.literalPresentation M)
-SteinerGeometry.linearMatrix_naturalSteiner.{u} (K : Type u) [Field K] {n t r : ℕ} (hn : 1 ≤ n) (ht : 1 ≤ t)
-  (hr : 1 ≤ r) (M : Steiner.LinearMatrix K n t (t + r)) (hM : ∀ (d : ℕ), Steiner.LinearMatrixMaximalRank M d) :
-  SteinerGeometry.NaturalSteinerPresentation (SteinerGeometry.linearPresentation K M)
-SteinerGeometry.genericNaturalSteiner_of_genericMatrixConclusion.{u} (K : Type u) [Field K] {n t r : ℕ} (hn : 1 ≤ n)
-  (ht : 1 ≤ t) (hr : 1 ≤ r) (h : Steiner.GenericMatrixConclusion K n t r) :
-  SteinerGeometry.GenericNaturalSteinerConclusion K n t r
 SteinerGeometry.genericNaturalSteiner_charZero.{u} (K : Type u) [Field K] [CharZero K] (n t r : ℕ) (hn : 1 ≤ n)
   (ht : 1 ≤ t) (hr : n ≤ r) : SteinerGeometry.GenericNaturalSteinerConclusion K n t r
-'SteinerGeometry.linearMatrix_naturalSteiner' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SteinerGeometry.genericNaturalSteiner_of_genericMatrixConclusion' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
+Steiner.genericMatrixConclusion_charZero.{u_1} (K : Type u_1) [Field K] [CharZero K] (n t r : ℕ) (hn : 1 ≤ n)
+  (ht : 1 ≤ t) (hr : n ≤ r) : Steiner.GenericMatrixConclusion K n t r
+Steiner.exists_allDegreeMaximalRank_charZero.{u_1} (K : Type u_1) [Field K] [CharZero K] (n t r : ℕ) (hn : 1 ≤ n)
+  (ht : 1 ≤ t) (hr : n ≤ r) : ∃ M, ∀ (d : ℕ), Steiner.LinearMatrixMaximalRank M d
+NaturalCohomologySteinerPaper.main_result.{u_1} : PalomarSteiner.Statement
 'SteinerGeometry.genericNaturalSteiner_charZero' depends on axioms: [propext, Classical.choice, Quot.sound]
 'Steiner.genericMatrixConclusion_charZero' depends on axioms: [propext, Classical.choice, Quot.sound]
 'Steiner.exists_allDegreeMaximalRank_charZero' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SteinerGeometry.ProjectiveTopNaturality.topResidueIso_naturality' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'SteinerGeometry.ProjectiveSteinerComponents.deepMap_chartCoefficient' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'SteinerGeometry.ProjectiveSteinerPresentation.bundleKernelDualIso' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'SteinerGeometry.PolynomialMatrixSurjective.literalPresentation_evaluation_epi' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'SteinerGeometry.NegativeTensorMap.coefficient_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NaturalCohomologySteinerPaper.main_result' depends on axioms: [propext, Classical.choice, Quot.sound]

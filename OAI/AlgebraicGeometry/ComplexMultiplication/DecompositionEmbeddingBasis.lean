@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.Decomposition
-import OAI.AlgebraicGeometry.ComplexMultiplication.EmbeddingHodgeType
-import Mathlib.LinearAlgebra.DirectSum.TensorProduct
-import Mathlib.LinearAlgebra.Finsupp.VectorSpace
-import Mathlib.Algebra.Module.Rat
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.Decomposition
+public import OAI.AlgebraicGeometry.ComplexMultiplication.EmbeddingHodgeType
+public import Mathlib.LinearAlgebra.DirectSum.TensorProduct
+public import Mathlib.LinearAlgebra.Finsupp.VectorSpace
+public import Mathlib.Algebra.Module.Rat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Decomposition Embedding Basis -/
 

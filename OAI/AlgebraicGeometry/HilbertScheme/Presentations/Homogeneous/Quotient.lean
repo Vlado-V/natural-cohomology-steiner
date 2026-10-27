@@ -1,7 +1,12 @@
-import Mathlib.Algebra.DirectSum.Decomposition
-import Mathlib.LinearAlgebra.Quotient.Basic
-import Mathlib.RingTheory.Ideal.Quotient.Operations
-import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Maps
+module
+
+public import Mathlib.Algebra.DirectSum.Decomposition
+public import Mathlib.LinearAlgebra.Quotient.Basic
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+public import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Maps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient -/
 

@@ -1,7 +1,12 @@
-import SteinerGeometry.TorsionLineClasses
-import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineCharacterDetection
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FiniteHopfPresentation
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FiniteGroupMaps
+module
+
+public import SteinerGeometry.TorsionLineClasses
+public import OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineCharacterDetection
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FiniteHopfPresentation
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FiniteGroupMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Finite avoidance and torsion for actual pullback-trivial line classes.
 No dual abelian variety or representability theorem is needed here. -/

@@ -1,9 +1,14 @@
-import SteinerGeometry.TraceGluing
-import SteinerGeometry.OpenBaseChangeSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PullbackSectionValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictedSectionBases
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.AdjunctionUnit
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.FunctionsBaseChange
+module
+
+public import SteinerGeometry.TraceGluing
+public import SteinerGeometry.OpenBaseChangeSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.PullbackSectionValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.RestrictedSectionBases
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.AdjunctionUnit
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.FunctionsBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The canonical section scalar-extension map on affine charts. -/
 

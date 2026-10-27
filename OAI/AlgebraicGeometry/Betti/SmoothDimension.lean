@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Betti.AffineDimension
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+module
+
+public import OAI.AlgebraicGeometry.Betti.AffineDimension
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Dimension -/
 

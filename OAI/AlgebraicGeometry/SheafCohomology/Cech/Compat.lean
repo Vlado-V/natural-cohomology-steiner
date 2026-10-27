@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/FlasqueCohomology.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.CategoryTheory.Abelian.Injective.Resolution
-import Mathlib.Topology.Sheaves.Flasque
-import OAI.AlgebraicGeometry.SheafCohomology.AffineVanishing
+public import Mathlib.CategoryTheory.Abelian.Injective.Resolution
+public import Mathlib.Topology.Sheaves.Flasque
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineVanishing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Compat -/
 

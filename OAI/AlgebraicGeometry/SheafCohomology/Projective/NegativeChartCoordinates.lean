@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.DistinguishedChartCancellation
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.FramedTensorMap
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistMaps
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.DistinguishedChartCancellation
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.FramedTensorMap
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Chart Coordinates -/
 

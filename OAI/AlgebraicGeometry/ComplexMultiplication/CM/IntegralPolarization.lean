@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.Polarization
-import Mathlib.RingTheory.Localization.Integral
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.Polarization
+public import Mathlib.RingTheory.Localization.Integral
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Integral Polarization -/
 

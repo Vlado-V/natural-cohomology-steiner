@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.DimensionShift
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.GradedPolynomialModules
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Cech.DimensionShift
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.GradedPolynomialModules
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Vanishing -/
 

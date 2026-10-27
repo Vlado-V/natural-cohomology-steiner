@@ -1,5 +1,10 @@
-import SteinerGeometry.AffineSplitting
-import SteinerGeometry.KernelSheafSections
+module
+
+public import SteinerGeometry.AffineSplitting
+public import SteinerGeometry.KernelSheafSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local splittings of epimorphisms with finite free targets -/
 noncomputable section

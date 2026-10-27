@@ -1,5 +1,10 @@
-import Mathlib.RingTheory.Localization.Away.Basic
-import Mathlib.Basic.Complex.Basic
+module
+
+public import Mathlib.RingTheory.Localization.Away.Basic
+public import Mathlib.Basic.Complex.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Localization Complex Points -/
 

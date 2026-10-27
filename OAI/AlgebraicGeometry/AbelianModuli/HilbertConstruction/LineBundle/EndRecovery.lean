@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.EndGluing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenIsomorphismGluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.EndGluing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenIsomorphismGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # End Recovery -/
 

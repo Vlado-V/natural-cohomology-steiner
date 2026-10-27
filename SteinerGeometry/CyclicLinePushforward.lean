@@ -1,5 +1,10 @@
-import SteinerGeometry.PushforwardSplitting
-import SteinerGeometry.LineBaseChange
+module
+
+public import SteinerGeometry.PushforwardSplitting
+public import SteinerGeometry.LineBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Direct images of line bundles along a cyclic étale isogeny split after
 pullback along that same isogeny. -/

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.EquationLoci
-import Mathlib.AlgebraicGeometry.AffineSpace
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.EquationLoci
+public import Mathlib.AlgebraicGeometry.AffineSpace
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Zero Locus -/
 

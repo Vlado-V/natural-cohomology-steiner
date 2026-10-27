@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.IntegralProjective
-import Mathlib.AlgebraicGeometry.Group.Abelian
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.IntegralProjective
+public import Mathlib.AlgebraicGeometry.Group.Abelian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # CM Abelian Variety -/
 

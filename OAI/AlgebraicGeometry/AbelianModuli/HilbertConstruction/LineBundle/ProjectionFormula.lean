@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorPullbackFunctor
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EquivalenceRightAdjointCommutation
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorPullbackFunctor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.EquivalenceRightAdjointCommutation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projection Formula -/
 

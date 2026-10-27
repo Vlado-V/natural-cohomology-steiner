@@ -1,5 +1,10 @@
-import SteinerGeometry.CurveGeneratorLinear
-import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+module
+
+public import SteinerGeometry.CurveGeneratorLinear
+public import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

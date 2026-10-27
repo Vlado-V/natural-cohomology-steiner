@@ -1,4 +1,9 @@
-import SteinerGeometry.FiniteLocalFrames
+module
+
+public import SteinerGeometry.FiniteLocalFrames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Native local-freeness and finiteness from actual finite geometric frames. -/
 namespace SteinerGeometry.TildeFiniteProjective

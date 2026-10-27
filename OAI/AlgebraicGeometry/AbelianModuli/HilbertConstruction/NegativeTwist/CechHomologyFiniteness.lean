@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechComplexIsomorphism
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TwistedCoordinateCechFiniteness
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechComplexIsomorphism
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TwistedCoordinateCechFiniteness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Homology Finiteness -/
 

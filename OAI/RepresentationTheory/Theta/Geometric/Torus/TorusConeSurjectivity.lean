@@ -1,9 +1,14 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusFiniteConeFibers
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticCone
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticIrreducibilityEq
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularCone
-import Mathlib.Analysis.Normed.Module.Connected
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusFiniteConeFibers
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticCone
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticIrreducibilityEq
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularCone
+public import Mathlib.Analysis.Normed.Module.Connected
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Cone Surjectivity -/
 

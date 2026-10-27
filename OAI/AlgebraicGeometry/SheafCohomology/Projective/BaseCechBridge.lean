@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechLinearBridge
-import OAI.AlgebraicGeometry.SheafCohomology.CechLinearComparison
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechLinearBridge
+public import OAI.AlgebraicGeometry.SheafCohomology.CechLinearComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Cech Bridge -/
 

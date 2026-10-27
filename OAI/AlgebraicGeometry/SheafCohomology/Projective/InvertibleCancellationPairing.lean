@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleEvaluation
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleEvaluation
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Invertible Cancellation Pairing -/
 

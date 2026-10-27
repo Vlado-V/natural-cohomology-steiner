@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.ResolutionSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.InjectiveVerticalEdge
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.HomologyComparison
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.ResolutionSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.InjectiveVerticalEdge
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.HomologyComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Resolution Horizontal Comparison -/
 

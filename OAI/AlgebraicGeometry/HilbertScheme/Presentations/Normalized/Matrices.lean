@@ -1,5 +1,10 @@
-import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
-import Mathlib.LinearAlgebra.Matrix.ToLin
+module
+
+public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+public import Mathlib.LinearAlgebra.Matrix.ToLin
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Matrices -/
 

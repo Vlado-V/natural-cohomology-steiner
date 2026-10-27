@@ -1,7 +1,12 @@
-import SteinerGeometry.SymmetricKernelGlobal
-import SteinerGeometry.SectionContraction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorEquivalence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MonoidalTensorNaturality
+module
+
+public import SteinerGeometry.SymmetricKernelGlobal
+public import SteinerGeometry.SectionContraction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.TensorEquivalence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MonoidalTensorNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Tensoring the symmetric contraction by an actual line bundle. -/
 noncomputable section

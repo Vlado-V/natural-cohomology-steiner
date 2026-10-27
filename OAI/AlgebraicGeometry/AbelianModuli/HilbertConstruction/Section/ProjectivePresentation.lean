@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Embedding
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Generators
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Embedding
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Generators
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Presentation -/
 

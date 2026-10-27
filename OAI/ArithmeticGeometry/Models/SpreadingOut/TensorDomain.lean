@@ -1,5 +1,10 @@
-import OAI.ArithmeticGeometry.Models.SpreadingOut.TensorSpecialization
-import Mathlib.RingTheory.TensorProduct.Nontrivial
+module
+
+public import OAI.ArithmeticGeometry.Models.SpreadingOut.TensorSpecialization
+public import Mathlib.RingTheory.TensorProduct.Nontrivial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Domain -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreAt
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Projection
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AnalyticFibers
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreAt
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Projection
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AnalyticFibers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Segre Projection -/
 

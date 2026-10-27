@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.EventualDegreeFlatness
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.EventualDegreeFlatness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Eventual Irrelevant Torsion -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorSectionBilinear
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.RankOneMapCoordinates
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorSectionBilinear
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.RankOneMapCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Framed Tensor Map -/
 

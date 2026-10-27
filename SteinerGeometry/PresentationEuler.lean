@@ -1,7 +1,12 @@
-import SteinerGeometry.PresentationEulerFinite
-import SteinerGeometry.EulerDegree
-import SteinerGeometry.MonomialLineDual
-import SteinerGeometry.PointEuler
+module
+
+public import SteinerGeometry.PresentationEulerFinite
+public import SteinerGeometry.EulerDegree
+public import SteinerGeometry.MonomialLineDual
+public import SteinerGeometry.PointEuler
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Euler degrees of the actual rank-plus-one presentation, without a determinant formula. -/
 noncomputable section

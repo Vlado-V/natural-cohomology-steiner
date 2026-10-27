@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ClosedImmersionPointTopology
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.GeneratingCoordinates
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialEvaluation
-import Mathlib.RingTheory.FiniteType
-import Mathlib.Topology.Compactness.LocallyCompact
+module
+
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ClosedImmersionPointTopology
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.GeneratingCoordinates
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.PolynomialEvaluation
+public import Mathlib.RingTheory.FiniteType
+public import Mathlib.Topology.Compactness.LocallyCompact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Type Affine Topology -/
 

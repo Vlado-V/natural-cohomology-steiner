@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.SheafResolution
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.SheafResolution
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Sheaf Cycle Sequences -/
 

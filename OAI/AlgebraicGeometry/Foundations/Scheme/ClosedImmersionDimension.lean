@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.TranscendenceDegreeTransfer
-import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
-import OAI.AlgebraicGeometry.Foundations.Scheme.FunctionFieldScalar
-import OAI.AlgebraicGeometry.Betti.AffineDimension
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.TranscendenceDegreeTransfer
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
+public import OAI.AlgebraicGeometry.Foundations.Scheme.FunctionFieldScalar
+public import OAI.AlgebraicGeometry.Betti.AffineDimension
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Closed Immersion Dimension -/
 

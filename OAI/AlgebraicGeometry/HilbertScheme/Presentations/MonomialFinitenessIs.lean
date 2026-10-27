@@ -1,8 +1,13 @@
-import Mathlib.Order.WellFoundedSet
-import Mathlib.Order.Minimal
-import Mathlib.Order.UpperLower.Basic
-import Mathlib.Order.WithBot
-import Mathlib.Data.Fintype.List
+module
+
+public import Mathlib.Order.WellFoundedSet
+public import Mathlib.Order.Minimal
+public import Mathlib.Order.UpperLower.Basic
+public import Mathlib.Order.WithBot
+public import Mathlib.Data.Fintype.List
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Monomial Finiteness Is -/
 

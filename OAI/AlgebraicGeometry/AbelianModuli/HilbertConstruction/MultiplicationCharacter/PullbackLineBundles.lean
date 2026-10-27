@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.PullbackIdentification
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.CharacterLineBundles
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.MultiplicationCharacter.PullbackIdentification
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.CharacterLineBundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pullback Line Bundles -/
 

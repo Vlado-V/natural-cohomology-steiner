@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroCoefficients
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.LinearAlgebra.Finsupp.Supported
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroCoefficients
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.LinearAlgebra.Finsupp.Supported
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Nonnegative Laurent Polynomials -/
 

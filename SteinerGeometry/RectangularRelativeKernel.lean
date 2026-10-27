@@ -1,4 +1,9 @@
-import SteinerGeometry.RectangularKernel
+module
+
+public import SteinerGeometry.RectangularKernel
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

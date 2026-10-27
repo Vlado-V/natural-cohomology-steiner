@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveCone
-import Mathlib.Analysis.Normed.Module.FiniteDimension
-import Mathlib.Analysis.Normed.Group.Bounded
-import Mathlib.Topology.Maps.Proper.CompactlyGenerated
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveCone
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.Analysis.Normed.Group.Bounded
+public import Mathlib.Topology.Maps.Proper.CompactlyGenerated
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projection -/
 

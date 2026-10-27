@@ -1,6 +1,11 @@
-import Mathlib.Analysis.Polynomial.MahlerMeasure
-import Mathlib.FieldTheory.Separable
-import Mathlib.Data.Set.Card
+module
+
+public import Mathlib.Analysis.Polynomial.MahlerMeasure
+public import Mathlib.FieldTheory.Separable
+public import Mathlib.Data.Set.Card
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Monic Roots -/
 

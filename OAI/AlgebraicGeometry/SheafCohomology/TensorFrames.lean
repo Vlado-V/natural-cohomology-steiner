@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.DivisorClass.Chern.FramesFrame
-import Mathlib.LinearAlgebra.TensorProduct.Basic
+module
+
+public import OAI.AlgebraicGeometry.DivisorClass.Chern.FramesFrame
+public import Mathlib.LinearAlgebra.TensorProduct.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Frames -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.FixedNegativeQuotient
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PairedTwistEquivalence
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositiveTwistEquivalence
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.FixedNegativeQuotient
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PairedTwistEquivalence
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositiveTwistEquivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Bounded Negative Quotient -/
 

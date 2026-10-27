@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.AffineComparison
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.AffineComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scalars -/
 

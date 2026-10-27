@@ -1,7 +1,12 @@
-import SteinerGeometry.PointEuler
-import SteinerGeometry.CyclicComplexBase
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LocallyNoetherian.FiniteFlatTrace
-import OAI.AlgebraicGeometry.AbelianScheme.FrobeniusKernel.GeometricIsogeny
+module
+
+public import SteinerGeometry.PointEuler
+public import SteinerGeometry.CyclicComplexBase
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LocallyNoetherian.FiniteFlatTrace
+public import OAI.AlgebraicGeometry.AbelianScheme.FrobeniusKernel.GeometricIsogeny
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Euler degree of the point line under the actual cyclic étale isogeny. -/
 

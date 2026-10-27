@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AffineCoordinateSections
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreAt
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AffineCoordinateSections
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.SegreAt
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Segre Regular Equations -/
 

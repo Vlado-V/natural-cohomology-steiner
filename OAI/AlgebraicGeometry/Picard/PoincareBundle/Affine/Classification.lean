@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildePullback
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.QuasiCoherent
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.LocalInvertibility
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildePullback
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.QuasiCoherent
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.LocalInvertibility
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Classification -/
 

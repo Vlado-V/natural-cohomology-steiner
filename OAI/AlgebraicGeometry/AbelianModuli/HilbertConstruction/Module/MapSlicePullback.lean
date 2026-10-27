@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapPullbackCongruence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.UnitFusion
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapPullbackCongruence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.UnitFusion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Map Slice Pullback -/
 

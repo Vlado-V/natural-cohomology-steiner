@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.FrameRestriction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.Powers
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.FrameRestriction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.Powers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Nonvanishing -/
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentWeightFinite
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Hilbert.Existence
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentWeightFinite
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Hilbert.Existence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Laurent Count -/
 

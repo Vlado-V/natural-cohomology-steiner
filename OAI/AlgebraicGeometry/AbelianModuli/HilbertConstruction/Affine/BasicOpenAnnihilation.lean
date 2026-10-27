@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModuleZeroCriterion
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.LocalizationAnnihilation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.QuasicoherentLocalization
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentFiniteTypeSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.ModuleZeroCriterion
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.LocalizationAnnihilation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.AffineOpen.QuasicoherentLocalization
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentFiniteTypeSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Basic Open Annihilation -/
 

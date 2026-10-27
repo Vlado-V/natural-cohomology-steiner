@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomTransport
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomBaseChange
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomTransport
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Descent Matching -/
 

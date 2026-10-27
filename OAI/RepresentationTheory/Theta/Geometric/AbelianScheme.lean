@@ -1,6 +1,11 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.AbelianModel
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.Schemes
-import OAI.ArithmeticGeometry.Models.SpreadingOut.GeometricFieldComponents
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.AbelianModel
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Abelian.Schemes
+public import OAI.ArithmeticGeometry.Models.SpreadingOut.GeometricFieldComponents
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Abelian Scheme -/
 

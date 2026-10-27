@@ -1,6 +1,11 @@
-import SteinerGeometry.LineClassArithmetic
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Classes
-import Mathlib.GroupTheory.Torsion
+module
+
+public import SteinerGeometry.LineClassArithmetic
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TensorPower.Classes
+public import Mathlib.GroupTheory.Torsion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Finite-order classes of actual invertible sheaves, with actual representatives. -/
 noncomputable section

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.ChartAlgebra
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.ChartMaps
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Plucker.ChartAlgebra
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Homogeneous.ChartMaps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Overlap Algebra -/
 

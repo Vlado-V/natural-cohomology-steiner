@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Powers
-import Mathlib.LinearAlgebra.PiTensorProduct.Basic
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.Powers
+public import Mathlib.LinearAlgebra.PiTensorProduct.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presheaf -/
 

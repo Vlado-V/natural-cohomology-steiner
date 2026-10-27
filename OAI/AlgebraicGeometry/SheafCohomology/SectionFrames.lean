@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.TensorCoordinates
-import OAI.AlgebraicGeometry.DivisorClass.Chern.FramesFrame
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.TensorCoordinates
+public import OAI.AlgebraicGeometry.DivisorClass.Chern.FramesFrame
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Frames -/
 

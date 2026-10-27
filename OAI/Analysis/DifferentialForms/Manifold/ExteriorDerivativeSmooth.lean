@@ -1,5 +1,10 @@
-import Mathlib.Analysis.Calculus.DifferentialForm.Basic
-import Mathlib.Analysis.Calculus.ContDiff.Comp
+module
+
+public import Mathlib.Analysis.Calculus.DifferentialForm.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Comp
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exterior Derivative Smooth -/
 

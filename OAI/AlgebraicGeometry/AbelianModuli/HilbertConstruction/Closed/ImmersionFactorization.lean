@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ConditionIdeals
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ConditionIdeals
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Immersion Factorization -/
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.BaseTranslations
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.Scheme
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Morphisms
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RepresentingIsoPoints
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.BaseTranslations
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.Scheme
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Morphisms
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RepresentingIsoPoints
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Translation Labels -/
 

@@ -1,5 +1,10 @@
-import SteinerGeometry.NativeCohomology
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Quasicoherence
+module
+
+public import SteinerGeometry.NativeCohomology
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.Quasicoherence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! A finiteness property to be supplied by an actual projective embedding. -/
 namespace SteinerGeometry

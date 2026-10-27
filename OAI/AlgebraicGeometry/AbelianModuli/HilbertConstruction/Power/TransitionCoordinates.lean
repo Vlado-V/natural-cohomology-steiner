@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionTransitions
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Framed.PowerNumerators
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.SectionTransitions
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Framed.PowerNumerators
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Transition Coordinates -/
 

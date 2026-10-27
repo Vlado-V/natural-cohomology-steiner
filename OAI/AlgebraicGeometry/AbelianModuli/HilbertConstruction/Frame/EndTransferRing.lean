@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.EndTransfer
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.EndTransfer
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # End Transfer Ring -/
 

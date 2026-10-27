@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackUnits
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.Sections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.PullbackUnits
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.Sections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Product Sections -/
 

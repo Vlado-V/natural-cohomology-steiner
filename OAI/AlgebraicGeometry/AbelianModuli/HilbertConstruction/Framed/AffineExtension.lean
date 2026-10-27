@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Framed.AffineLocalization
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.FrameCoordinates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Framed.AffineLocalization
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.FrameCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Affine Extension -/
 

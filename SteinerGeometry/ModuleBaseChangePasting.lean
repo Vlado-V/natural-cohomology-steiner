@@ -1,4 +1,9 @@
-import SteinerGeometry.ModuleBaseChange
+module
+
+public import SteinerGeometry.ModuleBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Canonical module base change commutes with composition of Cartesian squares. -/
 noncomputable section

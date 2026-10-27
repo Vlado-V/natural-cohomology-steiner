@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Homology.QuasiIso
-import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+module
+
+public import Mathlib.Algebra.Homology.QuasiIso
+public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Zero Kernel -/
 

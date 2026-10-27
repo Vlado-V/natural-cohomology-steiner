@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.HomOnOpenImages
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.HomOnOpenImages
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Hom Image Restriction -/
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCech
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechComplex
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechFunctor
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.CohomologyNaturality
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCech
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechComplex
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedBaseCechFunctor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OrderedCech.CohomologyNaturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The two actual ordered Čech complexes are definitionally the same. -/
 namespace SteinerGeometry.OrderedCechIdentification

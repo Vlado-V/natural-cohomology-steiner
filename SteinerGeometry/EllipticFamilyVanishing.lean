@@ -1,5 +1,10 @@
-import SteinerGeometry.EllipticEulerCohomology
-import SteinerGeometry.CurveCohomologyFinite
+module
+
+public import SteinerGeometry.EllipticEulerCohomology
+public import SteinerGeometry.CurveCohomologyFinite
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Uniform vanishing for the equal-degree line summands of the elliptic
 construction. The zero-degree exception is one finite exclusion in the caller. -/

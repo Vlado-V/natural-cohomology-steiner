@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitHomTopSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.UnitHomTopSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Hom Section Equiv Evaluation -/
 

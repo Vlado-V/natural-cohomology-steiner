@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheafFunctor
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ScalarRingAction
-import Mathlib.CategoryTheory.Linear.FunctorCategory
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.ModulePresheafFunctor
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.ScalarRingAction
+public import Mathlib.CategoryTheory.Linear.FunctorCategory
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Presheaf Scalar Action -/
 

@@ -1,6 +1,11 @@
-import Mathlib.CategoryTheory.Adjunction.Mates
-import Mathlib.CategoryTheory.Monad.Algebra
-import Mathlib.CategoryTheory.Monad.Adjunction
+module
+
+public import Mathlib.CategoryTheory.Adjunction.Mates
+public import Mathlib.CategoryTheory.Monad.Algebra
+public import Mathlib.CategoryTheory.Monad.Adjunction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Descent Restriction -/
 

@@ -1,6 +1,11 @@
-import SteinerGeometry.CohomologyRankForgetful
-import SteinerGeometry.PolynomialTopRank
-import SteinerGeometry.ProjectiveSteinerPresentation
+module
+
+public import SteinerGeometry.CohomologyRankForgetful
+public import SteinerGeometry.PolynomialTopRank
+public import SteinerGeometry.ProjectiveSteinerPresentation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Natural cohomology of one fixed geometric Steiner cokernel from the
 literal matrices of its negative presentations. -/

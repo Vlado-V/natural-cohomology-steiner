@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjective
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveScheme
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeClosed
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjective
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.ProjectiveScheme
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemeClosed
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Variety Compactness -/
 

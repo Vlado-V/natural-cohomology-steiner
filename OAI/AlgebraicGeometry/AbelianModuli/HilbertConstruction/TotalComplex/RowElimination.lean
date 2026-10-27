@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.CycleCoordinates
-import Mathlib.Algebra.Category.Grp.Abelian
-import Mathlib.Algebra.Homology.ShortComplex.Ab
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.TotalComplex.CycleCoordinates
+public import Mathlib.Algebra.Category.Grp.Abelian
+public import Mathlib.Algebra.Homology.ShortComplex.Ab
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Row Elimination -/
 

@@ -1,5 +1,10 @@
-import Mathlib.Algebra.MvPolynomial.Eval
-import Mathlib.RingTheory.Ideal.Quotient.Operations
+module
+
+public import Mathlib.Algebra.MvPolynomial.Eval
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Points -/
 

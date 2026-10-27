@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionBaseChange
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.SectionBaseChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Frames -/
 

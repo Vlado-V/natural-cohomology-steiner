@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.FrameRestriction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BasisSheafificationIsomorphism
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstructedCompatibleFrames
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenMapGluing
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Tensor.FrameRestriction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.BasisSheafificationIsomorphism
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstructedCompatibleFrames
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.OpenMapGluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Frame Recognition -/
 

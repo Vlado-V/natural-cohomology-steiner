@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.FrameEquivalence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.EndRecovery
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Frames
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.OpenPullback.FrameEquivalence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.LineBundle.EndRecovery
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.Frames
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Linear Frames -/
 

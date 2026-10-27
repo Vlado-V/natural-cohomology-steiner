@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Quotients.FiniteDescent.AffineNeighborhoodOpen
-import Mathlib.AlgebraicGeometry.AlgClosed.Basic
-import Mathlib.CategoryTheory.Monoidal.Cartesian.Grp
+module
+
+public import OAI.AlgebraicGeometry.Quotients.FiniteDescent.AffineNeighborhoodOpen
+public import Mathlib.AlgebraicGeometry.AlgClosed.Basic
+public import Mathlib.CategoryTheory.Monoidal.Cartesian.Grp
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Group Affine -/
 

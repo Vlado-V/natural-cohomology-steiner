@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ShiftEquiv
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.ModuleRestriction
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.Grading
-import Mathlib.RingTheory.Flat.Basic
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.ShiftEquiv
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Module.ModuleRestriction
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Localized.Grading
+public import Mathlib.RingTheory.Flat.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Degree Shift -/
 

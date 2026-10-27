@@ -1,8 +1,13 @@
-import Mathlib.Algebra.Polynomial.Expand
-import Mathlib.RingTheory.AdjoinRoot
-import Mathlib.RingTheory.RingHom.Flat
-import Mathlib.RingTheory.PolynomialAlgebra
-import Mathlib.Tactic
+module
+
+public import Mathlib.Algebra.Polynomial.Expand
+public import Mathlib.RingTheory.AdjoinRoot
+public import Mathlib.RingTheory.RingHom.Flat
+public import Mathlib.RingTheory.PolynomialAlgebra
+public import Mathlib.Tactic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial -/
 

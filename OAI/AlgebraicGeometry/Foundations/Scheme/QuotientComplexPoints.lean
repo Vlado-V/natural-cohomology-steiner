@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineComplexPoints
-import Mathlib.RingTheory.Ideal.Quotient.Operations
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineComplexPoints
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient Complex Points -/
 

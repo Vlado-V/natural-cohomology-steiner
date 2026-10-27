@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.SquareBaseChange
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.MateNormalization
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Open.SquareBaseChange
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.MateNormalization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Square Normalization -/
 

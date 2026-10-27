@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReductionKernelRestriction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ReductionKernelRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Open restriction of canonical closed evaluation kernels. -/
 noncomputable section

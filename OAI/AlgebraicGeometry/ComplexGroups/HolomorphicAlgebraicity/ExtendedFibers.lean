@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.CoefficientExtension
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericFibers
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.CoefficientExtension
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericFibers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Extended Fibers -/
 

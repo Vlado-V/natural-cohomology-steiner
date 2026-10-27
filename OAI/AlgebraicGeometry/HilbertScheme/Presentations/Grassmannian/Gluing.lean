@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.AtlasMaps
-import Mathlib.AlgebraicGeometry.Gluing
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.AtlasMaps
+public import Mathlib.AlgebraicGeometry.Gluing
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Gluing -/
 

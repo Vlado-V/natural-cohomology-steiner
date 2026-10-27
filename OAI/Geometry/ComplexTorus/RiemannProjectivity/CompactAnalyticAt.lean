@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProperAnalyticImage
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AnalyticFibers
-import Mathlib.Topology.Algebra.Module.Equiv
-import Mathlib.Analysis.Normed.Module.FiniteDimension
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProperAnalyticImage
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.AnalyticFibers
+public import Mathlib.Topology.Algebra.Module.Equiv
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Compact Analytic At -/
 

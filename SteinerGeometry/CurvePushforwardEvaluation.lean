@@ -1,8 +1,13 @@
-import SteinerGeometry.CurveEvaluationDegree
-import SteinerGeometry.CurvePointEvaluation
-import SteinerGeometry.CyclicLineFrames
-import SteinerGeometry.LinePushforwardFinite
-import SteinerGeometry.CurveGeneratorsEpi
+module
+
+public import SteinerGeometry.CurveEvaluationDegree
+public import SteinerGeometry.CurvePointEvaluation
+public import SteinerGeometry.CyclicLineFrames
+public import SteinerGeometry.LinePushforwardFinite
+public import SteinerGeometry.CurveGeneratorsEpi
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The actual direct image admits rank-plus-one global generators when its
 source line has degree larger than the covering degree. -/

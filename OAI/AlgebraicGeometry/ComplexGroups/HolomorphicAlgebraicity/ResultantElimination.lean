@@ -1,6 +1,11 @@
-import Mathlib.RingTheory.Polynomial.Resultant.Basic
-import Mathlib.Analysis.Complex.Polynomial.Basic
-import Mathlib.Analysis.Calculus.Deriv.Mul
+module
+
+public import Mathlib.RingTheory.Polynomial.Resultant.Basic
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.Analysis.Calculus.Deriv.Mul
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Resultant Elimination -/
 

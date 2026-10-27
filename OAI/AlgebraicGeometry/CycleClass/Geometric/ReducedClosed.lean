@@ -1,7 +1,12 @@
-import Mathlib.AlgebraicGeometry.Properties
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
-import Mathlib.AlgebraicGeometry.Noetherian
-import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
+module
+
+public import Mathlib.AlgebraicGeometry.Properties
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+public import Mathlib.AlgebraicGeometry.Noetherian
+public import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Reduced Closed -/
 

@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SchemeModuleBaseCech.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.ProductForget
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Intrinsic.CoefficientCechComplex
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.ProductForget
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Intrinsic.CoefficientCechComplex
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Formal Coproduct Forget -/
 

@@ -1,8 +1,13 @@
-import OAI.ArithmeticGeometry.Models.Algebra
-import Mathlib.AlgebraicGeometry.Morphisms.FinitePresentation
-import Mathlib.AlgebraicGeometry.Morphisms.Separated
-import Mathlib.AlgebraicGeometry.Pullbacks
-import Mathlib.CategoryTheory.Comma.Over.Pullback
+module
+
+public import OAI.ArithmeticGeometry.Models.Algebra
+public import Mathlib.AlgebraicGeometry.Morphisms.FinitePresentation
+public import Mathlib.AlgebraicGeometry.Morphisms.Separated
+public import Mathlib.AlgebraicGeometry.Pullbacks
+public import Mathlib.CategoryTheory.Comma.Over.Pullback
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme -/
 

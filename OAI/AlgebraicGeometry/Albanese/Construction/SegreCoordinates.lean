@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Albanese.Construction.ProjectiveCoordinates
-import Mathlib.Logic.Equiv.Fin.Basic
-import Mathlib.Tactic.Ring
+module
+
+public import OAI.AlgebraicGeometry.Albanese.Construction.ProjectiveCoordinates
+public import Mathlib.Logic.Equiv.Fin.Basic
+public import Mathlib.Tactic.Ring
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Segre Coordinates -/
 

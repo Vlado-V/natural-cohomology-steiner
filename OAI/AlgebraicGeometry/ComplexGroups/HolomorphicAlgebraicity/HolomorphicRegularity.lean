@@ -1,8 +1,13 @@
-import Mathlib.Analysis.Complex.CauchyIntegral
-import Mathlib.Topology.UniformSpace.HeineCantor
-import Mathlib.Analysis.Normed.Module.FiniteDimension
-import Mathlib.Analysis.Calculus.ContDiff.Defs
-import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff
+module
+
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Topology.UniformSpace.HeineCantor
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Holomorphic Regularity -/
 

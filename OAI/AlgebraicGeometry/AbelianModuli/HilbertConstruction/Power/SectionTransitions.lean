@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.PowerMultiplication
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.Nonvanishing
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.FrameRestriction
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.PowerMultiplication
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.Nonvanishing
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.FrameRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Transitions -/
 

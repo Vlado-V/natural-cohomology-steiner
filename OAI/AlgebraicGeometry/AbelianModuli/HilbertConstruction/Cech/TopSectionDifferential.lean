@@ -1,10 +1,15 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SheafCechGlobalSections.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.TopSectionCoordinates
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Cech.TopSectionCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Top Section Differential -/
 

@@ -1,7 +1,12 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.LocalizedGraph
-import Mathlib.RingTheory.Nullstellensatz
-import Mathlib.RingTheory.Localization.Submodule
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.JacobianLocalizationAt
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.LocalizedGraph
+public import Mathlib.RingTheory.Nullstellensatz
+public import Mathlib.RingTheory.Localization.Submodule
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.JacobianLocalizationAt
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Graph Regular -/
 

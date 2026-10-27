@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.MultiplicationRestriction
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Framed.AffineAnnihilation
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Power.MultiplicationRestriction
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Framed.AffineAnnihilation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restricted Power Annihilation -/
 

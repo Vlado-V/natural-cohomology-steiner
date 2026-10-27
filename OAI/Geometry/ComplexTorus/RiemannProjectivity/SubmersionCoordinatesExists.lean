@@ -1,6 +1,12 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicContourF
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteBranchesAt
-import Mathlib.Analysis.Calculus.Implicit
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicContourF
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteBranchesAt
+public import Mathlib.Analysis.Calculus.Implicit
+import all Mathlib.Analysis.Calculus.Implicit
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Submersion Coordinates Exists -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlasqueSheafCohomology
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.AdditiveSheafRestrictionExactness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.InjectiveCokernelSequence
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.FlasqueSheafCohomology
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.AdditiveSheafRestrictionExactness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Open.InjectiveCokernelSequence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Injective Syzygy Sections -/
 

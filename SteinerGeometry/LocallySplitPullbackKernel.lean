@@ -1,6 +1,11 @@
-import SteinerGeometry.KernelLocalFreeness
-import SteinerGeometry.SplitKernelFunctor
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.Invertible
+module
+
+public import SteinerGeometry.KernelLocalFreeness
+public import SteinerGeometry.SplitKernelFunctor
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.Invertible
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Arbitrary geometric pullback preserves kernels of locally split epimorphisms. -/
 noncomputable section

@@ -1,6 +1,11 @@
-import OAI.Analysis.DifferentialForms.Manifold.ExteriorDerivativeSmooth
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Geometry.Manifold.MFDeriv.Atlas
+module
+
+public import OAI.Analysis.DifferentialForms.Manifold.ExteriorDerivativeSmooth
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Geometry.Manifold.MFDeriv.Atlas
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Algebra -/
 

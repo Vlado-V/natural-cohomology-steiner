@@ -1,11 +1,16 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SchemeModuleQuasicoherent.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentLocalization
-import Mathlib.Topology.Sheaves.SheafCondition.Sites
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.QuasicoherentLocalization
+public import Mathlib.Topology.Sheaves.SheafCondition.Sites
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Module Global Sections Isomorphism -/
 

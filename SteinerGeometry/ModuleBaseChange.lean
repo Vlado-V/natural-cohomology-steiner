@@ -1,5 +1,10 @@
-import Mathlib.AlgebraicGeometry.Modules.Sheaf
-import Mathlib.AlgebraicGeometry.Limits
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Sheaf
+public import Mathlib.AlgebraicGeometry.Limits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The adjunction-defined module base-change map, with its section
 normalization. This is defined for actual scheme module sheaves. -/

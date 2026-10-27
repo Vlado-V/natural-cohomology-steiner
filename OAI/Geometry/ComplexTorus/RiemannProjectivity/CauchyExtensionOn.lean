@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteRemovabilityOn
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Moments
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.FiniteRemovabilityOn
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.Moments
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cauchy Extension On -/
 

@@ -1,4 +1,9 @@
-import Mathlib.AlgebraicGeometry.Morphisms.Immersion
+module
+
+public import Mathlib.AlgebraicGeometry.Morphisms.Immersion
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Open Over -/
 

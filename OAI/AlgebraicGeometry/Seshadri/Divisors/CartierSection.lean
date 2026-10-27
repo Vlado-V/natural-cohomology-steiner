@@ -1,6 +1,11 @@
-import Mathlib
-import OAI.AlgebraicGeometry.Seshadri.Sheaves.Sections
-import OAI.AlgebraicGeometry.Seshadri.Divisors.SectionIdeal
+module
+
+public import Mathlib
+public import OAI.AlgebraicGeometry.Seshadri.Sheaves.Sections
+public import OAI.AlgebraicGeometry.Seshadri.Divisors.SectionIdeal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace OAI
 

@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechFactors
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.DualFrameTransition
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechFactors
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.DualFrameTransition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Frame Naturality -/
 

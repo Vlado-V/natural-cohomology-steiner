@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.PresheafFilteredColimit
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.PresheafFilteredColimit
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Vanishing Presheaf Filtered G -/
 

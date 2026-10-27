@@ -1,5 +1,10 @@
-import SteinerGeometry.LaurentResidueLinear
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartMap
+module
+
+public import SteinerGeometry.LaurentResidueLinear
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartMap
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Homogeneous Laurent coordinates identify multiplication by a dehomogenized
 coordinate with the actual exponent shift. -/

@@ -1,4 +1,9 @@
-import OAI.Analysis.DifferentialForms.Manifold.Charts
+module
+
+public import OAI.Analysis.DifferentialForms.Manifold.Charts
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Transition -/
 

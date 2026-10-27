@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.AffineSchemeComplexPoints
-import OAI.AlgebraicGeometry.Foundations.Scheme.ImmersionComplexPoints
-import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointUnderlying
-import OAI.AlgebraicGeometry.CycleClass.Geometric.ReducedClosed
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.AffineSchemeComplexPoints
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ImmersionComplexPoints
+public import OAI.AlgebraicGeometry.ComplexPoints.Analytic.SchemePointUnderlying
+public import OAI.AlgebraicGeometry.CycleClass.Geometric.ReducedClosed
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Scheme Point Separation -/
 

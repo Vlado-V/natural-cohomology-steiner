@@ -1,9 +1,14 @@
-import SteinerGeometry.CyclicSubgroup
-import SteinerGeometry.DisjointPushforward
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.ProductLabels
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Base.PointTranslations
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Over.DiagonalComparison
+module
+
+public import SteinerGeometry.CyclicSubgroup
+public import SteinerGeometry.DisjointPushforward
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Line.Bundles
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.ProductLabels
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Base.PointTranslations
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Over.DiagonalComparison
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The finite direct-sum decomposition on the actual self-fiber product of a
 cyclic étale isogeny. The direct image and inverse image here are the actual

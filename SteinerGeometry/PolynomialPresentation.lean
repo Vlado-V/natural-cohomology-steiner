@@ -1,6 +1,11 @@
-import SteinerGeometry.CoproductMatrix
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialMap
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectIso
+module
+
+public import SteinerGeometry.CoproductMatrix
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialMap
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Actual projective module morphisms encoded by matrices of linear forms. -/
 

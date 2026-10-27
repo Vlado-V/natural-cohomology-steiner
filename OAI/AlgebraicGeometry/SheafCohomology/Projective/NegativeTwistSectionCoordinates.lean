@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistShiftedMap
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapEvaluation
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistShiftedMap
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapEvaluation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Negative Twist Section Coordinates -/
 

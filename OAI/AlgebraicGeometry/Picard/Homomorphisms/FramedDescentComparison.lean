@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.FramedDescentScalars
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.FramedDescentScalars
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Framed Descent Comparison -/
 

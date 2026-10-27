@@ -1,4 +1,9 @@
-import Mathlib.RingTheory.Localization.Free
+module
+
+public import Mathlib.RingTheory.Localization.Free
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Basis Transport -/
 

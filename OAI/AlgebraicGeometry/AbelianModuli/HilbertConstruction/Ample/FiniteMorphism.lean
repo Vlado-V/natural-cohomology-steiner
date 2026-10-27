@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.SectionMorphism
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.PowerStability
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ZeroSections
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.SectionMorphism
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.PowerStability
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ZeroSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Morphism -/
 

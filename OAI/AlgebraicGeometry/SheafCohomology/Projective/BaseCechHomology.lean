@@ -1,12 +1,17 @@
+module
+
 /-
 Derived from AINTLIB:
   projects/ModularCurves/ModularCurves/ForMathlib/SchemeModuleBaseCechHomology.lean
 The upstream AINTLIB repository is licensed under Apache 2.0.
 This file has been modified.
 -/
-import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
-import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechForget
+public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechForget
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Cech Homology -/
 

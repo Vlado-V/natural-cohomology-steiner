@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.QuotientCover
-import Mathlib.RingTheory.Flat.LocallyFree
-import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Normalized.QuotientCover
+public import Mathlib.RingTheory.Flat.LocallyFree
+public import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Principal Charts -/
 

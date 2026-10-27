@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicRegularityAt
-import Mathlib.Analysis.Calculus.ParametricIntegral
-import Mathlib.MeasureTheory.Function.LocallyIntegrable
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicRegularityAt
+public import Mathlib.Analysis.Calculus.ParametricIntegral
+public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Holomorphic Integral F -/
 

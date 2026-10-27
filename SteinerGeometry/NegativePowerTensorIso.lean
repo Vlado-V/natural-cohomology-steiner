@@ -1,4 +1,9 @@
-import SteinerGeometry.TensorSwapUnitIso
+module
+
+public import SteinerGeometry.TensorSwapUnitIso
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The shared negative-power tensor isomorphism, with native power endpoints. -/
 

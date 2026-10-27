@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalPowerIn
-import Mathlib.RingTheory.Ideal.Quotient.Operations
+module
+
+public import OAI.AlgebraicGeometry.AbelianScheme.TorsionQuotient.LocalPowerIn
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Surjective Reduction Eq -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.BaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Morphisms
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RepresentingIsoPoints
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Constant.BaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ConstantScheme.Morphisms
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.RepresentingIsoPoints
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Change Labels -/
 

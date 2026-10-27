@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialSections
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.WeightedFreeComponentValues
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialSections
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.WeightedFreeComponentValues
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twisted Coproduct Components -/
 

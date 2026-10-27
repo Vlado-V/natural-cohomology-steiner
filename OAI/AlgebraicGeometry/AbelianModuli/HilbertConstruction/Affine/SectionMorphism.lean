@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Preimages
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.StandardProjectiveCharts
-import Mathlib.AlgebraicGeometry.Morphisms.Proper
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Preimages
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.StandardProjectiveCharts
+public import Mathlib.AlgebraicGeometry.Morphisms.Proper
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Section Morphism -/
 

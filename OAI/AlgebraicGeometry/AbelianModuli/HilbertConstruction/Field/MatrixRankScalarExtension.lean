@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Matrix.KernelDimensionOpen
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Matrix.KernelDimensionOpen
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Matrix Rank Scalar Extension -/
 

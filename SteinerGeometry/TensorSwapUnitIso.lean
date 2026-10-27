@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistPowers
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistPowers
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! A shared canonical isomorphism for unit removal followed by tensor symmetry. -/
 noncomputable section

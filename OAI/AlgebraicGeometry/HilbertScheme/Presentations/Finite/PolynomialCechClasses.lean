@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.CechResidueIdentity
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.PolynomialResidues
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.CechResidueIdentity
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Finite.PolynomialResidues
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Cech Classes -/
 

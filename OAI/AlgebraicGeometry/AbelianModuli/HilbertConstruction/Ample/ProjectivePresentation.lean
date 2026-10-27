@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.GeneratingPowerFamily
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SelectedSectionEmbedding
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.FiniteMorphism
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.GeneratingPowerFamily
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SelectedSectionEmbedding
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ample.FiniteMorphism
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Presentation -/
 

@@ -1,4 +1,9 @@
-import SteinerGeometry.TransposeDuality
+module
+
+public import SteinerGeometry.TransposeDuality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Transpose duality with an arbitrary target isomorphic to the structure module. -/
 noncomputable section

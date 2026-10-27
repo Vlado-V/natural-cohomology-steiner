@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Permutations
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.ExtensionTransportComposition
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.Permutations
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.ExtensionTransportComposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Transport -/
 

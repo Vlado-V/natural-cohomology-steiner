@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointSquareHom
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.AdjunctionChange
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointSquareHom
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Cech.AdjunctionChange
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Restriction Arrows -/
 

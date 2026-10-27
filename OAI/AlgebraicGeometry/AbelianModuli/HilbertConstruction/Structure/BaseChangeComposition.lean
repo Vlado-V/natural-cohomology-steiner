@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.SheafBaseChange
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.CompositionAdjoint
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Structure.SheafBaseChange
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Pullback.CompositionAdjoint
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Change Composition -/
 

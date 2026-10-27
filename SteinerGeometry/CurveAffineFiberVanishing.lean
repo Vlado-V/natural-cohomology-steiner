@@ -1,7 +1,12 @@
-import SteinerGeometry.CurveMatrixRankOpen
-import SteinerGeometry.SupportFieldFiber
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.GeometricSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.BasicOpenAnnihilation
+module
+
+public import SteinerGeometry.CurveMatrixRankOpen
+public import SteinerGeometry.SupportFieldFiber
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.GeometricSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.BasicOpenAnnihilation
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

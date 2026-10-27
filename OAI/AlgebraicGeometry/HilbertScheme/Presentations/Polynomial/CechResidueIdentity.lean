@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.TopResidue
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Polynomial.TopResidue
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Residue Identity -/
 

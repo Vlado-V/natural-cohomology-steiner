@@ -1,5 +1,10 @@
-import SteinerGeometry.CurveLocalCoordinates
-import SteinerGeometry.CurveMatrixRankOpen
+module
+
+public import SteinerGeometry.CurveLocalCoordinates
+public import SteinerGeometry.CurveMatrixRankOpen
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 namespace SteinerGeometry
 

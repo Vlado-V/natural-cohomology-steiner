@@ -1,3 +1,4 @@
-Standalone package entry compiled successfully with the pinned Lean toolchain.
-Command: lake env lean -DautoImplicit=false NaturalCohomologySteiner.lean
-Verified dependency compilation artifacts were reused for this package-entry check.
+All 2495 packaged Lean source files compiled with the pinned Lean 4.35.0-rc3 toolchain and matching Mathlib.
+Challenge.lean independently compiles the same Mathlib-only mathematical definitions and contains the deliberate theorem hole.
+Solution.lean and its proof dependencies contain no proof holes or added axioms.
+The endpoint audit reports only propext, Classical.choice, and Quot.sound.

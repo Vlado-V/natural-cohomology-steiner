@@ -1,14 +1,19 @@
+module
+
 /-
 Copyright (c) 2026 The AINTLIB contributors. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: AINTLIB ModularCurves project
 This file has been modified.
 -/
-import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
-import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
-import Mathlib.AlgebraicGeometry.Noetherian
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeightAssembly
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechSupportAlternating
+public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
+public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+public import Mathlib.AlgebraicGeometry.Noetherian
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeightAssembly
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.OrderedCechSupportAlternating
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Laurent Exceptional Weights -/
 

@@ -1,7 +1,12 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticCone
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticIrreducibilityEq
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.RegularConeOf
-import Mathlib.Analysis.Normed.Module.Connected
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticCone
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AnalyticIrreducibilityEq
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.RegularConeOf
+public import Mathlib.Analysis.Normed.Module.Connected
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Surjectivity Eq -/
 

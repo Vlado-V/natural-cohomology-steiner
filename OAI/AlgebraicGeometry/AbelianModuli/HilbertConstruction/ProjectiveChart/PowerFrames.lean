@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.DegreePowerFrames
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.EventualDegreeFlatness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.SectionCoordinates
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.DegreePowerFrames
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.EventualDegreeFlatness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.SectionCoordinates
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Power Frames -/
 

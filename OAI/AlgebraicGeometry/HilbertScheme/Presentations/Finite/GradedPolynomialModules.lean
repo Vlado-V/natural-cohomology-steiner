@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.Free
-import Mathlib.Algebra.Exact.Basic
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Graded.Free
+public import Mathlib.Algebra.Exact.Basic
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Graded Polynomial Modules -/
 

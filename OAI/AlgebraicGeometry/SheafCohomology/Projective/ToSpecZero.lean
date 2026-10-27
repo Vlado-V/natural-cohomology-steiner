@@ -1,11 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Chris Birkbeck. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chris Birkbeck
 This file has been modified.
 -/
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Functor
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.AwayCongr
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Functor
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.AwayCongr
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # To Spec Zero -/
 

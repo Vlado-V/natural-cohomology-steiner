@@ -1,7 +1,12 @@
-import SteinerGeometry.PointTensorUnit
-import SteinerGeometry.PointTensorFunctor
-import SteinerGeometry.TensorFactorRestriction
-import SteinerGeometry.PointKernelRestriction
+module
+
+public import SteinerGeometry.PointTensorUnit
+public import SteinerGeometry.PointTensorFunctor
+public import SteinerGeometry.TensorFactorRestriction
+public import SteinerGeometry.PointKernelRestriction
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Open restriction of the actual point-ideal evaluation kernel. -/
 noncomputable section

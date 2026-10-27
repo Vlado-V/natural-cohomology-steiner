@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.PullbackCoherence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Framed.ProjectiveMaps
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Naturality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Frame.PullbackCoherence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Framed.ProjectiveMaps
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.ProjectiveChart.Naturality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Overlaps -/
 

@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.IsoImage
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PushforwardSections
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.ModuleSquares
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Quasicoherent.IsoImage
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Coefficient.PushforwardSections
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Localized.ModuleSquares
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasicoherent Localization -/
 

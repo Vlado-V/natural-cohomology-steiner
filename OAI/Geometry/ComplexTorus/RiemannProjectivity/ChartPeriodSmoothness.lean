@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeChartMem
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AffineCone
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeChartMem
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AffineCone
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Chart Period Smoothness -/
 

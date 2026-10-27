@@ -1,4 +1,9 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ReducedFamiliesOn
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ReducedFamiliesOn
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Glue Reduced -/
 

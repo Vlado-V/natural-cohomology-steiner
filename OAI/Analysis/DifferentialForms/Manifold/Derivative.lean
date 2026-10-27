@@ -1,7 +1,12 @@
-import OAI.Analysis.DifferentialForms.Manifold.Charts
-import OAI.Analysis.DifferentialForms.Manifold.Transition
-import OAI.Analysis.DifferentialForms.Manifold.Algebra
-import OAI.Analysis.DifferentialForms.Manifold.ComplexLinearity
+module
+
+public import OAI.Analysis.DifferentialForms.Manifold.Charts
+public import OAI.Analysis.DifferentialForms.Manifold.Transition
+public import OAI.Analysis.DifferentialForms.Manifold.Algebra
+public import OAI.Analysis.DifferentialForms.Manifold.ComplexLinearity
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Derivative -/
 

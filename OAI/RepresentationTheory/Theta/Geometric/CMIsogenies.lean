@@ -1,6 +1,11 @@
-import OAI.RepresentationTheory.Theta.Geometric.AlgebraicAction
-import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.TorsionEtaleAt
-import OAI.AlgebraicGeometry.ComplexMultiplication.CM.IntegralPolarization
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.AlgebraicAction
+public import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.TorsionEtaleAt
+public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.IntegralPolarization
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # CM Isogenies -/
 

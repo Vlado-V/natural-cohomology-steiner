@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.RemovableGlobal
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialGrowth
-import Mathlib.Topology.Algebra.MvPolynomial
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.RemovableGlobal
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.PolynomialGrowth
+public import Mathlib.Topology.Algebra.MvPolynomial
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Extension Of -/
 

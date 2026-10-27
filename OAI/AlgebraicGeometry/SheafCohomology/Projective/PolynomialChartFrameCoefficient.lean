@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartCoordinates
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositivePowerChartGenerator
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartCoordinates
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PositivePowerChartGenerator
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Polynomial Chart Frame Coefficient -/
 

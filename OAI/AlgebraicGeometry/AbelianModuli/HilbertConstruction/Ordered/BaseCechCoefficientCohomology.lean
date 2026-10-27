@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechAllDegrees
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyFunctor
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechAllDegrees
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyFunctor
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Base Cech Coefficient Cohomology -/
 

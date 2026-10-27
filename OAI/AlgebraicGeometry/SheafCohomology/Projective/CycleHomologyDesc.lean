@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Category.ModuleCat.Abelian
-import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
+module
+
+public import Mathlib.Algebra.Category.ModuleCat.Abelian
+public import Mathlib.Algebra.Homology.ShortComplex.HomologicalComplex
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cycle Homology Desc -/
 

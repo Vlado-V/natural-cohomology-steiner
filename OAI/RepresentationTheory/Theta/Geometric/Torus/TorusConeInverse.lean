@@ -1,7 +1,12 @@
-import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
-import OAI.RepresentationTheory.Theta.Geometric.Torus.Manifold
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeTangentF
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.BranchCoefficientsAt
+module
+
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.TorusCone
+public import OAI.RepresentationTheory.Theta.Geometric.Torus.Manifold
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeTangentF
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.BranchCoefficientsAt
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Torus Cone Inverse -/
 

@@ -1,5 +1,10 @@
-import Mathlib.Algebra.Module.LocalizedModule.Exact
-import Mathlib.Algebra.Module.GradedModule
+module
+
+public import Mathlib.Algebra.Module.LocalizedModule.Exact
+public import Mathlib.Algebra.Module.GradedModule
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Fractions -/
 

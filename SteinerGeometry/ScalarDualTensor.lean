@@ -1,6 +1,11 @@
-import SteinerGeometry.DualModelComparison
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleCancellationPairing
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleTensorEquivalence
+module
+
+public import SteinerGeometry.DualModelComparison
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleCancellationPairing
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.InvertibleTensorEquivalence
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Compatibility of scalar dual maps with the actual evaluation tensor. -/
 noncomputable section

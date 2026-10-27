@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
-import Mathlib.RingTheory.MvPolynomial.Ideal
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveSpace
+public import Mathlib.RingTheory.MvPolynomial.Ideal
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Coordinate Cover -/
 

@@ -1,5 +1,10 @@
-import SteinerGeometry.SectionTensorKernelGlobal
-import SteinerGeometry.SectionContractionTransport
+module
+
+public import SteinerGeometry.SectionTensorKernelGlobal
+public import SteinerGeometry.SectionContractionTransport
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Changing the frame of the line-valued contraction target. -/
 noncomputable section

@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeChartBy
-import Mathlib.RingTheory.LocalProperties.Reduced
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeChartBy
+public import Mathlib.RingTheory.LocalProperties.Reduced
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Chart Mem -/
 

@@ -1,7 +1,12 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeTwistCoverCohomology
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.RelationCechSequence
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CechHomologyBound
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.HomologyExactSequences
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.NegativeTwistCoverCohomology
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.RelationCechSequence
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.CechHomologyBound
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Finite.HomologyExactSequences
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Coherent Cech Finiteness -/
 

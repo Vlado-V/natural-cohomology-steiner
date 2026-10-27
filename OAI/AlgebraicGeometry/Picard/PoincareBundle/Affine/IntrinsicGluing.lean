@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechCoordinates
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.DescentEquations
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechCocycle
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.IntrinsicComparison
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Intrinsic.EndpointTransport
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Intrinsic.TripleCondition
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.CechCoordinates
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.DescentEquations
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechCocycle
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.IntrinsicComparison
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Intrinsic.EndpointTransport
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Intrinsic.TripleCondition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Intrinsic Gluing -/
 

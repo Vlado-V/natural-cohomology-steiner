@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChart
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjectiveDecomposition
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.ProjectiveChart
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothProjectiveDecomposition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Projective Smooth To -/
 

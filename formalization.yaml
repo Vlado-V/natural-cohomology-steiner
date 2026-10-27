@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+
+project:
+  name: "Natural cohomology of general Steiner bundles"
+  description: >-
+    Formalizes Theorem 1.1 of Natural Cohomology of General Steiner Bundles.
+    Over every characteristic-zero field, for all n >= 1, t >= 1, and r >= n,
+    a nonempty principal open of t by (t+r) matrices of linear forms on
+    projective n-space has maximal rank in every homogeneous degree.
+    The transposes give exact Steiner presentations of actual rank-r locally
+    free sheaves, whose integer twists each have at most one nonzero sheaf
+    cohomology group. The coefficient open is nonempty over the original field.
+  authors: ["Vlado Vojdanovski"]
+  responsible_maintainers: ["Vlado Vojdanovski"]
+  license: "Apache-2.0"
+
+classification:
+  arxiv: ["math.AG", "math.AC"]
+  msc2020: ["14F06", "14J60", "13D02"]
+
+sources:
+  - title: "Natural cohomology of general Steiner bundles"
+    authors: ["Vlado Vojdanovski"]
+    id: "Natural_cohomology_of_general_Steiner_bundles.pdf"
+    type: "paper"
+    location: "Theorem 1.1"
+    relationship: "formalizes"
+  - title: "OpenAI math-main/lean source snapshot"
+    type: "other"
+    location: "OAI/PROVENANCE.json and the retained source headers"
+    relationship: "adapts"
+    note: >-
+      The OAI directory contains the required source closure of the prior
+      algebraic-geometry development, with local ports recorded by file hash.
+      Original source attributions and the Apache-2.0 license are retained.
+  - title: "Stability and cohomology of kernel bundles on projective space"
+    authors: ["Izzet Coskun", "Jack Huizenga", "Geoffrey Smith"]
+    id: "https://doi.org/10.1307/mmj/20226238"
+    type: "paper"
+    location: "Conjecture 1.4 and Lemma 2.10"
+    relationship: "background"
+
+# Records the proof-development method required by Palomar's metadata contract.
+automation:
+  methods:
+    - method: "agent"
+      models: ["GPT-6"]
+      framework: "OpenAI Codex"
+      tool_setup: "Lean proof development and source audits with coordinated agents."
+
+review:
+  status: "agent-reviewed"
+  notes: "Separate agent audits checked the theorem statement, dependencies, and endpoint axiom audit."

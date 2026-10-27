@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.PresheafExtendedScalars
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Section.PresheafExtendedScalars
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Pushed Scalar Naturality -/
 

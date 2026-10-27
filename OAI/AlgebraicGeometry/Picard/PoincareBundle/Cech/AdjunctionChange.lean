@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointCechInvariant
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointIsoUnits
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointCechInvariant
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.AdjointIsoUnits
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Adjunction Change -/
 

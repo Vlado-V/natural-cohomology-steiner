@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.Frame.Map
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.Scheme
-import Mathlib.AlgebraicGeometry.Morphisms.FormallyUnramified
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.ReferenceFamily.Frame.Map
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Level.Scheme
+public import Mathlib.AlgebraicGeometry.Morphisms.FormallyUnramified
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finiteness -/
 

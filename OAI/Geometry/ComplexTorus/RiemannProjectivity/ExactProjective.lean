@@ -1,5 +1,10 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.AlgebraicPeriod
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectiveClosureIs
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.AlgebraicPeriod
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectiveClosureIs
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exact Projective -/
 

@@ -1,6 +1,11 @@
-import Mathlib.AlgebraicGeometry.Modules.Tilde
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.LocallyFree
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Bundles
+module
+
+public import Mathlib.AlgebraicGeometry.Modules.Tilde
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.LocallyFree
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Line.Bundles
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quasi Coherent -/
 

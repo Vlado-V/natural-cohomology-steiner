@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.MaximalRank
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericDegree
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.MaximalRank
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.GenericDegree
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Finite Pullback -/
 

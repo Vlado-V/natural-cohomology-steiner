@@ -1,9 +1,14 @@
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Hilbert.Polynomial
-import Mathlib.Algebra.DirectSum.Decomposition
-import Mathlib.LinearAlgebra.Quotient.Basic
-import Mathlib.LinearAlgebra.Isomorphisms
-import Mathlib.RingTheory.Ideal.Quotient.Operations
-import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Maps
+module
+
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Hilbert.Polynomial
+public import Mathlib.Algebra.DirectSum.Decomposition
+public import Mathlib.LinearAlgebra.Quotient.Basic
+public import Mathlib.LinearAlgebra.Isomorphisms
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+public import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Maps
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Quotient -/
 

@@ -1,4 +1,9 @@
-import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorGaloisBasis
+module
+
+public import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorGaloisBasis
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Exterior Balance -/
 

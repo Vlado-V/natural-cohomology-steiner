@@ -1,8 +1,13 @@
-import SteinerGeometry.EllipticMatrixConstruction
-import SteinerGeometry.RectangularWitness
-import SteinerGeometry.RectangularGenusOne
-import SteinerGeometry.RectangularTorsion
-import Steiner.RationalBoundary
+module
+
+public import SteinerGeometry.EllipticMatrixConstruction
+public import SteinerGeometry.RectangularWitness
+public import SteinerGeometry.RectangularGenusOne
+public import SteinerGeometry.RectangularTorsion
+public import Steiner.RationalBoundary
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The all-parameter maximal-rank theorem. The elliptic data are constructed
 internally; the boundary uses the explicit rational Toeplitz matrix. -/

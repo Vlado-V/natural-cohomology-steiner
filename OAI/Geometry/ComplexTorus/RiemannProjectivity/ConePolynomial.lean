@@ -1,6 +1,11 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeParameter
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.ParameterEquationsOn
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.LocalFiber
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ConeParameter
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.ParameterEquationsOn
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.LocalFiber
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cone Polynomial -/
 

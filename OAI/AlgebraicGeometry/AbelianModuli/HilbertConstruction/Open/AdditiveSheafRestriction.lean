@@ -1,10 +1,15 @@
-import Mathlib.Topology.Sheaves.LocallySurjective
-import Mathlib.Topology.Sheaves.Limits
-import Mathlib.Topology.Sheaves.Functors
-import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
-import Mathlib.AlgebraicGeometry.Morphisms.Affine
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CohomologyCoverModule
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CohomologyExact
+module
+
+public import Mathlib.Topology.Sheaves.LocallySurjective
+public import Mathlib.Topology.Sheaves.Limits
+public import Mathlib.Topology.Sheaves.Functors
+public import Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory
+public import Mathlib.AlgebraicGeometry.Morphisms.Affine
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.CohomologyCoverModule
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Sheaf.CohomologyExact
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Additive Sheaf Restriction -/
 

@@ -1,8 +1,13 @@
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.LocalReduced
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.PeriodWhole
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.RemovableGlobal
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.MonicRoots
-import OAI.Geometry.ComplexTorus.RiemannProjectivity.CoefficientRoot
+module
+
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.LocalReduced
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.PeriodWhole
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.RemovableGlobal
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.MonicRoots
+public import OAI.Geometry.ComplexTorus.RiemannProjectivity.CoefficientRoot
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Reduced Families On -/
 

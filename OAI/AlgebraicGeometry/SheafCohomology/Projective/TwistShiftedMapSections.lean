@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomChart
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorConjugatedMapSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomChart
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorConjugatedMapSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Twist Shifted Map Sections -/
 

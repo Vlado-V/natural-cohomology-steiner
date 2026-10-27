@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SubmersiveSplitPresentation
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SubmersiveSplitDifferential
-import Mathlib.RingTheory.Extension.Presentation.Submersive
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SubmersiveSplitPresentation
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.SubmersiveSplitDifferential
+public import Mathlib.RingTheory.Extension.Presentation.Submersive
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Submersive Split Jacobian -/
 

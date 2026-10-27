@@ -1,4 +1,9 @@
-import Mathlib.RingTheory.Smooth.StandardSmoothCotangent
+module
+
+public import Mathlib.RingTheory.Smooth.StandardSmoothCotangent
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Standard Smooth Dimension -/
 

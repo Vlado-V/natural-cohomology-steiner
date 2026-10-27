@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.LineBundleEndValues
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapCoverEquality
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Local.LineBundleEndValues
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Module.MapCoverEquality
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # End Gluing -/
 

@@ -1,8 +1,13 @@
-import SteinerGeometry.CanonicalField
-import SteinerGeometry.PolynomialMatrixEpi
-import SteinerGeometry.PolynomialPresentation
-import SteinerGeometry.ProjectiveDualNormalization
-import SteinerGeometry.NegativeLinearDualEpi
+module
+
+public import SteinerGeometry.CanonicalField
+public import SteinerGeometry.PolynomialMatrixEpi
+public import SteinerGeometry.PolynomialPresentation
+public import SteinerGeometry.ProjectiveDualNormalization
+public import SteinerGeometry.NegativeLinearDualEpi
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! The literal homogeneous matrix gives an epimorphic projective presentation. -/
 noncomputable section

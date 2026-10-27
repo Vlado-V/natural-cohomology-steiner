@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.Picard.Homomorphisms.InternalHom
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.Sections
+module
+
+public import OAI.AlgebraicGeometry.Picard.Homomorphisms.InternalHom
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Global.Sections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Global Hom Sections -/
 

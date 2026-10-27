@@ -1,6 +1,11 @@
-import Mathlib.AlgebraicGeometry.Properties
-import Mathlib.AlgebraicGeometry.Stalk
-import Mathlib.AlgebraicGeometry.Noetherian
+module
+
+public import Mathlib.AlgebraicGeometry.Properties
+public import Mathlib.AlgebraicGeometry.Stalk
+public import Mathlib.AlgebraicGeometry.Noetherian
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Local Domain Components -/
 

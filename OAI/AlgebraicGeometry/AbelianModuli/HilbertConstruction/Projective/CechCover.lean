@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechExactness
-import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SectionCover
-import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Properness
+module
+
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.CoefficientCechExactness
+public import OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.SectionCover
+public import OAI.AlgebraicGeometry.HilbertScheme.Presentations.Projective.Properness
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Cech Cover -/
 

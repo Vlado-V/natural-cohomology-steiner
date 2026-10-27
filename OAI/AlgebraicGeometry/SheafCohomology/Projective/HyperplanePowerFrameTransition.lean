@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameTransition
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneFrameTransition
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameTransition
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneFrameTransition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Hyperplane Power Frame Transition -/
 

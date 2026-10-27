@@ -1,5 +1,10 @@
-import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LinearRankCoordinates
-import Mathlib.Data.Nat.Find
+module
+
+public import OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.LinearRankCoordinates
+public import Mathlib.Data.Nat.Find
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Maximal Rank -/
 

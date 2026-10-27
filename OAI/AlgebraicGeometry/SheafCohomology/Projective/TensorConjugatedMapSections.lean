@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorSectionBilinear
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.SectionIdentities
-import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections
+module
+
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorSectionBilinear
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.SectionIdentities
+public import OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Tensor Conjugated Map Sections -/
 

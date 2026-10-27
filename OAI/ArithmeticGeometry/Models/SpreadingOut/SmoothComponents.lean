@@ -1,8 +1,13 @@
-import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothLocalDomain
-import OAI.AlgebraicGeometry.Foundations.Scheme.LocalDomainComponents
-import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.AlgebraicGeometry.Morphisms.Proper
+module
+
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SmoothLocalDomain
+public import OAI.AlgebraicGeometry.Foundations.Scheme.LocalDomainComponents
+public import OAI.AlgebraicGeometry.Foundations.Scheme.SpecScalarTransport
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.AlgebraicGeometry.Morphisms.Proper
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Smooth Components -/
 

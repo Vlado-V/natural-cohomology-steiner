@@ -1,5 +1,10 @@
-import SteinerGeometry.CurveCohomologyCore
-import SteinerGeometry.PointSections
+module
+
+public import SteinerGeometry.CurveCohomologyCore
+public import SteinerGeometry.PointSections
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! Genuine Euler characteristic of a complex point and finite products of points. -/
 noncomputable section

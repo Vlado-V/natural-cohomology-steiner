@@ -1,6 +1,11 @@
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechInvariant
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildeMate
-import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Composition
+module
+
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Geometric.CechInvariant
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.TildeMate
+public import OAI.AlgebraicGeometry.Picard.PoincareBundle.Affine.Composition
+
+set_option backward.privateInPublic true
+@[expose] public section
 
 /-! # Mate Normalization -/
 
