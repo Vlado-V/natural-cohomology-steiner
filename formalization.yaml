@@ -26,20 +26,51 @@ sources:
     type: "paper"
     location: "Theorem 1.1"
     relationship: "formalizes"
-  - title: "OpenAI math-main/lean source snapshot"
-    type: "other"
-    location: "OAI/PROVENANCE.json and the retained source headers"
-    relationship: "adapts"
-    note: >-
-      The OAI directory contains the required source closure of the prior
-      algebraic-geometry development, with local ports recorded by file hash.
-      Original source attributions and the Apache-2.0 license are retained.
   - title: "Stability and cohomology of kernel bundles on projective space"
     authors: ["Izzet Coskun", "Jack Huizenga", "Geoffrey Smith"]
     id: "https://doi.org/10.1307/mmj/20226238"
     type: "paper"
     location: "Conjecture 1.4 and Lemma 2.10"
     relationship: "background"
+
+related_formalizations:
+  - id: "https://github.com/Vlado-V/chopped-plane-point-ideals/tree/4200d41342404e66f177d067763c0d1c1dd2d768"
+    relationship: "adapts"
+    note: >-
+      The Steiner matrix development adapts homogeneous-space, rank-open,
+      and base-change machinery from ChoppedPlane, and generalizes its
+      rational boundary and balanced block construction to arbitrary dimension.
+  - id: "https://github.com/Vlado-V/froberg-2d/tree/4a392281c6f6eee2a7322b760039991ae3902e5d"
+    relationship: "adapts"
+    note: >-
+      Homogeneous monomial bases and dimension proofs, polynomial rank-open
+      helpers, and coordinate-functional machinery are adapted from
+      Quartic.Homogeneous, Quartic.PolynomialRankOpen, Quartic.Koszul,
+      and GenericMatrix, as credited in Steiner/Homogeneous.lean and RankOpen.lean.
+  - id: "https://github.com/openai/math/tree/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/lean"
+    relationship: "builds-on"
+    note: >-
+      OAI vendors the algebraic-geometry and sheaf-cohomology source closure
+      from this Lean development, ported from Lean 4.34.1 to the pinned toolchain.
+      Original and packaged hashes are recorded in OAI/PROVENANCE.json, with
+      source attributions and licensing retained. The homogeneous evaluation
+      scaling proof adapts OAI.Nagata.W16. The vendored AffineDenominators.lean
+      also retains attribution for adapted Mathlib AlgebraicGeometry/Modules/Tilde.lean
+      code at https://github.com/leanprover-community/mathlib4/blob/d13f23b723b8a846827a245b89c10fc7d3f11612/Mathlib/AlgebraicGeometry/Modules/Tilde.lean;
+      the ordinary Mathlib dependency is separately pinned in the Lake manifest.
+  - id: "https://github.com/CBirkbeck/AINTLIB/tree/160e446617a2168c34c95bbe7a76c4105b392434"
+    relationship: "adapts"
+    note: >-
+      Sheaf tensor, Cech, and cohomology constructions are reused through the
+      vendored OAI development, including adaptations of SheafOfModulesMonoidal,
+      SchemeModuleSheaf, and IntrinsicCech. Original contributor and license
+      headers are retained.
+  - id: "https://github.com/google-deepmind/formal-conjectures"
+    relationship: "adapts"
+    note: >-
+      Projective polynomial-chart code is reused through the vendored OAI
+      development; its attribution and modification notice are retained in
+      OAI/AlgebraicGeometry/Seshadri/Projective/PolynomialCharts.lean.
 
 # Records the proof-development method required by Palomar's metadata contract.
 automation:
