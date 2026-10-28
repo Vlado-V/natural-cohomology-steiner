@@ -30,1567 +30,1565 @@ name = "Challenge"
 [[lean_lib]]
 name = "Solution"
 
-# Sequential prerequisites selected from module resource measurements.
-# Append after the broad library declarations; no Lean imports are added.
+# Source-safe 9 GiB token scheduling; full proof and verification unchanged.
 
 [[lean_lib]]
 name = "MemoryOrder0001"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineDenominators"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Model"]
 
 [[lean_lib]]
 name = "MemoryOrder0002"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Cohomology.Injectives"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineDenominators:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.Frames"]
 
 [[lean_lib]]
 name = "MemoryOrder0003"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Geometry.CurveFinite"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Cohomology.Injectives:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineDenominators"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.Frames:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0004"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Geometry.GeneratedEtaleCoordinates"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Geometry.CurveFinite:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.Restriction"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.Frames:olean", "+OAI.AlgebraicGeometry.Seshadri.Model:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0005"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Jets.PolynomialJets"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Geometry.GeneratedEtaleCoordinates:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Bertini.DifferentialFrames"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Model:olean", "+OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineDenominators:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0006"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.LocalAlgebra.LinearRadical"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Jets.PolynomialJets:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Bertini.LinearFamilies"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineDenominators:olean", "+OAI.AlgebraicGeometry.Seshadri.Bertini.DifferentialFrames:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0007"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Model"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.LocalAlgebra.LinearRadical:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Cohomology.Injectives"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.DifferentialFrames:olean", "+OAI.AlgebraicGeometry.Seshadri.Sheaves.Restriction:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0008"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.Frames"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Model:olean"]
+globs = ["OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectivityCriterion"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.Restriction:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0009"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.SupportedSheaf"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.Frames:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.LocalAlgebra.LinearRadical"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Cohomology.Injectives:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0010"
 roots = []
-globs = ["Steiner.RankOpen"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.SupportedSheaf:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.TensorFrames"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.LinearFamilies:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0011"
 roots = []
-globs = ["SteinerGeometry.PalomarStatement"]
-needs = ["+Steiner.RankOpen:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Geometry.CurveFinite"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.LocalAlgebra.LinearRadical:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0012"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Bertini.DifferentialFrames"]
-needs = ["+SteinerGeometry.PalomarStatement:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Cohomology.SheafExactness"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.TensorFrames:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0013"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.LinearSections"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.DifferentialFrames:olean"]
+globs = ["OAI.AlgebraicGeometry.Picard.Homomorphisms.CanonicalDescentFrames"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Geometry.CurveFinite:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0014"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.Restriction"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.LinearSections:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Bertini.Descent"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Geometry.CurveFinite:olean", "+OAI.AlgebraicGeometry.Seshadri.Cohomology.SheafExactness:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0015"
 roots = []
-globs = ["Steiner.BaseChange"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.Restriction:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Bertini.SimultaneousHyperplanes"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Cohomology.SheafExactness:olean", "+OAI.AlgebraicGeometry.Seshadri.Bertini.Descent:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0016"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Bertini.LinearFamilies"]
-needs = ["+Steiner.BaseChange:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusProjectiveIrreducibility"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.Descent:olean", "+OAI.AlgebraicGeometry.Picard.Homomorphisms.CanonicalDescentFrames:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0017"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Cohomology.SheafExactness"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.LinearFamilies:olean"]
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyDimensionShift"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.SimultaneousHyperplanes:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0018"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineVanishing"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Cohomology.SheafExactness:olean"]
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntrinsicCech.SheafCohomologyComparison"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.SimultaneousHyperplanes:olean", "+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusProjectiveIrreducibility:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0019"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.TensorFrames"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineVanishing:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeInverse"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusProjectiveIrreducibility:olean", "+OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectivityCriterion:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0020"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.SectionOpens"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.TensorFrames:olean"]
+globs = ["OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicGraphProjective"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyDimensionShift:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0021"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.Sections"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.SectionOpens:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.SupportedSheaf"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntrinsicCech.SheafCohomologyComparison:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0022"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.SectionMono"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.Sections:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Bertini.GenericSmoothness"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeInverse:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0023"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Geometry.EtalePointChart"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionMono:olean"]
+globs = ["OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomBaseChange"]
+needs = ["+OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicGraphProjective:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0024"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierModule"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Geometry.EtalePointChart:olean"]
+globs = ["SteinerGeometry.CurveRankLocus"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.SupportedSheaf:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0025"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierTensor"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierModule:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Bertini.IntegralSubschemes"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.GenericSmoothness:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0026"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.ClosedModuleExact"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierTensor:olean"]
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.ChartSections"]
+needs = ["+SteinerGeometry.CurveRankLocus:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0027"
 roots = []
-globs = ["SteinerGeometry.CurveRankLocus"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.ClosedModuleExact:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPointwiseRegularProjection"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.IntegralSubschemes:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0028"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Bertini.Descent"]
-needs = ["+SteinerGeometry.CurveRankLocus:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodCoordinateEquations"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPointwiseRegularProjection:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0029"
 roots = []
-globs = ["SteinerGeometry.PointKernelLocal"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.Descent:olean"]
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermEquivalence"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.ChartSections:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0030"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Bertini.SimultaneousHyperplanes"]
-needs = ["+SteinerGeometry.PointKernelLocal:olean"]
+globs = ["OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicAlgebraizationGraph"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.ChartSections:olean", "+OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomBaseChange:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0031"
 roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianScheme.TateComparison.End"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.SimultaneousHyperplanes:olean"]
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistGlobalTuples"]
+needs = ["+OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomBaseChange:olean", "+OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicAlgebraizationGraph:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0032"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Bertini.GenericSmoothness"]
-needs = ["+OAI.AlgebraicGeometry.AbelianScheme.TateComparison.End:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodAlgebraicCoordinates"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodCoordinateEquations:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0033"
 roots = []
-globs = ["Steiner.Generic"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.GenericSmoothness:olean"]
+globs = ["OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveGraph"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermEquivalence:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0034"
 roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianScheme.TateComparison.BaseChange"]
-needs = ["+Steiner.Generic:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularConeEquations"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodAlgebraicCoordinates:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0035"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Bertini.IntegralSubschemes"]
-needs = ["+OAI.AlgebraicGeometry.AbelianScheme.TateComparison.BaseChange:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Projective.PolynomialCharts"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodAlgebraicCoordinates:olean", "+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistGlobalTuples:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0036"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Projective.PolynomialCharts"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Bertini.IntegralSubschemes:olean"]
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.SectionTranspose"]
+needs = ["+OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveGraph:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0037"
 roots = []
-globs = ["Steiner.GenericBaseChange"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Projective.PolynomialCharts:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusAlgebraicPeriodCone"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularConeEquations:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0038"
 roots = []
-globs = ["SteinerGeometry.PointLineBundle"]
-needs = ["+Steiner.GenericBaseChange:olean"]
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.FiniteCohomologyKillingCover"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.SectionTranspose:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0039"
 roots = []
-globs = ["Steiner.Critical"]
-needs = ["+SteinerGeometry.PointLineBundle:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularConeNeighborhood"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Projective.PolynomialCharts:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0040"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.AffineLocalKilling"]
-needs = ["+Steiner.Critical:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.ProjectiveModel"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusAlgebraicPeriodCone:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0041"
 roots = []
-globs = ["Steiner.ScalarExtension"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.AffineLocalKilling:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.SectionOpens"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularConeNeighborhood:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0042"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Projective.SectionMaps"]
-needs = ["+Steiner.ScalarExtension:olean"]
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermValues"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.ProjectiveModel:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0043"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.API"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Projective.SectionMaps:olean"]
+globs = ["OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineRecoveryUniqueness"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.FiniteCohomologyKillingCover:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0044"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.SectionNaturality"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.API:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.Affine"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.SectionOpens:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0045"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Projective.ClosedEmbedding"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionNaturality:olean"]
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechLinearFactors"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermValues:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0046"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Projective.ClosedEmbedding:olean"]
+globs = ["SteinerGeometry.ComplexProjectivity"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermValues:olean", "+OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineRecoveryUniqueness:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0047"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneIdeal"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineVanishing"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.Affine:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0048"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneSection"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneIdeal:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Projective.SectionMaps"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechLinearFactors:olean", "+SteinerGeometry.ComplexProjectivity:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0049"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.SectionChart"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneSection:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.LinearSections"]
+needs = ["+SteinerGeometry.ComplexProjectivity:olean", "+OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineVanishing:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0050"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.PresheafFilteredColimit"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionChart:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusNormalizedConeSmoothness"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Cohomology.AffineVanishing:olean", "+OAI.AlgebraicGeometry.Seshadri.Projective.SectionMaps:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0051"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.VanishingPresheafFilteredG"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.PresheafFilteredColimit:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Projective.ClosedEmbedding"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Projective.SectionMaps:olean", "+OAI.AlgebraicGeometry.Seshadri.Divisors.LinearSections:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0052"
 roots = []
-globs = ["SteinerGeometry.PointTensorMap"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.VanishingPresheafFilteredG:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierModule"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.LinearSections:olean", "+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusNormalizedConeSmoothness:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0053"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackCompMonoidal"]
-needs = ["+SteinerGeometry.PointTensorMap:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneSection"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusNormalizedConeSmoothness:olean", "+OAI.AlgebraicGeometry.Seshadri.Projective.ClosedEmbedding:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0054"
 roots = []
-globs = ["SteinerGeometry.PointTensorUnit"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackCompMonoidal:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartSmoothness"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Projective.ClosedEmbedding:olean", "+OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierModule:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0055"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Projective.HyperplanePullback"]
-needs = ["+SteinerGeometry.PointTensorUnit:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.SectionChart"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierModule:olean", "+OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneSection:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0056"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.SectionIdeal"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Projective.HyperplanePullback:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneIdeal"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneSection:olean", "+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartSmoothness:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0057"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.CartierSection"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionIdeal:olean"]
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartAlgebra"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartSmoothness:olean", "+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionChart:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0058"
 roots = []
-globs = ["SteinerGeometry.PolynomialMatrixEpi"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.CartierSection:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Projective.HyperplanePullback"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionChart:olean", "+OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneIdeal:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0059"
 roots = []
-globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.SectionCokernel"]
-needs = ["+SteinerGeometry.PolynomialMatrixEpi:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.SectionNaturality"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Projective.HyperplaneIdeal:olean", "+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartAlgebra:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0060"
-roots = []
-globs = ["SteinerGeometry.CurveTensorFrames"]
-needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionCokernel:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0061"
-roots = []
-globs = ["OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectivityCriterion"]
-needs = ["+SteinerGeometry.CurveTensorFrames:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0062"
-roots = []
-globs = ["SteinerGeometry.CurveTensorCokernel"]
-needs = ["+OAI.Geometry.ComplexTorus.RiemannProjectivity.ProjectivityCriterion:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0063"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections"]
-needs = ["+SteinerGeometry.CurveTensorCokernel:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0064"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0065"
-roots = []
-globs = ["SteinerGeometry.CurveMatrixRankOpen"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0066"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneCoordinateSection"]
-needs = ["+SteinerGeometry.CurveMatrixRankOpen:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0067"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.StandardCech"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneCoordinateSection:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0068"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneOverlap"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.StandardCech:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0069"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneLocalSection"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneOverlap:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0070"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveComparison"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneLocalSection:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0071"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneTransitions"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveComparison:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0072"
-roots = []
-globs = ["SteinerGeometry.ScalarDualTensor"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneTransitions:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0073"
-roots = []
-globs = ["SteinerGeometry.ComplexProjectivity"]
-needs = ["+SteinerGeometry.ScalarDualTensor:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0074"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistFrameScalar"]
-needs = ["+SteinerGeometry.ComplexProjectivity:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0075"
-roots = []
-globs = ["SteinerGeometry.CurveCohomologyCore"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistFrameScalar:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0076"
-roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyDimensionShift"]
-needs = ["+SteinerGeometry.CurveCohomologyCore:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0077"
-roots = []
-globs = ["SteinerGeometry.RectangularLattice"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Zariski.CohomologyDimensionShift:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0078"
-roots = []
-globs = ["SteinerGeometry.RectangularKernel"]
-needs = ["+SteinerGeometry.RectangularLattice:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0079"
-roots = []
-globs = ["SteinerGeometry.RectangularDoublingKernel"]
-needs = ["+SteinerGeometry.RectangularKernel:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0080"
-roots = []
-globs = ["SteinerGeometry.RectangularRelativeKernel"]
-needs = ["+SteinerGeometry.RectangularDoublingKernel:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0081"
-roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.FiniteCohomologyKillingCover"]
-needs = ["+SteinerGeometry.RectangularRelativeKernel:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0082"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PairedTwistEquivalence"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Affine.FiniteCohomologyKillingCover:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0083"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerCancellationPairing"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PairedTwistEquivalence:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0084"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameSections"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerCancellationPairing:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0085"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PositivePowerChartGenerator"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameSections:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0086"
-roots = []
-globs = ["SteinerGeometry.CurveBundleRankLocus"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PositivePowerChartGenerator:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0087"
-roots = []
-globs = ["SteinerGeometry.PointEulerCore"]
-needs = ["+SteinerGeometry.CurveBundleRankLocus:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0088"
-roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntrinsicCech.SheafCohomologyComparison"]
-needs = ["+SteinerGeometry.PointEulerCore:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0089"
-roots = []
-globs = ["SteinerGeometry.CurveGenerators"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.IntrinsicCech.SheafCohomologyComparison:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0090"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.DistinguishedChartCancellation"]
-needs = ["+SteinerGeometry.CurveGenerators:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0091"
-roots = []
-globs = ["SteinerGeometry.CurveAffineFiberVanishing"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.DistinguishedChartCancellation:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0092"
-roots = []
-globs = ["SteinerGeometry.PointTensorFunctor"]
-needs = ["+SteinerGeometry.CurveAffineFiberVanishing:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0093"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameRestriction"]
-needs = ["+SteinerGeometry.PointTensorFunctor:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0094"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.CoherentVanishing"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameRestriction:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0095"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistTransitions"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.CoherentVanishing:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0096"
-roots = []
-globs = ["SteinerGeometry.PointTensorFree"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistTransitions:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0097"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistMaps"]
-needs = ["+SteinerGeometry.PointTensorFree:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0098"
-roots = []
-globs = ["SteinerGeometry.CurvePointEpi"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistMaps:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0099"
-roots = []
-globs = ["OAI.AlgebraicGeometry.Picard.Homomorphisms.CanonicalDescentFrames"]
-needs = ["+SteinerGeometry.CurvePointEpi:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0100"
-roots = []
-globs = ["OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomBaseChange"]
-needs = ["+OAI.AlgebraicGeometry.Picard.Homomorphisms.CanonicalDescentFrames:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0101"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechFirstFrame"]
-needs = ["+OAI.AlgebraicGeometry.Picard.Homomorphisms.ModuleHomBaseChange:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0102"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCech"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechFirstFrame:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0103"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeights"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCech:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0104"
-roots = []
-globs = ["SteinerGeometry.ProjectiveKernelBundle"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeights:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0105"
-roots = []
-globs = ["SteinerGeometry.NegativeFrameCoefficient"]
-needs = ["+SteinerGeometry.ProjectiveKernelBundle:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0106"
-roots = []
-globs = ["SteinerGeometry.CurveMatrixWitness"]
-needs = ["+SteinerGeometry.NegativeFrameCoefficient:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0107"
-roots = []
-globs = ["SteinerGeometry.CurveFiberVanishing"]
-needs = ["+SteinerGeometry.CurveMatrixWitness:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0108"
-roots = []
-globs = ["SteinerGeometry.RankLocalFrames"]
-needs = ["+SteinerGeometry.CurveFiberVanishing:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0109"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusProjectiveIrreducibility"]
-needs = ["+SteinerGeometry.RankLocalFrames:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0110"
-roots = []
-globs = ["SteinerGeometry.RationalFrameCover"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusProjectiveIrreducibility:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0111"
-roots = []
-globs = ["SteinerGeometry.CurveGeneratorsEpi"]
-needs = ["+SteinerGeometry.RationalFrameCover:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0112"
-roots = []
-globs = ["SteinerGeometry.KernelLineBundle"]
-needs = ["+SteinerGeometry.CurveGeneratorsEpi:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0113"
-roots = []
-globs = ["SteinerGeometry.ElementaryCurveCohomology"]
-needs = ["+SteinerGeometry.KernelLineBundle:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0114"
-roots = []
-globs = ["SteinerGeometry.ProjectiveKernelRankFrames"]
-needs = ["+SteinerGeometry.ElementaryCurveCohomology:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0115"
-roots = []
-globs = ["SteinerGeometry.CurveEulerAdditivity"]
-needs = ["+SteinerGeometry.ProjectiveKernelRankFrames:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0116"
-roots = []
-globs = ["SteinerGeometry.ProjectiveDualKernelExact"]
-needs = ["+SteinerGeometry.CurveEulerAdditivity:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0117"
-roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistGlobalTuples"]
-needs = ["+SteinerGeometry.ProjectiveDualKernelExact:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0118"
-roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.SectionTranspose"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.TwistGlobalTuples:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0119"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeInverse"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.SectionTranspose:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0120"
-roots = []
-globs = ["SteinerGeometry.PointTensorRestriction"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusConeInverse:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0121"
-roots = []
-globs = ["SteinerGeometry.CurvePresentation"]
-needs = ["+SteinerGeometry.PointTensorRestriction:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0122"
-roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.ChartSections"]
-needs = ["+SteinerGeometry.CurvePresentation:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0123"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPointwiseRegularProjection"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.ChartSections:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0124"
-roots = []
-globs = ["SteinerGeometry.PointTensorExact"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPointwiseRegularProjection:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0125"
-roots = []
-globs = ["SteinerGeometry.CurvePointEvaluation"]
-needs = ["+SteinerGeometry.PointTensorExact:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0126"
-roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermEquivalence"]
-needs = ["+SteinerGeometry.CurvePointEvaluation:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0127"
-roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermValues"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermEquivalence:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0128"
-roots = []
-globs = ["OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveGraph"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechTermValues:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0129"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.AlgebraicAction"]
-needs = ["+OAI.AlgebraicGeometry.ComplexGroups.HolomorphicAlgebraicity.ProjectiveGraph:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0130"
-roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineRecoveryUniqueness"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.AlgebraicAction:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0131"
-roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechLinearFactors"]
-needs = ["+OAI.AlgebraicGeometry.AbelianScheme.CartierDuality.LineRecoveryUniqueness:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0132"
-roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechDifferentialValues"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechLinearFactors:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0133"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodCoordinateEquations"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechDifferentialValues:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0134"
-roots = []
-globs = ["SteinerGeometry.CurveEulerBiproduct"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodCoordinateEquations:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0135"
-roots = []
-globs = ["SteinerGeometry.CurveSelfCoverEuler"]
-needs = ["+SteinerGeometry.CurveEulerBiproduct:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0136"
-roots = []
-globs = ["SteinerGeometry.CyclicLineFrames"]
-needs = ["+SteinerGeometry.CurveSelfCoverEuler:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0137"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodAlgebraicCoordinates"]
-needs = ["+SteinerGeometry.CyclicLineFrames:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0138"
-roots = []
-globs = ["OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicGraphProjective"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodAlgebraicCoordinates:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0139"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusAlgebraicPeriodCone"]
-needs = ["+OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicGraphProjective:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0140"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularConeEquations"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusAlgebraicPeriodCone:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0141"
-roots = []
-globs = ["OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicAlgebraizationGraph"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularConeEquations:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0142"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.ProjectiveModel"]
-needs = ["+OAI.Geometry.ComplexTorus.RiemannProjectivity.HolomorphicAlgebraizationGraph:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0143"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularConeNeighborhood"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.ProjectiveModel:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0144"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.Affine"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusRegularConeNeighborhood:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0145"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusNormalizedConeSmoothness"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.Affine:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0146"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartSmoothness"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusNormalizedConeSmoothness:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0147"
-roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartAlgebra"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartSmoothness:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0148"
 roots = []
 globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusSmoothChartEmbedding"]
 needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodChartAlgebra:olean"]
 
 [[lean_lib]]
-name = "MemoryOrder0149"
+name = "MemoryOrder0061"
 roots = []
-globs = ["SteinerGeometry.EulerIso"]
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechDifferentialValues"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Projective.HyperplanePullback:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0062"
+roots = []
+globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.SectionIdeal"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionNaturality:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0063"
+roots = []
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.SmoothProjectiveModel"]
 needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusSmoothChartEmbedding:olean"]
 
 [[lean_lib]]
-name = "MemoryOrder0150"
+name = "MemoryOrder0064"
 roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.CMIsogenies"]
-needs = ["+SteinerGeometry.EulerIso:olean"]
+globs = ["SteinerGeometry.RectangularLattice"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionIdeal:olean"]
 
 [[lean_lib]]
-name = "MemoryOrder0151"
+name = "MemoryOrder0065"
 roots = []
-globs = ["SteinerGeometry.CyclicCurvePresentation"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.CMIsogenies:olean"]
+globs = ["Steiner.RankOpen"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.SmoothProjectiveModel:olean", "+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechDifferentialValues:olean"]
 
 [[lean_lib]]
-name = "MemoryOrder0152"
+name = "MemoryOrder0066"
 roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.SmoothProjectiveModel"]
-needs = ["+SteinerGeometry.CyclicCurvePresentation:olean"]
+globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.Sections"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.NegativeTwist.CechDifferentialValues:olean", "+SteinerGeometry.RectangularLattice:olean"]
 
 [[lean_lib]]
-name = "MemoryOrder0153"
+name = "MemoryOrder0067"
+roots = []
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold"]
+needs = ["+SteinerGeometry.RectangularLattice:olean", "+Steiner.RankOpen:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0068"
+roots = []
+globs = ["Steiner.Generic"]
+needs = ["+Steiner.RankOpen:olean", "+OAI.AlgebraicGeometry.Seshadri.Sheaves.Sections:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0069"
+roots = []
+globs = ["Steiner.BaseChange"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.Sections:olean", "+OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0070"
+roots = []
+globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.SectionMono"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.RealManifold:olean", "+Steiner.BaseChange:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0071"
+roots = []
+globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.CartierSection"]
+needs = ["+Steiner.BaseChange:olean", "+Steiner.Generic:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0072"
+roots = []
+globs = ["OAI.AlgebraicGeometry.Seshadri.Geometry.GeneratedEtaleCoordinates"]
+needs = ["+Steiner.Generic:olean", "+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionMono:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0073"
+roots = []
+globs = ["OAI.AlgebraicGeometry.Seshadri.Jets.PolynomialJets"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionMono:olean", "+OAI.AlgebraicGeometry.Seshadri.Divisors.CartierSection:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0074"
 roots = []
 globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodManifoldImmersion"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.SmoothProjectiveModel:olean"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.CartierSection:olean", "+OAI.AlgebraicGeometry.Seshadri.Geometry.GeneratedEtaleCoordinates:olean"]
 
 [[lean_lib]]
-name = "MemoryOrder0154"
+name = "MemoryOrder0075"
+roots = []
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ZariskiDegreeZeroFiniteness"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Geometry.GeneratedEtaleCoordinates:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0076"
+roots = []
+globs = ["Steiner.GenericBaseChange"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Jets.PolynomialJets:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0077"
 roots = []
 globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.IntrinsicPeriodComparison"]
 needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.TorusPeriodManifoldImmersion:olean"]
 
 [[lean_lib]]
+name = "MemoryOrder0078"
+roots = []
+globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierTensor"]
+needs = ["+Steiner.GenericBaseChange:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0079"
+roots = []
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveZariskiFiniteness"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ZariskiDegreeZeroFiniteness:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0080"
+roots = []
+globs = ["OAI.AlgebraicGeometry.Seshadri.Divisors.SectionCokernel"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.IntrinsicPeriodComparison:olean", "+OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierTensor:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0081"
+roots = []
+globs = ["OAI.AlgebraicGeometry.AbelianScheme.TateComparison.End"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.CartierTensor:olean", "+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveZariskiFiniteness:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0082"
+roots = []
+globs = ["OAI.AlgebraicGeometry.Seshadri.Geometry.EtalePointChart"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveZariskiFiniteness:olean", "+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionCokernel:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0083"
+roots = []
+globs = ["Steiner.Critical"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Divisors.SectionCokernel:olean", "+OAI.AlgebraicGeometry.Seshadri.Geometry.EtalePointChart:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0084"
+roots = []
+globs = ["SteinerGeometry.CurveMatrixRankOpen"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Geometry.EtalePointChart:olean", "+OAI.AlgebraicGeometry.AbelianScheme.TateComparison.End:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0085"
+roots = []
+globs = ["SteinerGeometry.CurveTensorFrames"]
+needs = ["+OAI.AlgebraicGeometry.AbelianScheme.TateComparison.End:olean", "+Steiner.Critical:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0086"
+roots = []
+globs = ["OAI.AlgebraicGeometry.AbelianScheme.TateComparison.BaseChange"]
+needs = ["+Steiner.Critical:olean", "+SteinerGeometry.CurveMatrixRankOpen:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0087"
+roots = []
+globs = ["OAI.AlgebraicGeometry.Seshadri.Sheaves.ClosedModuleExact"]
+needs = ["+SteinerGeometry.CurveMatrixRankOpen:olean", "+OAI.AlgebraicGeometry.AbelianScheme.TateComparison.BaseChange:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0088"
+roots = []
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.AlgebraicOperations"]
+needs = ["+OAI.AlgebraicGeometry.AbelianScheme.TateComparison.BaseChange:olean", "+SteinerGeometry.CurveTensorFrames:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0089"
+roots = []
+globs = ["SteinerGeometry.PointKernelLocal"]
+needs = ["+SteinerGeometry.CurveTensorFrames:olean", "+OAI.AlgebraicGeometry.Seshadri.Sheaves.ClosedModuleExact:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0090"
+roots = []
+globs = ["SteinerGeometry.PolynomialMatrixEpi"]
+needs = ["+OAI.AlgebraicGeometry.Seshadri.Sheaves.ClosedModuleExact:olean", "+OAI.RepresentationTheory.Theta.Geometric.Torus.AlgebraicOperations:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0091"
+roots = []
+globs = ["SteinerGeometry.CurveBundleRankLocus"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.AlgebraicOperations:olean", "+SteinerGeometry.PointKernelLocal:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0092"
+roots = []
+globs = ["Steiner.ScalarExtension"]
+needs = ["+SteinerGeometry.PointKernelLocal:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0093"
+roots = []
+globs = ["OAI.RepresentationTheory.Theta.Geometric.AlgebraicAction"]
+needs = ["+SteinerGeometry.PolynomialMatrixEpi:olean", "+Steiner.ScalarExtension:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0094"
+roots = []
+globs = ["SteinerGeometry.CurveTensorCokernel"]
+needs = ["+Steiner.ScalarExtension:olean", "+SteinerGeometry.CurveBundleRankLocus:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0095"
+roots = []
+globs = ["SteinerGeometry.PointLineBundle"]
+needs = ["+SteinerGeometry.CurveBundleRankLocus:olean", "+OAI.RepresentationTheory.Theta.Geometric.AlgebraicAction:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0096"
+roots = []
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.AbelianModel"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.AlgebraicAction:olean", "+SteinerGeometry.CurveTensorCokernel:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0097"
+roots = []
+globs = ["SteinerGeometry.CurveGenerators"]
+needs = ["+SteinerGeometry.CurveTensorCokernel:olean", "+SteinerGeometry.PointLineBundle:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0098"
+roots = []
+globs = ["SteinerGeometry.CurveAffineFiberVanishing"]
+needs = ["+SteinerGeometry.PointLineBundle:olean", "+OAI.RepresentationTheory.Theta.Geometric.Torus.AbelianModel:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0099"
+roots = []
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.Hom"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.AbelianModel:olean", "+SteinerGeometry.CurveGenerators:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0100"
+roots = []
+globs = ["SteinerGeometry.PointTensorMap"]
+needs = ["+SteinerGeometry.CurveGenerators:olean", "+SteinerGeometry.CurveAffineFiberVanishing:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0101"
+roots = []
+globs = ["OAI.RepresentationTheory.Theta.Geometric.CMIsogenies"]
+needs = ["+SteinerGeometry.CurveAffineFiberVanishing:olean", "+OAI.RepresentationTheory.Theta.Geometric.Torus.Hom:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0102"
+roots = []
+globs = ["SteinerGeometry.RectangularKernel"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.Hom:olean", "+SteinerGeometry.PointTensorMap:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0103"
+roots = []
+globs = ["SteinerGeometry.CurvePointEpi"]
+needs = ["+SteinerGeometry.PointTensorMap:olean", "+OAI.RepresentationTheory.Theta.Geometric.CMIsogenies:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0104"
+roots = []
+globs = ["SteinerGeometry.CurveFiberVanishing"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.CMIsogenies:olean", "+SteinerGeometry.RectangularKernel:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0105"
+roots = []
+globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.Isogeny"]
+needs = ["+SteinerGeometry.RectangularKernel:olean", "+SteinerGeometry.CurvePointEpi:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0106"
+roots = []
+globs = ["SteinerGeometry.PointTensorUnit"]
+needs = ["+SteinerGeometry.CurvePointEpi:olean", "+SteinerGeometry.CurveFiberVanishing:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0107"
+roots = []
+globs = ["SteinerGeometry.RectangularRelativeKernel"]
+needs = ["+SteinerGeometry.CurveFiberVanishing:olean", "+OAI.RepresentationTheory.Theta.Geometric.Torus.Isogeny:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0108"
+roots = []
+globs = ["OAI.RepresentationTheory.Theta.Geometric.AbelianScheme"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.Isogeny:olean", "+SteinerGeometry.PointTensorUnit:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0109"
+roots = []
+globs = ["SteinerGeometry.PointTensorFunctor"]
+needs = ["+SteinerGeometry.PointTensorUnit:olean", "+SteinerGeometry.RectangularRelativeKernel:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0110"
+roots = []
+globs = ["SteinerGeometry.CurveGeneratorsEpi"]
+needs = ["+SteinerGeometry.RectangularRelativeKernel:olean", "+OAI.RepresentationTheory.Theta.Geometric.AbelianScheme:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0111"
+roots = []
+globs = ["SteinerGeometry.RectangularDoublingKernel"]
+needs = ["+OAI.RepresentationTheory.Theta.Geometric.AbelianScheme:olean", "+SteinerGeometry.PointTensorFunctor:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0112"
+roots = []
+globs = ["SteinerGeometry.RectangularModel"]
+needs = ["+SteinerGeometry.PointTensorFunctor:olean", "+SteinerGeometry.CurveGeneratorsEpi:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0113"
+roots = []
+globs = ["SteinerGeometry.PointTensorRestriction"]
+needs = ["+SteinerGeometry.CurveGeneratorsEpi:olean", "+SteinerGeometry.RectangularDoublingKernel:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0114"
+roots = []
+globs = ["SteinerGeometry.PointTensorFree"]
+needs = ["+SteinerGeometry.RectangularDoublingKernel:olean", "+SteinerGeometry.RectangularModel:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0115"
+roots = []
+globs = ["SteinerGeometry.RectangularSelfCover"]
+needs = ["+SteinerGeometry.RectangularModel:olean", "+SteinerGeometry.PointTensorRestriction:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0116"
+roots = []
+globs = ["SteinerGeometry.RectangularCurveGeometry"]
+needs = ["+SteinerGeometry.PointTensorRestriction:olean", "+SteinerGeometry.PointTensorFree:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0117"
+roots = []
+globs = ["SteinerGeometry.RectangularFullLevel"]
+needs = ["+SteinerGeometry.PointTensorFree:olean", "+SteinerGeometry.RectangularSelfCover:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0118"
+roots = []
+globs = ["SteinerGeometry.CurveMatrixWitness"]
+needs = ["+SteinerGeometry.RectangularSelfCover:olean", "+SteinerGeometry.RectangularCurveGeometry:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0119"
+roots = []
+globs = ["SteinerGeometry.RectangularIsogeny"]
+needs = ["+SteinerGeometry.RectangularCurveGeometry:olean", "+SteinerGeometry.CurveMatrixWitness:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0120"
+roots = []
+globs = ["SteinerGeometry.RectangularCharacterSplitting"]
+needs = ["+SteinerGeometry.CurveMatrixWitness:olean", "+SteinerGeometry.RectangularFullLevel:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0121"
+roots = []
+globs = ["SteinerGeometry.RectangularProjective"]
+needs = ["+SteinerGeometry.RectangularFullLevel:olean", "+SteinerGeometry.RectangularIsogeny:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0122"
+roots = []
+globs = ["SteinerGeometry.RectangularTorsion"]
+needs = ["+SteinerGeometry.RectangularIsogeny:olean", "+SteinerGeometry.RectangularCharacterSplitting:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0123"
+roots = []
+globs = ["SteinerGeometry.RectangularWitness"]
+needs = ["+SteinerGeometry.RectangularCharacterSplitting:olean", "+SteinerGeometry.RectangularProjective:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0124"
+roots = []
+globs = ["SteinerGeometry.PalomarStatement"]
+needs = ["+SteinerGeometry.RectangularProjective:olean", "+SteinerGeometry.RectangularTorsion:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0125"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.API"]
+needs = ["+SteinerGeometry.RectangularTorsion:olean", "+SteinerGeometry.RectangularWitness:olean", "+SteinerGeometry.PalomarStatement:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0126"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.API:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0127"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.PresheafFilteredColimit"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.Quasicoherent:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0128"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.PresheafFilteredColimit:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0129"
+roots = []
+globs = ["SteinerGeometry.RankLocalFrames"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.PresheafFilteredColimit:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0130"
+roots = []
+globs = ["SteinerGeometry.PointTensorExact"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.PresheafFilteredColimit:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0131"
+roots = []
+globs = ["SteinerGeometry.CurvePointEvaluation"]
+needs = ["+SteinerGeometry.PointTensorExact:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0132"
+roots = []
+globs = ["SteinerGeometry.RationalFrameCover"]
+needs = ["+SteinerGeometry.PointTensorExact:olean", "+SteinerGeometry.RankLocalFrames:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0133"
+roots = []
+globs = ["SteinerGeometry.CyclicLineFrames"]
+needs = ["+SteinerGeometry.CurvePointEvaluation:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0134"
+roots = []
+globs = ["SteinerGeometry.KernelLineBundle"]
+needs = ["+SteinerGeometry.RationalFrameCover:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0135"
+roots = []
+globs = ["SteinerGeometry.CurvePresentation"]
+needs = ["+SteinerGeometry.CyclicLineFrames:olean", "+SteinerGeometry.KernelLineBundle:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0136"
+roots = []
+globs = ["SteinerGeometry.CyclicContractionVanishing"]
+needs = ["+SteinerGeometry.KernelLineBundle:olean", "+SteinerGeometry.CurvePresentation:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0137"
+roots = []
+globs = ["SteinerGeometry.CyclicCurvePresentation"]
+needs = ["+SteinerGeometry.CurvePresentation:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0138"
+roots = []
+globs = ["SteinerGeometry.CyclicMatrixWitness"]
+needs = ["+SteinerGeometry.CyclicCurvePresentation:olean", "+SteinerGeometry.CyclicContractionVanishing:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0139"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneCoordinateSection"]
+needs = ["+SteinerGeometry.CyclicContractionVanishing:olean", "+SteinerGeometry.CyclicMatrixWitness:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFrameSections:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0140"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.VanishingPresheafFilteredG"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneCoordinateSection:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0141"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackCompMonoidal"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.VanishingPresheafFilteredG:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0142"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneOverlap"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PullbackCompMonoidal:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0143"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.CoherentVanishing"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneOverlap:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0144"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneTransitions"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.CoherentVanishing:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0145"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.LinearComparison"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneTransitions:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0146"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistFrameScalar"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.LinearComparison:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0147"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameRestriction"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistFrameScalar:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0148"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerCancellationPairing"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistFrameScalar:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0149"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PairedTwistEquivalence"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistFrameScalar:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0150"
+roots = []
+globs = ["SteinerGeometry.ScalarDualTensor"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistFrameScalar:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.PairedTwistEquivalence:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0151"
+roots = []
+globs = ["SteinerGeometry.CurveCohomologyCore"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PairedTwistEquivalence:olean", "+SteinerGeometry.ScalarDualTensor:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0152"
+roots = []
+globs = ["SteinerGeometry.CurveEulerAdditivity"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerCancellationPairing:olean", "+SteinerGeometry.CurveCohomologyCore:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0153"
+roots = []
+globs = ["SteinerGeometry.EulerIso"]
+needs = ["+SteinerGeometry.CurveCohomologyCore:olean", "+SteinerGeometry.CurveEulerAdditivity:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0154"
+roots = []
+globs = ["SteinerGeometry.ElementaryCurveCohomology"]
+needs = ["+SteinerGeometry.CurveEulerAdditivity:olean", "+SteinerGeometry.EulerIso:olean"]
+
+[[lean_lib]]
 name = "MemoryOrder0155"
 roots = []
-globs = ["SteinerGeometry.CurveCohomology"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.IntrinsicPeriodComparison:olean"]
+globs = ["SteinerGeometry.EulerDegree"]
+needs = ["+SteinerGeometry.EulerIso:olean", "+SteinerGeometry.ElementaryCurveCohomology:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0156"
 roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.AlgebraicOperations"]
-needs = ["+SteinerGeometry.CurveCohomology:olean"]
+globs = ["SteinerGeometry.PointEulerCore"]
+needs = ["+SteinerGeometry.ElementaryCurveCohomology:olean", "+SteinerGeometry.EulerDegree:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0157"
 roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.AbelianModel"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.AlgebraicOperations:olean"]
+globs = ["SteinerGeometry.MonomialDegree"]
+needs = ["+SteinerGeometry.EulerDegree:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0158"
 roots = []
-globs = ["SteinerGeometry.PresentationEulerCore"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.AbelianModel:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistTransitions"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameRestriction:olean", "+SteinerGeometry.MonomialDegree:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0159"
 roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.Hom"]
-needs = ["+SteinerGeometry.PresentationEulerCore:olean"]
+globs = ["SteinerGeometry.PresentationEulerCore"]
+needs = ["+SteinerGeometry.MonomialDegree:olean", "+SteinerGeometry.PointEulerCore:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0160"
 roots = []
-globs = ["SteinerGeometry.EulerDegree"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.Hom:olean"]
+globs = ["SteinerGeometry.CurveEulerBiproduct"]
+needs = ["+SteinerGeometry.PointEulerCore:olean", "+SteinerGeometry.PresentationEulerCore:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0161"
 roots = []
-globs = ["SteinerGeometry.PresentationEulerCurve"]
-needs = ["+SteinerGeometry.EulerDegree:olean"]
+globs = ["SteinerGeometry.PointEuler"]
+needs = ["+SteinerGeometry.PresentationEulerCore:olean", "+SteinerGeometry.CurveEulerBiproduct:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0162"
 roots = []
-globs = ["SteinerGeometry.TorsionReferenceLine"]
-needs = ["+SteinerGeometry.PresentationEulerCurve:olean"]
+globs = ["SteinerGeometry.PresentationEulerCurve"]
+needs = ["+SteinerGeometry.CurveEulerBiproduct:olean", "+SteinerGeometry.PointEuler:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0163"
 roots = []
-globs = ["SteinerGeometry.EllipticEulerCohomology"]
-needs = ["+SteinerGeometry.TorsionReferenceLine:olean"]
+globs = ["SteinerGeometry.CurveCohomology"]
+needs = ["+SteinerGeometry.PointEuler:olean", "+SteinerGeometry.PresentationEulerCurve:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0164"
 roots = []
-globs = ["SteinerGeometry.EllipticFamilyVanishing"]
-needs = ["+SteinerGeometry.EllipticEulerCohomology:olean"]
+globs = ["SteinerGeometry.CyclicDegree"]
+needs = ["+SteinerGeometry.PresentationEulerCurve:olean", "+SteinerGeometry.CurveCohomology:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0165"
 roots = []
-globs = ["SteinerGeometry.CurveSelfCoverTorsion"]
-needs = ["+SteinerGeometry.EllipticFamilyVanishing:olean"]
+globs = ["SteinerGeometry.EllipticEulerCohomology"]
+needs = ["+SteinerGeometry.CurveCohomology:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistTransitions:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0166"
 roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.AbelianScheme"]
-needs = ["+SteinerGeometry.CurveSelfCoverTorsion:olean"]
+globs = ["SteinerGeometry.PresentationEulerFinite"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistTransitions:olean", "+SteinerGeometry.CyclicDegree:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0167"
 roots = []
-globs = ["SteinerGeometry.MonomialDegree"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.AbelianScheme:olean"]
+globs = ["SteinerGeometry.CurveSelfCoverEuler"]
+needs = ["+SteinerGeometry.CyclicDegree:olean", "+SteinerGeometry.EllipticEulerCohomology:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0168"
 roots = []
-globs = ["SteinerGeometry.LineDualDegree"]
-needs = ["+SteinerGeometry.MonomialDegree:olean"]
+globs = ["SteinerGeometry.CurveEvaluationDegree"]
+needs = ["+SteinerGeometry.EllipticEulerCohomology:olean", "+SteinerGeometry.PresentationEulerFinite:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0169"
 roots = []
-globs = ["OAI.RepresentationTheory.Theta.Geometric.Torus.Isogeny"]
-needs = ["+SteinerGeometry.LineDualDegree:olean"]
+globs = ["SteinerGeometry.LineDualDegree"]
+needs = ["+SteinerGeometry.PresentationEulerFinite:olean", "+SteinerGeometry.CurveSelfCoverEuler:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0170"
 roots = []
-globs = ["SteinerGeometry.PointEuler"]
-needs = ["+OAI.RepresentationTheory.Theta.Geometric.Torus.Isogeny:olean"]
+globs = ["SteinerGeometry.TorsionLineChoice"]
+needs = ["+SteinerGeometry.CurveSelfCoverEuler:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0171"
 roots = []
-globs = ["SteinerGeometry.CyclicDegree"]
-needs = ["+SteinerGeometry.PointEuler:olean"]
+globs = ["SteinerGeometry.CurveSelfCoverTorsion"]
+needs = ["+SteinerGeometry.CurveEvaluationDegree:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0172"
 roots = []
-globs = ["SteinerGeometry.CurveEvaluationDegree"]
-needs = ["+SteinerGeometry.CyclicDegree:olean"]
+globs = ["SteinerGeometry.TorsionReferenceLine"]
+needs = ["+SteinerGeometry.LineDualDegree:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0173"
 roots = []
-globs = ["SteinerGeometry.RectangularModel"]
-needs = ["+SteinerGeometry.CurveEvaluationDegree:olean"]
+globs = ["SteinerGeometry.PresentationEuler"]
+needs = ["+SteinerGeometry.TorsionLineChoice:olean", "+SteinerGeometry.CurveSelfCoverTorsion:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0174"
 roots = []
-globs = ["SteinerGeometry.PresentationEulerFinite"]
-needs = ["+SteinerGeometry.RectangularModel:olean"]
+globs = ["SteinerGeometry.CurvePushforwardEvaluation"]
+needs = ["+SteinerGeometry.CurveSelfCoverTorsion:olean", "+SteinerGeometry.TorsionReferenceLine:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0175"
 roots = []
-globs = ["SteinerGeometry.RectangularIsogeny"]
-needs = ["+SteinerGeometry.PresentationEulerFinite:olean"]
+globs = ["SteinerGeometry.CyclicMonomialDegree"]
+needs = ["+SteinerGeometry.TorsionReferenceLine:olean", "+SteinerGeometry.PresentationEuler:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0176"
 roots = []
-globs = ["SteinerGeometry.RectangularWitness"]
-needs = ["+SteinerGeometry.RectangularIsogeny:olean"]
+globs = ["SteinerGeometry.EllipticFamilyVanishing"]
+needs = ["+SteinerGeometry.PresentationEuler:olean", "+SteinerGeometry.CurvePushforwardEvaluation:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0177"
 roots = []
-globs = ["SteinerGeometry.RectangularSelfCover"]
-needs = ["+SteinerGeometry.RectangularWitness:olean"]
+globs = ["SteinerGeometry.RectangularGenusOne"]
+needs = ["+SteinerGeometry.CurvePushforwardEvaluation:olean", "+SteinerGeometry.CyclicMonomialDegree:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0178"
 roots = []
-globs = ["SteinerGeometry.RectangularFullLevel"]
-needs = ["+SteinerGeometry.RectangularSelfCover:olean"]
+globs = ["SteinerGeometry.EllipticMatrixConstruction"]
+needs = ["+SteinerGeometry.CyclicMonomialDegree:olean", "+SteinerGeometry.EllipticFamilyVanishing:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0179"
 roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ZariskiDegreeZeroFiniteness"]
-needs = ["+SteinerGeometry.RectangularFullLevel:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.AffineLocalKilling"]
+needs = ["+SteinerGeometry.EllipticFamilyVanishing:olean", "+SteinerGeometry.RectangularGenusOne:olean", "+SteinerGeometry.EllipticMatrixConstruction:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0180"
 roots = []
-globs = ["SteinerGeometry.CyclicContractionVanishing"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Projective.ZariskiDegreeZeroFiniteness:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.StandardCech"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.AffineLocalKilling:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0181"
 roots = []
-globs = ["SteinerGeometry.RectangularCurveGeometry"]
-needs = ["+SteinerGeometry.CyclicContractionVanishing:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneLocalSection"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.StandardCech:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0182"
 roots = []
-globs = ["SteinerGeometry.CyclicMatrixWitness"]
-needs = ["+SteinerGeometry.RectangularCurveGeometry:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechFirstFrame"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneLocalSection:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0183"
 roots = []
-globs = ["SteinerGeometry.TorsionLineChoice"]
-needs = ["+SteinerGeometry.CyclicMatrixWitness:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameSections"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneLocalSection:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0184"
 roots = []
-globs = ["SteinerGeometry.PresentationEuler"]
-needs = ["+SteinerGeometry.TorsionLineChoice:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PositivePowerChartGenerator"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.HyperplaneLocalSection:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameSections:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0185"
 roots = []
-globs = ["SteinerGeometry.CurvePushforwardEvaluation"]
-needs = ["+SteinerGeometry.PresentationEuler:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.DistinguishedChartCancellation"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PowerFrameSections:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.PositivePowerChartGenerator:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0186"
 roots = []
-globs = ["SteinerGeometry.RectangularProjective"]
-needs = ["+SteinerGeometry.CurvePushforwardEvaluation:olean"]
+globs = ["SteinerGeometry.ProjectiveKernelBundle"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PositivePowerChartGenerator:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.DistinguishedChartCancellation:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0187"
 roots = []
-globs = ["SteinerGeometry.CyclicMonomialDegree"]
-needs = ["+SteinerGeometry.RectangularProjective:olean"]
+globs = ["SteinerGeometry.ProjectiveKernelRankFrames"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.DistinguishedChartCancellation:olean", "+SteinerGeometry.ProjectiveKernelBundle:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0188"
 roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveZariskiFiniteness"]
-needs = ["+SteinerGeometry.CyclicMonomialDegree:olean"]
+globs = ["SteinerGeometry.AllDegreeMaximalRank"]
+needs = ["+SteinerGeometry.ProjectiveKernelBundle:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechFirstFrame:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0189"
 roots = []
-globs = ["SteinerGeometry.RectangularCharacterSplitting"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Closed.ProjectiveZariskiFiniteness:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCech"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechFirstFrame:olean", "+SteinerGeometry.AllDegreeMaximalRank:olean", "+SteinerGeometry.ProjectiveKernelRankFrames:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0190"
 roots = []
-globs = ["SteinerGeometry.EllipticMatrixConstruction"]
-needs = ["+SteinerGeometry.RectangularCharacterSplitting:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveComparison"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCech:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0191"
 roots = []
-globs = ["SteinerGeometry.RectangularTorsion"]
-needs = ["+SteinerGeometry.EllipticMatrixConstruction:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistMaps"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Cech.InjectiveComparison:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0192"
 roots = []
-globs = ["SteinerGeometry.RectangularGenusOne"]
-needs = ["+SteinerGeometry.RectangularTorsion:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Cech"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistMaps:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0193"
-roots = []
-globs = ["SteinerGeometry.AllDegreeMaximalRank"]
-needs = ["+SteinerGeometry.RectangularGenusOne:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0194"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.LinearComparison"]
-needs = ["+SteinerGeometry.AllDegreeMaximalRank:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0195"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Cech"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.LinearComparison:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0196"
 roots = []
 globs = ["OAI.AlgebraicGeometry.SheafCohomology.CechScalars"]
 needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Cech:olean"]
 
 [[lean_lib]]
+name = "MemoryOrder0194"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeights"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Cech:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0195"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.CechLinearComparison"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Cech:olean", "+OAI.AlgebraicGeometry.SheafCohomology.CechScalars:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0196"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechLinearBridge"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.CechScalars:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeights:olean"]
+
+[[lean_lib]]
 name = "MemoryOrder0197"
 roots = []
 globs = ["OAI.AlgebraicGeometry.SheafCohomology.CechZeroLinear"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.CechScalars:olean"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistCechWeights:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechLinearBridge:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0198"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechLinearBridge"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.CechZeroLinear:olean"]
+globs = ["SteinerGeometry.NegativeFrameCoefficient"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechLinearBridge:olean", "+OAI.AlgebraicGeometry.SheafCohomology.CechZeroLinear:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0199"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.CechLinearComparison"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechLinearBridge:olean"]
+globs = ["SteinerGeometry.ProjectiveDualKernelExact"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.CechZeroLinear:olean", "+SteinerGeometry.NegativeFrameCoefficient:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0200"
 roots = []
 globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechBridge"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.CechLinearComparison:olean"]
+needs = ["+SteinerGeometry.NegativeFrameCoefficient:olean", "+SteinerGeometry.ProjectiveDualKernelExact:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0201"
 roots = []
 globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseFiniteness"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechBridge:olean"]
+needs = ["+SteinerGeometry.ProjectiveDualKernelExact:olean", "+OAI.AlgebraicGeometry.SheafCohomology.CechLinearComparison:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0202"
 roots = []
 globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechAllDegrees"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseFiniteness:olean"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.CechLinearComparison:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechBridge:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0203"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechVanishingTransfer"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechAllDegrees:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroSections"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechBridge:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseFiniteness:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0204"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroSections"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechVanishingTransfer:olean"]
+globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.BaseCechCoefficientCohomology"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseFiniteness:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechAllDegrees:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0205"
 roots = []
 globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalRestriction"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroSections:olean"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechAllDegrees:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroSections:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0206"
 roots = []
 globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalSectionsExact"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalRestriction:olean"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseZeroSections:olean", "+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.BaseCechCoefficientCohomology:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0207"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductSections"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalSectionsExact:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.ZeroCyclesLinearSections"]
+needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.BaseCechCoefficientCohomology:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalRestriction:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0208"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductMatrix"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductSections:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductSections"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalRestriction:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalSectionsExact:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0209"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductCoordinates"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductMatrix:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSections"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseGlobalSectionsExact:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.ZeroCyclesLinearSections:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0210"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductProjectedMap"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductCoordinates:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFunctorSectionEvaluation"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.ZeroCyclesLinearSections:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductSections:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0211"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.ZeroCyclesLinearSections"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductProjectedMap:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductMatrix"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductSections:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFunctorSectionEvaluation:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0212"
 roots = []
-globs = ["OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.BaseCechCoefficientCohomology"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.ZeroCyclesLinearSections:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFunctorSectionEvaluation:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSections:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0213"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFunctorSectionEvaluation"]
-needs = ["+OAI.AlgebraicGeometry.AbelianModuli.HilbertConstruction.Ordered.BaseCechCoefficientCohomology:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentCoordinates"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSections:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductMatrix:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0214"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSections"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TensorFunctorSectionEvaluation:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomPolynomials"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductMatrix:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0215"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentCoordinates"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSections:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroComponentCoefficients"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentCoordinates:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0216"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentCoordinates:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomSections"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentCoordinates:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomPolynomials:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0217"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroNegative"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.DegreeZeroPolynomials:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroComponentExpansion"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomPolynomials:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroComponentCoefficients:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0218"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroComponentCoefficients"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroNegative:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroPolynomialChart"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroComponentCoefficients:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroComponentExpansion:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0219"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroComponentExpansion"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroComponentCoefficients:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartCoordinates"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroComponentExpansion:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroPolynomialChart:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0220"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroPolynomialChart"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroComponentExpansion:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartFrameCoefficient"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroPolynomialChart:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartCoordinates:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0221"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartCoordinates"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroPolynomialChart:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductCriterion"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartCoordinates:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartFrameCoefficient:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0222"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomPolynomials"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartCoordinates:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductCoordinates"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartFrameCoefficient:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductCriterion:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0223"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomSections"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomPolynomials:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialSections"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductCriterion:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductCoordinates:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0224"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistPolynomialMatrix"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomSections:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomChart"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductCoordinates:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomSections:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0225"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartFrameCoefficient"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistPolynomialMatrix:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroNegative"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomSections:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialSections:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0226"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductCriterion"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialChartFrameCoefficient:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentDimensions"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialSections:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroNegative:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0227"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalSectionsSurjective"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductCriterion:olean"]
+globs = ["SteinerGeometry.ProjectiveCohomology"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentZeroNegative:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentDimensions:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0228"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductDegree"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalSectionsSurjective:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechVanishingTransfer"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentDimensions:olean", "+SteinerGeometry.ProjectiveCohomology:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0229"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectMono"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductDegree:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistPolynomialMatrix"]
+needs = ["+SteinerGeometry.ProjectiveCohomology:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechVanishingTransfer:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0230"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectIso"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectMono:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductDegree"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.BaseCechVanishingTransfer:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistPolynomialMatrix:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0231"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentDimensions"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectIso:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalSectionsSurjective"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistPolynomialMatrix:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductDegree:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0232"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialSections"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.LaurentDimensions:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductProjectedMap"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.PolynomialSectionProductDegree:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalSectionsSurjective:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0233"
 roots = []
 globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductComponents"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialSections:olean"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.GlobalSectionsSurjective:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductProjectedMap:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0234"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomChart"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductComponents:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectMono"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.AdditiveCoproductProjectedMap:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductComponents:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0235"
 roots = []
-globs = ["SteinerGeometry.NegativeChartMap"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomChart:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectIso"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductComponents:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectMono:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0236"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapSections"]
-needs = ["+SteinerGeometry.NegativeChartMap:olean"]
+globs = ["SteinerGeometry.ProjectiveSteinerBundle"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectMono:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectIso:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0237"
+roots = []
+globs = ["SteinerGeometry.CokernelCohomology"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedSectionsDetectIso:olean", "+SteinerGeometry.ProjectiveSteinerBundle:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0238"
+roots = []
+globs = ["SteinerGeometry.ProjectiveDualNormalization"]
+needs = ["+SteinerGeometry.ProjectiveSteinerBundle:olean", "+SteinerGeometry.CokernelCohomology:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0239"
+roots = []
+globs = ["SteinerGeometry.ProjectiveSteinerPresentation"]
+needs = ["+SteinerGeometry.CokernelCohomology:olean", "+SteinerGeometry.ProjectiveDualNormalization:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0240"
+roots = []
+globs = ["SteinerGeometry.ProjectiveNegativeTensorComparison"]
+needs = ["+SteinerGeometry.ProjectiveDualNormalization:olean", "+SteinerGeometry.ProjectiveSteinerPresentation:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0241"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapSections"]
+needs = ["+SteinerGeometry.ProjectiveSteinerPresentation:olean", "+SteinerGeometry.ProjectiveNegativeTensorComparison:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistHomChart:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0242"
+roots = []
+globs = ["SteinerGeometry.NegativeChartMap"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapSections:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0243"
 roots = []
 globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistShiftedMap"]
 needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapSections:olean"]
 
 [[lean_lib]]
-name = "MemoryOrder0238"
-roots = []
-globs = ["SteinerGeometry.NegativeMapCoefficient"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistShiftedMap:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0239"
-roots = []
-globs = ["SteinerGeometry.ProjectiveCohomology"]
-needs = ["+SteinerGeometry.NegativeMapCoefficient:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0240"
-roots = []
-globs = ["SteinerGeometry.CokernelCohomology"]
-needs = ["+SteinerGeometry.ProjectiveCohomology:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0241"
-roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapEvaluation"]
-needs = ["+SteinerGeometry.CokernelCohomology:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0242"
-roots = []
-globs = ["SteinerGeometry.NegativeTensorMap"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapEvaluation:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0243"
-roots = []
-globs = ["SteinerGeometry.ActualNegativeTopMap"]
-needs = ["+SteinerGeometry.NegativeTensorMap:olean"]
-
-[[lean_lib]]
 name = "MemoryOrder0244"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistSectionCoordinates"]
-needs = ["+SteinerGeometry.ActualNegativeTopMap:olean"]
+globs = ["SteinerGeometry.NegativeMapCoefficient"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapSections:olean", "+SteinerGeometry.NegativeChartMap:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0245"
 roots = []
-globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialMap"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistSectionCoordinates:olean"]
+globs = ["SteinerGeometry.ActualNegativeTopMap"]
+needs = ["+SteinerGeometry.NegativeChartMap:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistShiftedMap:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0246"
 roots = []
-globs = ["SteinerGeometry.PolynomialPresentation"]
-needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialMap:olean"]
+globs = ["SteinerGeometry.NegativeTensorMap"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistShiftedMap:olean", "+SteinerGeometry.NegativeMapCoefficient:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0247"
 roots = []
-globs = ["SteinerGeometry.NegativeLinearDualEpi"]
-needs = ["+SteinerGeometry.PolynomialPresentation:olean"]
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapEvaluation"]
+needs = ["+SteinerGeometry.NegativeMapCoefficient:olean", "+SteinerGeometry.NegativeTensorMap:olean", "+SteinerGeometry.ActualNegativeTopMap:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0248"
 roots = []
-globs = ["SteinerGeometry.ProjectiveSteinerBundle"]
-needs = ["+SteinerGeometry.NegativeLinearDualEpi:olean"]
+globs = ["SteinerGeometry.ProjectiveTopNaturality"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistShiftedMapEvaluation:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0249"
-roots = []
-globs = ["SteinerGeometry.ProjectiveDualNormalization"]
-needs = ["+SteinerGeometry.ProjectiveSteinerBundle:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0250"
-roots = []
-globs = ["SteinerGeometry.ProjectiveNegativeTensorComparison"]
-needs = ["+SteinerGeometry.ProjectiveDualNormalization:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0251"
-roots = []
-globs = ["SteinerGeometry.ProjectiveSteinerPresentation"]
-needs = ["+SteinerGeometry.ProjectiveNegativeTensorComparison:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0252"
-roots = []
-globs = ["SteinerGeometry.PolynomialMatrixSurjective"]
-needs = ["+SteinerGeometry.ProjectiveSteinerPresentation:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0253"
-roots = []
-globs = ["SteinerGeometry.ProjectiveTopNaturality"]
-needs = ["+SteinerGeometry.PolynomialMatrixSurjective:olean"]
-
-[[lean_lib]]
-name = "MemoryOrder0254"
 roots = []
 globs = ["SteinerGeometry.ProjectiveMatrixCohomology"]
 needs = ["+SteinerGeometry.ProjectiveTopNaturality:olean"]
 
 [[lean_lib]]
-name = "MemoryOrder0255"
+name = "MemoryOrder0250"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistSectionCoordinates"]
+needs = ["+SteinerGeometry.ProjectiveTopNaturality:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0251"
+roots = []
+globs = ["OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialMap"]
+needs = ["+SteinerGeometry.ProjectiveTopNaturality:olean", "+OAI.AlgebraicGeometry.SheafCohomology.Projective.NegativeTwistSectionCoordinates:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0252"
+roots = []
+globs = ["SteinerGeometry.PolynomialPresentation"]
+needs = ["+OAI.AlgebraicGeometry.SheafCohomology.Projective.TwistedCoproductPolynomialMap:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0253"
 roots = []
 globs = ["SteinerGeometry.PolynomialTopRank"]
 needs = ["+SteinerGeometry.ProjectiveMatrixCohomology:olean"]
 
 [[lean_lib]]
-name = "MemoryOrder0256"
+name = "MemoryOrder0254"
 roots = []
 globs = ["SteinerGeometry.SteinerCohomologyCriterion"]
-needs = ["+SteinerGeometry.PolynomialTopRank:olean"]
+needs = ["+SteinerGeometry.ProjectiveMatrixCohomology:olean", "+SteinerGeometry.PolynomialTopRank:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0255"
+roots = []
+globs = ["SteinerGeometry.NegativeLinearDualEpi"]
+needs = ["+SteinerGeometry.PolynomialTopRank:olean", "+SteinerGeometry.PolynomialPresentation:olean"]
+
+[[lean_lib]]
+name = "MemoryOrder0256"
+roots = []
+globs = ["SteinerGeometry.PolynomialMatrixSurjective"]
+needs = ["+SteinerGeometry.PolynomialPresentation:olean", "+SteinerGeometry.NegativeLinearDualEpi:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0257"
 roots = []
-globs = ["SteinerGeometry.ProjectiveSteinerComponents"]
-needs = ["+SteinerGeometry.SteinerCohomologyCriterion:olean"]
+globs = ["SteinerGeometry.LiteralSteinerPolynomial"]
+needs = ["+SteinerGeometry.NegativeLinearDualEpi:olean", "+SteinerGeometry.PolynomialMatrixSurjective:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0258"
 roots = []
-globs = ["SteinerGeometry.LiteralSteinerPolynomial"]
-needs = ["+SteinerGeometry.ProjectiveSteinerComponents:olean"]
+globs = ["SteinerGeometry.ProjectiveSteinerComponents"]
+needs = ["+SteinerGeometry.PolynomialMatrixSurjective:olean", "+SteinerGeometry.SteinerCohomologyCriterion:olean", "+SteinerGeometry.LiteralSteinerPolynomial:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0259"
 roots = []
 globs = ["SteinerGeometry.GeometricSteinerConclusion"]
-needs = ["+SteinerGeometry.LiteralSteinerPolynomial:olean"]
+needs = ["+SteinerGeometry.ProjectiveSteinerComponents:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0260"
 roots = []
 globs = ["SteinerGeometry.PalomarBridgeLemmas"]
-needs = ["+SteinerGeometry.GeometricSteinerConclusion:olean"]
+needs = ["+SteinerGeometry.ProjectiveSteinerComponents:olean", "+SteinerGeometry.GeometricSteinerConclusion:olean"]
 
 [[lean_lib]]
 name = "MemoryOrder0261"
